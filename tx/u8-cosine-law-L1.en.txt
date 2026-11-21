@@ -1,0 +1,21 @@
+Oh, yeah. That one happens all the time. In the text, they use a triangle where side A is five, side B is nine, and the angle C between them is 40 degrees. And people just set up the equation, but then they actually subtract the cosine product from the squared sides before they do the multiplication. It is like putting your shoes on before your socks. That is a great analogy.
+
+You just can't do it. You have to calculate the multiplication first because those pieces are glued together. Right. So you calculate that product, which is 90 times the cosine of 40 degrees. And that comes out to about 68.94, right? Exactly. And only then do you subtract it from the squared sides, which total 106.
+
+Okay. Which leaves you with C squared equaling roughly 37.06. Got it. But that actually leads us right into mistake two. Ah, yes. Stopping at C squared. Right. People do all this hard work and then just stop.
+
+So, like, if you have sides of six and eight and a 70 degree angle. Yeah. The math gives you 67.17. And people just write that down as the final answer. Which is just wild if you take a second to picture it. It really is.
+
+A side of 67 sitting directly across from a 70 degree angle when the other two sides are only six and eight. Right. The triangle wouldn't even close. Right. It's a crucial reality check. You always have to finish the job by taking the square root. And doing that brings the true length down to a much more realistic 8.2.
+
+Exactly. Okay. So, taking the square root shrinks it back to reality. But what about when the angle gets wider? Mistake three brings up obtuse angles. Yeah. Dropping the minus sign.
+
+Huh. This is a big one. Right. Because for a 120 degree angle, the cosine is negative 0.5. And if you drop that negative, you ruin the physical logic. Multiplying by a negative actually turns that final term into an addition.
+
+Right. So, it adds 54, which stretches the missing side out to like 13.1. Okay. That makes perfect sense. And I guess that logic ties directly into mistake four, which is subtracting the wrong side when you're trying to find an angle. Yes. The spatial logic has to hold up. So, to find angle A with sides of 5, 7, and 9, you have to subtract the opposite side square in the numerator, right?
+
+Right. You subtract the A squared, which is 25. And that gives you an angle of about 33.6 degrees. Which logically checks out perfectly. Because the shortest side, the 5, has to sit directly across from the smallest angle. Exactly. You always want to verify that.
+
+Which brings us to the final one, mistake five, the bearing trap. Oh, this one is super practical. Yeah. So, picture this. A hiker walks five kilometers north, turns onto a bearing of 0.60 degrees, and walks four kilometers. The immediate instinct is to just drop that 60 degrees straight inside the triangle. Right. But it's like confusing the turn of your steering wheel with the actual angle of the corner.
+
+That is spot on. The 60 degrees is just how far she turned away from her path. It's the outside angle. Ah. So, the inside angle is a straight line, 180 degrees, minus that 60 degree turn. Exactly. So, the inside angle is actually 120 degrees. Which makes the true distance back to the start about 7.8 kilometers.

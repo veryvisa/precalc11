@@ -1,0 +1,29 @@
+Using the percent as a whole number instead of a decimal is the very first way people break the math right out of the gate. So let's just jump into that first scenario. Say you have $1,000 invested at 4% compounded annually for three years. Well, our brains actually struggle here because, you know, we see a 4 on the page and we just want to write down a 4 in the formula. Yeah, it feels intuitive.
+
+It does. But percent literally means per 100 or 4 out of 100. So your rate or R must be entered as 0.04. Which is exactly why the math blows up if you ignore that, right? If you lazily plug in R equals 4, you're basically telling the formula that your money is going to grow 400% a year.
+
+Exactly, which is an absurd error, but it's incredibly common. So what's the actual fix here? You have to use the correct decimal. A equals 1,000 times 1.04 to the power of 3, which is approximately $1,124.86. Okay, that makes sense.
+
+Which moves us logically to the second mistake. Using years instead of periods as the exponent. Oh, this one gets so many people. I believe it. Let's set up a scenario.
+
+You have $2,000 invested at 6%, compounded monthly for four years. Right. And the human instinct there is to just use a 4 for the time exponent. Because, I mean, we plan our lives in years. Exactly.
+
+But compounding monthly means the bank is acting on your balance every single month. They are multiplying your balance by 1.005 once a month. Oh, I see. Yeah. So because four years is 12 times 4, which equals 48 months, the exponent must be 48.
+
+So the fix is A equals 2,000 times 1.205 to the power of 48, which is approximately $2,540.98. Right. And connecting those period counts to rate division actually introduces the third mistake, which is forgetting to divide the rate by N. Yeah, let me present this one. Say you have $1,500 invested at 8% compounded quarterly for three years.
+
+Okay. If you calculate this wrong, you'll see a result that says you more than doubled your money in just three years. And I have to push back here. That should immediately look suspicious. Oh, absolutely.
+
+That 8% is the rate for a whole year. Each quarter earns only a quarter of that rate. Right. You don't get 8% every three months. Exactly.
+
+So your I equals 0.08 divided by 4, which is 0.02. Got it. So to fix that, A equals 1,500 times 1.02 to the power of 12, which is approximately $1,902.36. Perfect. Which shifts us to the fourth mistake.
+
+And this is working out simple interest instead of compound interest. Right. Let's present $5,000 invested at 3% compounded annually for four years. People naturally default to simple interest because, well, it's just easier to do in your head.
+
+Yeah. But simple interest only pays on the initial $5,000. Exactly. With compounding, each year's interest also earns its own interest. So to fix this and get the real number, A equals 5,000 times 1.03 to the power of 4, which is
+
+approximately $5,627.54. Right. And note that this is about $27.54 more than simple interest. Which brings us to the fifth and final mistake, rounding the rate per period too early. Let's present $6,000 invested at 5% compounded monthly for 10 years.
+
+Okay. So if you do 0.05 divided by 12, that equals 0.0041666, and that 6 continues forever. Right. Well, cutting it down to just 0.004 might look tiny on a spreadsheet, but that tiny error gets massive when raised to the power of 120.
+
+Because it's 120 months. So the fix is you just instruct your calculator to type it in one line. Yes. Like 6,000 times the quantity 1 plus 0.05 divided by 12, all to the power of 120. The result is approximately $9,882.06, about $195 more.

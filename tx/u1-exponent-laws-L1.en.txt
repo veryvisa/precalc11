@@ -1,0 +1,31 @@
+So let's unpack a massive visual trap in algebra right away. Picture this expression, open bracket, 5x cubed, closed bracket, squared. When you look at that on the page, your eye naturally darts right to the letter, right to the x. It really does. I mean, it's a very common illusion. Right. And because of that shortcut your brain takes, it is incredibly easy to think,
+
+you know, that you only need to give that outside power of 2 to the x cubed. But that outside 2 actually squares the entire room inside the bracket. Oh, right. The whole thing. Yeah. And then number 5 is sitting right there inside it. So you have to apply the power to it as well.
+
+Meaning 5 squared times x to the power of 6 equals 25x to the power of 6. Okay. So we can't just ignore the number out front. See, that visual trap idea perfectly sets up the next hurdle we have in these notes. Let's try evaluating this. 3 to the power of negative 2 plus 3 to the power of 0.
+
+Now, I have to admit, when I see a minus sign, my brain immediately screams negative. Oh, for sure. That's completely normal. Right. It feels completely natural to just read that as a negative number. A negative exponent doesn't change the base number into a negative. Wait, really?
+
+No. It actually means 1 over. If you think of exponents as directions, positive exponents tell you to multiply. So a negative exponent tells you to go in the exact opposite direction. Okay. So instead of multiplying, you divide. Exactly. You divide, which is why it becomes a fraction.
+
+So 3 to the power of negative 2 is actually 1 over 3 squared. Which is 1 over 9. Right. Which is 1 over 9. Then for the second part, anything to the power of 0 is 1. So 1 over 9 plus 1 equals 10 over 9.
+
+Okay. That makes so much more sense when you explain the mechanism. All right. So negative exponents basically mean 1 over. But here is where it gets really interesting and, well, a little confusing. They definitely can get tricky. Yeah. So what happens when we connect negative exponents to a power of a power?
+
+Let's look at this expression. Open bracket, x to the power of negative 2, close bracket, cubed, times x to the power of 4. Why can't you just, like, add all the exponents here and call it a day? Because your brain just swapped the rules there. Add is the rule for multiplying bases together.
+
+Oh, right. Of course. Yeah. But a power of a power means the factor is being repeated three times. Because it's repeated, the exponents actually multiply. So you do negative 2 times 3. Ah, got it.
+
+Exactly. This gives x to the power of negative 6. Then taking that result, x to the power of negative 6, times x to the power of 4 is x to the power of negative 2. Which, as we just learned, is 1 over x squared. Spot on. Let's connect these exponent rules to fractions now.
+
+Think about this expression. 6a to the power of 4 over 2a to the power of negative 3. The rule we always hear is top exponent minus bottom exponent. Right. That's the standard rule. But here is the danger.
+
+If you drop the brackets in your head, that turns 4 minus negative 3 into, well, 4 minus 3. Which changes absolutely everything. You really have to keep the sign straight. 4 minus negative 3 is actually a to the power of 7. Because subtracting a negative is like adding.
+
+Right. Exactly. So the answer is 3a to the power of 7. Or, you know, you can visualize it differently. You can actually move a to the power of negative 3 up to the top as a cubed. Oh, okay.
+
+Yeah. Then a to the power of 4 times a cubed equals a to the power of 7. And that brings us to the final expression in our notes. 4x to the power of 0 plus open bracket 4x close bracket to the power of 0. The big mistake here is taking the rule anything to the power of 0 is 1 and applying it to the whole first term without brackets.
+
+Exactly. In 4x to the power of 0, the 0 belongs only to x. There is no bracket. So the 4 stays. The fix.
+
+4x to the power of 0 equals 4 times 1, which equals 4. And, open bracket, 4x close bracket to the power of 0 equals 1. So 4 plus 1 equals 5.

@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Completing the square · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Completing the square</span><span class="zh" lang="zh-Hans">配方法：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u6-completing-square-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u6-completing-square-L2.zh.m4a" download="u6-completing-square-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u6-completing-square-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u6-completing-square.html">Completing the square</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">今天的任务极其明确我们要彻底搞懂就是如何思考配方法当你在卷子上遇到像X的二次方加8X减三等于零
+
+这种死活没法因时分解的硬骨头是配方法绝对是个绝佳的捷径确实是这感觉就像你面对一个完全解不开的死结
+
+不用再飞进去解了直接掏出剪刀咔嚓一剪子对强制把等式左边凑成一个完全平方
+
+一步搞定没错但要用好这把剪刀抛开那些死机硬背的步骤其实核心是一种
+
+那个记账逻辑等等记账逻辑对你要做的首先是经理现场
+
+两边同除让二次项系数也就是A等于1然后把碍式的常数项全挪到右边去
+
+就是把舞台先腾出来没错真正的魔法就在这你只要看一次项前面的系数取它的一半
+
+然后进行二次方最后加到等式的两边加上了这个神奇的数字之后左边就能顺理成章的打包成一个完全平方了吧
+
+对的然后直接开方取正负就行不过如果在开方前右边变成了负数
+
+那就要直接停笔因为实数里边找不出一个数的二次方是负数就是这个道理没有实数解
+
+而且这套操作不仅能解方程还能用来把二次函数画成顶点式这两个是一回事吗
+
+我感觉不太一样啊思路完全一样仅仅是计算方式不同解方程因为有等号你在左边加了数值
+
+右边也要加同样的数值来维持平衡哦我懂了那画函数的时候
+
+因为所有操作都在等号的同一边所以加了一个数就得立刻减去同一个数完全正确这样才不会改变原来的值
+
+哎既然记账原理这么直白你动笔钱还得按顺序问自己五个问题对
+
+我看这里要求第一问就是理清已知条件读出ABC这看起来有点多此一句吧直接算不行吗
+
+其实这不是废话这是在提前预判你需要特意去观察那个B看它到底是奇数还是偶数奇数和偶数会有很大区别吗
+
+区别很大如果B是偶数除以二之后还是整数那计算过程会非常丝滑但如果是基数
+
+啊基数除以二就会出现繁琐的分数没错提前看一眼
+
+你能做好心理准备防止做到一半突然怀疑自己是不是算错了原来是为了提前避坑合理预期
+
+那接下来的问题明确要求精确纸带根号还要在脑子里画出抛物线算带数题
+
+为什么要靠这种几何画面因为配方的过程本质上就是在寻找抛物线的对称轴那个对称轴对
+
+当你想象出对应的二次函数图像时配方算出来的关键位置正是对称轴方程的两个根就像倒影一样
+
+对称的分布在这个轴的两侧哇这就给算出来的数字提供了一个直观的几何锚点而不是一堆死板的符号太聪明了
+
+是的然后第四问是用什么工具也就是刚才那套流程最后第五问肯定是检验
+
+必须得检验毕竟不能盲目相信算出来的结果我们直接实战走一遍吧比如x的二次方加6x
+
+减4等于0好带着刚才的预判来看a等于1b等于6
+
+是个偶数松了一口气不会出分数了c是负4长数向移到右边
+
+负4便正4接下来两边同时加上6的一半的二次方也就是3的二次方9
+
+两边同加9左边就干脆立足的变成了x加3的完全平方右边4加9得到13没错
+
+开方之后x就等于负3正负根号13这么一算确实快不过这个时候
+
+如果我用万能的求根公式在草稿纸上跑一遍结果肯定也是一模一样的完全一致这就引出了我的疑问了
+
+既然求根公式也能算出结果最后还要用它来核对为什么还要大费周章的写着长串的配方法不走当题目写明用配方法时
+
+只用公式几乎拿不到分要写出两边同时加那一行之后可以用公式验算</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u6-completing-square-L2#ep-u6-completing-square-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u6.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

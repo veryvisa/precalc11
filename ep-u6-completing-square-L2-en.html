@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Completing the square · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Completing the square</span><span class="zh" lang="zh-Hans">配方法：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u6-completing-square-L2.en.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u6-completing-square-L2.en.m4a" download="u6-completing-square-L2.en.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u6-completing-square-L2.en.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u6-completing-square.html">Completing the square</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><div class="txbox" lang="en">By tackling completing the square, right? Exactly. We&#x27;re looking at those stubborn quadratic equations that just absolutely refuse to factor. Like, x squared plus 8x minus 3 equals 0. Which can be incredibly frustrating. I mean, normally using a math formula feels a lot like following a blind kitchen recipe.
+
+You just, you mix the ingredients together and just hope a cake actually bakes. Right, without really understanding why the recipe works. Yeah. So, how do we actually, like, start visualizing what this specific algebra is physically doing to the equation? Well, think about the shape of a parabola. You know, that classic U curve.
+
+Completing the square isn&#x27;t just some random algebraic trick to get a variable by itself. It&#x27;s doing something structural. Exactly. It mathematically pins down the exact center vertical axis of that curve. Like, the line x equals p. Oh. So it finds the absolute middle.
+
+Right. And once you lock in that center line, you prove that your solutions, the roots where the curve crosses the horizontal axis, they sit perfectly mirrored. So they&#x27;re the exact same distance on either side of that line. You&#x27;re basically hunting for symmetry. That structural logic makes the steps a lot easier to swallow, I think.
+
+Because I&#x27;ve always thought about solving an equation like balancing a scale, right? Right. Adding weight to one side means adding it to the other. Yeah. To keep it level. But converting a function to vertex form feels more like rearranging items on just one side of a desk. Without touching the other side at all.
+
+Exactly. You add and subtract in the exact same space. Which is exactly what the notes mean by same idea, different bookkeeping. And keeping track of those numbers can get really messy. Oh, definitely.
+
+So that&#x27;s why you want to ask yourself a five-step checklist before you even write a number down. You look at what&#x27;s given, what&#x27;s asked, picture the shape, pick your tool, and plan your check. Okay. That given part is where I sometimes trip up. Like, why does it even matter if that middle number, the B value, is even or odd before we start? Because the entire core of this tool requires cutting that B value in half.
+
+Oh, right. So if you start with an odd number... You immediately drop into fraction territory. Spotting an odd B early is just a heads-up so you can mentally prepare your workspace for fractions. Ah. Avoiding a surprise fraction. Good to know.
+
+So let&#x27;s tackle one where we don&#x27;t have to worry about that. Sure. Lay it on me. Okay. Um... X squared plus 6X minus 4 equals 0. So our B value is a 6, which is even.
+
+Clean break. And the A value in front of the X squared is already 1, so no dividing needed. Right. But looking at this, to force it into a perfect square, I need to get that minus 4 out of the way first, right?
+
+Yep. Push that constant to the other side, giving you a positive 4 on the right. Okay. Now, to force the symmetry on the left side, you take half of that 6, which is 3. And square it to get 9. Exactly. Then you add that 9 to both sides of the equation.
+
+Okay. So doing that neatly collapses the left side into a perfect square. It&#x27;s just X plus 3 all squared. And the right side is 4 plus 9, so 13. Which perfectly balances it. From there, I mean, you just take the square root of both sides.
+
+So X plus 3 equals plus or minus the square root of 13. Then just isolate the X. Your final roots are exactly negative 3 plus or minus the square root of 13. Okay, wait. What if that right side had ended up negative before taking the root?
+
+You stop right there. You cannot take the square root of a negative number in this context. Because physically, that means the parabola never crosses the horizontal axis at all. Right. There are zero real roots. So completing the square isn&#x27;t just some tedious chore.
+
+It&#x27;s like the ultimate structural tool for unfactorable quadratics. Instead of just blindly spitting out an answer, it forces the equation to reveal its exact symmetrical axis.</div></section><nav class="pn"><a href="audio.html?ep=u6-completing-square-L2#ep-u6-completing-square-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u6.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

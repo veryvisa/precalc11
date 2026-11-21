@@ -1,0 +1,125 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Linear inequalities &amp; interval notation: common mistakes · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L1 · Knowledge point</p><h1><span class="en" lang="en">Linear inequalities &amp; interval notation: common mistakes</span><span class="zh" lang="zh-Hans">一次不等式与区间记号：常见错误</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u7-linear-inequalities-L1.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u7-linear-inequalities-L1.zh.m4a" download="u7-linear-inequalities-L1.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u7-linear-inequalities-L1.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u7-linear-inequalities.html">Linear inequalities &amp; interval notation</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">你想象一下平时解那种带等号的普通方程式就是那种给人感觉像个完美平衡的天平一样的式子但是一遇到不等式
+
+把等号换成大于或者小于号这种天平就倾斜了我们大脑可能就直接拉响警报了对确实会这样就是那种安全感突然没了
+
+没错举个特别典型的例子比如五减区4X大于17面对这道题我们很多人的直觉上
+
+就直接开启自动驾驶模式了觉得把五移过去然后除以负4算完就觉得打工高成了这种自动驾驶在这里绝对会翻车的
+
+因为不等式它不是那种静态的天平它是有明确方向性的当你去加上或者说去在这个数轴上乘以除以一个负数的时候
+
+比如刚才说的除以负4等等所以这时候不仅仅是在算数字对吧没错实际上你等于是把整个数轴
+
+或者说整个数学宇宙给直接翻转过来了重的一头变轻了轻的那头又变重了所以这里的不等号必须得反向翻转宇宙这个比喻
+
+听形象是的对于五减去4X大于17这个式子减去5之后你得到的是负4X大于12
+
+然后关键来了当你除以这个负4的时候那个大于就必须立刻翻转成小于也就是直接变成X小于负3了完全正确
+
+其实你可以用负4带定去检验一下你看5加上16等于2121确实是大于17的确实是这样不过除以负数要翻软符号这事
+
+也是我大脑经常会短路的地方就是你一旦死记定位这个规则我就容易草木皆兵了比如看到3X加5小于负7这种题这个太常见了
+
+很多人在这出错对吧我把5移到右边右边一算出来是个负12就那一瞬间看到负12
+
+我就一阵恐慌本能的就想要去再次翻转那个不等号仅仅就是因为看到纸上出现了一个负数
+
+这其实算是一种认知上的过度纠正了就是你大脑对负数的存在起了反应而不是对你真正在执行的
+
+那个动作起反应咱们得搞清楚这里面到底是谁在发号施令怎么说谁是发号施令的
+
+就是你要看你是用一个负数去除别人还是说只是把一个负数拿来备除在3X小于负12这个式子里跟在X旁边
+
+也就是执行除法动作的其实是个正三对是正三在做除法既然执行者是个正数
+
+那整个体系就不会翻转不等号的方向当然也就保持不变了你只要老老实实用负12除第3
+
+就能得到X小于负4原来是这样如果你不放心可以代入负5检验一下你看
+
+3乘以负5是负15再加5就等于负10而负10确实小于负几这样一想心里就踏实多了
+
+所以关键在于盯住那个执行除法的人而不是看最后的目标数字说到这个执行者当有个数字在括号外面
+
+站岗的时候好像情况就更乱了确实这种带括号的题也很容易才坑
+
+比如这个式子10减去2乘上括号里的X减3整体小于等于4我做题的直觉
+
+总是直接让外面的负2去跟括号里的X乘结果就完全忘了躲在后面的那个负3
+
+很多人是不是都这样极其普遍的失误其实你可以把括号外面的数字当成一张VIP通行证它对俱乐部里的
+
+每一个人都是有效的也就是说不能只顾着排在最前面的那个人对的那个负2
+
+不仅仅要跟X乘变成负2X它还必须得跨过去跟后面的负3互动这里最大的陷阱
+
+就是负号乘以负号这第二次惩罚其实会产生一个正六对负负得正
+
+把负号给漏了没错所以完整正确的展开式应该是10减去2X
+
+加上6小于等于4VIP通行证这个比喻真的绝了那如果接着往下算把10和6一合起来
+
+左边就是10然后两边同时减去16就得到了负2X小于等于负12
+
+接下来就是容易出错的地方了对回到咱们刚说的第一个陷阱这时候执行者变成了负2那除以负2的时候
+
+必须得翻转符号了小于等于就变成了大于等于所以最后得出X大于等于6
+
+李青这个逻辑就很顺了但是解除不等式其实还没完平时做题经常还得把它翻译成那种区间记号
+
+因为大于等于下面有条横线代表等于我大脑就会默认所有的东西都是确定包含的所以不管是6那一头
+
+还是无穷大的那一头我都恨不得全给套上方括号追求这种对称性算是人类的本能了但是无穷大
+
+它可不遵守普通数字的规矩那无穷大可以怎么去理解呢你可以把方括号想象成一堵砖墙就是你能直直的走过去摸到它
+
+甚至确切的站在那个点上这里的数字6就是这么一堵砖墙它是被明确包含在内的终点哦
+
+6是实实在在可以到达的对但是无穷大呢它更像是一道地平线你可以一直朝着它走
+
+永远走下去但你永远都没办法真正走到那里更不可能把手搭在地平线上那确实永远也摸不到既然无穷大只是代表一个方向
+
+而不是一个能到达的终点它就永远不可能被包含进去所以咱们写区间的时候必须在6这一端用代表包含的方括号
+
+而在无穷大那一端用圆括号也就是方括号6逗号无穷大右边圆括号
+
+没错就是方括号6逗号无穷大圆括号
+
+即左臂右开区间专墙和地平线这个说法我以后肯定不会再弄混括号了那最后咱们来看看把所有这些陷阱都凑起来的复合问题
+
+这个有意思算是终极挑战了对中间是个1-2x它被夹在两个数中间变成了-7小于等于1-2x
+
+然后再小于5非常典型的复合不等式如果我们先把各部分都减去1就会得到-8小于等于-2x再小于4
+
+接下来就是全都除以-2大家都知道必须对翻转符号了但最惨烈的翻车现场来了很多人除了数字翻了符号却把那个代表等于的方括号
+
+死死的留在了原本最左边的位置上这就是容易搞混的地方了当你把整个不等式除以-2符号一翻转也就意味着两头的对应关系
+
+彻彻底底发生了交叉互换也就是说左边和右边的数字换位置了是的你算算看-8除以-2变成了4
+
+而那个4除以-2变成了-2这时候你必须得紧紧盯着那个等于的条件到底跟着谁走了这就需要仔细分析变号以后的对应关系了吧
+
+没错变号以后等于跟着的是4而不是-2</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u7-linear-inequalities-L1#ep-u7-linear-inequalities-L1"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u7.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

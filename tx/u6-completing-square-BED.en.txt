@@ -1,0 +1,11 @@
+This is the brief on completing the square. Make your x-squared multiplier 1 by dividing it out. Move your constant to the right side. Next, take half of your b-term, square it, and add it to both sides. Rewrite that left side as a perfect square,
+
+and then take the plus or minus square root. But what if you do all this and the right side's negative? You literally stop right there. No real solutions exist, so don't waste your time. Second, equations versus functions.
+
+Solving an equation, you balance it by adding to both sides. But converting a function to vertex form, you've got to add and subtract on the same side. It's the exact same idea, just different bookkeeping. Are you balancing a scale on two sides,
+
+or just rearranging the furniture in one room? Finally, we have to dodge the classic pitfalls. Never forget your plus or minus sign. Make sure you divide all terms, watch your signs, and add half of b squared, right?
+
+Plus, if b is odd, fractions are absolutely coming for you. Ultimately, whether you are balancing an equation or finding a parabola's axis, mastering these steps will keep your math perfectly squared away. Master the recipe, watch your fractions,
+
+and remember that when it comes to math, rest counts too.

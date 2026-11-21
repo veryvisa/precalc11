@@ -1,0 +1,33 @@
+You know, you're staring at a quadratic equation. You've tried factoring, you've tried guessing, and absolutely nothing works. Yeah, it just feels completely broken. Right. Like, take a look at this specific example from the notes.
+
+2x squared minus 3x minus 4 equals 0. I mean, trying to guess the factors for that is just a total nightmare. Oh, absolutely. But what if there was like a universal master key that could unlock every single one of these, completely without guessing?
+
+Because that is exactly what the quadratic formula does. It really is. The ultimate cheat code for these problems. But to use that master key, there is a foundational rule. You must first put the equation into the form ax squared plus vx plus c equals 0.
+
+So getting everything onto one side. Exactly. Getting 0 on one side. And once you do that, you just read off your a, b, and c values. But it is crucial, like absolutely crucial, that you include their signs.
+
+Positive or negative, take it with the number. Got it. And, you know, the reason this formula always works, never fails, is that it's essentially just completing the square. But the heavy lifting has already been done for you, once, in general.
+
+Wait, really? So the formula is literally just completing the square, but like, pre-packaged? Yep. Okay. Let's unpack this.
+
+We know the formula contains that famous plus or minus symbol, which gives us two answers. And the rule for cleaning it up is to simplify the radical first, right? Right. And then divide every term on the top by the bottom. Or, well, you can factor it first and cancel.
+
+Yeah, but having this giant formula on the page can be super overwhelming. How do you systematically approach a problem before you even start writing? By breaking it down into a five-question checklist. The first is given. You're literally just getting 0 on one side and writing A equals, B equals, and C equals
+
+with their signs. Don't skip that. Yeah, definitely don't. The second question is asked. What is the problem actually asking for?
+
+Do you need exact answers, meaning simplified radicals, or decimals? And obviously, if you give a messy decimal when they want an exact radical, you're getting it wrong. Okay, so that brings us to the picture-it step, tying into visualization. Right.
+
+The answers we are finding are actually the x-intercepts of y equals ax squared plus bx plus c. Precisely. To figure out that picture, we use the tool step. Our tool is the discriminant d equals b squared minus 4ac. It tells you if there are two, one, or no intercepts.
+
+Oh, so you work out d first. Yes, putting your b value in brackets. Then you plug it into x equals negative b plus or minus the square root of d all over 2a. And finally, the check step.
+
+Right. The two answers must add up to negative b over a. Okay, let's see this in action. We need to solve 3x squared minus 4x minus 2 equals 0 for exact answers. So we confirm it already equals 0.
+
+We have a equals 3, b equals negative 4, and c equals negative 2. Calculating d, we have negative 4 squared minus 4 times 3 times negative 2, which is 16 plus 24, equaling 40. Now for the math step by step. x equals 4 plus or minus the square root of 40 all over 6.
+
+We simplify the root of 40 to 2 times the square root of 10. Making it exact. Right. Factor out the 2 to get the exact answer. x equals 2 plus or minus the square root of 10 all over 3.
+
+And doing the decimal check, approximately 1.72 and negative 0.39 add to 1.33 or 4 over 3. That matches negative b over a. It works perfectly. So what does this all mean? When do we use this formula versus factoring?
+
+Well, if b squared minus 4ac is a perfect square, the quadratic factors, which is faster and less error prone. Use the formula when it is not or when a question says exact or to the nearest hundredth.

@@ -1,0 +1,9 @@
+This is the brief on solving quadratic inequalities. First, let's establish our core roadmap. Step 1 is super simple. Move everything to one side so you're comparing the entire expression to 0. Next, find your 0s to split the number line into intervals,
+
+figure out the sign of each section, and pick the ones matching your problem. But seriously, why waste time building a tedious full sign chart when just picturing a tiny parabola through the 0s gives you the answer instantly? If it opens up, it's negative between the 0s and positive on the outside. Second, we've got to handle brackets and missing 0s.
+
+Use square brackets to include the 0s for OR equal to scenarios, and join outside intervals with the word OR. So what happens when the discriminant is negative, and the parabola never even touches the line? Well, it just means the graph floats entirely above or below the axis,
+
+creating a total all-or-nothing scenario. Finally, we have to dodge those major traps. Never factor before comparing to 0. And definitely remember to flip the inequality sign if you multiply by negative 1. It's incredibly tempting to just square root both sides when you see perfect squares,
+
+Always compare to 0, visualize that tiny parabola, respect your negative signs, and you'll navigate quadratic inequalities with absolutely 0 stress.

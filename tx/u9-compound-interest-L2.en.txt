@@ -1,0 +1,17 @@
+Which pays more on an $8,000 investment over five years? 4.5% compounded annually or 4.4% compounded monthly? Well, it's definitely not obvious at first glance, is it? No, not at all. But I mean, the formula actually settles it in just two lines. Right, exactly. But you know, before we just jump to the final answer, we should look at the fundamental idea here. At its core, compound interest is just earning interest on your interest. Like planting a tree
+
+that grows apples, and then those apples grow new trees. Yeah, that's a great way to picture it. Every single compounding period, your balance is basically multiplied by 1 plus i. You just keep stacking it. It is a equals p times the quantity 1 plus r over n, all raised to the power of n times t. Which sounds like a lot of alphabet soup, right? It really does. But if we define the variables carefully, it clicks. So p is just your principal, your starting money. And r is the annual rate
+
+written as a decimal. Okay, and then n is the frequency, right? Exactly. It's the compounding periods per year. So if it's annually, n is 1, semi-annually is 2, quarterly is 4, monthly is 12, and daily is 365. And then, well, t is just years. Right. So looking at our notes here, there's a big rule to remember. While more frequent compounding, like monthly, yields slightly more money, a higher rate usually beats it.
+
+Always. Yeah. So you always have to compute both just to be sure you can't just assume. Well, you can estimate. There is this handy mental math trick called the rule of 72. Oh, I've heard of this. Yeah. You just divide 72 by the rate in percent, and that estimates how many years it takes for your
+
+money to double. Wait, hold on though. Let's clarify from the text. That is purely a mental estimate, right? It's not an exact answer at all. Oh, absolutely not. Okay. No, it's just for quick guessing. If you want the exact answer, you have to do the actual work. Which brings us logically to this rigorous five-step process before you even touch a calculator. You
+
+have given, asked, picture it, tool, and check. Right. And that second step, asked, is huge. Yeah, because you need to know what you're actually solving for. Like, is the unknown the final amount A, or is it the interest, which is A minus P? Or are you looking for the amount to invest right now, which is P?
+
+And once you figure that out, you move to the tool step. This is where you calculate I, which is R divided by N, and you find big N, which is N times T. To get the actual periods. Right. And an interesting real-world detail here, Canadian fixed-rate mortgages are usually quoted as compounded semi-annually, so your N is 2 in that case.
+
+So you have $3,000 at 5% per year, compounded semi-annually for six years. All right. So our given numbers are P is 3,000, R is 0.05, N is 2 for semi-annual, and T is 6. Got it. Then for the tool math, I is 0.025, and N is 12. Which means the final amount A is approximately $4,034.67, meaning the interest earned is $1,034.67.
+
+Nice. And for the final check step, we compare that. If this were just simple interest, we'd only get $3,900. Right. So since our compounding yields just a little bit more, that proves we're on the right track. Right. P, R, N, and T as a list before substituting, because most lost marks are a wrong N or NT. Round only the final dollar answer to the cent.

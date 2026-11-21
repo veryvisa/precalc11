@@ -1,0 +1,7 @@
+This is the brief on compound interest. Think of compound interest kind of like a snowball rolling down a hill. While the rolling speed, your compounding frequency, definitely matters, the actual size of the hill, your interest rate, is what really moves the needle. First, looking at the core formula, you simply multiply your principle by a growth factor based on your rate and compounding periods.
+
+Now, a higher annual rate almost always beats frequent compounding. Second, since crunching that exact equation every time is pretty tedious, use the rule of 72. Your money doubles in roughly 72 divided by your interest rate percentage. Treat this strictly as a quick sanity check. If your actual calculation turns out wildly different from this rough gauge, you absolutely know you've made a mistake.
+
+Finally, to avoid those mistakes, watch out for common traps. Using percentages as whole numbers, forgetting to divide your rate by periods, and rounding early. Seriously, why does rounding early cause such a massive headache? Because a tiny error gets multiplied exponentially over time. So, type your calculations in one single line, rounding to the cent only at the very end.
+
+You can also work backwards to find your starting investment by dividing your final amount by the total growth factor. Master the variables, save your rounding for the final step, and remember that when projecting financial growth, precision absolutely pays off. Master the variables, save your rounding for the final step.

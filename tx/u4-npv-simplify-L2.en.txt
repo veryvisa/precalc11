@@ -1,0 +1,33 @@
+Because in this deep dive into your algebra notes, we're looking at rational expressions, which are basically just fractions made of polynomials. Right. Yeah. And our mission today is hunting down their hidden traps, the things we call non-permissible values or NPVs.
+
+Because knowing where an expression breaks is honestly like half the battle for you when you're working through these equations. Oh, absolutely. And that break happens for one very simple reason. It's, well, you can never, ever divide by zero. I mean, it's the golden rule of algebra.
+
+Right. So these non-permissible values are the specific X values that just force the bottom of your fraction, the denominator, to become zero. I always picture this like a pothole on a long stretch of highway. Oh, that's a good way to look at it.
+
+Yeah. Like the road looks continuous and perfectly fine, right? But if you drive over that one exact coordinate, your axle snaps. It is a permanent hole in the road. A value, the expression is simply not allowed to touch no matter what happens next. Yeah. And what is really fascinating here is how the simplified math actually remembers
+
+its original constraints. Like the absolute rule is that you must find your NPVs from the original expression before you simplify or, you know, cancel anything out. Wait, wait, let me stop you right there. Sure.
+
+Because my instinct is always just to cross things out immediately. Like if I have an X on top and an X mixed into some string of addition on the bottom, why can't I just slash them both out? I mean, they match. I see that all the time, but no, you are looking for identical blocks that are multiplying the top
+
+and bottom, not just, you know, stray terms linked by addition or subtraction. Okay. So it has to be multiplication. Exactly. So to simplify safely, you have to completely factor both the numerator and the denominator into groups first, and then you cancel those grouped factors. But there is a pretty clever
+
+trap to watch out for here. Oh. What kind of trap? Well, what happens when you have a block that is exactly backward? Say you have four minus X on the top and X minus four on the bottom.
+
+I mean, they look so similar. But they aren't quite identical. Right. They aren't. But if you factor out a negative one from that top block, the four minus X, it actually flips the signs. So it becomes negative one times X minus four.
+
+Oh, wow. Okay. Yeah. And now those X minus four blocks match perfectly and they just cancel out, leaving just that negative one behind. Recognizing those exact opposites is, well, it's a massive shortcut. That is super helpful. So we know the rules in theory, but what happens when we are staring
+
+down a messy polynomial? How do we safely dismantle it without stepping on a landmine? We should probably just walk through that worked example from the notes. Let's do it. So we have X squared minus five X plus six. And that is all sitting over X squared minus nine. Okay. So we start by ignoring the top completely. We just copy down the denominator to factor
+
+it. That X squared minus nine at the bottom is a difference of squares. Right. So it breaks down really neatly into two blocks. You get X minus three and X plus three. Okay. And then moving to the top, that X squared minus five X plus six factors into X minus two and X minus three.
+
+Exactly. And now with the top and bottom broken down into blocks, the urge is to just immediately cross out that matching X minus three on the top and bottom. Oh, for sure. It's so tempting. But you don't do it. Instead, you take immediate action on the denominator. You look at that factored original bottom and you set each piece so it cannot equal zero.
+
+So straight away on the very first line, we write our NPVs. We say X cannot equal three and X cannot equal negative three. We've essentially mapped all the potholes. Yes, exactly. And only now do we cancel that common factor of X minus three, which leaves us with a beautifully simplified answer of X minus two over X plus three. There is a brilliant feel safe check in the notes to make sure we didn't mess up too.
+
+You just pick an easy allowed value for X, something like zero. Yeah. Zero is usually best. Right. And you just plug it into both. So in the original messy equation, plugging in zero leaves you with six over negative nine, which reduces to negative two thirds. And then plugging zero into our simplified answer leaves negative two over positive three,
+
+which is negative two thirds. It's a perfect match. That is so satisfying when that happens. So the big takeaway for you here is to always write your NPVs straight from that factor denominator on the very first line. Absolutely. Because if you leave those restrictions out, you're going to lose marks,
+
+even if your algebraic simplification is absolutely flawless. Yeah. The math is really only half the story. The boundaries are the rest.

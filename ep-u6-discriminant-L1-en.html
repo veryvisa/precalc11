@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The discriminant: common mistakes · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L1 · Knowledge point</p><h1><span class="en" lang="en">The discriminant: common mistakes</span><span class="zh" lang="zh-Hans">判别式：常见错误</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u6-discriminant-L1.en.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u6-discriminant-L1.en.m4a" download="u6-discriminant-L1.en.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u6-discriminant-L1.en.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u6-discriminant.html">The discriminant</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><div class="txbox" lang="en">Oh, the zero trap. Yeah. Because when you evaluate a discriminant and the result is zero, your instinctive reaction is usually, oh, there&#x27;s no solution because zero just feels like a void. Right. Which is a fascinating translation error between human intuition and math. If your discriminant is zero, it doesn&#x27;t mean a void. It actually means you have two equal real roots.
+
+Wait, two equal roots, not zero roots. Exactly. Okay. Think about the equation x squared minus 10x plus 25 equals zero. Okay. I&#x27;m picturing it.
+
+If you factor that, it becomes x minus five all squared equals zero, meaning x equals five, but it happens twice. Oh, I see. So the parabola isn&#x27;t missing the axis. It&#x27;s just coming down, touching it at one perfectly balanced point and going right back up. Spot on. It just kisses the line. That&#x27;s a great way to visualize it. Well, that brings us to mistake number two, negative signs.
+
+Oh, they are notoriously slippery. Seriously. So say we have an equation like two x squared minus six x plus three equals zero. So the b value there is negative six, right? Right. Negative six. And the instinct is just to write down a minus sign, a six, and a little squared symbol.
+
+Which is incredibly dangerous. Because without brackets, you&#x27;re telling the math to square the six first to get 36 and then apply the negative. Which gives you negative 36. Yeah. And you can&#x27;t have a real square be negative. You have to physically bracket the negative six.
+
+Lock the negative sign inside with the number. Exactly. So they get squared together to make a positive 36. It changes the entire outcome. Because in algebra, brackets basically dictate the hierarchy of reality, which actually brings up mistake number three.
+
+The b term itself. Yeah. The structural blind spot. Right. Because we are so used to b being just a simple number. But in pre-calculus, b might be an entire algebraic expression. Like a variable k plus one.
+
+People just grab the first number or letter they see. But b is a roll. It&#x27;s the entire package sitting in front of the x term. So if your equation is x squared plus, in brackets, k plus one times x plus nine equals zero. Then your b is that entire k plus one cluster.
+
+You have to use the whole thing. If you want two equal real roots, your discriminant equation becomes k plus one squared minus 36 equals zero. Which gives you k equals five or k equals negative seven. Exactly. You can&#x27;t just square the k. So if b can be this complex shape-shifting thing, I mean, mistake number four is about the a term.
+
+Does a have that same flexibility? Like, could a just be zero? No, absolutely not. The a term cannot be zero. It&#x27;s the load-bearing pillar of the whole quadratic equation.
+
+Because it&#x27;s attached to the x squared. Right. If a becomes zero in something like kx squared plus 4x plus one equals zero, well, if k is zero, the x squared is annihilated. Oh, wow. And without an x squared, you just have 4x plus one equals zero.
+
+Which is a straight line. It&#x27;s a linear equation. It only has one root. So you always have to add a strict condition. a cannot equal zero.
+
+It&#x27;s like reminding the formula not to accidentally destroy itself. Yeah, pretty much. Okay. We have one final mechanical trap. Mistake number five.
+
+And this is the inequality flip. Oh, yes. The classic algebra hurdle. It haunts everyone. Yeah.
+
+Like, if we want an equation like x squared plus 6x plus k equals zero to have no real roots, we set the discriminant to be less than zero. And you end up solving something like negative 4k is less than negative 36. And to isolate k, you have to divide both sides by negative 4. But people just drag that less than sign straight down. Which is wrong.
+
+You have to flip it. Because a negative sign is a direction. So what was on the left is now on the right. The inequality sign must flip to greater than to maintain the truth. So k is greater than 9.
+
+And if you test k equals 10, your discriminant is 36 minus 40, which is negative 4. Less than zero. It works. Exactly. You&#x27;re fundamentally shifting the perspective of the equation.
+
+So you have to bracket your negatives, include everything in your B term. Remember, A can&#x27;t be zero. And flip those inequalities. That&#x27;s the survival guide.</div></section><nav class="pn"><a href="audio.html?ep=u6-discriminant-L1#ep-u6-discriminant-L1"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u6.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

@@ -1,0 +1,101 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Loans &amp; investments with regular payments · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Loans &amp; investments with regular payments</span><span class="zh" lang="zh-Hans">定期付款的贷款与投资：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u89/audio/u9-loans-investments-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u89/audio/u9-loans-investments-L2.zh.m4a" download="u9-loans-investments-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u9-loans-investments-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u9-loans-investments.html">Loans &amp; investments with regular payments</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">想象一下如果你从18岁开始每个月仅仅是往你的免税储蓄账户也就是那个TFSA里面存200美元这个金额其实挺不起眼的
+
+对非常少但是到了28岁的时候你的账户里会凭空多出将近7000美买哇这可是一笔不小的钱了
+
+没错而且这是你一分钱都没自己存过的纯利息你的账户总金额会直接超过31000美元走期复利的力量就是这么争人确实让人眼前一亮
+
+那么今天我们要深挖的这份关于定期支付的贷款与投资的笔记就是要提取它背后的核心数学原理把它拆开看其实很有意思不过等一下
+
+我看这份笔记的时候最让我震惊的其实是另一种联系什么联系就是我们算这种存钱赚利息的账和我们去算那些让人头疼的车贷
+
+房贷底层的数学逻辑竟然是完全一样的没错完全是一样的
+
+这听起来有点像石了魔法其实这就是我们要说的核心概念叫做年金年金听着有点像是个挺复杂的金融词汇
+
+别被太唬住了简单来说年金就是金额相等并且定期支付的款项也就是说
+
+无论我是每个月固定存200块还是每个月固定还车贷这都是年纪对本质上都是年金那既然底层逻辑完全一样
+
+在实际算账的时候我们怎么区分到底是在存钱还是在借钱呢区别在于你要求的是什么当你存钱的时候你的目的是求未来的总回报
+
+也就是钱最后变成多少对这在数学上叫中值也就是FV那借钱的时候呢
+
+当你借钱比如买车银行先给你一笔巨款那这笔贷款额就是现在的限值就是现在的钱有多少
+
+呃代号是PV对吧没错这时候你要求的是每期的还款
+
+代号是PMT明白了那在公式里面除了中值和限值还有哪些关键的变量
+
+是我们需要搞懂的最关键的其实是另外两个I和NI呢是每个付款期的利率
+
+哦这个有没有什么容易错的地方有的特别要注意如果你是按月付款
+
+那你的I就必须是用年利率去除以12得到的那个月利率哦得切碎了分配给每个月那N呢
+
+N就是总的付款次数另外你在用TVM也就是货币时间价值这种工具进行计算的时候
+
+还必须记住一个死规则呃什么规则就是你口袋里掏出去的钱必须记为负数
+
+而你收到的钱记为正数哦掏出去是付收到是正
+
+哎这听起来好容易算错啊稍微不注意可能整个结果就全错了确实如此
+
+所以笔记里顺势引出了动笔前的灵魂五问我看看啊是以知识什么求什么划出时间线
+
+用什么工具还有如何检验对这就是个防呆机制哎
+
+我特别喜欢检验这个步骤做这种复杂的账目能立刻看出自己算的对不对简直太有安全感了是的
+
+这个检验的底层逻辑非常直白就是用你算出来的每期付款去乘以总期数N那如果是贷款题的话怎么看对错
+
+如果是贷款题你算出来的总额必须大于贷款额啊对对对因为还会局的潜力肯定包含了利息嘛
+
+完全正确那反过来如果是储蓄题你存入的总额就必须小于中值嗯
+
+他们之间的差额就是总利息了没错光说不练假八十我们赶紧来实战一下把笔记里的实力走一遍
+
+好啊假设你现在借了一万八千美元年利率百分之六按月复利要求在四年内按月还清
+
+我们需要求月供还款总额和利息那我们先来拆解已知数据贷款的限值PV就是18000
+
+嗯按月计息的话每期的利率I就是0.06除以12算下来是0.005
+
+对那总付款次数N呢12个月乘以四年总共是48起没错
+
+数据都找齐了那到了最刺激的一步了啊呃我看笔记上这个公式挺吓人的我用最平时的话给大家念一下
+
+你试试呃就是求每期还款PMT等于一万八乘以0.005除以括号
+
+一减去1.005的负48次方嗯公式非常清晰算完这个复杂的负48次方之后得出的月供大约是422.73美元
+
+好那有了月供我们现在马上用检验步骤来算一下还款总额和利息用422.73乘以48起算出来还款总额是20291.04美元
+
+然后用它减去本金一万八得出利息是2291.04美元哎首先还款总额确实大于了借款额
+
+不过这个利息占比算合理吗非常合理你可以想一下4年6%的贷款利息大约占本金的13%左右
+
+这就证明结果没算错把TVM的输入NI%PVPMTFVPYCY列成清单考试中这份清单就是解题过程再各用一次减法写出还款总额和利息</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u9-loans-investments-L2#ep-u9-loans-investments-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u9.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

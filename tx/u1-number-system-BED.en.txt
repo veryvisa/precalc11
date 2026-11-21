@@ -1,0 +1,11 @@
+This is the brief on the real number system. First up, think of number families as nested boxes. You've got natural numbers, you know, one, two, three. Add zero and you're in the whole box. Add negatives for integers, fractions for rationals, and finally, real numbers.
+
+Irrationalists, they're the quirky siblings sitting on the side. Their decimals just go on forever without a pattern. So if a number fits in a box, are we done? No way. You've got to climb the ladder. A number like nine is natural, whole, integer, rational, and real.
+
+Second, you absolutely must simplify before you classify. Never judge a number just by its shape. Like, the square root of 49 looks tricky, right? But it simplifies to exactly 7, which is an integer. Oh, and watch out for the negative trap.
+
+Taking an even root of a negative, like the square root of negative 16, stop right there. It's not a real number at all. Finally, apply the decimal test. If a decimal ends or repeats, it's rational. If it doesn't, it's irrational.
+
+Got a delayed repeat like 0.16666? Well, a core algebra trick of shifting the decimal twice proves it's actually just the fraction 1 over 6. But remember, just looking like a fraction doesn't guarantee it's rational. Ultimately, to accurately classify any number, simplify it entirely,
+
+apply the decimal test, and list every nested set. That is enough for today. Rest counts, too.

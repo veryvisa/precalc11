@@ -1,0 +1,17 @@
+Picture a rectangle with a perimeter of 20 meters and a width of x meters. The area formula is A equals x times the quantity 10 minus x. If you are asked for the domain, the pure algebra suggests all real numbers. Why does that go so wrong here? Well, because algebra is essentially blind, you know, like that formula works perfectly on paper for any real value of x.
+
+But the physical rectangle does not. Exactly. I mean, a physical rectangle cannot have a negative side. If you plug in a width of negative 3 meters or even 12 meters, that makes a side negative. So we have to fix that. The width x must be strictly greater than 0 and the length, which is 10 minus x, must also be greater than 0. Right. You just have to manually give math those physical boundaries.
+
+OK, so let's move to keeping the negative time. Say a ball's height is represented by h of t equals negative 5t squared plus 15t plus 20. Oh, yeah. The algebra error here is that t equals negative 1 is a 0 of the formula, mathematically speaking. Well, wait, the ball does not exist before it is thrown. Right. I mean, it is not a moment in the story.
+
+So we just reject t equals negative 1. The domain is 0 is less than or equal to t, which is less than or equal to 4 seconds. Perfect. Now, what about taking the range from the endpoints only? Like if we have h of t equals negative 5t squared plus 20t plus 25 for 0 is less than or equal to t, which is less than or equal to 5.
+
+Well, the thing is, an arch is highest in the middle, right? Not at an end. The mistake people make is that the vertex was never checked. Oh, wow. Right. So the vertex t equals 2 gives h of 2 equals negative 20 plus 40 plus 25, which equals 45. Yeah. So your actual range is 0 is less than or equal to h, which is less than or equal to 45.
+
+Got it. So now what if you use the starting height as the lowest value, like a ball thrown from a 40 meter roof where the formula is h of t equals negative 5t squared plus 10t plus 40? Well, the error there is the ball does not stop at roof height. I mean, it falls past the roof all the way to the ground. Right. So we say h equals 0 when t squared minus 2t minus 8 equals 0. So like t equals 4?
+
+Exactly. The lowest height is 0, making the range 0 is less than or equal to h, which is less than or equal to 45 meters. Okay. Last one. So not flipping the sign when dividing by a negative. Say h of t equals negative 5t squared plus 30t.
+
+We want to know when the ball is higher than 25 meters. So the strict math rule here is dividing both sides by a negative number reverses the inequality. Wait. So getting t is less than 1 or t is greater than 5 is completely backwards? Yeah. Because it basically says the ball is highest at the start and the end. Which makes no sense.
+
+So we fix it. t squared minus 60 plus 5 is less than 0. So 1 is less than t, which is less than 5. And that, you know, sits neatly inside the domain 0 is less than or equal to t, which is less than or equal to 6. Leaving us with the ball above 25 meters for 4 seconds.

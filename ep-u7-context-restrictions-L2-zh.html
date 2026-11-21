@@ -1,0 +1,101 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Domain &amp; range limits in context · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Domain &amp; range limits in context</span><span class="zh" lang="zh-Hans">实际问题中的定义域与值域：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u7-context-restrictions-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u7-context-restrictions-L2.zh.m4a" download="u7-context-restrictions-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u7-context-restrictions-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u7-context-restrictions.html">Domain &amp; range limits in context</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">我们来看这个公式H括号T等于-5T的二次方加上20T当你盯着纸上的这个公式就是纯粹从数学角度看
+
+就算你把T等于-2或者T等于10带进去这个公式依然能算出一个高度值对单看数学确实没有任何问题
+
+可是回到现实场景这就有点荒谬了你想啊如果这代表抛球的轨迹球在抛出之前
+
+根本不存在落地后你也绝不可能看到它直接钻进水泥地里对吧
+
+没错这也是很多人在实际应用时特别容易掉进去的陷阱数学公式其实就像一个只懂完美计算
+
+却毫无常识的盲眼机器人盲眼机器人这个比喻很贴切是吧它不知道现实的物理法则
+
+所以你必须给它设定现实的边界就是砍掉多余的部分只保留图像中真实而且有意义的那一段
+
+所以作为人类你得告诉这个机器人现实的规矩也就是数学里常说的实际问题的定义域和直域
+
+正是如此当你面对一道应用题定义域其实就是在问对你来说哪些输入是真的可能发生的
+
+比如时间肯定不能倒流时间你必须让它大于或等于零而且物体落地后就得停止再比如如果你算的是人数或者件数
+
+那你只能输入整数定义域就是现实世界对输入的限制明白了就是输入受限
+
+那个直域呢应该就是这些合理输入对应的输出结果吧完全正确比如一个开口向下的抛物线
+
+它的最高点就是顶点然后它的最低点就被刚才说的定义域端点给卡死了懂了但这又引出一个麻烦
+
+也就是在实际问题里经常会问什么时候高度至少或者超过某个值这种问题直觉上就是解一个二次不等式吗对
+
+直接解不等式就好但每次算完我总觉得心里没底感觉好像少做了一步不知道为什么
+
+因为你算出来的纯数学范围必须和现实定义的范围进行一次碰撞你解出来的答案只能保留落在实际定义域里的那部分哦原来是这样
+
+为了保证准确你在动笔前可以顺着一个逻辑链条往下想首先你的明确已知条件里输入量到底代表什么是时间宽度还是涨价次数
+
+在写任何公式前先把它的限制条件写下来比如时间从零开始落地就停好
+
+先把机器面的边界画好不过脑子里塞满这么多条件其实很容易乱我接下来要求它的定义域或者特定的时间段难道就这么干想吗
+
+是不是该画点什么强烈建议你画出来不用画完整的抛物线你就只画真实存在的那个拱形就是起点
+
+顶点和终点对把这三个点标出来如果你要求的是某个时间段那就多画一条目标水平线穿过去
+
+看着图再去明确自己到底要求什么并且用带单位的不等式把目标写下来看着图确实直观多了那求定义域直接解H等于0就行了吧要是求时间段就把不等式一项分解搞定
+
+说工没那么简单你得用对工具求定义域确实是解方程找断点求直域找顶点
+
+但在求时间段解不等式列符号表的时候有一个致命的一错点诶是什么一错点如果除以一个负数
+
+一定要变号等等为什么一定要变号很多人其实就是死机硬背这个变号规则这到底是为什么
+
+因为当你乘除一个负数的时候你其实是在数轴上翻转了你的视角原本在右边代表大鱼的数翻转过去就到了左边变成了小鱼
+
+这真不是什么死机硬背的魔法只是视角的切换哇既然只是视角的切换那算完之后
+
+你怎么知道这个答案靠不靠谱检验啊你算出的答案必须在刚才设定的定义域内最直接的方法就是挑一个具体的值带回原模型试算
+
+看看符不符合现实那我们代入一个具体场景走一遍假设你在草地上踢起一个球模型是H括号T等于-5T的二字方加上30T
+
+H单位是米T单位是秒现在的任务是写出定义域和值域没问题第一步找边界
+
+时间从T等于0开始落地时高度H等于0解方程-5T乘以括号T-6等于0所以得到T等于0或者T等于6
+
+这就意味着球在空中只存在了6秒那定义域就是0小于等于T小于等于6秒没错然后你把这个拱形画出来
+
+从原点0逗号0开始到6逗号0结束要求值域的话最低点肯定是0那最高点就在顶点
+
+对因为抛物线是完美对称的最高点一定在0秒和6秒的正中间也就是T等于3的时候把T等于3带进去算
+
+就是-45加上90等于45这就得出最高是45米所以值域就是0小于等于H小于等于45米让我来检验一下我在0到6秒之间随便挑个时间
+
+比如T等于1带进去算出来H等于25米25正好落在0到45米之间完全合理
+
+看其实一点都不难在实际问题里写出定义域和值域完全是送分题但前提是
+
+你必须带上单位和理由比如明确写上一句时间不能为负至少超过那一问解完不等式
+
+再和定义域去交集</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u7-context-restrictions-L2#ep-u7-context-restrictions-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u7.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

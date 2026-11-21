@@ -1,0 +1,81 @@
+and the mechanics of compound interest. Right. So compound interest at its core is simply earning interest on your interest. That's the foundational concept. Like a snowball rolling down the hill. Okay. Let's break those variables down for everyone.
+
+Sure. So P is the principle. That's your starting money. Right. And R is the annual rate, but, and the notes emphasize this strongly, it must be written as a decimal. Not a whole number. Right.
+
+Then N is the compounding periods per year. So if it's annually, N is one. Semi-annually, it's two. Quarterly is four. Monthly is 12. And daily is 365. And then T is just years, right? Exactly. It's all years.
+
+So here's a foundational question for you. If I'm trying to grow my money, should I obsess over finding an account that compounds daily? Or is the actual percentage rate more important? Well, according to the breakdown here, it's usually the rate. I mean, while more frequent compounding, like daily, yields a little bit more money. Because it's calculating more often. Right. But a higher annual rate usually beats more frequent compounding. You really must always compute both to be absolutely right. Absolutely. Sure.
+
+Okay. So a higher rate is generally better. But doing the full formula in your head is tough. The notes mention this mental shortcut, the rule of 72. Ah, yes. The rule of 72. It says your money doubles in approximately 72 divided by the rate as a percentage. Wait. So if the rate is 6%, it's just 72 divided by 6? Yeah. Which is 12. So about 12 years. But the notes give a very clear warning here. Which is?
+
+This is only a mental estimate. It is not an exact answer. You can't use it for real, precise financial planning. Good to know. So when we are doing the real planning, the notes outline these five calm questions to ask when you face a new problem. I love these. They really keep you grounded. First, you list P, your principal. Okay. Second, you write the yearly rate, R, as a decimal.
+
+As a decimal. Third, the times per year at compounds. That's your N. Fourth is years, which is T. And the fifth question? Identify the unknown. Are you looking for A, the final amount, or the interest, which is A minus P? Or are you working backwards to find P?
+
+And it says here, remember to round to the cent only at the very end of your calculation. Yes. If you round too early, your final answer will be off. Okay. So walking through this, there are some really common mistakes the notes highlight. Which is approximately $1,124.86.
+
+Right. But if people use 4 instead of 0.04, it blows up the formula completely. It really does. Another mistake is using years instead of the total periods for the exponent. Oh, like just using 3 instead of 3 years times 12 months.
+
+Exactly. Or, and this is a big one, forgetting to divide the rate by N inside the brackets. Let's do an example of that. Okay. So if you have A equals 1,500 times 1.02 to the power of 12. That comes out to roughly $1,902.36.
+
+Now, if you need to work backwards to find P, the notes say you divide A by that whole growth factor instead of multiplying. So you take the final amount and divide it out to find what you started with. Yeah. And the ultimate sanity check here, P must always be less than A. Because you always start with less than you end up with when you're saving.
+
+That makes total sense. It's a simple rule, but you'd be surprised how often people miss it. So let's transition smoothly into section two here. We're moving from single lump sum investments to annuities. Annuities.
+
+Right. Which the notes define as loans and investments with equal regular payments. So instead of one big chunk of money, it's a series of payments. And there's a distinction here. Saving means you are looking for the future value, or FV.
+
+Right. Because you want to know what it will be worth later. But borrowing means the loan you get today is the present value, PV. And you are usually solving for the payment, which is PMT. Exactly. And we have some new variables to break down for this section.
+
+Okay. Let's hear it. So I is now the interest rate per payment period, not just the annual rate. Okay. And N is now the total number of payments, not just the compounding periods per year. Got it.
+
+And the notes talk a lot about using a TVM, or time value of money, solver for these. Yeah. Technology makes this much easier. But there's a critical rule you have to follow when using a TVM solver. Money direction, right? Yes. Money you pay out is entered as a negative number. Money you receive is entered as a positive
+
+number. So if I deposit money into savings, I type it as a negative. That feels so backwards. I know it does. But from your wallet's perspective, the cash is leaving. So it's negative. Okay. So we have another round of the five calm questions for this section. I'll list them out. Go ahead.
+
+One, what is the loan or savings amount? Two, what is the payment? Three, what is the yearly rate? Four, what is the compounding frequency, which they call C slash Y and payment frequency P slash Y and five, how many years? And then you figure out what the blank is. What are you solving for? Right. And does the question want the total paid or just the interest?
+
+To keep all this straight, the notes highly recommend drawing a physical timeline. Literally just drawing a line on a page. Yeah. Just draw a line, put money today sitting at the left. That's your PV and money at the end sits at the right, which is your FV. It helps visualize when the cash moves. But you know, even with a timeline, it's so easy to get lost in these loan formulas.
+
+Is there a simple way to just know if my calculation is completely wrong, like a sense check? Yes. There is a very logical anchor provided in the notes. Oh, thank goodness. What is it? Your regular payments times N absolutely must be more than the loan amount. Right. Because you have to pay interest to the bank.
+
+Exactly. And if it's a savings account, your payments times N must be less than the final savings total. Because the bank is adding interest to your money. Right. So total interest always equals the total paid minus the amount you borrowed or vice versa for savings.
+
+That makes perfect sense. Now, I want to point out this highly specific real world example from the notes because it's fascinating. The Canadian fixed rate mortgage. Oh, this is a great example of a quirk in the math. Yeah. So Canadian mortgages are quoted as compounded semi-annually. So C slash Y equals two. But people pay the monthly. So P slash Y equals 12.
+
+Which means simply dividing your rate R by 12 is completely wrong. Wait, really? You can't just divide it by the 12 months? No, because the compounding frequency doesn't match the payment frequency. You actually need to calculate the equivalent monthly rate. 2 is 0.02.
+
+Okay. 2% per half year. Now, to find the equivalent monthly rate, which is I, the formula is 1.02 raised to the power of 1 over 6. And then you subtract 1 from that result. To the power of 1 sixth. Okay. And what does that equal? It is approximately 0.0033059.
+
+Wow. That is a tiny decimal. Yeah. But you need all those digits. That's the phantom monthly rate you actually use in the formula. That is super unintuitive. If you didn't know the rule, you'd get the wrong payment entirely. Exactly. And speaking of errors, there are a few other common pitfalls in this section. Like what?
+
+Well, counting years instead of total payments. For example, trying to find future value, let's say FV equals 50 times the result of 1.0025 to the power of 72 minus 1. And that whole top part is divided by 0.0025. Which gives you roughly $3,938.97. Right. But people will often just put in six years for the exponent instead of 72 months. Which totally ruins the calculation. Completely. And another huge mistake is using the savings formula to try and find a loan amount.
+
+This is where we apply all those loan concepts to physical assets in the real world. Right. And there's an underlying mechanic here, depreciation versus appreciation. Yes. So cars generally depreciate. They lose value over time. So the formula for that is V equals P times the result of 1 minus R raised to the power of T. Notice the minus sign. 1 minus R because it's shrinking.
+
+Got it. And homes? Homes usually appreciate. Yeah. They gain value. So the formula is V equals P times the result of 1 plus R raised to the power of T. Okay. So that leads me to a really common assumption.
+
+When comparing renting to buying a house, isn't a massive monthly mortgage payment the main cost of buying? I mean, it's huge compared to rent. Well, the notes push back on this firmly. Mortgage principle is not a cost. Wait. Paying the principle isn't a cost? No. It becomes equity. It's essentially forced savings. When you're comparing renting to buying,
+
+you only compare the unrecoverable costs. Unrecoverable costs. Right. Okay. Break that down. For renters, all rent is unrecoverable. It's just gone.
+
+Right. You pay it. You get to live there for a month and the money is gone. Exactly. But for owners, only the mortgage interest, the property tax, strata fees, maintenance, and the lost investment return on your down payment. Because you could have invested that down payment somewhere else. Right. Only those things are unrecoverable costs.
+
+The principle goes back into your own pocket as equity. That's a massive mindset shift. It really is. So to evaluate these options, the notes give us a final round of five calm questions, specifically using the table method.
+
+I like the table method. I do too. You list every cash flow over the same number of years. That's crucial. Same number of years. So you list the down payment, the monthly payments times the number of months, any end fees, and the resale value.
+
+Yeah. You basically visualize a two-column table. One column is buy, the other is lease. Okay. And here is the absolute most crucial distinction for the table. The buy column must end with subtracting the resale value. Because you actually own the asset at the end and you can sell it.
+
+Exactly. Let's read this stark math example straight from the notes because it proves why lower monthly payments don't always mean a lower total cost. Okay. I'm ready. Let's say you lease a car. The down payment is $2,000. Plus you have 48 payments of $329. Plus a $500 end fee.
+
+Okay. So $2,000 plus the total of 329 times 48 plus 500. That equals $18,292 for the lease. Right. Now, what if you buy that same car? The loan payments are much higher. It's $580 a month for 48 months. That equals $27,840. Wow. That looks way more expensive on paper.
+
+It does. But we have to subtract the resale value. Let's say the car originally cost $26,000 and it depreciates 15% a year. Okay. So using the depreciation formula, 26,000 times 0.85 to the power of four, that is approximately $13,572 and 16 cents.
+
+Giving a net cost of? $14,267 and 84 cents. Buying is actually cheaper by $4,024 and 16 cents. That is wild. The lease had a payment of $329. Buying was $580. But buying ended up thousands of dollars cheaper overall.
+
+That's why you have to do the full math. And the final errors people make here are exactly that. Forgetting the resale value entirely. Yep. Forgetting to subtract the resale value or they subtract a flat amount every year instead of correctly using that compounding depreciation rate formula we just did.
+
+Because buying requires a subtraction at the end that leasing just does not have. You can't compare them like for like without finding that true net cost. You really can't. So to summarize this whole journey through unit nine, it really comes down to a few key things. Financial literacy is understanding the mechanics of compounding.
+
+Visualizing the timeline of your regular payments. Right. And always, always subtracting that resale value to find the true net cost of an asset. It's all about looking at the whole picture over time.

@@ -1,0 +1,255 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Unit 2 review: Radicals · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L3 · Unit</p><h1><span class="en" lang="en">Unit 2 review: Radicals</span><span class="zh" lang="zh-Hans">第 2 单元复习：根式</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u14/audio/u2-L3-review.en.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u14/audio/u2-L3-review.en.m4a" download="u2-L3-review.en.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u2-L3-review.en.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><div class="txbox" lang="en">Um, imagine you are a detective, right? Are you working this really complex case following a trail of evidence? Okay. I like where this is going. Right. So every clue aligns perfectly. The logic is flawless. You run the DNA, you get a definitive match and you go to arrest your prime suspect. But, um, when you kick down the door, you realize something impossible. Let me guess. They aren&#x27;t there.
+
+Um, worse. The suspect doesn&#x27;t even exist. Like they&#x27;re a ghost, a complete fabrication created by the very system you use to track them down. Oh, wow. Yeah, that is a terrifying thought in the real world. But, you know, in the realm of higher level mathematics, this scenario actually plays out all the time. It really does. Yeah. It&#x27;s just a fundamental quirk of the system. Today, we are immersing ourselves in a fascinating area of mathematics, specifically unit two, which is entirely focused on radicals.
+
+Radicals. Yes. The troublemakers. Exactly. And, you know, if you are listening to this, you likely already have a working knowledge of algebra. So our mission today isn&#x27;t just to like rattle off a list of rules for you to memorize. Right. We don&#x27;t want this to feel like a textbook. Exactly. We&#x27;re going fundamentally deeper.
+
+We want to understand the actual behavior. I mean, the philosophical why behind how radical numbers operate, how they combine, and how we solve equations containing them. And that&#x27;s crucial because radicals, well, they often function like numbers wearing elaborate disguises, you know. Disguises. I like that. Yeah. They hide inside roots.
+
+They masquerade as incompatible values. And as you hinted at with your detective analogy, they can even generate imposter numbers. Ah, yes. The ghosts. Right. What mathematicians call extraneous roots. These things just sneak into your final answers and completely sabotage your work.
+
+So we are going to decode those disguises, expose those imposters, and hopefully arm you with a rock solid conceptual checklist for any radical problem you encounter. Sounds like a solid plan. So let&#x27;s start at the absolute foundation. Right. Before we can start operating on these radicals, like adding them, dividing them, forcing them into equations, we have to know how to strip them down to their core identity. Yes. Simplifying.
+
+Right. Moving a mixed radical into its simplest possible form. It really is about seeking the most fundamental mathematical truth of a number. And for a long time, the standard approach taught in schools was the factor tree. Oh, man. The factor tree.
+
+Right. You take a large number, you break it down into all its prime components. And, well, if you&#x27;re dealing with a square root, you look for pairs. Just circling tiny numbers forever. Exactly. Any pair of identical prime numbers inside the root gets to step outside the root as a single number.
+
+Which works, sure, but it is just agonizingly slow. I mean, nobody dealing with high-level math wants to draw a sprawling 50-branch tree just to simplify a single term. No, definitely not. Especially when it&#x27;s part of a much larger equation. So there has to be a more elegant way to undress these numbers, right?
+
+And there is. The vastly superior method is to hunt for the largest perfect square factor. Okay. The largest perfect square. Right. Instead of looking for tiny prime building blocks, you test the heavy hitters. You look at perfect squares.
+
+So, you know, 100, 81, 64, 49, 36. Gotcha. And you find the absolute largest one that divides cleanly into your radicand, the number under the root. Okay. Let&#x27;s actually put this into practice.
+
+Because I feel like this is where a lot of people fall into a trap. Let&#x27;s take the square root of 72. Oh, that&#x27;s a classic example. Right. Because I know from experience that the human brain sees 72 and immediately jumps to the multiplication tables we all memorized in childhood.
+
+We think, ah, 9 times 8. It&#x27;s just a natural reflex. It is. So someone will pull out the 9, right? The square root of 9 is 3. And then they leave the 8 trapped inside the root.
+
+They write down 3 times the square root of 8, circle it, and they think they&#x27;re done. But they&#x27;ve committed a critical error there because they basically stopped translating halfway through the sentence. Wait, really? Mm-hmm.
+
+Because it feels done. It feels done. But the number 8 still harbors a perfect square inside it. The number 4. You haven&#x27;t found the core identity yet.
+
+Oh, right. Because 4 times 2 is 8. Exactly. This is why you must seek the largest perfect square. If you pause and look higher up the chain, you realize 72 is actually 36 times 2.
+
+Oh, wow. Yes. And the square root of 36 is exactly 6. So you extract that immediately. You pull out the 6.
+
+You leave the 2 inside. And in one swift move, you have 6 times the square root of 2. That is so much faster. It&#x27;s definitive, it&#x27;s clean, and it leaves no hidden squares behind. Okay, so the lesson here is don&#x27;t settle for the first perfect square you stumble across.
+
+Hold out for the biggest one. Precisely. And I assume this exact same logic applies when we change the index of the root, right? Like if we are looking at a cube root, we just change our hunting parameters. Yep, you nailed it.
+
+If you are asked to simplify, say, 3 times the cube root of 54, you are no longer hunting for perfect squares. You&#x27;re hunting for perfect cubes. Exactly. Numbers like 8 or 27 or 64. Okay, so for 54, 27 is the obvious target.
+
+54 is 27 times 2. We pull out the 27. Right. The cube root of 27 is 3. But wait, hold on.
+
+We already had a 3 sitting outside the root in the original expression. What happens when the new 3 comes out? They multiply. Oh, okay. Yeah, the outside environment is strictly multiplicative.
+
+The newly extracted 3 multiplies with the pre-existing 3, giving you 9. So your absolute simplest form is 9 times the cube root of 2. All right. I&#x27;m with you. We know how to strip the disguise off.
+
+But here is what I really don&#x27;t get. What&#x27;s that? Why is there an entire process dedicated to going backward? Oh, right. Like taking a beautifully simplified mixed radical and shoving the outside number back inside to create this bulky, entirely unsimplified radical?
+
+I mean, it feels like uncleaning your kitchen. It does seem totally counterintuitive until, you know, you&#x27;re asked to make a judgment call. What kind of judgment call? Well, the entire purpose of going backward, pushing everything under the root, is for ordering and comparing. It&#x27;s about establishing a common denominator of truth.
+
+Okay. Give me a scenario where I&#x27;d actually need to do that. Suppose I ask you to evaluate two values, which is larger. Three times the square root of 7 or two times the square root of 17. Oh.
+
+Right. Just glancing at them, it&#x27;s a cognitive mess. Exactly. Because the outside number, 3, is bigger than 2. But the inside number, 17, is bigger than 7.
+
+The visual cues are completely contradictory. Right. So to compare them, you force them into the same format by reversing the extraction process. You take the outside number, apply an exponent of 2 to it, and multiply the result back into the radicand. Let me try that.
+
+Okay. For 3 times the square root of 7. I take the outside 3, raise it to a power of 2, which is 9. Yes. I multiply that 9 by the 7 waiting inside, and I get the square root of 63.
+
+Perfect. Now do the other one. Okay. 2 times the square root of 17. I raise the 2 to a power of 2, which gives me 4.
+
+4 times 17. That gives me the square root of 68. Now look at what you have. You&#x27;re no longer comparing apples and oranges. Right.
+
+I&#x27;m directly comparing the square root of 63 against the square root of 68. And suddenly, all ambiguity is gone. Yeah. The square root of 68 is undeniably larger. So the 2 times the square root of 17 was the bigger number all along.
+
+Exactly. So the sky has actually served a vital purpose. It levels the playing field, so you can see the sheer numerical weight of the expression. That makes a lot of sense. But I want to throw a wrench into this perfectly ordered system, if you don&#x27;t mind.
+
+Bring it on. Numbers are obedient. Right. But the moment letters get involved, when we start dropping variables like x or y under the root, it feels like the mathematical physics just break down.
+
+The physics don&#x27;t break down, but they do require us to acknowledge boundaries. This is where we have to establish restrictions. Restrictions. Okay. Yeah.
+
+You have to remember what a radical actually represents. An even index, like a standard square root, demands a non-negative radicand. The environment inside that root literally cannot drop below zero. Because no real number multiplied by itself can never result in a negative. Exactly.
+
+Yeah. Positive times a positive is positive, and a negative times a negative is positive. Right. The moment the inside of a square root becomes negative, we fall completely out of the realm of real numbers and into imaginary ones, which is not where we&#x27;re operating today.
+
+Gotcha. So if you are simplifying the square root of 18 times x to the power of 3, you can do the math to simplify it. 18 is 9 times 2, so a 3 comes out. Okay.
+
+X to the power of 3 is x to the power of 2 times x, so an x comes out. You get 3 times x times the square root of 2x. But the expression is carrying like a hidden vulnerability now. Precisely. If the variable x happens to represent a negative number, the entire original expression collapses
+
+into a paradox. Oh, because you&#x27;d have a negative inside the root. Yes. So you must explicitly state the boundary condition right next to your answer. X is greater than or equal to 0.
+
+You are essentially building a fence to protect the logic of the equation. Okay. But what if we change the index to an odd number, like a cube root? Does the fence come down? Completely.
+
+Odd indexes have no such vulnerabilities. Really? Yeah. Think about the mechanics. A negative times a negative times a negative remains negative.
+
+Right. Negative 2 to the power of 3 is negative 8. Therefore, the cube root of negative 8 is perfectly legal. It&#x27;s simply negative 2. So if I have the cube root of negative 8 times a to the power of 3, the negative sign and
+
+the variables just like step right outside the root without a care in the world. Exactly. It just becomes negative 2a. No restrictions necessary. Wow.
+
+Okay. Odd roots are infinitely accommodating. None at all. They really are. So before we move on to how these numbers interact, I want to bring up a massive, like, almost
+
+fatal pitfall that trips people up. Oh, I think I know what you&#x27;re going to say. It&#x27;s the temptation to distribute a root across addition. I see this all the time. It hurts my soul every time.
+
+Someone sees the square root of 100, which we all know is 10. But their brain says, hey, 100 is 36 plus 64. And here is where the tragedy occurs. Right. Because they try to apply the root to those pieces individually.
+
+They say, well, the square root of 36 is 6. The square root of 64 is 8. 6 plus 8 is 14. Yeah. And suddenly, they&#x27;re trying to claim that 10 equals 14.
+
+Which is catastrophic. Which is, yeah. A root is not a multiplier. You know, you cannot distribute it over a plus or minus sign. It is a rigid container.
+
+A rigid container. Yeah. I like that. Yeah. You must absolutely resolve all addition and subtraction inside the root first.
+
+Finding the single, unified total. And only then can you apply the root. 14 to the power of 2 is 196, not 100. Math is unforgiving if you violate the sequence of operations. Okay.
+
+So we know how to strip these numbers down. We know how to build their fences. And we know what definitely not to do. Right. Now, how do they behave when they collide?
+
+Let&#x27;s talk about operations. Addition and subtraction first. I&#x27;ve always viewed this as an ultra-exclusive VIP section at a club. You do not get to mix unless you are identical. That&#x27;s a great analogy.
+
+It is the strictest rule of engagement. To add or subtract radicals, they must be like radicals. Meaning? That means two things. They must share the exact same index and the exact same radicand.
+
+Okay. So just like combining like terms in basic algebra, like 3x plus 5x is 8x. So 3 times the square root of 2 plus 5 times the square root of 2 is 8 times the square root of 2. Exactly. The root itself is just a label.
+
+It doesn&#x27;t change. Right. But the illusion, the masquerade we talked about earlier, is that sometimes numbers that belong together don&#x27;t actually look alike initially. Oh, right. If you are given the square root of 12 plus the square root of 27, at first glance, the VIP bouncer is turning them away.
+
+They look totally incompatible. But this is why simplifying is always step one. Exactly. We break down the 12, 4 times 3. Pull out the 4, becomes a 2.
+
+So the square root of 12 is actually 2 times the square root of 3. And the 27 is 9 times 3. Pull out the 9, and it becomes 3 times the square root of 3. And suddenly, the disguise drops. They both share a square root of 3.
+
+Yep. 2 of them plus 3 of them equals 5 times the square root of 3. They get into the VIP section after all. But you have to earn it by doing this simplification first. Now, I have to play devil&#x27;s advocate for a second.
+
+Let&#x27;s say I&#x27;m stubborn. I look at 2 times the square root of 2 plus 3 times the square root of 2. And I decide I just want to mash the insides together. Oh, boy. I want to say it equals 5 times the square root of 4.
+
+Conceptually, how do you prove to me that I can&#x27;t do that? By dragging you out of the abstract and into concrete decimals. Okay. Let&#x27;s do it. The decimal check is your ultimate reality anchor.
+
+Let&#x27;s test your theory. 2 times the square root of 2, if you punch it into a calculator, is roughly 2.83. Okay. 3 times the square root of 2 is roughly 4.24. So if I add those actual decimal values together, 2.83 plus 4.24, I get about 7.07.
+
+Correct. Now, let&#x27;s look at the proper mathematical answer. 5 times the square root of 2. The decimal value of that is exactly 7.07. It perfectly matches reality.
+
+And if I had incorrectly mashed the insides together to get, say, the square root of 26. The decimal value for the square root of 26 is about 5.10. It doesn&#x27;t match. Wow. Not even close.
+
+Right. The decimal check proves that the structural rules of mathematics aren&#x27;t arbitrary. You know, they are the only way to maintain the true value of the numbers. That is incredibly satisfying. So addition is strict.
+
+But multiplication. Multiplication feels like a free-for-all mixer. The velvet rope is completely gone. Yeah. Multiplication bypasses those boundaries completely.
+
+There are no like-radical requirements. The rule is brutally simple. Outside multiplied with outside. Inside multiplies with inside. Okay.
+
+So if I have 2 times the square root of 3. Multiplying with 5 times the square root of 6. I just pair them up. Outside 2 times 5 is 10. Inside 3 times 6 is 18.
+
+Boom. 10 times the square root of 18. But, and there&#x27;s always a but, you can never forget the final step. Is that result simplified? Oh.
+
+Right. 18 contains a perfect square. 9. Exactly. 18 is 9 times 2.
+
+The square root of 9 is 3. I pull that 3 out. Multiply it by the 10 that&#x27;s already waiting outside. And I get a final polished answer of 30 times the square root of 2. Exactly.
+
+And if you are multiplying binomials. You know, expressions with two terms and brackets. You just distribute every term to every other term. Exactly as you would with standard polynomials. Okay.
+
+Which brings us to division. And division introduces a concept that I&#x27;ve always found a bit, well, dramatic. Dramatic. Yeah. Rationalizing the denominator.
+
+It&#x27;s basically a rule of high society math etiquette. Right? You absolutely do not leave an irrational root in the denominator or the basement of a fraction. It&#x27;s not just etiquette. It&#x27;s about making the number functional.
+
+And a rational denominator makes further calculation incredibly difficult. Rationalizing is simply the process of clearing that root out, turning the basement into a clean rational integer. Okay. So if it&#x27;s a simple single term on the bottom, a binomial, like just the square root of 3, it&#x27;s easy. You just multiply the top and the bottom of your fraction by that exact same root.
+
+Right. Because the square root of 3 multiplied by the square root of 3 equals the square root of 9, which collapses perfectly into a clean solid 3. The root is destroyed. But what if the basement is complicated?
+
+What if the denominator is a binomial, like 3 minus the square root of 3? I can&#x27;t just multiply the whole thing by the square root of 3 anymore. No, you definitely can&#x27;t. If you try to multiply a binomial by a single root, you have to distribute it. It might destroy the root on one term, but it will attach a brand new root to the other term.
+
+You&#x27;re basically just shuffling the mess around. Okay, so wait. If the goal is just to destroy the roots, why can&#x27;t I just take the entire fraction and raise the whole thing to a power of 2? Squaring destroys square roots, right? Squaring a single root destroys it.
+
+Squaring a binomial creates chaos. Chaos. Total chaos. If you take 3 minus the square root of 3 and raise it to a power of 2, you have to multiply it by itself. When you distribute that, you get the first term squared, the last term squared, but you also create a massive, messy middle term.
+
+Oh, right. Because of the distribution. Yeah, the root survives. It&#x27;s like a hydra. You cut off one head and another appears in the middle of your equation.
+
+So we need a weapon that specifically targets and annihilates that middle term. Enter. The conjugate. The mathematical antimatter. That is the perfect way to describe it.
+
+Antimatter. So how does it work? Well, if your denominator is A minus the square root of B, its conjugate, its antimatter twin, is A plus the square root of B. You maintain the exact same terms, but you invert the operational sign in the middle. Walk me through the mechanism of this.
+
+Why does the conjugate work as antimatter? It exploits a beautiful symmetry in algebra called the difference of squares. When you multiply a positive version of a binomial with its exact negative counterpart, an incredible thing happens. Okay, I&#x27;m listening. The outer multiplication creates a positive root.
+
+The inner multiplication creates the exact same root, but negative. So when you add them together, they perfectly obliterate each other. Exactly. The messy middle terms instantly sum to zero. They annihilate in a flash.
+
+All you are left with is the first term raised to a power of 2 minus the second term raised to a power of 2, both of which result in clean, rational integers. Okay, let&#x27;s visualize this. Say our fraction is 6 over the binomial 3 minus the square root of 3. We deploy the antimatter. We multiply the top and the bottom by the conjugate.
+
+3 plus the square root of 3. Right. And looking purely at the basement, we take the first term, 3, and apply a power of 2. That gives us 9. Okay.
+
+We take the second term, the square root of 3, and apply a power of 2. That gives us 3. And the middle terms have completely vaporized. Completely. So we are just left with 9 minus 3, which is 6.
+
+The denominator went from a complex, irrational mess to a beautifully clean number 6. And because we multiply the top by the conjugate as well, the top is now 6 times the quantity 3 plus the square root of 3. And wait, we have a 6 on top and a clean 6 on the bottom. They cancel out entirely. Leaving you with nothing but 3 plus the square root of 3.
+
+You&#x27;ve taken a hideous fraction and turned it into an elegant flat expression. That is brilliant. It&#x27;s taking advantage of the architecture of the math to force the outcome you want. Which brings us, finally, to the danger zone. Ah, yes.
+
+Solving radical equations. This is where everything we&#x27;ve discussed converges. We have a definitive 4-step blueprint for surviving these. Step 1. State your restrictions.
+
+Define your boundaries. Like we talked about earlier. Step 2. Isolate the radical. Step 3.
+
+Raise both sides to the index using a power. Step 4. Solve the resulting algebra. And crucially, check your answers. Let&#x27;s focus heavily on Step 2.
+
+Isolation. I view this as a quarantine protocol. Quarantine. That&#x27;s good. Yeah.
+
+Before you can neutralize a root with an exponent, you absolutely must quarantine it so it is entirely alone on one side of the equal sign. Absolutely. If you attempt to apply a power to a side that has a root and a whole number sitting next to it, you are committing that same binomial squaring error we just talked about. Creating the hydra. Right.
+
+You will spawn middle terms and make the equation infinitely worse. Quarantine is non-negotiable. Let&#x27;s say we have an equation. The square root of x plus 5 equals x minus 1. The root is already fully isolated on the left.
+
+So, we apply an exponent of 2 to both sides. The left side, being just a root, pops open cleanly, leaving us with x plus 5. But the right side is the binomial x minus 1. When you apply a power of 2 to that, you must distribute it properly. It becomes x to the power of 2 minus 2x plus 1.
+
+So, the radical vanishes and we are left with a completely standard quadratic equation. If you move everything to one side and solve that, and we will skip the routine factoring here, you are handed two possible answers. x equals 4 or x equals negative 1. And here is where the trap snaps shut on the unwary.
+
+Step 4 demands that you test those answers by plugging them back into the original equation. Okay, let&#x27;s test the 4. Original equation, square root of 4 plus 5. That&#x27;s the square root of 9, which is 3. On the other side, 4 minus 1 is 3.
+
+3 equals 3. Solid. The suspect is guilty. Now, test the negative 1. Square root of negative 1 plus 5.
+
+That&#x27;s the square root of 4, which is 2. On the other side, negative 1 minus 1 is negative 2. So, 2 equals negative 2? Right. That&#x27;s fundamentally false.
+
+What just happened? You just found the ghost. The extraneous root. This is the imposter we talked about at the very beginning. How did our perfectly executed logic produce a completely fake number?
+
+It happens in step 3. When we applied an exponent of 2 to both sides to crack open the root, we fundamentally altered the fabric of the equation. Squaring a number destroys the history of its sign. Because negative 2 to the power of 2 is 4.
+
+But positive 2 to the power of 2 is also 4. Exactly. When you raise both sides to a power of 2, you are essentially asking the math, what numbers make these two sides equal if we ignore whether they were originally positive or negative?
+
+Oh, wow. The math dutifully replies, well, if you ignore the signs, negative 1 works perfectly. But in the strict reality of the original equation, it fails. It&#x27;s like applying a powerful chemical to a crime scene to reveal fingerprints. But the chemical simultaneously destroys the DNA evidence.
+
+The act of solving it introduces a flaw. And if you visualize this on a graph, it becomes incredibly clear. The left side and the right side of the equation are two separate lines on a grid. Solving the equation just means finding the exact coordinate where those two lines intersect. Right.
+
+But a principal square root curve exists entirely above the horizontal axis. It can never dip into negative territory. So it can never physically intersect with a line at a negative coordinate. The extraneous root is a phantom intersection that literally does not exist in spatial reality. Which means if I ever see an equation that says the square root of x equals negative 4, I don&#x27;t even need to pick up a pencil.
+
+You stop at line 1. A principal square root cannot equal a negative. There is no solution. Okay. We are ready for the final boss.
+
+The ultimate test of quarantine protocols. An equation with two radicals. Let&#x27;s do it. The square root of x plus 5 minus the square root of x equals 1. This requires absolute mathematical patience.
+
+You cannot quarantine both roots simultaneously. If you try to square them while they are together, the middle terms will bury you. So we have to execute a double quarantine. Yes. First, we banish the negative square root of x to the other side of the equal sign.
+
+Exactly. Now your left side is purely the square root of x plus 5. It is isolated. We apply an exponent of 2 to both sides. The left side cleanly becomes x plus 5.
+
+Good. The right side is now a binomial. 1 plus the square root of x. When we apply a power of 2 to that and distribute it, we get a bit of a mess. 1 plus 2 times the square root of x plus x.
+
+It looks messy, but notice what happened. We are down from two roots to just one. The first infection is cleared. Now we isolate the remaining root. We subtract x from both sides.
+
+Oh, wow. The plain x is entirely cancel each other out. Right. We subtract 1 from both sides and the left side drops to a clean 4. So we are left with 4 equals 2 times the square root of x.
+
+Divide both sides by 2 and you achieve your second quarantine. 2 equals the square root of x. And as a seasoned detective, I check my work in the original equation. The square root of 9 minus the square root of 4. That&#x27;s 3 minus 2, which equals 1.
+
+It fits perfectly. Lawlessly. No ghost this time. A perfectly executed double quarantine. We did it.
+
+We took these mathematical entities in their most deceptive disguises. We sought their fundamental truths by extracting perfect squares. We leveraged the symmetry of antimatter to clear our denominators. And we methodically quarantined and eliminated them to solve complex equations, all while hunting down those phantom extraneous roots.</div></section><nav class="pn"><a href="audio.html?ep=u2-L3-review#ep-u2-L3-review"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u2.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Special angles &amp; the unit circle · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Special angles &amp; the unit circle</span><span class="zh" lang="zh-Hans">特殊角与单位圆：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u89/audio/u8-special-angles-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u89/audio/u8-special-angles-L2.zh.m4a" download="u8-special-angles-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u8-special-angles-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u8-special-angles.html">Special angles &amp; the unit circle</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">你有没有发现平时用计算器的时候总觉得他给出的答案是最权威的比如你输入sine60度
+
+屏幕弹出一长串0.866 0254后面跟着一串数字看起来毫不破绽确实非常精确的无限小数
+
+但在真实的数学考试里其实这个精确的小数往往一文不值没错因为试卷上要求写的精确值
+
+通常是带分数或者根号的形式比如二分之根号三这真的是个痛点习惯了计算器遇到要求写精确值
+
+反而就懵了所以咱们今天的任务就是深挖这份关于特殊角与单位员的资料帮大家彻底摆脱
+
+对计算器的依赖而且最棒的是你完全不需要去背那些就是密密麻麻的三角函数表只要绘画两个小三角形
+
+就足够了这两个小三角形可以说是核心作弊代码一个是454590三角形边长分别是1 1和根号2
+
+还有一个是30 60 90三角形对它的边长是1根号3和2这里要特别提醒一个细节30度角永远对着最短的那条直角边
+
+也就是长度为1的那条边只要把它们画在纸上所有的基础数值就都在手边了不过资料里紧接着就把这些三角形
+
+放进了一个半径为1的单位圆里说实话加个单位圆真的有必要吗极其必要半径为1可是这里的秘密武器
+
+你想想看三角函数里计算经常要除以斜边对吧所以当斜边变成单位圆的半径1时
+
+任何数除以1都不变没错那些麻烦的分母直接就消失了所以脚
+
+中边上的点坐标直接就是cosθ加上sinθ同理的话tangθ就是sinθ除以cosθ了
+
+完全正确既然有了三角形和单位圆那当我们面对任何一个特殊角时具体该如何把数值套进去这个时候
+
+就需要任何特殊角解题三步法了第一步求出到x轴的参考角就是看这个角的中边距离x轴差了多少度
+
+把大角翻译成小角对第二步就是从咱们刚才画的特殊三角形里读出数值
+
+那最关键的就是第三步了吧没错第三步就是根据CEST规则定符号第一项线权证第二项线San证
+
+第三项线Tangent证第四项线Cosan证不过说到这个我记得资料里还补充了轴上角的处理方式
+
+对吧是的像是0度90度180度
+
+270度这些角处理它们连三角形都不用画直接看单位圆上的坐标就行比如90度在最顶端
+
+坐标是0和1那Cosan90度就是0San90度就是1对的但要特别强调一下
+
+弹晋的90度和弹晋的270度是无定义的因为它们对应的Cosan也就是除数是0数学上不能把0作为除数
+
+没错明白了那在动笔前咱们其实应该跟着资料在脑海里梳理五个实战步骤
+
+首先是以知什么也就是看落在哪个向线接着是求什么要记住
+
+精确值意味着只能写分数和根号然后是画图就是画中边向X轴做垂线及对应的三角形
+
+然后你得问自己用什么工具比如找参考角用SOHCAHTOA
+
+法则读数还有刚才说的CAST定理定符号最后一步是检验检查大小和符号
+
+比如2分之根号3大约是0.87是直角边力比较大的那个值而2分之1是较小的那个值那咱们直接按照资料
+
+来做一个严谨的实战演练吧就以求COS150度为例好150度落在90度与180度之间属于第二向线
+
+对那参考角就是踏到X轴的夹角180度减去150度等于30度
+
+然后在306090三角形中COS30度是0边除以斜边等于2分之根号3接着用CAST原则第二向线只有3为正
+
+所以COS肯定为负最终答案就是负的2分之根号3那这时候可以用计算器的小数核对一下确认没算错是的
+
+在三角测验一开始就在空白处画好两个特殊三角形和CAST字母花20秒就能避免所有精确知识物题目说精确知识
+
+写小数不得分</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u8-special-angles-L2#ep-u8-special-angles-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u8.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

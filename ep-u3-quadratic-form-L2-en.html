@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Factoring by substitution · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Factoring by substitution</span><span class="zh" lang="zh-Hans">换元法分解：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u14/audio/u3-quadratic-form-L2.en.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u14/audio/u3-quadratic-form-L2.en.m4a" download="u3-quadratic-form-L2.en.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u3-quadratic-form-L2.en.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u3-quadratic-form.html">Factoring by substitution</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><div class="txbox" lang="en">Factoring by substitution. Yes. We&#x27;re looking at this math technique that takes what looks like an impossible degree four monster of an equation. You know, like x to the fourth power minus 5x squared plus four. Right, which sounds awful when you just hear it out loud. Totally. It transforms into a totally manageable puzzle.
+
+Our mission here is to give you a mental framework to just, like, pull that mask off. The mechanism to remove that disguise is, I mean, it&#x27;s surprisingly elegant. We&#x27;re dealing with expressions in what&#x27;s called quadratic form. Quadratic form. Okay, what does that actually mean for us? It means they follow a familiar underlying pattern.
+
+So, some chunk of stuff squared plus that same chunk of stuff plus a constant. Got it. Because our brains are, you know, notoriously bad at tracking multiple exponential layers at once. Oh, terrible at it. But we are excellent at recognizing basic patterns. So, instead of panicking at x to the fourth power, it&#x27;s kind of like, I don&#x27;t know, packing a messy room into moving boxes. That&#x27;s a great way to put it, yeah.
+
+You take all those complicated variables, shove them into a single box, and label it with a single letter. Like, let&#x27;s say, m. Yes, exactly. By explicitly declaring let m equal x squared, you isolate that cognitive load. You just move the box easily.
+
+Right. That daunting degree four monster is now just m squared minus 5m plus 4. Oh, wow. Which is a friendly everyday trinomial. Exactly. Let&#x27;s actually put this into practice with a tougher one. Okay, hit me. Say we have x to the fourth power minus 17x squared plus 16.
+
+Okay, x to the fourth power minus 17x squared plus 16. If I&#x27;m using this mental framework, my first move is just, well, identifying the repeating chunk, right? Right, which is your given reality. So, what is the chunk here? Well, here it&#x27;s the x squared.
+
+Spot on. So, you picture the simpler version by substituting m in there. So, the whole expression translates to m squared minus 17m plus 16. And now you can use your standard factoring tools. You just need two numbers that multiply to that 16 on the end.
+
+Right, and they have to add up to the negative 17 in the middle. Exactly. Which strips away all the visual noise. So, the basic arithmetic gives us negative 1 and negative 16? Yeah, that&#x27;s it.
+
+So, we write down m minus 1 times m minus 16. And you&#x27;ve successfully factored the simplified language. But, you know, you&#x27;re not in the new house yet. You still have to unpack the box. Oh, right.
+
+Okay. So, I open the m box and swap the original x squared back in. Let&#x27;s hear it. That gives me x squared minus 1 times x squared minus 16. Awesome.
+
+That wasn&#x27;t so bad. We&#x27;re done, right? Hold on. You just fell into the biggest trap in algebra. Wait, really?
+
+What did I miss? Look closer at those new brackets you just unpacked. Let me see. x squared minus 1 and x squared minus 16. Oh, I see it.
+
+They&#x27;re still squared. Right. They are what we call differences of squares. Oh, of course. The problem-solving framework demands you keep going until the components cannot be broken
+
+down any further. So, x squared minus 1 shatters into x minus 1 times x plus 1. You got it. And the other one? And x squared minus 16 breaks down into x minus 4 times x plus 4.
+
+Exactly. So, a problem that started with one massive chunk actually breaks into four separate pieces. And this structural rule applies even if the original masked monster was like a complicated binomial, right? Oh, absolutely.
+
+Even if we had 2x minus 1 all squared minus another big chunk squared. It still just breaks down to that basic a minus b times a plus b format. The underlying structure always holds. This is why writing let m equal whatever as your very first line is such a crucial anchor. And, you know, as a final fail-safe, you can always test your final algebraic breakdown.
+
+By plugging a simple number in? Yeah, like a 1 or a 2. Plug it into both the original monster and your final four brackets to ensure the reality perfectly aligns. Okay.
+
+So, just to recap, swapping the complex chunk for a simple letter, factoring the clean version, and then swapping the original chunk back. That is the whole process.</div></section><nav class="pn"><a href="audio.html?ep=u3-quadratic-form-L2#ep-u3-quadratic-form-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u3.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

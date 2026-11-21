@@ -1,0 +1,107 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Multiplying &amp; dividing · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Multiplying &amp; dividing</span><span class="zh" lang="zh-Hans">有理式乘除：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u4/audio/u4-multiply-divide-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u4/audio/u4-multiply-divide-L2.zh.m4a" download="u4-multiply-divide-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u4-multiply-divide-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u4-multiply-divide.html">Multiplying &amp; dividing</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">想象一下这个让人崩溃的场景你辛辛苦苦算了一整页的代数题结果最后因为漏掉了一个那个隐藏的除以0的坑全盘结束
+
+这种事情太常见了你说的肯定是那种复杂的分式运算吧对比如你要死磕一个硬乘法分子是x的平方减9
+
+分母是x的平方减4x然后去乘以另一个分式那个分式是什么它的分子是2x分母是x加3
+
+你要是直接把它们硬乘起来最后只会得出一个极其复杂的三次识简直让人头疼没错这完全是自讨苦吃
+
+把代数式直接相成就像把各种不同形状的乐高积木强行融化然后粘在一起这个比喻很贴切
+
+那笔记里给出的破解方法到底是什么呢其实非常优雅就是在相成之前先去阴势分解每一项这就像把复杂的模型
+
+拆解成最基础的片段也就是说拆解才是核心对吧对的
+
+一旦你全部分解了你会发现分子和分母之间其实有大量相同的片段这时候直接把它们抽掉就行了最后几乎所有的像都能被约掉
+
+听起来很爽所以成法的核心就是把每个分子和分母都分解任一分子和任一分母之间有相同因事就约去最后只成剩下的
+
+没错非常干脆但我现在看着笔记里关于处法的部分我的本能反应是拿到题目直接去翻转第二个分式
+
+毕竟口诀都是这么背的吧是啊处法不就是前不变除变成后颠倒吗等等等等
+
+你要是拿到题立刻就去执行颠倒绝对会一脚踩进刚才说的那个除以零的陷阱里为什么
+
+处法在机制上不就是乘以它的倒数吗机制上确实是但是在你急着颠倒之前我们必须先找选所有的那个不允许值
+
+也就是会让分母变成零的那些致命数字对这就是我最容易搞混的地方成法的不允许值很直观就乖乖待在那两个圆分母里
+
+很容易看到但除法中间既然有个颠倒的过程这些不允许值到底藏在哪些角落啊它们其实藏在三个地方前两个非常好找
+
+就是第一个分式的原分母还有第二个分式的原分母那最容易漏掉的第三个地方呢是除式也就是第二个分式的分子
+
+哦我懂了因为第二个分式一旦被颠倒它原本的分子就直接翻到了分母的位置上
+
+完全正确它在运算过程中实质上也变成了分母自然也就绝对不能等于零了原来如此
+
+这个逻辑很清晰所以为了不丢分动笔算除法前要在脑海里建立一个防错清单一共有五个必须要问自己的问题
+
+第一就是确认这是惩罚还是除法然后第一步永远是把所有的分子和分母都分解对吧对紧接着第二步是明确目标
+
+你要得出一个最减分式并且在后面写上全部的不允许值重点是全部那第三步呢第三步
+
+画出三个格子来装这些不允许值也就是第一个分式的分母第二个分式的分母以及除式的分子没错
+
+而且最关键的是必须在颠倒这个动作发生之前就把这三个格子填满填满之后就到了第四步使用工具了
+
+是的除法时第一个分式不变除号变乘号第二个分式颠倒任意分子因式和分母因式约分
+
+最后把剩下的乘起来那最后一步肯定是检验了对用一个允许的值比如x等于0
+
+或者x等于1分别代入原式和最终答案在对照那三个格子数一数限制条件有没有漏掉
+
+纸上谈兵不如实战我们来看看笔记里的这道具体出法题跟着逻辑走一遍分子是x的平方减16
+
+分母是x的平方加2x好的据除以第二个分式分子是x减4
+
+分母是x加2要求写出全部不允许值这是一道除法题我们得强忍住先去颠倒它的冲动
+
+第一步先拆解它的基础片段怎么拆x的平方减16可以分解成
+
+括号x减4乘以括号x加4前面的分母x的平方加2x提取公音式x
+
+变成x乘以括号x加2好趁着还没颠倒我先把我的三个格子填满格子一是第一个分母
+
+也就是x乘以括号x加2所以x不能等于0也不能等于负2没错继续
+
+格子二是第二个原分母就是x加2所以限制条件依然是x不能等于负2那格子三呢格子三就是除式的分子
+
+也就是括号x减4所以x绝对不能等于4汇总起来全部的限制条件就是x不等于0
+
+负2以及4陷阱被完美扫清了现在可以安全的去颠倒第二个分式了颠倒后就变成了成法
+
+我看到分子分母中同时出现了括号x减4和括号x加2直接约续它们一通大刀阔斧的清理之后剩下的结果就极度清爽了
+
+我看看分子只剩下括号x加4分母只剩下x对但为了保险
+
+最后检验一下那我拿x等于1代入检验如果我把1硬塞进最开始那个庞大的原式里绕过所有的心酸噩梦它最后吐出来的结果是5
+
+然后你再带入最终的答案看看把1带入我们简化的结果就是括号1加4去除以1结果也是5完全对上了
+
+最终答案确认为括号x加4去除以x并且x不等于0负24除法题最容易丢不允许值的分
+
+在颠倒之前从三个将要成为的分母中写全限制条件</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u4-multiply-divide-L2#ep-u4-multiply-divide-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u4.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

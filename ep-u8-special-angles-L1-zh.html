@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Special angles &amp; the unit circle: common mistakes · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L1 · Knowledge point</p><h1><span class="en" lang="en">Special angles &amp; the unit circle: common mistakes</span><span class="zh" lang="zh-Hans">特殊角与单位圆：常见错误</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u89/audio/u8-special-angles-L1.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u89/audio/u8-special-angles-L1.zh.m4a" download="u8-special-angles-L1.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u8-special-angles-L1.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u8-special-angles.html">Special angles &amp; the unit circle</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">想象一下这个场景啊你刚考完一场极其折磨人的数学测验嗯 神有体会是吧你在脑海里把那些几何三角形构建的特别完美
+
+编长算的严丝合缝结果卷子发下来满篇都是红叉哎 因为漏掉了细节对 就是因为漏掉了一个微小的负号
+
+所以今天啊咱们直接切入主题聊聊特殊角与单位员中的常见错误这是一个重在区绝对的
+
+我觉得特别好奇在求抠散135度的时候啊为什么很多人数值算对了符号却错了呃 这个主要是因为直觉欺骗了你
+
+怎么说既然三角形给的编长永远是正的那这个突然冒出来的符号到底是从哪来的这个符号啊
+
+你必须得看向线哦 向线没错在第二向线你的那个几何三角形虽然还在那
+
+但是X的方向其实已经是负的了啊 对到了X轴的左边了因为靠散对应的是X的方向所以靠散必然是负的
+
+明白了所以最终正确答案呢靠散135度就等于负的二分之跟号二原来如此等于说是符号必须跟着向线走
+
+确实是这样那顺着这个思路啊算Sign 240度的时候大家也经常犯迷惑嗯 那个很容易搞错对边
+
+是啊大家常把30度和60度的对边直接弄反这到底该怎么厘清啊其实逻辑非常简单只要记住
+
+短边也就是长度唯一的那条边必须对着小角也就是30度了对 小角对短边一对着30度
+
+哦 那60度对着的自然就是比较长的那条边了没错60度对着根号三所以Sign 60度就等于二分之根号三你说了这个
+
+在套用刚才的向线逻辑240度在第三向线正显是负的对由此推导出来
+
+Sign 240度就等于负的二分之根号三哇 这样记就清晰多了不过呢找参考角的时候感觉又是一个大坑
+
+呃 你是指什么情况比如求Tang330度的时候有人 也就是我会很直觉的把参考角直接量到Y轴上去哎呀 这个物须太常见了
+
+参考角永远是到X轴的夹角绝对不是到Y轴的永远是X轴绝对不能扣抢走 对吧没错
+
+所以在第四向线正确的算法是用360度减去该角也就是用360度减去330度得出参考角是30度对的
+
+那么Tang30度是三分之根号三然后因为在第四向线为负结果就是Tang的330度等于负的三分之根号三逻辑完全正确呜 看来只要找准参考线就不会错
+
+但是如果到了单位员上事情好像又复杂了嗯 因为全是坐标嘛对呀 满眼的X和Y比如单位员上210度对应的点是
+
+负的二分之根号三以及负的二分之一这是以时坐标那在求210度的时候面对这两个数
+
+我到底该挑X还是挑Y啊这就很容易混淆资料里提到一个特别绝的字母记忆法单位员上的点标准格式是
+
+cosθ 逗号sinθ 呃 这也没解决谁是谁的问题啊 你按英文字母表顺序来想 C是不是在S前面
+
+对啊A B C D嘛C在前那X和Y呢X也在Y前面
+
+哦 所以C对应的cosin就是排在前面的X也就代表横坐标没错然后S对应的sin
+
+也就是排在后面的Y代表竖坐标哇 这个字母记法简直了所以sin210度是Y坐标答案就是后面的那个负的二分之一
+
+就是这么直接太棒了那最后咱们再聊一个最容易半岛人的陷阱在求Tangent270度的时候
+
+很多人会除以0嗯 这是一个很经典的错误然后大家算出了除以0就顺手把结果当成0了呃 这两者在数学上
+
+有着本质的区别怎么讲0除以-1等于0这是没问题的但是-1除以0
+
+是没有任何值的因为除法规则不成立对 因为没有任何哪个数乘0能得-1确实找不到这种数
+
+X等于0所以Tangent270度无定义Tangent90度也一样</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u8-special-angles-L1#ep-u8-special-angles-L1"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u8.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

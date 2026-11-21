@@ -1,0 +1,33 @@
+Today, we are walking through five common mistakes made when factoring difference of squares and perfect squares. Yeah, because it is incredibly easy for your brain to take shortcuts. You just see patterns that, well, they just aren't there. Right. Like, for example, I look at the expression 16x squared plus 25. My brain immediately sees that 16 and 25 are perfect squares.
+
+So, you know, I really want to factor it. Oh, I know. It feels so satisfying to just assume it works. But the pattern of a minus b times a plus b strictly requires a minus sign between those squares. Right. Because if you force it and you expand 4x minus 5 times 4x plus 5. The opposing signs cause the middle terms to cancel out.
+
+And a negative times a positive gives you 16x squared minus 25, not plus 25. Oh, wow. Yeah. So a sum of two squares simply has no real factors. And since 16 and 25 share no common factor, well, that expression stays exactly as it is. Okay. So if the danger there is seeing a pattern that doesn't actually exist, I guess the exact opposite happens when you get halfway through a real pattern and just, I don't know, give up due to momentum.
+
+Oh, absolutely. Like, take the expression 16x to the power of 4 minus 1. I break that down into 4x squared minus 1 times 4x squared plus 1. And at that point, I really just want to call it a day and put my pencil down. Like, am I done?
+
+Not at all. Factoring fully is kind of like opening Russian nesting dolls. You have to scrutinize every single bracket you generate to see if there is another layer inside. Wait, really? So look at the brackets again.
+
+Yeah, you have to. That first bracket, 4x squared minus 1, is another difference of squares hiding in plain sight. You must break it down again into 2x minus 1 times 2x plus 1. Okay, I see that. And the other bracket, 4x squared plus 1, well, that's a sum of squares, which we just established cannot be factored further.
+
+Spot on. So the final fix requires all three brackets. That's 2x minus 1 times 2x plus 1 times 4x squared plus 1. That makes a lot of sense. So moving to mistake 3, let's talk about visual deception.
+
+Say you have a completely valid difference of squares, right? Like 9x squared minus 49. The instinct here is to just copy the minus sign into a single squared bracket and write it as the bracket 3x minus 7 squared. Yeah, exactly. But why is that wrong?
+
+Because doing that fundamentally changes the math. Writing the bracket 3x minus 7 squared actually creates an unwanted middle term. Oh, I see. Because when you multiply that out, you get negative 42x in the middle. Yes, and negative 7 times negative 7 ends in a positive 49.
+
+A true difference of squares relies on a positive and a negative colliding to create a zero middle term. Right. So the fix requires one minus bracket and one plus bracket. 3x minus 7 times 3x plus 7. Exactly. Which brings up a really serious case of confirmation bias for mistake 4.
+
+Oh, I know this one. You look at an expression like x squared plus 13x plus 36. I look at that and I see x squared at the front and 36 at the end. Let me guess. Your brain screams that these are perfect squares.
+
+Yeah, it really does. I just assume this must be the bracket x plus 6 squared. I mean, is having square numbers at the ends enough to call it a perfect square? No, square ends are not enough. You absolutely must check the middle.
+
+If it really were x plus 6 squared, the middle term would be 2 times x times 6. Which is 12x. Mm-hmm. But our expression here has 13x in the middle. Precisely.
+
+Treating those ends as a perfect square pattern is just a trap. You just have to treat it as an ordinary trinomial where you need a product of 36 and a sum of 13. Oh, okay. And that yields the fix of x plus 4 times x plus 9. Yes.
+
+And that brings us to the final trap. Mistake 5 is not looking for a common factor first. Right, because sometimes we miss the forest for the trees entirely. Like, you look at an expression like 12x squared minus 75. And neither 12 nor 75 are perfect squares, so it looks like we're stuck.
+
+Yeah, it really does. But the squares are just hiding behind a common factor. Both 12 and 75 are multiples of 3. Taking it out leaves 4x squared minus 25. Oh, I see it now.
+
+So 12x squared minus 75 equals 3 times the bracket 4x squared minus 25, which equals 3 times 2x minus 5 times 2x plus 5.

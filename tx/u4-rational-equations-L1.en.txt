@@ -1,0 +1,33 @@
+notes so you can actually avoid them in your own calculations. Right. And the fascinating thing is that our brains are naturally wired to take shortcuts. You know, the very first misstep usually happens before you even start solving. Yeah. It's like people just walk onto the minefield without looking at the map. Let's start with the illusion of the obvious.
+
+OK. Yeah, let's hear it. Picture this equation. On the left, we have X squared over X minus two, and that equals four over X minus two. Right. So both sides are being divided by X minus two. Exactly. Right.
+
+And my brain immediately says, well, just plug in X equals two. Right. Two squared is four. The sides match. Boom. Solved. And you just stepped on the first mine. You cannot divide by zero. It is mathematically impossible. Right. Because if you plug in two, that denominator becomes zero. Exactly.
+
+Which is why you have to write down your non-permissible values, your MPVs, right on line one. You must explicitly state that X cannot equal two before doing anything else. OK. So you establish the ground rules first, because later when you solve the numerators, you'll get positive or negative two. And that initial rule forces you to reject the positive two. Exactly.
+
+You have to reject it. OK. I can see I was skipping that. It's tempting. But speaking of taking the bait, let's look at the second mistake. Go for it. The equation is X plus four over X equals five. Now, my instinct here is to just clear the denominator by multiplying that fraction by X. Done.
+
+And you just tip the mathematical scale. If you only multiply the fraction, you ruin the balance of the entire equation. Wait. So the five needs to be multiplied by X as well? Yes. Every single term needs it. That lone five is a term. And so is that first X.
+
+The lowest common denominator has to multiply everything. So you apply it to the whole board and it turns into X squared plus four equals five X. Right. Which is a very solvable quadratic. You can just rearrange that and solve it safely. It's funny how our eyes betray us with that isolated five. We do something similar with negative signs, which is mistake number three.
+
+Oh, the invisible brackets trap. Oh, that's a classic. Right. So take this structure. Three over X minus a second fraction, which is X minus six over X.
+
+All of that equals two. Okay. So they share a denominator. Yeah. But when people clear the denominators, they almost always lose the negative sign. What does that happen? Well, the human brain groups visual blocks.
+
+The horizontal fraction line essentially acts like a visual wall. Right. So when they drop the denominators, they just write minus X minus six. Exactly. They forgot that the negative sign has to climb over that wall and affect the whole top floor. The fraction bar is basically an invisible bracket. Oh, wow.
+
+Yeah. So that minus sign must distribute to everything. Yes. It hits the X, making it negative. And it hits the negative six, turning it into a positive six. So the numerator actually becomes three minus X plus six. I can totally see how you trip up on that.
+
+It happens all the time. Okay. So mistake four shifts from pure equations to applications. Say one printer finishes a job in four hours and an older one takes 12 hours. Right. The classic work problem. And the natural instinct is to just add the times together, right? Like four plus 12. Which completely defies physical reality.
+
+Right. I mean, think about it. Two machines working together have to be faster than one working alone. Right. So the answer has to be under four hours. Exactly. You don't add the times, you add their rates. It's like pouring water into a bucket. You add the speed of the water, not the buckets themselves. Got it. So you calculate what portion of the job they complete per hour. Yes. The faster printer does one quarter of the job per hour. The slower one does one twelfth.
+
+And if you add those rates, one quarter plus one twelfth, you get four twelfths. Right. Which simplifies to one third of the job per hour. Meaning together it takes them exactly three hours. That makes perfect sense. It does. Once you frame it as a rate. Which brings us to the fifth and final trap, which is time and distance problems.
+
+Let's say a runner covers 12 kilometers. Okay. 12 kilometers. If she runs two kilometers per hour faster, she saves one hour of time. I see people set this up backward all the time by subtracting the slower time from the faster time. Yeah. And again, they lose track of the physical reality. A faster trip takes less time.
+
+Right. So the slower trip is a bigger number. Exactly. The time is the distance 12 divided by the speed. So 12 over her normal speed V is a bigger number than 12 over her faster speed V plus two. Okay. So you have to subtract the smaller time from the larger time to get that one hour difference. Yes. Slower time minus faster time equals one hour. So the correct setup is 12 over V minus 12 over V plus two equals one.
+
+That is exactly right. So to safely cross this mathematical minefield, you just need to remember these rules. State your restrictions up front. Balance the scale by applying operations to every single term. Watch out for the visual walls of invisible brackets and use rates, not times when combining efforts.

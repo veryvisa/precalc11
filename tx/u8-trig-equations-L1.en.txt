@@ -1,0 +1,27 @@
+So let's jump right into the first equation. Sin theta equals 0.6. For 0 degrees is less than or equal to theta is less than 360 degrees to the nearest tenth. If you just rely solely on the inverse key on your calculator here, why does that lead you to the wrong answer?
+
+Well, mostly because the inverse key only returns one single angle. It doesn't really see the whole picture. Right. It's just giving you one piece. Exactly. Because sine is also positive in quadrant two. You know, there's actually a second angle out there that has the exact same sign.
+
+Okay. So the calculator just completely misses that. How do we fix it? The fix is actually pretty straightforward. In quadrant two, you just calculate 180 degrees minus 36.87 degrees, which equals 143.13 degrees.
+
+Oh, because 36.87 degrees is the angle the calculator gave you in quadrant one. Yeah, exactly. So your correct answers are 36.9 degrees and 143.1 degrees. Okay. That makes sense. But what about when negative values get thrown in?
+
+Let's move to the next equation. Cosine theta equals negative 0.4 for that same 0 to 360 degrees range. Oh, yeah. This is where people really mess up by taking the reference angle from the negative value. Because a reference angle is supposed to just be positive, right?
+
+Yes. It is always between 0 degrees and 90 degrees. So if you use that negative value, the calculator gives you an angle that's already in quadrant two. Whoa. Okay. So if you then try to apply your quadrant rules to that... You end up moving it twice. It means applying the quadrant rules just completely throws off your math.
+
+Yikes. So what is the actual fix for the negative value then? You have to find the reference angle by using the inverse cosine of the positive value. So, you know, positive 0.4. Got it. So you just strip the negative sign away first.
+
+Right. And that gives you approximately 66.42 degrees. Okay. Then quadrant two gives 113.6 degrees. And quadrant three gives 246.4 degrees. So positive reference angles only. Mm-hmm.
+
+Next up, we have tangent theta equals negative one. This is the classic wrong pair of quadrants trap. Right. Because people see a negative and they automatically think of quadrant three, you know, down in the bottom left. Exactly.
+
+But in quadrant three, both X and Y are negative. And since tangent is Y divided by X, a negative divided by a negative means tangent is actually positive there. Wait, really? So the negatives just cancel out? They do.
+
+Tangent is actually negative in quadrant two and quadrant four. Oh, I see. So how do we calculate the fix? Well, quadrant two is 180 degrees minus 45 degrees, giving 135 degrees. And quadrant four is 360 degrees minus 45 degrees, giving 315 degrees. Okay. Let's look at something a bit different now. The equation two cosine theta minus one equals zero.
+
+What goes wrong if you like try dividing first? Oh, that's a huge algebra trap. Dividing by two means you absolutely must divide every single term. So you'd get like a messy fraction right out of the gate. Yeah. You'd have a minus one half in there immediately. Moving the constant first avoids this trap completely. Okay. So if we just move it over, we get two cosine theta equals one.
+
+Exactly. Meaning cosine theta equals one half. And from there, the reference angle is just a nice clean 60 degrees. And since cosine is positive in quadrant one and quadrant four. The answers are 60 degrees and 300 degrees. Perfect. Okay. Final equation. Four sine theta plus seven equals two. And this is where people completely miss that the value is out of range. Because, okay, if you subtract seven, you get four sine theta equals negative five.
+
+And dividing by four gives you negative five over four. Right. And notice that it's not negative four over five. People just sort of flip the fraction in their heads because it looks so normal. So the impossible value goes completely unnoticed. Well, so what's the actual fix here? Well, sine theta equals negative one point two five, which is less than negative one. Sine is never below negative one. No solution.

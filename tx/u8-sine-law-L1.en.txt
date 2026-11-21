@@ -1,0 +1,21 @@
+Right, so let's just hit mistake one. This is wrong angle pairing. Say you have a scenario like triangle ABC. Okay. Angle A is 45 degrees, angle B is 60 degrees, and side A is 10, and you need to find side B to the nearest temp. Got it.
+
+Now, looking at a diagram, it is so tempting to just pair adjacent numbers together. Oh, definitely. But the core rule here is that each side actually belongs with the angle across from it. Like directly across. Right. So side B pairs with angle B, which is 60 degrees, and side A, the 10, pairs with angle A, the 45 degrees. Okay, so for the fix, we just set that up plainly, like B divided by sine 60 degrees equals 10 divided by sine 45 degrees.
+
+Exactly. Which makes B approximately 12.2. And you can do a quick logical check there, right? A bigger angle yields a bigger side. Yeah. 60 degrees is bigger than 45 degrees, so side B is bigger than side A. Okay, so mistake two is the upside down ratio. Even if you get the pairs right, the algebra can just ruin the result. Oh yeah. It happens all the time.
+
+So here is the scenario. Triangle ABC, where angle A is 30 degrees, angle C is 100 degrees, and side C is 18. You need to find side A. Well, if your ratio is upside down, and you multiply by sine 30 degrees to isolate A, it moves the angle to the top. Right, and calculating that gives a result of 35.5. Which is visibly way too big. Yeah, because 30 degrees is the smallest angle.
+
+Exactly. The correct plain math setup is A equals 18 times sine 30 degrees divided by sine 100 degrees. Got it. And that is approximately 9.1. Much more realistic. Okay, mistake three. Using a side before finding its angle. What do you do when the opposite angle is just, you know, missing entirely? This is a really tricky one.
+
+Like in triangle ABC, where angle A is 35 degrees, angle B is 80 degrees, and side C is 12, looking for A. People often incorrectly pair side C, the 12, with a given angle just because angle C was never found. They just use what is there. Right, but you must calculate angle C first. So 180 degrees minus 35 degrees minus 80 degrees equals 65 degrees. So angle C is 65 degrees.
+
+Then you fix it by setting A equal to 12 times sine 35 degrees divided by sine 65 degrees. Yes, which is approximately 7.6. Awesome. Mistake four connects to tool errors, specifically having your calculator in radian mode. Oh, the classic error. Right. So in triangle ABC, angle A is 50 degrees, angle B is 70 degrees, and side A is 8.
+
+Finding side B might suddenly yield a negative value. And that is a huge warning sign. Signs of angles between 0 degrees and 180 degrees are always positive. So a negative length means something went wrong. Right. It means the calculator read 70 and 50 as radians. In degrees, the plain math is 8 times 0.9397 divided by 0.7660.
+
+Which is approximately 9.8. Exactly. Okay, moving to the fifth and final mistake. Rounding the sign too early. I always wonder about the danger of rounding.
+
+It is super dangerous here. Let's use triangle ABC where side A is 14, side B is 10, and angle A is 65 degrees. We are trying to find angle B. Why is rounding 0.6474 down to 0.65 harmful? Because the inverse sine function magnifies the rounding error. Oh, I see.
+
+Yeah. It moves the angle by 0.2 degrees, which actually changes the 10th digit. So you just have to keep the full value. You must keep the full value. Sign B is approximately 0.647363, making B approximately 40.3 degrees. Only one triangle.

@@ -1,0 +1,39 @@
+So today we're jumping into your math material on angles and standard position. And our main goal is figuring out how to mathematically tame infinite rotations. Right, because if you're just spinning round and round, like reaching some crazy number like 600 degrees, those massive numbers mean absolutely nothing without an anchor. Yeah, you need a fixed starting line.
+
+Exactly. And in math, that fixed starting line is what we call standard position. Okay, so I assume standard just means, you know, we all agree on a universal starting point. So my math actually matches your math. You've got it. So your starting line, which the notes call the initial arm, always lies flat on the positive x-axis. The right side of the horizontal line.
+
+Right. And from there you move. If you turn counterclockwise, well, that's a positive angle. But if you turn clockwise, it's a negative angle. Gotcha. And wherever that rotation eventually stops, we call that the terminal arm. Okay, so the terminal arm is just where you finally stop spinning.
+
+But looking at these materials, there's a huge warning here. Oh, about the reference angles. Yeah, it says you strictly have to measure a reference angle against the x-axis, like never ever the y-axis. Why are we so anti-y-axis? I know it sounds intense, but it's because we need a completely consistent anchor.
+
+The reference angle is always, always the acute angle between your terminal arm and the x-axis. So it's always under 90 degrees. Right. By strictly using the horizontal x-axis, we create these predictable mathematical rules for every single quadrant to find that gap. Okay, hold on though.
+
+I'm looking at these rules for the quadrants and I mean, I'm losing the thread with all these formulas. Quadrant two is 180 degrees minus theta. Quadrant three is theta minus 180 degrees. It's a lot of formulas. It is.
+
+Can we just think about this visually instead of memorizing equations? Absolutely. Visual is honestly much better. So just think about the flat horizontal line. The left side of that flat line is the 180 degree mark.
+
+Okay, I'm picturing it. So if your terminal arm stops in quadrant two, which is the top left, you stop just short of that flat line. Oh, right. So to find the gap between where you stopped at the flat ground, you just take 180 degrees and subtract your angle. Oh, okay.
+
+So for quadrant three, the bottom left, you've actually passed the 180 degree mark. Exactly. So you take your angle and subtract 180 degrees just to see, you know, how far past the line you actually went. You nailed it. And then in quadrant four, down to the bottom right, you are almost at a full circle.
+
+So you just subtract your angle from 360 degrees to find that remaining gap to the x-axis. Okay, that makes the formulas make so much more physical sense. But wait, what if you just keep spinning? Like doing multiple laps? Right.
+
+You could land in the exact same spot after one rotation or like 50 rotations. How does the math tell the difference between one lap and 10? Well, it uses something called coterminal angles. Basically, those are angles that share the exact same terminal arm, even if they've taken a totally different number of spins to get there.
+
+Kind of like lapping someone on a track. Like you might have run three miles and I might have run one, but if we stop at the exact same finish line... You're positioned as coterminal. Perfect analogy.
+
+And to find a coterminal angle, you literally just add or subtract full rotations, meaning 360 degrees any number of times. Okay, so let's put this into practice with a really chaotic angle. The text gives the example of negative 600 degrees. Right.
+
+Let's walk through it. So first step, we figure out what we're actually dealing with. Well, it's negative, which means we're rotating clockwise. And since it is 600 degrees, we're obviously doing way more than one full turn. So to make this manageable, we use that tool we just talked about, adding or subtracting laps.
+
+Exactly. So let's add 360 degrees. Okay. Negative 600 degrees plus 360 degrees. That is negative 240 degrees.
+
+But that's still negative, right? Still clockwise. So we just add 360 degrees again. Let's see. Negative 240 degrees plus 360 degrees brings us to positive 120 degrees.
+
+Might easier to visualize, right? Way easier. So 120 degrees lands between 90 degrees and 180 degrees, which places us right in quadrant two. Now we just apply that visual logic we talked about earlier. You stop short of the flat 180 degree line.
+
+So 180 degrees minus our angle of 120 degrees leaves us with a reference angle of 60 degrees. And since 60 degrees is under 90 degrees, we know we have a valid reference angle. So the final answer is 120 degrees in quadrant two with a reference angle of 60 degrees. You got it. But the text gives an ultimate warning about getting this wrong.
+
+Yes, I see that. It says almost every single error people make with reference angles happens simply because they try to do all of this entirely in their heads. Exactly. They skip sketching it out. Just taking three seconds to draw the axes, the terminal arm, and that little arc to the x-axis is absolutely non-negotiable.
+
+Do not skip the sketch.

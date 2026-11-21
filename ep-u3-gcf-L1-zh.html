@@ -1,0 +1,85 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Greatest common factor &amp; grouping: common mistakes · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L1 · Knowledge point</p><h1><span class="en" lang="en">Greatest common factor &amp; grouping: common mistakes</span><span class="zh" lang="zh-Hans">提公因式与分组分解：常见错误</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u14/audio/u3-gcf-L1.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u14/audio/u3-gcf-L1.zh.m4a" download="u3-gcf-L1.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u3-gcf-L1.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u3-gcf.html">Greatest common factor &amp; grouping</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">直接切入正题你今天看到的这份关于代数英式分解的笔记其实揭示了一个很有趣的现象就是为什么我们在提取
+
+最大供应式或者分组分解的时候老是觉得自己已经做到底了但其实还留着隐患这个现象真的很普遍我们在做题的时候
+
+往往以为自己在做严密的推导但实际上大脑的直觉反应经常在暗中欺骗我们对所以最常见的一个情况就是
+
+我们总是提取不够彻底没错一旦大脑识别到了某个公通点比如看到有个x它就觉得任务完成了
+
+但代数分解要求你必须提取变量的最低次密就拿笔记里那个12x的三次方减去18x的平方来说吧哦对
+
+这两箱里面都有x的平方很多人可能随手提一个x出来或者光把前面的数字提出来就以为大功告成了就是这样
+
+如果你提完之后发现括号里面剩下了2x的平方减去3x那你就得小心了这说明里面明显还有个供应式x
+
+没弄干净也就是说停的太早了确实正确的做法应该是
+
+把数字的最大供应数6和x的平方结合起来直接提取6x的平方得到6x的平方乘以括号
+
+2x减3发现自己没提干净还算容易但我看笔记里提到的另一个陷阱简直就是一种视觉错觉比如分解8x平方y加上4xy
+
+很多人把4xy提出来后括号里就只剩一项了那个4xy就像凭空消失了一样这恰恰是人类潜意识在作祟你知道的
+
+大脑很容易把提取等同于物理上的拿走就当成了减法觉得拿走了4xy它就变成0了
+
+但因是分解本质上是除法呀相同非零相相除等于1而不是零
+
+对吧完全正确这就像你有一个成法分配率的魔法口袋本来里面装了两项
+
+你把那个1给当成0扔了如果你再把它展开口袋里变魔术一样只剩下一项
+
+只能得到8x平方y了这个比喻非常精准提取供应式本质上是留下一个站位符所以你必须保留那个1
+
+正确结果是4xy乘以括号2x加1原来如此那除了这种消失的项分组分解时的符号问题
+
+也很让人头疼对处理符号容易产生认知偏差特别是符号以分组分解x的三四方
+
+加上4x平方减去5x减去20为例前两项提x的平方剩下x加4这个很直观
+
+但在后两项提取-5的时候很多人就会再跟头因为当你提取一个负数括号里每一项的符号都必须翻转-20除以-5
+
+负负得正结果是正4所以括号里必须是x加4这样前后才能配得上最终分解为括号x加4
+
+乘以括号x的平方减5没错这里的x的平方减5没法用整数再分解了到这一步才是真正的安全落地
+
+慢着如果括号里的式子看起来像x的平方减5但其实它还能再拆呢这就引出了完全分解的盲区了绝对的
+
+以x的三次方减去2x的平方减去16x加上32为例你分组提取之后会得到括号x-2乘以括号x的平方减16很多人到这一步就直接交卷了你完成复杂分组后大脑会有一种虚假的放松感
+
+对吧就没注意到x平方减16其实还能拆对完全分解要求你检查每一个括号
+
+x的平方减16是个平方差必须继续分解为括号x-4乘以括号x加4所以最终完整的答案必须是括号x-2乘以括号x-4再乘以括号x加4是的
+
+必须克服那种想提早结束的冲动哇真的是在和自己的直觉做斗争最后笔记里还有一个让人觉得很头晕的情况当柿子里同时出现括号x-3和括号3-x的时候
+
+我们该怎么办以5x乘以括号x-3加上2乘以括号3-x为例它们长得很像但方向反了你必须在逻辑上明确
+
+3-x并不是x-3而是负的括号x-3也就是说为了把它们统一起来我们可以强行翻转
+
+但代价是外面的符号必须变号原式中的加2必须变成-2完全成全这样后面就能顺理成章的写成括号x-3了和平后就得到括号x-3乘以括号5x-2
+
+最后用x等于0来检验一下原式等于6答案代入等于-3乘以-2也等于6检验通过</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u3-gcf-L1#ep-u3-gcf-L1"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u3.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

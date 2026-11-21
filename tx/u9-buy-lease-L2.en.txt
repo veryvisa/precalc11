@@ -1,0 +1,29 @@
+Imagine walking into a dealership, right? You pay $389 a month for a car, and someone else pays $703 a month for the exact same vehicle. You would immediately think you got the better deal. Right, exactly. But what if I told you that over a four-year period, the person paying nearly double every month actually wins mathematically? Which sounds completely backwards. It does.
+
+Well, the secret to unraveling that whole dealership contradiction really comes down to understanding net cost. Okay, how so? Like when you lease, you are basically paying for an expensive long-term rental subscription. So you get those lower monthly payments? Sure, but at the end of the term, you walk away empty-handed. Your total cost is simply your down
+
+payment plus all those monthly payments, plus any end-of-lease fees for extra kilometers or wear and tear. So you are paying strictly for the convenience of using it? Exactly. But buying fundamentally changes what you are paying for because you end up with an asset. Right. So your true net cost is everything you paid out of pocket, whether in cash or through a loan, minus whatever that asset is worth when you are done with it.
+
+Yeah, that is the crucial distinction. You always have to factor in resale value. Okay. So we have established that leasing a car leaves you empty-handed because cars lose value over time. But what happens when we apply this exact same net cost logic to something that actually gains value like a house? The direction of the value changes, but the mathematical mechanism is identical.
+
+Cars depreciate, meaning they lose value exponentially over time. And homes generally appreciate. Right, meaning they gain value exponentially. To calculate this, the notes use a specific compound interest formula. V equals P times, in brackets, one plus or minus R to the power of T. Let me translate that into plain English. So V is the final value and P is the starting price.
+
+Correct. And inside those brackets, we use a plus sign if the asset is gaining value, like a home, or a minus sign if it is losing value, like a car. Exactly. And T is the number of years. You are just compounding that growth or decay, year after year.
+
+Makes total sense. And when we apply this to renting versus buying a home, the notes highlight a massive paradigm shift. You must compare the unrecoverable costs. Unrecoverable meaning the money you literally never get back. Yeah, exactly. Renting is 100% unrecoverable. But homeowners often fall into the trap of thinking
+
+their entire monthly mortgage payment is a cost. Wait, I need to pause on that because that is a huge realization. Paying the principal on a mortgage isn't really a cost at all. No, it's not. It is essentially a forced savings account. You are just moving money from your bank account
+
+into your house equity. That is the perfect way to look at it. The principal becomes equity. For a home, your actual unrecoverable costs are the mortgage interest, property tax, strata fees, maintenance, and the lost investment return. The lost return you could have earned if you had invested that down payment elsewhere.
+
+Precisely. And as a quick technical note from the text, when you are calculating that interest portion, a Canadian fixed rate mortgage is always compounded semi-annually. Okay, got it. I want to see this math in action to prove the point. Let's walk through the exact three-year scenario laid out in the notes. Let's do it.
+
+So if you are trying to decide what to do with a $26,000 car, the notes say it loses 18% of its value every single year. Which is pretty standard. Right. We need to compare buying it in cash versus leasing it. The lease terms are $1,500 down, $3.69 a month, and $400 in end of lease fees.
+
+Let's look at the mechanism for the buy side first. If the car loses 18% of its value each year, it retains 82% of its value. It's simple exponential decay. Right. So mathematically, you take that $26,000 and multiply it by the 82% value it retains, compound it over three years. It is 26,000 times 0.82 to the power of three.
+
+That equals a resale value of approximately $14,335.57. Now compare that to the lease side. We add the $1,500 down payment, the 36 monthly payments of $369 and the $400 in end fees. And you walk away with no asset. Right. You have no asset and your total cost is $15,184. Oh, wow. So buying wins by $3,519.57.
+
+Mathematically, yes. But I have to push back here because buying only wins if I actually have $26,000 sitting in my bank account to pay in cash right now. That is the reality check. The text actually points this out as a caveat. The lease only wins if you simply cannot spare that upfront cash.
+
+That makes a lot of sense. Buy versus lease questions are graded on organization. Make two columns, buy a lease, list every cost with its calculation, subtract the resale value on the buy side, then give a one sentence recommendation with a reason. So, let's go.

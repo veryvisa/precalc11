@@ -1,0 +1,95 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about The sine law · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about The sine law</span><span class="zh" lang="zh-Hans">正弦定理：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u89/audio/u8-sine-law-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u89/audio/u8-sine-law-L2.zh.m4a" download="u8-sine-law-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u8-sine-law-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u8-sine-law.html">The sine law</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">想象一下这个场景啊两座相距十公里的防火瞭望塔同时发现了远处的一屋烟那这个情况其实很紧急对吧
+
+必须立刻定位对为了控制火情现在必须立刻确定火场的准确位置但是呢
+
+他们只知道各自看向烟雾的观测角也就是说这中间完全不需要借助直角仅凭各自的观测角他们就能精确算出火场的距离
+
+没错这就是你今天提交给我们的这份笔记里的核心悬念今天我们要深入探讨的就是这背后的原理
+
+也就是正弦定理这是一个非常巧妙的法则在任何三角形中每条边处以它对角的正弦得数都是相同的
+
+也就是那个著名的公式A除以sinA等于B除以sinB等于C除以sinC对这里的小写A呢
+
+就是角A的对边那么问题来了我们在什么具体情况下才能真正去触发和使用这个定理呢你在这份笔记里
+
+其实强调了一个非常关键的核心词也就是完整完整能具体解释一下吗其实就是说
+
+当你知道了一组完整的边和它的对角然后再加一条边或者一个角的时候就可以使用了
+
+也就是笔记里提到的AASASA或者SSA这种情况对吧完全正确而且笔记里还分享了一个
+
+避免计算错误的超棒的劣势捷径就是永远把位置量放在分子的位置没错比如你要求边就用B除以SineB
+
+等于A除以SineA那求角的时候呢求角的话就把正弦放分子也就是SineB除以B
+
+等于SineA除以A懂了那如果已经知道两个角了第三个角是不是直接用180度减去它们就行
+
+对直接减就行接下来咱们顺着笔记梳理一下动笔前必须按顺序
+
+问自己的五个灵魂拷问第一步肯定是看已知条件吧没错先标出三角形把你刚才说的那组完整的
+
+边和对角找出来找到之后第二步就是明确求什么比如是求边还是求角单位是什么
+
+还有要保留几位小数细节很重要然后第三步也是很多人会忽略的一点就是画出来
+
+说到这个我其实有点想质疑既然都有那么精确的公式了直接带进去算不好吗为什么非要在动笔前
+
+费劲画个草图啊这个嘛因为几盒里有个常识就是最大的角对着最长的边
+
+对大角对大边你画个图就能在干气算气之前非常直观的预估答案的大小范围了
+
+确实这就相当于给计算结果上个保险那第四步用什么工具也就是刚才说的
+
+把位置量放分子劣势了对的而且这里有个大坑就是计算器必须设定为角度值并且中间的计算值
+
+要一直保留到最后明白了最后一步就是检验你要看看算出来的边的大小顺序和对角是不是一致
+
+还有三角之和是不是180度而且这里有个特别提醒如果你算出了负的边长千万别以为见鬼了那说明什么
+
+说明你的计算器错射成了弧度值而不是角度值这个太真实了好
+
+为了让你彻底弄懂我们直接用笔记里的题目来一次实战演练吧来吧直接上数据
+
+在三角形ABC中角A等于40度角B等于75度边A等于12厘米要求边B精确到0.1厘米
+
+拿到题咱们先预估这里完整的一组是边A等于12和角A等于40度对
+
+然后要求的是75度的角B对应的边B因为角B的75度大于40度所以算出来的边B必须大于12
+
+好带着预估我们来列式验证位置边放分子也就是B除以375度
+
+等于12除以340度嗯得出B就等于12乘以375度然后再除以340度这个算出来
+
+约等于18.0厘米你看18.0大于12这和我们草图的预估完全一致了
+
+完美所以答案就是B约等于18.0厘米解题的第一步永远是先画图标字母
+
+没错并且在列式之前一定要全出那一组完整的边和对角对这就是我们今天书里的最核心的行动指南了
+
+确实是这样正如你笔记最后一行给出的最终落脚点实际问题中正弦定理通常先求出一条斜边再用直角三小型
+
+求高度或宽度</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u8-sine-law-L2#ep-u8-sine-law-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u8.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

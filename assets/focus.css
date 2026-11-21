@@ -1,0 +1,102 @@
+/* Focus deck v1 — canonical copy: bc-teen-pathways/kit/focus.css (sites copy verbatim). Spec: fcgbbs/design/focus-deck-standard-2026-11-16.md */
+:root {
+  --fd-bg: #f7f5ef; --fd-card: #ffffff; --fd-ink: #23222b; --fd-ink2: #5a5866; --fd-line: #e3dfd5;
+  --fd-accent: var(--a, var(--accent, #4f46e5)); --fd-accent-ink: #ffffff;
+  --fd-got: #1d7a4c; --fd-got-bg: #e3f6ea; --fd-again: #9a5a14; --fd-again-bg: #fdeedb;
+  --fd-shadow: 0 2px 4px rgba(30, 25, 40, .05), 0 18px 40px -18px rgba(30, 25, 40, .28);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-mode="light"]):not([data-theme="light"]) {
+    --fd-bg: #121219; --fd-card: #1d1d27; --fd-ink: #ecebf2; --fd-ink2: #b3b1c0; --fd-line: #33333f;
+    --fd-accent: var(--a, var(--accent, #8b85ff)); --fd-accent-ink: #111118;
+    --fd-got: #7fd3a2; --fd-got-bg: #173826; --fd-again: #e9b47a; --fd-again-bg: #3d2a14;
+    --fd-shadow: 0 2px 4px rgba(0, 0, 0, .4), 0 18px 40px -18px rgba(0, 0, 0, .6);
+  }
+}
+:root[data-mode="dark"] {
+  --fd-bg: #121219; --fd-card: #1d1d27; --fd-ink: #ecebf2; --fd-ink2: #b3b1c0; --fd-line: #33333f;
+  --fd-accent: var(--a, var(--accent, #8b85ff)); --fd-accent-ink: #111118;
+  --fd-got: #7fd3a2; --fd-got-bg: #173826; --fd-again: #e9b47a; --fd-again-bg: #3d2a14;
+  --fd-shadow: 0 2px 4px rgba(0, 0, 0, .4), 0 18px 40px -18px rgba(0, 0, 0, .6);
+}
+
+/* entry: the two or three big buttons at the top of a page */
+.fd-entry { display: flex; flex-wrap: wrap; gap: 10px; margin: 14px 0 18px; }
+.fd-btn { flex: 1 1 150px; min-height: 56px; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 10px 12px; border-radius: 16px; border: 1.5px solid var(--fd-line); background: var(--fd-card); color: var(--fd-ink);
+  font-family: inherit; font-weight: 600; font-size: 1rem; line-height: 1.25; cursor: pointer; box-shadow: var(--fd-shadow); text-align: center; }
+.fd-btn:hover { border-color: var(--fd-accent); }
+.fd-btn:focus-visible { outline: 3px solid var(--fd-accent); outline-offset: 2px; }
+.fd-btn.fd-primary { background: var(--fd-accent); color: var(--fd-accent-ink); border-color: transparent; }
+.fd-btn .fd-ico { font-size: 1.2em; }
+.fd-btn .fd-lab :is(.en, .l-en) { white-space: nowrap; }
+.fd-btn.fd-primary .fd-lab :is(.zh, .l-zh) { color: inherit !important; opacity: 1 !important; }
+html[data-lang="both"] .fd-btn .fd-lab :is(.zh, .l-zh) { display: block !important; font-size: .8em; font-weight: 500; opacity: .85; }
+html[data-lang="both"] .fd-btn .fd-lab :is(.zh, .l-zh)::before { content: none !important; }
+.fd-btn .fd-due { font-size: .8em; opacity: .85; font-weight: 500; }
+.fd-btn .fd-due[hidden] { display: none; }
+
+/* focus mode: everything else on the page steps away */
+html.fd-on, html.fd-on body { overflow: hidden !important; }
+html.fd-on body > :not(.fd-ov) { visibility: hidden !important; }
+.fd-ov { position: fixed; inset: 0; z-index: 2147483000; background: var(--fd-bg); color: var(--fd-ink); visibility: visible !important;
+  display: flex; flex-direction: column; padding: max(10px, env(safe-area-inset-top)) max(14px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(14px, env(safe-area-inset-left));
+  font-size: 1.15rem; line-height: 1.55; }
+.fd-top { display: flex; align-items: center; gap: 12px; max-width: 760px; width: 100%; margin: 0 auto; }
+.fd-count { font-variant-numeric: tabular-nums; color: var(--fd-ink2); font-size: .95rem; min-width: 4.5em; }
+.fd-prog { flex: 1; height: 6px; border-radius: 6px; background: var(--fd-line); overflow: hidden; }
+.fd-prog i { display: block; height: 100%; background: var(--fd-accent); border-radius: 6px; transition: width .25s ease; }
+.fd-x { width: 48px; height: 48px; border-radius: 50%; border: 0; background: transparent; color: var(--fd-ink); font-size: 1.4rem; cursor: pointer; }
+.fd-x:hover { background: var(--fd-line); }
+.fd-stage { flex: 1; display: flex; align-items: center; justify-content: center; min-height: 0; padding: 14px 0; overflow: hidden; }
+.fd-card { width: 100%; max-width: 760px; max-height: 100%; overflow-y: auto; background: var(--fd-card); border: 1px solid var(--fd-line);
+  border-radius: 24px; box-shadow: var(--fd-shadow); padding: clamp(20px, 5vw, 44px); font-size: clamp(1.12rem, 2.6vw, 1.35rem);
+  animation: fd-in .18s ease-out; overscroll-behavior: contain; }
+.fd-card:focus, .fd-card:focus-visible { outline: none; }
+.fd-flash:focus-visible { border-color: var(--fd-accent); }
+@keyframes fd-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .fd-card { animation: none; } .fd-prog i { transition: none; } }
+.fd-card img, .fd-card svg { max-width: 100%; height: auto; }
+.fd-card .katex-display { overflow-x: auto; overflow-y: hidden; }
+.fd-kicker { font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--fd-accent); margin-bottom: 14px; }
+.fd-kicker :is(.zh, .l-zh) { text-transform: none; letter-spacing: 0; }
+.fd-big { font-size: 1.2em; line-height: 1.5; font-weight: 550; }
+.fd-card h2, .fd-card h3 { margin: .2em 0 .5em; line-height: 1.25; }
+.fd-flash { cursor: pointer; text-align: center; display: flex; flex-direction: column; justify-content: center; min-height: min(52vh, 420px); }
+.fd-face { overflow-wrap: anywhere; }
+.fd-flash .fd-front { font-size: 1.15em; font-weight: 600; }
+.fd-back { margin-top: 18px; padding-top: 18px; border-top: 1.5px dashed var(--fd-line); }
+.fd-hintline { margin: 22px 0 0; color: var(--fd-ink2); font-size: .85rem; }
+.fd-q .fd-front { font-weight: 600; }
+.fd-opts { display: grid; gap: 10px; margin-top: 16px; }
+.fd-opt { display: flex; gap: 12px; align-items: flex-start; text-align: left; min-height: 48px; padding: 10px 14px; border-radius: 14px;
+  border: 1.5px solid var(--fd-line); background: transparent; color: var(--fd-ink); font: inherit; font-size: .95em; cursor: pointer; }
+.fd-opt b { flex: none; min-width: 1.6em; white-space: nowrap; color: var(--fd-ink2); }
+.fd-opt.fd-right { border-color: var(--fd-got); background: var(--fd-got-bg); }
+.fd-opt.fd-right b::after { content: " ✓"; color: var(--fd-got); }
+.fd-opt.fd-notyet { border-color: var(--fd-again); background: var(--fd-again-bg); }
+.fd-hint { margin-top: 14px; padding: 10px 14px; border-radius: 12px; background: var(--fd-again-bg); font-size: .95em; }
+.fd-ans { font-weight: 600; }
+.fd-why { margin-top: 10px; color: var(--fd-ink2); font-size: .95em; }
+.fd-whymine { padding: 8px 12px; border-radius: 12px; background: var(--fd-again-bg); color: var(--fd-ink); }
+.fd-sum { text-align: center; }
+.fd-sum-main { font-size: 1.3em; font-weight: 650; margin: .2em 0 .6em; }
+.fd-sum-sub { color: var(--fd-ink2); margin: 0; }
+
+.fd-ctl { display: flex; gap: 8px; justify-content: center; align-items: stretch; flex-wrap: nowrap; max-width: 760px; width: 100%; margin: 0 auto; }
+.fd-b { min-height: 52px; min-width: 0; padding: 8px 14px; border-radius: 16px; border: 1.5px solid var(--fd-line); background: var(--fd-card);
+  color: var(--fd-ink); font-family: inherit; font-weight: 600; font-size: 1.02rem; line-height: 1.2; cursor: pointer; }
+.fd-b:disabled { opacity: .35; cursor: default; }
+.fd-b:focus-visible { outline: 3px solid var(--fd-accent); outline-offset: 2px; }
+.fd-b.fd-main { background: var(--fd-accent); color: var(--fd-accent-ink); border-color: transparent; flex: 1 1 0; max-width: 280px; }
+.fd-b.fd-got { background: var(--fd-got-bg); color: var(--fd-got); border-color: var(--fd-got); }
+.fd-b.fd-again { background: var(--fd-again-bg); color: var(--fd-again); border-color: var(--fd-again); flex: 1 1 0; max-width: 220px; }
+.fd-b.fd-nav { font-size: 1.6rem; padding: 4px 0; width: 52px; flex: none; }
+.fd-ctl .fd-b:not(.fd-nav) { flex: 1 1 0; max-width: 280px; }
+
+/* EN+中: the face shows English only; the Chinese appears once the card is turned or the answer is shown */
+html[data-lang="both"] .fd-flash:not(.fd-rev) .fd-front :is(.zh, .l-zh),
+html[data-lang="both"] .fd-q:not(.fd-rev) .fd-front :is(.zh, .l-zh),
+html[data-lang="both"] .fd-q:not(.fd-rev) .fd-opts :is(.zh, .l-zh) { display: none !important; }
+html[data-lang="both"] .fd-ov :is(.zh, .l-zh) { font-size: .9em; }
+@media print { .fd-entry, .fd-ov { display: none !important; } }

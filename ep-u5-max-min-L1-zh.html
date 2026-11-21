@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Max/min problems: common mistakes · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L1 · Knowledge point</p><h1><span class="en" lang="en">Max/min problems: common mistakes</span><span class="zh" lang="zh-Hans">最值应用题：常见错误</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u5-max-min-L1.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u5-max-min-L1.zh.m4a" download="u5-max-min-L1.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u5-max-min-L1.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u5-max-min.html">Max/min problems</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">就是搞错我们要找的坐标对比如那个抛小球的题目题目明明问的是球能飞多高但很多人最后给出的答案
+
+却是一个表示什么时候的数字这就很离谱这其实是解题惯性导致的就是我们在处理二次函数时大脑的默认第一步总是去求横坐标
+
+也就是时间t等于-5乘以t的平方加上20乘以t加上1顺者公式这么一顿操作算出t等于2的时候
+
+大脑就会觉得太好了解出来了然后直接停笔这种感觉就像我问你这栋楼有多高
+
+你却一本正经的回答我下午两点完全是答非所问确实算出t等于2
+
+只是找到了小球到达最高点的时间要拿到真正的答案必须把现实逻辑闭环也就是把2带回公式里去求高度h的值
+
+稍微一算就能得出21所以结论应该是在第二秒时到达最高高度21米没错
+
+就是这样这种算到一半忘了现实情况的毛病在商业定价模型里简直是重灾区
+
+对这个确实笔记里有个社团害T恤的例子原本卖12加元一件能卖出150件
+
+每涨价一加元就会少卖5件我一开始看这里的变量N想着既然是定价问题N肯定就是价格了吧
+
+很多人都会这么想但笔记里说求出来的N是9这我就懵了原来12块钱
+
+现在变9块钱这不是降价了吗模型里明明只有涨价这就是大家经常栽根头的地方把代数变量和它代表的物理意义搞混了
+
+这里的N代表的并不是价格本身而是涨价的次数对吧完全正确一旦明确了这点
+
+逻辑就理顺了如果涨了94价每次涨一加元那么最终价格就是原来的12加上9等于21加元对
+
+那效量也会跟着变既然涨了9次每次少卖5件就是少卖了45件没错
+
+原来能卖150件现在只剩下105件了那么最终的总收入就是单价21乘以销量105等于2205加元
+
+就是这个逻辑这种代数和现实脱节的情况一旦放到物理空间里就显得更滑稽了你是说搭篱笆那个题吗对
+
+笔记里第三个常见错误用100米长的篱笆靠墙为一个三边的长毛型围栏很多人列周长公式时会下意识的把靠墙的那一边也算进篱笆的长度里是啊
+
+你总不可能对这一堵现成的实行墙非要再给它贴上一层新买的篱笆吧这白白浪费了材料所以我们在构造方程时只需要算两条宽
+
+我们叫它W和一条平行于墙面的长叫它L加起来就是2W加上L等于100根据这个方程
+
+长L就可以被替换为100减去2W没错接着算面积A公式就是W乘以括号100减去2W然后利用这个方程的两个零点
+
+也就是零和50取正中间的值就能得出最优宽度W等于25相应的长度L就是50两者相乘最大面移是1250平方米说到底我们在纸上写完公式
+
+真的需要做一下合理性检查非常必要要是没过脑子就会出现笔记里的第四个错误就是球顶点时漏掉了分母里的2这个太常见了
+
+比如另外一个小球高度公式H括号T等于-4乘以T的平方加上24乘以T加上5
+
+如果你公式背错了最后可能会得出小球的最大高度居然等于它的起始高度5稍微一想就知道这是个明显的破绽
+
+确实除以括号2乘以-4对这样算出来的T等于3再把3带回原方程球值
+
+最终会得出最大高度是41米这就合理多了带着这个检查现实情况的雷达我们再回头看开头的那个荒谬的博物馆门票问题
+
+嗯那个算出207加元的天价门票对门票14加元时每天有400名游客
+
+规定是每涨一加元游客就少20人为什么有人会算出207话呢因为他们在记录游客减少量时图省事
+
+直接显成了400减缺N也就是说涨一次价才少一个人这简直是垄断企业做梦才有的好事是的
+
+符合现实的推导应该是涨N次价应该少20乘以N个人所以游客总数是400减去20N相应的总收入公式2就等于括号14加上N
+
+乘以括号400减去20N这样一来方程的两个零点就是负14和20了取他们的终点
+
+说明N等于3也就是要涨价三次那么合理的票价就定在17加元这时候对应的游客数量是340名R等于5780加元
+
+不</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u5-max-min-L1#ep-u5-max-min-L1"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u5.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

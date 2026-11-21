@@ -1,0 +1,101 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Angles in standard position · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Angles in standard position</span><span class="zh" lang="zh-Hans">标准位置角：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u89/audio/u8-standard-position-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u89/audio/u8-standard-position-L2.zh.m4a" download="u8-standard-position-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u8-standard-position-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u8-standard-position.html">Angles in standard position</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">今天我们要对一打关于三角函数和空间旋转的笔记进行一次深度解析你先想象一下自己正坐在一座巨大的摩天轮上座位转过了90度接着是180度然后你转完了一整圈
+
+但摩天轮失控了还在继续往下转那可太吓人了对吧我们很容易理解一圈以内的空间
+
+但当你要向别人描述你转了600度甚至转在云头转向停在半空的时候普通的集合学就有点让人迷糊了我们需要一个方法来定位这些疯狂旋转的物体没错
+
+因为在那种天旋地转的情况下你需要一个绝对不变的锚点在这份资料里数学家们建立的锚点叫做标准位置所以在这个坐标系里
+
+我们要把圆心也就是摩天轮的轴心死死定在圆脸上对吧对的必须定死
+
+然后我们的起点也就是资料里说的始边永远固定在水平X轴的正半轴上就像时钟的三点钟方向完全正确
+
+从这里开始逆时振转形成的就是正角那顺时振转形成的也就是副角最后旋转停下来的那条边我们叫它中边
+
+那等下如果我顺着正方向转了600度这已经远远超过一圈的360度了是的超过很多了
+
+那在图纸上它和我只转了240度的位置是不是完全重合的数学上难道不会出问题吗其实不仅不会出问题
+
+这刚好就是资料里重点提到的同中边角的精髓同中边角对角度在数字上
+
+可以无限大或者无限小但它们在现实空间里其实是重叠的只要加上或者减去360度的任意种腹背
+
+那个中边永远停在同一个地方明白了就是说知道停在哪是一回事
+
+但如果我们想计算那个座位离地面有多高带着600度这种庞然大物去算肯定很崩溃绝对会算晕的
+
+这就引出了资料里一个经常让人掉坑的概念就是那个参考角没错为了方便计算我们需要把复杂的旋转
+
+简化成一个好处理的小锐角所谓参考角就是你的中边和水平X轴之间夹的那个锐角这里我必须要问一下
+
+资料里特意标红加粗说绝对绝对不能量到Y轴必须是X轴千万不能是Y轴为什么呀
+
+这听起来有点死板你想想X轴在现实中代表什么它代表地平线对吧
+
+代表平坦的地面地面在物理和几何里我们永远是相对于地面来测量高度或者深度的
+
+你总不能量自己到旁边一堵垂直墙壁也就是Y轴的夹角来算自己离地有多高吧原来如此找参考角
+
+永远是在寻找回到水平地面的最短距离就是这个意思各个向线其实有公式比如第一向线就是角本身第二向线是180度减去角
+
+第三向线是角减180度第四向线是360度减角哇那听众朋友们根本不需要死记经被那些枯燥的加减公式了
+
+只要想象把这个圆沿着水平的X轴对折看看你停下的中边离这道水平的折痕差多少度就行了这个比喻非常精准
+
+为了不在这些空间旋转中迷失资料里其实提供了一套生存指南生存指南我喜欢这个词就是解题前理清思路的五个步骤
+
+让我来梳理一下这套指南首先看清已知条件读书角度和正负号搞清楚是正向转还是反向转
+
+没错第二步明确求什么我们要找的是它停在哪个向线还是量到地面的参考角
+
+或者是刚才说的同中边角紧接着是最关键的第三步画图这是大脑处理抽象数学的终极作笔码确实
+
+哪怕只花三秒钟画个草图标出90度180度270度和360度把中边画出来
+
+那第四步的选工具具体怎么操作呢就是用加减360度这个工具把像600度这种吓人的大角转换回0到360度之间的一圈内定为了向线
+
+你就立刻知道它离平坦的X轴到底差多少度了懂了最后第五步别忘了检验算出的角度
+
+是否符合你画的草图对那我们直接拿负600度来实战演练一下负号意味着我是倒着转也就是顺时针方向
+
+顺时针方向我倒着完整转了一圈360度然后等等600减去360
+
+我还需要继续倒着转240度对吧完全正确而你在空间里倒着转240度停下的位置其实就跟你正着转120度
+
+是一模一样的为什么因为负的240加上360正好是正120这就是加减360度工具的妙用
+
+让我脑补一下草图正向转120度越过了正上方的90度但还没到水平的180度所以它停在左上方的第二向线
+
+对第二向线那它离左边平坦的地面也就是180度那条线还差多少180度减去120度
+
+是60度我们最后来检验一下60度是个锐角完全符合参考角必须是锐角的定义同时你算出的120度
+
+减去最初的-600度等于720度正好是两个完整的360度逻辑完尾闭环太有意思了
+
+通过把复杂的旋转还原成最基础的120度所在向线和60度的参考角瞬间就清晰了每次多画三秒画草图左标轴中边
+
+一小段到X轴的弧参考角出错几乎都是因为没画图</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u8-standard-position-L2#ep-u8-standard-position-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u8.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

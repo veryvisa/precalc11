@@ -1,0 +1,31 @@
+So today we are jumping straight into the ambiguous case, SSA, and all the common math mistakes associated with it. I mean, we're starting right with the first issue, stopping when the calculator gives you that first angle. Right, yeah. So let's just lay out the numbers plainly. Say you are given angle A equals 38 degrees, side B equals 13, and side A equals 10. Okay, got it.
+
+And your goal is to find all possible values of angle B. So you punch it in, and the calculator shows one angle, which is 53.2 degrees. Which feels like you're done, right? Exactly, but here is the thing. The sine of 180 degrees minus 53.2 degrees has the exact same value.
+
+Oh, wow. Yeah, so nothing actually rules that second angle out. To check it, the height equals 13 times the sine of 38 degrees, which is approximately 8.00. Yep, exactly. And since 8.00 was less than 10, and 10 is less than 13, there are actually two triangles.
+
+Meaning the second angle B is 126.8 degrees. Right. And checking that, 38 degrees plus 126.8 degrees is less than 180 degrees. So it works out perfectly. But why do people struggle to find that height in the first place?
+
+I mean, that transitions right into the next issue, right? Using the wrong side? Yeah, that is a huge trap. So for the details on that, let's use angle A equals 40 degrees. Side B equals 15.
+
+And side A equals 9. Okay. 40, 15, and 9. Right. So people wrongly assume angle A goes with side A for the height, but the height actually drops from C at the end of side B.
+
+Oh, I see. So that makes the height equal to B times the sine of A. So the height equals 15 times the sine of 40 degrees, which is approximately 9.64. Exactly. And since 9.64 is greater than 9, side A is just too short to reach the base.
+
+It just dangles there, yeah. Right. And the sine law actually agrees with this because sine B is approximately 1.07, which is greater than 1. Which seamlessly connects to the next trap, honestly, comparing with only one length. Oh, right.
+
+Yeah. So using angle A equals 30 degrees, side B equals 20, and side A equals 13. Being longer than the height only proves side A reaches the base. Makes sense. But whether it reaches once or twice depends entirely on comparing A with B.
+
+Right. Because looking at those numbers, 10 is less than 13, which is less than 20. Yep. Resulting in two triangles where angle B is approximately 50.3 degrees or 129.7 degrees. Exactly.
+
+Now, moving to another mechanical error, getting the sine law ratio upside down. Oh, yeah. That is a classic one. Yeah. So with angle A equals 45 degrees, side A equals 12, and side B equals 15, the fractions
+
+are just often wrongly cross-multiplied for memory. Because they forget the setup. Right. I really want to emphasize that each side must go with the sine of its own opposite angle. It should be sine B over 15 equals the sine of 45 degrees over 12.
+
+Perfect. Therefore, sine B is approximately 0.8839, meaning angle B is approximately 62.1 degrees or 117.9 degrees. Yes. And doing the height check, the height is approximately 10.61, which is less than 12, which is less than 15. Which transitions us perfectly to the final pitfall, reusing the first triangle's third angle.
+
+Well, people definitely get lazy there. They do. So given angle A equals 36 degrees, side B equals 16, and side A equals 11, there are two triangles, but only A, A, and B are shared. Right.
+
+Once angle B changes, the third angle and side change too. I mean, they are completely different triangles. So you have to do the calculation again. The final calculation to find the second triangle's angle C would be the second angle C equals 180 degrees minus 36 degrees minus 121.2 degrees, which equals 22.8 degrees.
+
+Check. 36 plus 121.2 plus 22.8 equals 180.

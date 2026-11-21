@@ -1,0 +1,7 @@
+This is the brief on the ambiguous case of SSA triangles. In this geometry mystery, knowing two sides and an opposite angle doesn't guarantee a single shape. It can actually create zero, one, or two entirely different triangles. First, you've got to find the height by multiplying the adjacent side by the sign of your angle. Think of your opposite side as a swinging gate.
+
+That height is the absolute shortest distance that gate must reach to click shut and form a triangle. Once we know that minimum distance, we measure our actual gate against it. Second, if your angle is under 90 degrees and your gate is shorter than the height, it's just too short to reach the bottom, meaning zero triangles. But, if your gate is longer than the height, yet shorter than the adjacent side, it swings and hits the base in two different spots, creating two distinct triangles. It's super easy to mess up by just comparing given sides without calculating the height first.
+
+Finally, the sine law gives you your first angle. But calculators keep the second, wider angle completely invisible. You find it by subtracting your first angle from 180 degrees. Don't get your wires crossed here. Finish solving each triangle separately, because each has its own unique third angle and side.
+
+Taking just 20 seconds to compare your opposite side with the calculated height before jumping into the sine law instantly tells you exactly how many answers you need to find. Take a look at the end.

@@ -1,0 +1,9 @@
+This is the brief on vertex form and transformations. First, to understand a parabola, you've got to know where it starts. That point is the vertex at p comma q. Think of p inside the parentheses as a trickster. If you see x minus 3, your brain naturally thinks go left.
+
+But that trickster actually slides the graph right. Meanwhile, outside the parentheses, q is a straight shooter, sliding the graph up or down exactly as its sign says. Second, so how do we actually draw this without plotting a million random points? Well, the shape is entirely controlled by A.
+
+If A is large, the parabola gets tall and skinny. If A is negative, the whole thing just flips upside down. To sketch it fast, use the step pattern. From the vertex, go over 1, 2, and 3 units. Then up by 1A, 4A, and 9A for an instant visual map.
+
+Finally, you can answer test questions without extra math. Want the x-intercepts? Just look at the signs of A and Q. Opposite signs mean two intercepts. When finding the equation,
+
+folks often plug the vertex right back in to find A. Don't do that. You'll just end up in a totally useless math loop. You absolutely must substitute a completely different point to anchor the shape.

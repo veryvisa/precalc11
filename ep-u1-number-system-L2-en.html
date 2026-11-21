@@ -1,0 +1,61 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about The real number system · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about The real number system</span><span class="zh" lang="zh-Hans">实数系统：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u14/audio/u1-number-system-L2.en.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u14/audio/u1-number-system-L2.en.m4a" download="u1-number-system-L2.en.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u1-number-system-L2.en.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u1-number-system.html">The real number system</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><div class="txbox" lang="en">Is the square root of 49 the same kind of number as the square root of 50? You might look at them and, you know, assume they are basically neighbors. Right. They look super close on paper. But one is exactly seven, while the other has these decimals that just never end and never repeat, which completely changes how you work with it.
+
+It really does. So today for this deep dive, we are jumping straight into the real number system to untangle all of this. Yeah. Our mission is to give you this like foolproof five step method to classify any number without getting tricked. To pull that off. I mean, we really have to understand how numbers are organized first. They exist in these mathematical families that actually nest inside one another.
+
+Like nesting dolls or, well, the notes call them nesting shipping boxes. Exactly. Like nesting shipping boxes. You start with the absolute tiniest inner box, which is the natural numbers. And those are just one, two, three, and so on? Yeah, exactly. One, two, three, and so on.
+
+Then if you drop that tiny box into a slightly larger box, you get the whole numbers. Which just adds zero to the mix. So zero, one, two, and so on. Right. Then that whole number box nests inside the integer box, which includes negatives. Okay, got it. And then integers nest inside the rational number box.
+
+Finally, all of those boxes fit inside the giant shipping crate that we call the real numbers. So if all these sets are nesting inside each other, where is the actual boundary based on the notes? Like what makes a number suddenly belong to the rational box versus the irrational box? Well, it really comes down to predictability. A rational number is anything you can write as a clean fraction.
+
+I mean, an A over B setup. Right. With integers where B is not zero. You got it. If you can slice it up perfectly like that, it is rational. As a decimal, a rational number either terminates perfectly, like 0.75, or it repeats.
+
+Repeats like 0.36 with a repeating bar over it. Yes. But irrational numbers are totally different. They are real numbers, but they are absolutely not rational. Because their decimals never end or repeat, right? Yeah. They just go on forever without a pattern.
+
+It is impossible to pin them down perfectly with a simple fraction. So we leave them as symbols, like pi, or the square root of 2, or the cube root of 5. 100%. Put the rational and irrational boxes side by side, and together they make up all the real numbers. That actually brings us to what feels like the golden rule before you try to classify anything.
+
+You have to simplify first. Always simplify first. Because, like, the square root of 49 is just 7. Or the cube root of negative 8, that is just negative 2. Right. Underneath the fancy notation, both of those are literally just integers.
+
+But there is a vital caveat in the notes you have to watch out for. Oh, yeah. An even root of a negative number, like the square root of negative 4, is actually not a real number at all. Oh, wow. So it doesn&#x27;t even go in the giant shipping crate. Exactly. You have to catch that immediately. Okay. So let us put this five-step method together from the guides.
+
+The first step is given, right? Yep. Given. You just note the specifics of what you are looking at. Like, are there roots, fractions, repeating bars, or is it pi? Then the second step is asked, which is just confirming which sets you need to classify it into. Right. Then step three is picture it.
+
+This is where those nested boxes come in. You want to find the absolutely smallest box the number fits into. Because once you find the smallest box, it automatically belongs to every single larger box nested around it. Spot on. And step four is tool, which is applying that golden rule to simplify first.
+
+Like working out perfect squares or reducing fractions. Exactly. And the fifth step is check. Just run the decimal test. Let us actually test this method right now on three specific numbers from the notes. The negative square root of 25, 9 over 3, and the square root of 45. Okay. Applying our tool step, we simplify.
+
+The negative square root of 25 simplifies to negative 5. And 9 over 3 simplifies to 3. Right. But 45 is not a perfect square. The square root of 45 is approximately 6.708. And that decimal goes on without a pattern.
+
+So now we picture those boxes and start climbing outward. Starting with negative 5, the smallest box it fits into is integers. Because it is negative, so it can&#x27;t be a whole number. Right. So climbing outward, negative 5 belongs to integers, rational, and real.
+
+Now for the number 3. Its absolute smallest box is natural. If we drop that box into the larger ones, 3 belongs to natural, whole, integers, rational, and real. Perfect. And for our last one, the square root of 45. Since that decimal never ends and never repeats, it skips all those inner boxes.
+
+Landing straight in the irrational box. Meaning it belongs to irrational and real. Which totally passes step 5, the decimal check. Negative 5 and 3 terminate perfectly, so they are rational. The square root of 45 is chaotic, so it is irrational.
+
+When you treat these classification questions like a logic puzzle, they really become quick marks to earn. Oh, definitely. Just simplify every root first, then make sure you list all the sets. Like, for instance, 4 is in natural, whole, integers, rational, and real.
+
+Missing the bigger sets is the most common lost mark.</div></section><nav class="pn"><a href="audio.html?ep=u1-number-system-L2#ep-u1-number-system-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u1.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Solving by factoring &amp; square roots · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Solving by factoring &amp; square roots</span><span class="zh" lang="zh-Hans">因式分解法与直接开平方法：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u6-factoring-sqrt-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u6-factoring-sqrt-L2.zh.m4a" download="u6-factoring-sqrt-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u6-factoring-sqrt-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u6-factoring-sqrt.html">Solving by factoring &amp; square roots</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">两个数相称等于零其中至少有一个是零就是这么直接的常理其实只要你记住这个也就是零机性质
+
+考卷上大多数的一文二字方程两行就能解满对顺着这个思路啊我们能梳理出最重要的两个解法
+
+第一是因式分解法你必须先让方程一边为零然后进行分解接着令每个因式等于零那第二呢
+
+就是直接开平方法当你遇到那个某式的平方等于数的情况先把平方向单独方一边然后再开方取正负号等一下
+
+很多人就是忘了这个正负号这不仅仅是扣点分这是直接丢掉一半的答案的没错漏掉正负号绝对是个大坑
+
+另外我还要补充两个关键警告首先如果平方等于一个负数那就说明没有实数解这个肯定没有啊因为实数自己乘自己
+
+不可能得出负数嘛对对对其次千万不要在方程两边同出于X你这么干就是就是会直接丢掉
+
+X等于零这个最根本的解哇所以这种想当然的操作真的很要命为了避开这些坑啊我们在动笔前
+
+得先问自己五个关键问题那第一个呃就是已知没错去观察一边是不是已经为零了
+
+或者有没有像括号X-3的平方这种现成的平方向又或者每一项有没有像都带X这样的供音式对吧对
+
+看完已知接着就要问求什么你的目标是找到让方程成立的所有X它可能有两个也可能只有一个
+
+或者干脆没有实数解为了更直观我们可以问第三个问题也就是画出来会是什么样在脑子里把它画出来
+
+呃对在图像上答案其实就是Y等于方程左边和Y等于方程右边而这两条线的焦点
+
+当一边是零的时候答案就是泡物线的X拮据哦我懂了那有了这些信息
+
+接下来我们该用什么工具呢还有要怎么去检验工具选择的逻辑其实很顺有现成的平方你就单独留下它
+
+然后开方取正负号哎要是没有呢没有的话就把所有项一到一边没错
+
+一到一边变成零分解它呃令每个音式等于零最后一步
+
+你务必把算出来的答案带回到原方程去检验而且你通过正负号算出的那两个答案啊
+
+到中间那个数的距离理应是相等的好那咱们直接带着你走一遍实战听好这道题
+
+X的二次方也就是X的平方加2X等于15嗯
+
+这里目前右边是15而不是零所以你绝对不能直接去用零机性质肯定是先把15移过去嘛得到X的平方
+
+加2X-15等于零目标就是求所有的X对
+
+现在我们要寻找两个数乘积为-15合为2稍微想一下这两个数是5和-3
+
+找到了所以得出括号X加5乘以括号
+
+X-3 等于零 没错 解出来就是 X等于-5
+
+或者X等于3然后我们要快速把-5和3带入原方程也就是X的平方
+
+加2X等于15里面去验证算一下就能确认两者都能让等式成立等于15
+
+最终答案就彻底锁定了完全正确最后给你一个最高效的解题建议就是先看有没有现成的平方
+
+像括号X-3的平方等于18这样的方程开平方只需一步就完但如果非要展开则需要四步
+
+最后如果B的平方减去4AC是完全平方数就一定能分解</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u6-factoring-sqrt-L2#ep-u6-factoring-sqrt-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u6.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

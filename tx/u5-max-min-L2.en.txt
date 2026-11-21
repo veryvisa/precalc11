@@ -1,0 +1,27 @@
+So if we dive immediately into the core balancing act of ticket prices, it's, well, it's pretty tricky. I mean, you raise ticket prices and fewer people actually come. Right, exactly. But then if you lower them, you earn way less per ticket. So the price that earns the absolute most money sits right at the vertex of a parabola. Oh, yeah. Which really establishes the golden rule of optimization here.
+
+Basically, any largest, smallest, maximum, minimum or, you know, optimal question that involves a squared quantity. That is simply a vertex question. Yes, it really is that simple. It is always just a vertex question. OK, but how do we actually decode the coordinates like translating the math to real life?
+
+Well, it works like this. The answer to it, when or what value that is your X coordinate. And then the answer to how much will that is the Y coordinate. Got it. But we have to build a function first, right? Yeah. You must build a function first by naming the variable. And then you write the quantity you want to optimize as a product.
+
+Like revenue equals price times number sold. Exactly. Yeah. Which means we should move sequentially through the five questions you need to ask before writing anything down. So question one is given what changes and by how much each step. Right. And this isn't just about the final number, but actually counting the steps. Yes, I completely agree. You have to name the variable to count the steps.
+
+So, for example, N equals number of $1 increases. OK, that makes perfect sense. Then question two is asked. Like, are you looking for the X coordinate, which is the when, or the Y coordinate, the how much? Or both. And you also have to ask in what units.
+
+Oh, right. The units. And question three is picture it. You sketch the shape, which is just a downward parabola. Yeah. And the answer you want is exactly at the top. OK, so question four is the tool.
+
+You write the quantity as a product of two linear factors. Right. And then you find where each factor is zero. The vertex is simply halfway between them. Wait, what if it's already expanded? Well, if it's already expanded, you just use X equals negative B divided by 2A.
+
+Gotcha. And question five is check. Try one step on either side of the answer and both must give less. Exactly. Both have to give less. So let's walk through the specific example of the gym application. OK, let's do it.
+
+So a gym has 400 members paying $50 a month. Each $5 increase loses 20 members. The fee is 50 plus 5N. Right. The members are 400 minus 20N.
+
+So revenue R equals 50 plus 5N times 400 minus 20N. OK, so finding the vertex. The zeros are N equals negative 10 and N equals 20. And halfway between them is N equals 5. Yes.
+
+So at N equals 5, the fee is $75 and members drop to 300. Which means revenue is 75 times 300, which equals $22,500. Exactly. And for checking the work, testing N equals 4 and N equals 6 both give exactly $22,400. Oh, wow.
+
+So both are less. So it totally checks out. Yep. It checks out perfectly. You know, pointing out the product form trick is just so elegant how we skipped expanding the
+
+polynomial completely. It really is the ultimate trick. You leave the function in product form. The zeros remain totally visible. The vertex is simply their midpoint.
+
+And you skip expanding altogether. That saves so much time and messy algebra. Always finish with a sentence that answers the question asked with units.

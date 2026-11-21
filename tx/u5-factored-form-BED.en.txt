@@ -1,0 +1,11 @@
+breaking down how to use zeros to build your factored form, how to pinpoint the vertex, and the common traps that cost students easy points. First, in y equals a times x minus r times x minus s, your zeros are r and s.
+
+y equals a times x minus r squared. Zeros alone don't lock the shape. Second, you always need a third point to find the unknown multiplier a. The axis is halfway between the zeros. x equals r plus s over 2.
+
+Plug that in for vertexite. For zeros negative 2 and 6, y equals a times x plus 2 times x minus 6. point 0 comma 9 makes 9 equals a times 2 times negative 6, giving a as negative 3 fourths.
+
+Axis 2 means vertex height 12. the parabola has to open down, meaning you should immediately expect a to be less than zero. Finally, standard form gives the y-intercept, vertex form gives max or min,
+
+and factored form gives zeros. Watch for dropped A, negative signs, or common factors. You should only expand your equation at the very end, if standard form is explicitly asked for. Otherwise, no expanding.
+
+Mastering factored form is all about trusting your zeros, never dropping your A, and remembering that as you study, rest counts too.

@@ -1,0 +1,11 @@
+First, let's simplify. You just pull out the largest perfect square factor. For example, the square root of 72 is the square root of 36 times 2, giving us 6 root 2. For cubes, the cube root of 54 is 3 times the cube root of 2. Going the other way, just square the outside number and multiply it in.
+
+3 root 5 becomes the square root of 45. What if you miss the largest square? Just ask, can the leftovers still be divided by 4, 9, or 25? If yes, keep going. Second, let's compare radicals and add variables.
+
+To order them, rewrite them all as entire radicals. 3 root 7 becomes the square root of 63, and 2 root 17 becomes the square root of 68, making it greater. With variables, an even index needs a non-negative radicand. Odd indices have no restrictions.
+
+The cube root of negative 8a cubed is just negative 2a. For odd powers, split them. 48x to the 5th y squared splits into 16x to the 4th y squared times 3x, which roots to 4x squared y root 3x. Finally, avoid common traps.
+
+When moving a number in, square it first. 5 root 3 is the square root of 75, not 15. And never split a root over a plus sign. Add the numbers first. That is enough for today.
+
+Rest counts too.

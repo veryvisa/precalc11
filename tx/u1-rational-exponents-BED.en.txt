@@ -1,0 +1,11 @@
+This is the brief on rational exponents. We're doing a super quick pre-calculus review today to help you master fractional exponents, dodge common pitfalls, and evaluate expressions without getting totally overwhelmed. First, let's deconstruct the fraction. The bottom is your root, and the top is your power.
+
+So, should you calculate the power or the root first? Well, you absolutely always take the root first. It keeps your numbers nice and small. For 27 to the 2 thirds, don't square 27 first. Instead, take its cube root, which is 3, and then square that to get 9.
+
+Second, let's uncover the truth about negative exponents. A negative exponent simply means taking the reciprocal. Just flip the base, take the root, then apply the power. Crucially, a negative exponent never, ever makes your answer negative. For example, 16 to the negative 1 half is 1 fourth, and 16 to the negative 3 fourths is 1 eighth.
+
+Plus, standard exponent laws still completely apply here. Finally, watch out when solving variables. Equations with even numerators are kind of tricky, because raising to a reciprocal power can easily hide negative solutions. Take x to the negative 2 thirds equals 1 fourth.
+
+Clear the negative first to get x to the 2 thirds equals 4. Read that as the cube root of x squared is 4. Because you're undoing a square, the cube root of x equals plus or minus 2. Cube that, and your answers are 8 and negative 8. Also, quick calculator tip.
+
+Always bracket the exponent, or it'll just square the base and divide the whole shebang by 3. Always tackle rational exponents systematically. Handle the reciprocal, take the root, apply the power, and remember, in math as in life, testing counts too.

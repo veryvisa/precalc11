@@ -1,0 +1,11 @@
+This is the brief on Unit 3 Preview, Polynomial Factoring. This toolkit is the foundation behind everything else in polynomial factoring, breaking down expressions into their simplest parts. First, always look for a greatest common factor, pulling variables at their lowest power.
+
+Sometimes that common factor is actually a whole bracket. You can treat something like x-3 as a single letter. With four terms, try grouping them into pairs, and check your work by expanding. Second, for standard trinomials, the ax-squared-plus-bx-plus-c format,
+
+check that leading a. When a is 1, just find numbers that multiply to c and add to b. If a isn't 1, use decomposition. Find numbers multiplying to a times c that add to b. Split the middle term and group.
+
+Let the positive or negative signs guide your search. Third, a difference of squares is beautifully simple. Two perfect squares separated by a minus. But careful, a sum of squares literally won't factor over real numbers. You'll also see perfect square trinomials,
+
+where the middle term is exactly twice the product of the first and last squares. Finally, factoring by substitution is your secret weapon for expressions acting like a powerful monster wearing a disguise. Just replace the repeated part with a single letter, like m. Factor the simple trinomial, substitute back, and simplify.
+
+Differences of squares can have binomials as a and b. Open parentheses 2x minus 1 close parentheses squared minus open parentheses x plus 3 close parentheses squared equals open bracket open parentheses 2x minus 1 close parentheses minus open parentheses x plus 3 close parentheses close bracket times open bracket open parentheses 2x minus 1 close parentheses plus open parentheses x plus 3 close parentheses close bracket.

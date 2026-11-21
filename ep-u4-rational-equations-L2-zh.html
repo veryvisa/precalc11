@@ -1,0 +1,95 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Rational equations &amp; applications · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Rational equations &amp; applications</span><span class="zh" lang="zh-Hans">分式方程与应用题：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u4/audio/u4-rational-equations-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u4/audio/u4-rational-equations-L2.zh.m4a" download="u4-rational-equations-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u4-rational-equations-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u4-rational-equations.html">Rational equations &amp; applications</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">想象一下那个场景就是两根水管一起往池子里注水四个小时刚好灌满很经典的那种工程问题对
+
+然后题目又说大水管单独灌满比小水管要快六个小时接着让你求他们各自单独注满需要多长时间
+
+遇到这种你肯定马上就开始猎算事了对的肯定啊你一通猛算
+
+最后得出了两个看起来简直完美的答案但是这里有个奇妙的地方在你算出的这两个答案里注定有一个在物理世界上
+
+是绝对不可能存在的它就像个幽灵一样这到底是为什么呢要真正理解这个现象我们得先看解这种分式方程的第一步
+
+其实解这种题第一步绝对不是直接开始算而是那个要先找不允许值找不允许值这感觉算是一种排雷机制吗
+
+没错你想啊解题的核心动作是什么就是把等式两边的每一项都乘以一个最简公分母
+
+目的就是为了让分母直接消失对吧是的话复杂为简单把它变成我们熟悉的一次
+
+或者二次方程但这有个陷阱如果你算出的最终答案刚好等于刚才那个不允许值这就是所谓的增根
+
+哇也就是说这个根完全是个假象必须赶紧舍去对的如果很不幸
+
+你算出来的所有答案全都被舍去了那这个方程就是无解的懂了那这种陷阱
+
+一般都藏在哪些具体的应用场景里呢最常见的有两大类第一类就是刚才说的那种工程问题核心其实就是效率相加如果说T小时完成工作
+
+那效率就是T分之一也就是说合作效率就是把各自的T分之一加起来没错那第二类呢
+
+就是形成问题你一定要牢记那个基础公式时间等于路程处于速度然后利用时间来列方程比如题目里说
+
+这一趟少用了一小时这其实就是破题点完全正确所以在动比算之前有五个灵魂拷问必须理清
+
+第一步就是已知条件你要把每个分母音试分解在第一行就清清楚楚的写出不允许值那个如果是应用题的话是不是还得加上现实的物理限制
+
+比如时间或者速度必须大于零人数必须是整数之类的必须的这也是排列的一部分然后第二步
+
+求什么我们要找的是所有让原方程成立并且被允许的X可能有一个可能有两个
+
+也可能一个都没有没毛病第三步应该就是画出来了吧画个表格行代表不同的人
+
+水管或者路段列就代表效率或者速度还有时间对你的方程基本就自然的
+
+藏在这个表格的某一行或者某一列里接下来第四步就是用什么工具这里有个极其容易出错的地方
+
+是什么就是把等式两边同乘最减公分母的时候你必须乘以每一项包括那些孤零零的整数项千万不能漏
+
+哇这个确实很容易忘那最后第五步应该就是检验了划掉那些等于不允许值或者不符合现实的答案
+
+没错然后把剩下的幸存者带回原方程去仔细检验一下听起来很有道理那我们直接实战推演一下
+
+我来读一个方程你来读好我们来拆解这个第一步先找不允许值
+
+分母里有x也有x-3所以x绝对不能等于3也不能等于0好的
+
+那最减公分母显然就是x乘以括号x-3反括号没错两边同成之后我们就得到了
+
+x乘以x加上2乘以括号x-3等于3乘以x也就是x的平方加上2倍的x-6等于3倍的x然后一项化简就变成了
+
+x的平方-x-6等于0接下来因时分解就是括号x-3反括号乘以括号x加2
+
+反括号等于0搞定算出来了x等于3或者x等于-2
+
+等等看到先警了吗等一下刚才说了x不能等于3和0所以x等于3刚好是不允许值
+
+天哪对这就是增根必须毫不犹豫的舍去把x等于-2
+
+带入进去的话等式确实成立所以最终的真正答案只有x等于-2就是这样
+
+其实考试里的应用题通常会故意这么设计它们会设计出一个根是负数或者刚好是不允许值就是为了测试我们的排雷能力
+
+对吧绝对的用文字定义变量比如设小水管需t小时
+
+最后用一句话作答这两处一般都有分</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u4-rational-equations-L2#ep-u4-rational-equations-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u4.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

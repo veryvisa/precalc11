@@ -1,0 +1,243 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Unit 5 preview: Quadratic Functions · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L3 · Unit</p><h1><span class="en" lang="en">Unit 5 preview: Quadratic Functions</span><span class="zh" lang="zh-Hans">第 5 单元预习：二次函数</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u5-L3-preview.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u5-L3-preview.zh.m4a" download="u5-L3-preview.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u5-L3-preview.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">想象一下篮球空心入网前在空中划过的那道完美弧线非常经典或者是广场喷泉里水流冲向最高点
+
+又自然散落的轨迹才或者是你家楼顶接收信号的微信锅的凹面在这些看似毫无关联的场景背后其实隐藏着同一张
+
+极其精密的数学地图对这也就是我们今天要彻底破译的核心任务二次函数
+
+也就是抛物线我们不再是死记公事了而是要像读地图一样通过几个关键参数看懂这条曲线
+
+是怎么起伏怎么移动的把抛物线比作地图这个视角其实非常准确看懂抛物线本质上就是寻找
+
+这张地图上的枝高点谷底还有它跨越地平线的边界抓到的这些它就透明了
+
+没错这张地图上有六个绝对核心的坐标要素顶点对称轴
+
+最直定义直义还有拮据只要你盯着这六个点看
+
+整条曲线的生命周期就在你掌握之中了既然是地图那得有个基础语言这所有弧线的基础基因
+
+写成数学表达式到底是什么样的二次函数最基础的一般式好
+
+表达式是这样的F括号X等于A乘以X的平方加上B乘以X再加上C这里有一条不可预议的底线就是那个X的平方前面的系数
+
+A绝对不能等于0因为如果A等于0的话X的平方那一项就直接灰飞烟灭了对
+
+剩下的只有BX加C那就变成了一条直挺挺的直线彻底失去弧度了完全正确所以参数A就是决定
+
+抛线物理形态的第一个密码你拿到一个表达式第一时间就要看A的征负号如果A大于0开口向上
+
+视觉上就像个能胜水的碗这就意味着它在谷底地然有个最小值懂了
+
+反过来如果A小于0开口向下向把伞那就在山顶有个最大值
+
+就是这个道理那决定了开口方向之后下一步显然就是要精准定位这个最高或者最低点也就是顶点
+
+对 怎么找呢要找顶点得先找到穿过它的中心线也就是对称轴公式非常简单
+
+X等于负的2A分之B负的2A分之B没错你把B和A带进去算出来的X
+
+就是对称轴的位置也是顶点所在的横坐标更有趣的是如果你找到图像跟X轴的两个焦点
+
+这条对称轴永远不偏不倚的卡在这两个焦点的正中间等等如果在两个X结局的绝对中心
+
+那这就不是一条普通的线了它其实是一面完美的镜子没错直接把抛物线劈开左边每一个点
+
+都能在右边找到高度完全相同的对应点完美的镜子这个直觉抓的极准这种对称性
+
+决定了它的界限也就是定一域和直域怎么讲对于纯粹的二次函数它的定一域永远是全体实数
+
+你可以把从负无穷到正无穷的任何实数作为X扔进去它都能消化左右是可以无限扩张的但是高度肯定有限制吧
+
+它不能上下两头都无限跑绝对的这就是直域的意义它被顶点和开口方向锁死了如果开口向上
+
+A大于零所有图像都在鼓底之上那Y的范围就是Y大于或等于Q这里的Q
+
+就是顶点的高度那开口向下的话所有的点就被压在山顶下面直域就是Y小于或等于Q了
+
+是的了解了上下界限那图像跟坐标轴在哪相交呢这就是拮据求Y拮据最粗暴
+
+直接让X等于0在AX的平方加BX加C里面X一变成0前两项就全清零了留下孤零零的常数C
+
+就是跟Y轴相交的高度那求X拮据也就是0点就需要反过来让整个F括号X等于0去解方程
+
+这个其实挺直观的这里我特别厘清一个基础概念在数据表里看到F括号3这个符号时别当成什么深奥代码
+
+字面意思很简单当你向右走三个单位时此时此刻图像的高度Y是多少原来如此F括号3
+
+就是X是3的时候Y的值不过有个巨大痛点现实中的抛物线千变万化如果每条都要死即硬背特征太烦人类了
+
+其实完全不需要背有个极其颠覆的底层逻辑本质上都只是原点那条Y等于X的平方经过了拉伸
+
+翻折平移之后变身而来的哦所以我们需要换一种语言来描述这个变身这就是笔记里的第二种形态
+
+顶点式对吧据说能把变形全写在脸上乘以括号X减去P括号的平方
+
+再加上Q看到这个啊你根本不用去算刚才那个负的R A分之B肉眼就能看出来顶点坐标就是P和Q
+
+对称轴是X等于P最直就是Q要是把这些参数当成控制移动的遥控器后面那个加Q就是控制垂直电梯的
+
+加三就往上抬三个单位减三就往下降非常对垂直方向很直觉
+
+但是那个控制左右平移的P就是藏在括号里跟着X的参数运作逻辑简直太违背直觉了怎么违背直觉了
+
+比如括号里是X减去三的平方按正常逻辑减代表少应该往负方向往左走吧
+
+很多人这么想但图像实际偏偏是向着正方向也就是向右移动的三个单位为什么水平方向的移动永远跟眼睛看到的符号反着来
+
+这是一个核心困惑无数人在这里栽根头就是死记硬背你不要把它当成几何移动你要把它当成一个能量补偿的过程
+
+能量补偿这词有点意思怎么补想象最原始的Y等于X的平方X是零时
+
+零的平方是零这是它的能量骨底现在式子变成了括号X减三的平方嗯
+
+这个整体依然想回到等于零的骨底但因为凭空多了一个减三如果X还是零括号里就是负三平方变成九
+
+不在骨底了懂啊为了让结果重新归零现在的X必须更努力变成正三
+
+正三减去三才能抵消掉减号的破坏回到零没错X必须变大
+
+去补偿减去的部分所以骨底从原点转移到了正三的位置视觉上就是向右平移了极致太透彻了
+
+原来是个补偿运动那最前面的A呢在顶点式里它还负责捏造形状A的绝对值
+
+就是捏向提睛的手绝对值大于一比如二或者三它获取高度的速度变快图像就被强行向上拉伸
+
+变窄了走一步能上两米确实变陡了在零到一之间比如二分之一
+
+图像就向两边瘫软变宽要是A是负数不仅改变胖瘦还会以X轴围镜子
+
+上下翻折既然A控制上升速度笔记里有个神仙级的不常规律说是能徒手精准画图
+
+底层逻辑依然是平方一的平方是一二的平方四三的平方九所以从顶点出发
+
+水平走一个单位垂直就走一乘以A水平走二垂直走四乘以A横走三垂直走九A
+
+一四九十六跟着平方序列乘A就行这完全零误差呀对而且顶点是扫一眼A和Q的符号
+
+连方程都不用解就能断定有几个X结局这怎么推纯空间逻辑假设了Q小于0
+
+顶点在地下此时A大于0开口向上你站在坑底往上看边缘必然传出地平线两次也就是说
+
+A和Q一号的时候必定有两个脚脸那如果Q等于0呢顶点刚踩在地平线上自然只有一个结局
+
+那要是A和Q同号比如Q大于0在半空A大于0还朝上那这辈子都碰不到地平线了
+
+结局个数是0根本不用动笔算所以说它是高度浓缩的信息胶囊确实是利益器
+
+但现实很骨感我们要处理的一般是王王八顶点藏得很深比如Y等于2倍的X的平方减去12X加上7
+
+这就需要外科手术级别的操作配方目的就是在一堆乱码中强行制造出一个完全平方式诶等等
+
+干嘛对完全平方这么有执念因为时数的平方必定大于等于0这相当于给这根曲线打下了一个绝对清晰的物理地基
+
+告诉你最低点在哪确立一个绝对的锚点那具体怎么施法呢核心机制是在平衡中引入变化再加上2分之B的完全平方
+
+它就等于括号X加上2分之B括号的完全平方嗯凭空加上一个特定的数字为了平衡
+
+下一秒立刻再把它减掉对总重量不变形态重塑了拿刚才那个例子开刀
+
+Y等于2倍的X的平方减去12X加上7第一步干嘛呃建立隔离区
+
+对把X项和乘数分开这里有个致命陷阱X的平方前面的系数不是1是2的时候
+
+必须先把2提出来哦提取供应式把2放在最外面括号里就变成了X的平方
+
+减去6X哎那个常数7呢留在外面别动现在阵型是2乘以括号
+
+X的平方减6X括号外面加7看括号里X的系数现在是负6它的一半
+
+负3在平方就是正9所以凭空造出一个9精确括号里加9
+
+立刻在减9现在前三个X的平方减6X加9已经完美合体成了括号X-3的平方
+
+那括号里还剩个孤零零的负9变成了废料得扔出去了这就是你说的陷阱没错
+
+无数人死在这负9踢出去的时候千万回头看一眼最外面还有个2呢必须经过乘法洗礼
+
+啊所以扔出来的根本不是负9而是负9乘2是负18对
+
+最后把负18跟外面的正7合并等于负11所以最终变成了Y等于2乘以括号X-3的平方再减11
+
+说出成功顶点3-11就暴露了逻辑理顺了是很爽但我有个尖锐的质疑
+
+第一部分明明有X等于负的2A分之B这么简单的公式为什么大费轴张去配方太容易出错了
+
+非常务实想要答案交差公式最快但配方展示了机器的引擎怎么转
+
+公式是微波炉按按钮拿饭配方让你看到X平方是怎么一步步
+
+蜕变成最终形态的一个是索取答案一个是真正理解结构数人以鱼啊但这么容易踩坑
+
+有保险机制吗就是微波炉和烹饪结合做完配方顺手用负的2A分之B算一次如果吻合
+
+现在掌握了两种了那如果已知情报是焦点有更直接的工具吗第三件武器焦点式
+
+也就是乘机形式捕捉到两个焦点加个辅助点一行代码写出方程形代是Y等于A
+
+乘以括号X-R再乘以括号X-SR和S就是零点和顶点式规则一样结句填进去
+
+符号看起来相反如果交在正2和正5写进去必须是X-2和X-5因为只有X真是2第一个括号才编成0
+
+那要是只有焦点式怎么反过来找那片镜子对称轴刨物线绝对对称所以对称轴死死卡在
+
+R和S的正中心把两数相加除以2就是对称轴位置带回去顶点就解出来了
+
+万一没穿过地平线像网球砸地上瞬间弹回去只接出了一个点呢这时候两个焦点
+
+重合变成一个数焦点式里两个一样的括号相乘就浓缩成Y等于A乘以
+
+括号X-R的平方它不知不觉退化成了变相的顶点式数学系统确实高度一致这就好比工具箱
+
+给Y截具用一般式班手给最直用顶点式螺丝刀给零点
+
+用焦点式钳子看数据切工具才是高手完美呼应了开场的观点
+
+要理解场景别死记公事有了这些工具最后我们拉回现实这最高点
+
+最低点到底能解决什么终极问题只要涉及最直往往关系
+
+巨大商业利益比如笔记里的经济学博弈演唱会门票定价我如果是主办方
+
+票定的极贵单张赚翻但没人来总收入惨淡定的像白菜一样
+
+人山人海但利润薄总收入还是可怜极端之间单价和销量在博弈
+
+必定存在一个让两者成绩达到巅峰的平衡点这个收入最大化的价格就精准坐在
+
+抛物线景点上怎么把商业语言一眼翻译成数学模型暗号很直接发现要优化的指标
+
+是两个变量相乘带平方乘积关系同时目标是找最大最低最多最优满足这两条
+
+毫不犹豫这就是找顶点的指令距离怎么建模型说好变量把追求极限的指标
+
+写成成积积面积就是长成宽票价问题就是总收入等于单价乘销量展开必得二次函数
+
+有人问单价多少最好他要的是顶点横坐标X问最多赚多少要的就是纵坐标Y只要模型建完
+
+不管求利润还是成本本质上就是一场拼手速找顶点的游戏了用最快的方法找顶点X等于负的2A分之B
+
+配方或者乘积形式里两个零点的终点</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u5-L3-preview#ep-u5-L3-preview"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u5.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

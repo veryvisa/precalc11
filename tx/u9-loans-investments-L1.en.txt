@@ -1,0 +1,23 @@
+So let's start with a classic setup. Say you take out a $6,000 loan at 6% per year, compounded monthly, and you are paying it off over two years. Okay. Pretty standard. Yeah. But people often just use 0.06 for the rate. I mean, why is this wrong since the question explicitly says 6%?
+
+Well, because that 6% is for the whole year, right? But your interest is being added every single month. No. So you can't just apply the yearly rate to a monthly payment. No, exactly. Each month gets only 1 twelfth of it. The notes state the fix plainly. I equals 0.005, and N equals 24.
+
+Because two years is 24 months. You got it. So the payment, or PMT, equals 6,000 times 0.005, divided by the quantity 1 minus 1.005 to the power of negative 24, which is approximately 265.92. Which makes sense, because the sense check here is that 6,000 divided by 24 is 250. So a payment like 478 would be far too high.
+
+Right. You'd be paying way too much interest. Okay. So moving to the second error, counting years instead of payments. Let's transition to a savings scenario. Say you're saving $50 at the end of every month for six years at 3% compounded monthly. Uh-huh.
+
+People make the error of using six for N just because the question says six years. Right. And that completely breaks the math. We have to clarify that N counts deposits, and there is one every month. So you have to account for every single deposit you make. Exactly. So N equals 12 times 6, which is 72.
+
+Got it. Future value, or FV, equals 50 times the quantity 1.0025 to the power of 72 minus 1, all divided by 0.0025, which is approximately $3,938.97. And the sense check is, well, you deposit $3,600 yourself over that time. So $301.88 cannot be right.
+
+No, you would have lost most of your money. Right. Terrible investment. So the third error is mislabeling the interest. Say we have a $10,000 loan at 5% per year, compounded monthly, repaid with monthly payments of $299.71 for three years. Okay. It really feels like the total amount leaving your account is the cost or like the interest.
+
+I mean, psychologically, it definitely does feel that way. But we have to clarify that most of that money is paying back the $10,000 borrowed. Only the extra is interest. So you are mostly just returning what they initially gave you. Exactly. The interest equals $10,789.56 minus $10,000, which is exactly $789.56. Okay. On to the fourth error. This one is really tricky. A $250,000 Canadian mortgage at 6% per year,
+
+compounded semi-annually, amortized over 25 years with monthly payments. Ah, yeah. The Canadian mortgage rule. But wait, why doesn't dividing by 12 work here? Because dividing by 12 only works when interest is also added monthly. Here, interest is added twice a year. So the monthly rate must grow to 3% over six months.
+
+Wait, really? So it's not a simple division? No, it is compound growth. So, and the payment? The payment is approximately $1,599.52. And note that on a TVM solver, PY equals 12 and CY equals two. Okay. Finally, the fifth error, formula confusion. Say you can afford $400 a month for five years at 6% compounded monthly, and you want to find the largest loan you can take.
+
+Okay. Why can't we use the future value formula? I mean, both formulas look alike and FV is used most. It is used a lot, but you have to think about the timeline. A loan is money you get today, at the left end of the timeline. So it is a present value. Oh, because you literally have the cash right now. Right. Present value, or PV, equals 400 times the quantity 1 minus 1.005 to the power of negative 60,
+
+all divided by 0.005, which is approximately $20,690.22. Sense check. You pay 400 times 60 equals $24,000 in total. So the loan must be less than that. Okay.

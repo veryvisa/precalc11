@@ -1,0 +1,9 @@
+This is the brief on quadratic functions and their graphs. First, let's talk about direction and the power of A, you know, your leading number. Instead of just memorizing letters, look right at A to see your shape. If it's negative, it opens downward, making a high peak like A thrown baseball. Oh, and the y-intercept, that's simply the final constant number.
+
+So, what does this all mean for your graph right out of the game? Just look at the sign of A to see if your parabola is smiling or frowning. Second, finding the exact middle or the axis of symmetry. It's easy to freeze up when you aren't given a full equation, but symmetry is literally your best friend here. You can use a simple ratio of your equation's numbers to find this center line,
+
+or just average your horizontal zero points to lock it in. Once you have that, simply plug the center value back in, and boom, you find the vertex's exact peak or valley. Finally, let's navigate boundaries and common traps. How wide can your graph get? Infinitely wide.
+
+But how tall or deep it gets, the range, is strictly limited by that vertical vertex point. Now, are you accidentally using the horizontal x value for your range? It's a classic trap. Always remember that max and min values are strictly about the vertical y value, and be super careful not to drop negative signs when calculating your center.
+
+Find your axis first, and you instantly unlock the vertex, the range, and the entire shape of your graph.

@@ -1,0 +1,7 @@
+This is the brief on loans and investments with regular payments. An annuity is simply a series of equal regular payments. Mastering them comes down to tracking your cash direction and matching interest rates to payment periods. To solve any annuity problem, you've got to isolate exactly what you're trying to find. First, define your goal.
+
+Saving with equal deposits, solve for future value, FV. Borrowing, the loan is present value, PV, and you solve for the payment, PMT. In a TVM solver, enter N, I%, PV, PMT, FV, PY, NCY. Remember the golden rule, money you pay out is negative, money received is positive. Second, let's connect the math.
+
+I is the interest rate per payment period, and N is the total payments. So paying monthly for five years means N is 60, not five. Total interest is just your total payments minus the amount borrowed. Naturally, total payments are always more than a loan, but less than a savings total. Finally, beware of traps like calling the total pay the interest or the sneaky Canadian mortgage quirk.
+
+They use semi-annual compounding with monthly payments. Because periods differ, simply dividing the yearly rate by 12 is totally wrong. If your half-year rate is 2%, the equivalent monthly rate is 1.02 to the power of 1 sixth minus 1, or roughly 0.0033. In a TVM solver, fix this by setting PY to 12 and CY to 2. So, let's go.

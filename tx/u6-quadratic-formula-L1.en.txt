@@ -1,0 +1,23 @@
+So, this brings us to mistake number one. Take a look at solving x squared minus 8x plus 4 equals 0. Okay. x squared minus 8x plus 4 equals 0. Right. When you plug that in, the trap is dividing only the radical part, just because it looks divisible.
+
+Your brain naturally sections that piece off. Totally ignoring that the fraction bar covers the entire top half. Exactly. It's like splitting a shared restaurant bill, but only dividing the cost of the drinks. I mean, you can't just leave the entrees out of the math.
+
+You have to divide the whole thing. That is a great way to put it. So, the actual fix is to divide both terms by 2, yielding x equals 4 plus or minus 2 times the square root of 3. Right. And that visual bias strikes again at the bottom of the formula.
+
+This is mistake number five. Let's look at 2x squared minus 6x plus 1 equals 0. Okay. So, in this one, a equals 2. Yes. Yeah.
+
+So, since a equals 2, the bottom of your fraction already looks like a 2. You glance down, see that familiar 2 in the denominator spot of your mental template, and you just write it down. Oh, wow. Yeah. So, your brain just skips the actual multiplication step because visually the equation feels complete.
+
+Exactly. Okay. But the formula needs 2a, which is 2 times 2, giving you 4. And after you do all the math and reduce it, the real fix is x equals 3 plus or minus the square root of 7, all divided by 2. We're basically prioritizing the visual aesthetic of the formula over its literal instructions.
+
+We really are. Which actually leads to another major trap, right? Moving from visual layout to setup, just rushing the setup. Oh, yeah. We want to start plugging in variables immediately.
+
+This is mistake number two. Reading the c value right where it sits in the initial equation. Like with x squared equals 2x plus 5. You can't just read the numbers where they currently sit. Right.
+
+Because the formula's architecture completely collapses if all the terms aren't gathered on one side and set to zero. You have to move them. Exactly. The fix here is to move the terms left to get x squared minus 2x minus 5 equals zero. Which flips the polarity entirely.
+
+It does. And those signs, well, that's where the real danger lies. That covers mistakes 3 and 4. Oh, right. The sign errors.
+
+Take x squared plus 2x minus 6 equals zero. Forgetting that c is negative means you miss the fact that minus 4 times 1 times negative 6 is actually positive 24. So the discriminant actually gets bigger, not smaller. Exactly. And then there's the minus b trap.
+
+Oh, I hate that one. Like in x squared minus 5x plus 3 equals zero. Reading minus b in the formula doesn't mean you just write a minus and then a 5. Nope. Since b is negative 5 minus b is actually positive 5.

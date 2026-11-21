@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Simple trig equations · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Simple trig equations</span><span class="zh" lang="zh-Hans">简单三角方程：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u89/audio/u8-trig-equations-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u89/audio/u8-trig-equations-L2.zh.m4a" download="u8-trig-equations-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u8-trig-equations-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u8-trig-equations.html">Simple trig equations</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">这次我们直接来深挖一份非常实用的数学笔记资料主要聚焦于一个解题痛点也就是如何彻底解开简单的三角方程对其实很多人在面对三角方程的时候
+
+尤其是依赖计算器的时候常常会卡壳没错感觉就像你雇了个特别懒的员工每次交给他任务
+
+他做到一半就直接打卡下班了这个比喻非常贴切就是当你用计算器算出比如说三应的反函数等于-0.5的时候他直接给你吐出一个-30度
+
+然后就罢工了但是在零度到360度的区间内满足这个方程的角其实有两个对考试的时候这两个角可是都必须写出来的
+
+既然我们要自己动手把答案找全那第一步到底该怎么做呢如果最后分离出三角比一等于二我是不是就可以直接停笔了确实可以直接停笔
+
+这就是笔记里讲的四步核心法则的第一步分离三角比哦就是先把方程左右两边理清没错
+
+当你发现sin或者cos的值大于1或者是小于-1的时候直接判定无解就可以了明白了那如果算出来的值在合理范围内
+
+比如刚好是个负数下一步我是不是就该画图找参考角了对的求参考角是第二步不过这里有个非常反直觉的硬性规定
+
+嗯什么规定就是无论分离出的值是正还是负你都必须用它的绝对正值来求参考角等等
+
+为什么明明方程里是负值我却非要用正值去算呢因为参考角在几何上代表的是一个基础的锐角既然是个纯粹的物理夹角那它肯定是用正数来表示的
+
+啊我懂了就像造房子得先量出基础尺寸然后再看门朝哪个方向开
+
+就是这个道理有了正值的基础形状比如遇到特殊值就像特殊的直角三角形一道小数就在计算器上按反函数键
+
+嗯记得千万别输入负号然后就可以进入第三步确定向线了对吧没错
+
+由最初的正负符号还有CAST法则来确定角落在具体的哪两个向线这确实好用相当于在脑海里画个单位圆
+
+那如果分离出来的值是零或者正负一呢这种就直接对应坐标轴上的角看单位圆就行比如sinθ等于一它就只对应θ等于90度
+
+通常只有这一个解理清了最后第四步就是在各个向线里用参考角算出最终的角对
+
+其实在真正动笔前可以在脑海里过一遍几个灵魂问题把这套逻辑完整的串起来也就是先看已知区间和分离后的值然后明确要求出所有的角
+
+接着画个简单单位圆用CAST标出正负向线没错在利用正值求出的参考角去进行计算然后第一向线就是参考角
+
+第二向线是180度减去参考角第三向线是180度加上它第四向线是360度减去它总结的很到位不过最后还有很重要的一步
+
+也就是带回原方程检验对数一数两个角是不是都找到了光说不练甲吧是我们拿笔记里的实战演练走一遍吧
+
+好啊具体是什么题目题目是在零度到360度区间内解2乘以cosθ加1等于0这个方程行
+
+那你先来分离一下试试我把1移过去然后除以2得到cosθ等于-1分之1在-1和1之间所以有解
+
+很好接下来该找参考角了我要把负号忽略掉用正的1分之1去求cos多少度等于1分之1呢
+
+根据特殊三角形参考角应该是60度没错那现在的原方程是负的你想想cos在单位元里代表什么
+
+呃代表x坐标的水平位置既然为负那就肯定在单位元的左半边也就是哪两个相线呢肯定是第二和第三相线
+
+对现在工具都有了算算最终的角吧在第二相线就是180度减去60度等于120度
+
+第三相线呢是180度加上60度等于240度最后别忘了检验对
+
+带回最原始的方程把120度带进去2乘以-1分之1加1确实等于0240度带进去也完全成立
+
+所以最终答案就是θ等于120度和240度按计算器之前先在方程旁写下两个相线只对最后的角四射五入
+
+做减法时用位曲整的参考角</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u8-trig-equations-L2#ep-u8-trig-equations-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u8.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

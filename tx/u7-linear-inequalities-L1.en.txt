@@ -1,0 +1,33 @@
+So there's really no worse feeling than doing a whole page of algebra, you know, flawless work, and then completely botching the answer because of a single negative sign in an inequality. I mean, if you're looking at something like five minus four X is greater than 17, your brain, it kind of just wants to go on autopilot and treat it exactly like a normal equation. Right. Yeah. And if you do that, you fall right into the first major trap
+
+because, you know, you'd subtract the five, divide by negative four, and just leave that greater than sign exactly as it is. Which is a disaster. Total disaster because when you multiply or divide by a negative, you're not just changing a value. You're basically putting the equation in reverse.
+
+Oh, so the whole number line literally mirrors itself. Exactly. That sign has to turn around. So the actual fix here is that X is less than negative three. And I mean, we can prove that reverse logic holds up just by testing a number, right? Yeah, definitely. So if we test X equals negative four, we get five plus 16, which is 21. And 21 is, you know, definitely greater than 17. So that works.
+
+But wait, because once you actually learn that rule, your brain starts seeing ghosts everywhere. Oh, I know exactly what you mean. Right. Like look at this one. Three X plus five is less than negative seven. After you subtract the five, you're staring at a negative 12 on the right side.
+
+And every instinct is just screaming at you to flip the sign because of that negative 12. Yes, exactly. I mean, why wouldn't I flip it? Well, because that negative 12 is just sitting there. It's a destination, not the action you're actually taking. Right. The action is what matters. Exactly. What dictates the rule is the number you divide by.
+
+So to isolate X, you divide both sides by a positive three. And since that action is positive, you aren't tearing the car around. So the sign just stays exactly where it is. Yep. It stays put. OK. So the negative on the 12 is basically just a decoy.
+
+Then the fix is simply that X is less than negative four. You got it. And testing X equals negative five confirms it. So negative 15 plus five equals negative 10, which is indeed less than negative seven. OK. So what happens when these traps show up earlier in the problem?
+
+Like, say you have 10 minus two times open bracket X minus three closed bracket is less than or equal to four. Ah, the distribution error. Yeah. Or people multiply that minus sign into only the first term inside the bracket. It's just a classic mechanism failure. People treat the bracket like, I don't know, a loose collection of numbers instead of a package deal.
+
+Right. They forget the whole package. Exactly. That negative two outside the bracket has to be distributed to every single piece inside. So you aren't just calculating negative two times X. No, you also have to calculate negative two times negative three, which, you know, forces that second term to become a positive six. Got it. So patching up that sequence, the inequality becomes 10 minus 2X plus six is less than or equal to four.
+
+Right. And then you just combine your numbers. Which gives you 16. Move that over and you get negative 2X is less than or equal to negative 12. And suddenly we are right back at our very first rule. Right. We divide by that negative two, the sign flips, and we find that X is greater than or equal to six. Exactly.
+
+But, you know, fixing the algebra is really only half the battle. Oh, for sure. Because then you have to translate that algebraic answer into interval notation. Right. A language a computer or a grader actually understands. And that is exactly where so many people trip at the finish line.
+
+Like, they'll take an answer like X is greater than or equal to six, which you might get from solving 2X minus one is greater than or equal to 11. Yeah. And the interval notation has to accurately reflect exactly where the values start and end. But the specific mistake I see all the time is people giving both ends of that answer the exact same bracket. Oh, yeah. I've literally seen so many people put a square bracket right next to the infinity symbol.
+
+Which completely ignores what those brackets physically represent. I mean, think of a square bracket like a solid brick wall at the end of a road. Right. You can only build a wall at a specific physical address. Exactly. A number like six is an address. But infinity isn't an address. It's the horizon.
+
+You can drive toward it forever, but you never actually reach it. Right. So you can never build a wall there. Because infinity can never be included, it always, always gets a soft, open-ended round bracket. So the correct fix here is a square bracket at six and a round bracket at infinity. Exactly. Okay. So that leaves us with one final very sneaky issue with brackets.
+
+And that's leaving them attached to their old ends after a sign flip. Oh, this one is brutal. It really is. Like, if we take the compound inequality, negative seven is less than or equal to one minus two X, which is less than five. Right. So here is the breakdown of that mechanism. To isolate X in the middle, you first subtract one from all three parts. Which leaves us with negative eight, negative two X and four.
+
+Yep. Then you divide everything by negative two. And as we established earlier, that division by a negative forces all the signs to flip. Right. But the mistake happens when the square bracket mentally stays glued to the left side where the less than or equal to sign originally lived. Oh, I see. When those signs flip, the or equal physically moves with it. Exactly. It now belongs to the four, not to the negative two.
+
+Rewrite from small to large. Negative two is less than X, which is less than or equal to four. So open round bracket, negative two comma four. Close square bracket.

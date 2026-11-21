@@ -1,0 +1,219 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pre-calculus 11 in one pass · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L4 · Whole course</p><h1><span class="en" lang="en">Pre-calculus 11 in one pass</span><span class="zh" lang="zh-Hans">预备微积分 11 总括</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-core/audio/course-L4-summary.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-core/audio/course-L4-summary.zh.m4a" download="course-L4-summary.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/course-L4-summary.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">你有没有想过从纸面上最抽象的五里数一路走到你每个月要还的车贷这中间其实连着一条非常坚固的隐形逻辑线确实是这样
+
+就是第一到第三单元花了很大篇幅给数字分家族嗯十数密
+
+根式这些对比如里面特意对比了呃根号下49
+
+还有根号下50初看之下它们不都是带个根号的数字吗处理起来为什么非要有差别
+
+这个嘛表面上的相似往往是最具欺骗性的在数学系统的底层分类里它们俩可以说是完全不同的物种
+
+不同物种对你看根号下49本质上就是7嗯
+
+正好是7没错它是一个自然数整数也是有理数
+
+但是那个根号下50它是一个无理数如果你非要把根号下50写成小数它的数字既不会终止
+
+也不会循环也就是说我其实永远都没法用一个呃精确的小数
+
+来写出根号下50完整的样子对的只要你动用计算器把它变成一个具体的小数
+
+你就已经引入了误差呃准确的说我是切断了它原本的内容精确性完全正确
+
+这就是为什么在处理有理数的时候你可以轻易的进行加减成熟的精算但是面对无理数保留根号的形式才是最严谨的做法
+
+原来如此所以考试里那些数字分类题根本不是在考四级硬背没错其实是在测试
+
+你是不是真的看透了数字的底细如果你连它属于哪个层级都看不清那后续的运算基础肯定是要动摇的说到运算基础笔记里关于指数率和幂的部分
+
+有个设定我一直觉得很违背常理哪个设定就是那个分数指数比如8的三分之二次幂哦
+
+这个很多人都会卡壳对啊我可以把一个数乘两次或者乘三次但是我怎么可能把一个数去乘三分之二次这在现实里根本解释不通吗
+
+确实凭直觉是想不通的因为关键在于分数指数并不是真的要求你去乘三分之二次它只是数学家发明的一种语法
+
+语法也就是把复杂操作做了一个视觉上的缩写吗没错非常精确的说法在8的三分之二次幂里
+
+那个分子上的二代表的是平方然后分母上的三代表开立方所以你其实可以先对8开立方哦也就是找哪个数乘自己三次等于8
+
+那答案肯定是2对的然后再把这个2进行平方结果正好就是4你看
+
+这哪是什么无法理解的魔法哈哈明白了它只是把开方和乘方这两步操作硬生生浓缩到了一个分数里
+
+分母负责降维分子负责升维就是这个逻辑这种语法确实让柿子看起来干净多了就像笔记里提到的
+
+5的0次幂等于1还有那个2的-3次幂结果等于1八分之一嗯这语的负号代表的可不是负数啊
+
+而是倒数你看懂了这层语法那些带负指数的复杂柿子无非就是让数字在分数的上下两层之间挪动而已
+
+掌握了这种底层语法还真的能看穿很多假象你看笔记里提到在没有计算器的情况下
+
+比较两个根式的大小比如说3倍的根号下5和2倍的根号下11诶
+
+平直觉很容易猜错啊因为外面的3比2大但里面的5又比11小那你会怎么处理只要把外面的数字挪回根号里面
+
+情况就彻底明朗了3挪进去变成9乘5就是根号下45没错2挪进去变成4
+
+乘11就是根号下44方金同一个根号下面一笔大小一目了然根本不用算具体小数这种还原真相的思路
+
+在解根式方程的时候更是致命的重要因为我们会遇到所谓的增根现象哦
+
+增根这部分我仔细推敲了一下笔记里举了个解方程的例子嗯你还记得是哪个例子吗
+
+记得是根号下X加3等于X减3对为了去掉根号
+
+常规操作就是把等号两边同时平方最后能算出两个答案X等于1还有X等于6听起来很完美
+
+但是如果我把X等于1带回原来的方程里等式左边变成了根号下4也就是2
+
+嗯哼但等式的右边呢变成了1减去3结果是负22怎么可能等于负2啊
+
+这个X等于1到底是从哪冒出来的假答案哈哈它呀是由平方这个动作凭空捏造出来的
+
+凭空捏造是的平方运算有个隐藏的特性就是它会抹擦掉负号在运算的过程中
+
+它把原本是负的数值强行变成了正的哇所以相当于在数学推导里造出了一个虚假的现实
+
+完全正确平方运算虽然帮你解开了根号的锁但同时也把谎言引了进来对这就是为什么笔记里再三强调
+
+一定要把算数来的根带回原式区检验没错甚至要求明确标出打勾或者打差这检验真伪的动作本身就值一份确实
+
+检验真伪的能力比单纯能算出答案重要多了这种辨别真假的能力也会平滑的过渡到多项式的学习中笔记里其实把英式分解形容为一种寻找共同机箱的过程
+
+怎么说比如你要心算51乘以49你怎么算最快把它看作50加1乘以50减1对
+
+然后利用平方差公式也就是50的二次方减去1的二次方瞬间就能得出2500减1也就是2499所以英式分解
+
+其实就是在杂乱的数据里找寻让复杂问题变简单的收纳数没错但是你看当我们带着多项式这个工具箱
+
+进入第四和第五代元的时候也就是把这种多项式结构放进分数里变成代字母的有理式对这时候笔记的重点突然就变了
+
+有理式的化简明明看下来就是约分是啊但笔记却要求你在第一步必须找出所有的不允许值也就是那些让分母变成零的X的值吧
+
+我其实一直想问为什么我们要花一半的精力去找那些在数学上根本就不存在的点因为这些所谓的不存在的点恰恰定义了等式的边界
+
+边界对很多时候我们以为数学公式是无限适用的但这个不允许值就是在警告你模型是有极限的
+
+我明白了这在现实的应用体力体现的太直接了比如那个两根水管灌满水池的经典问题对列出分式方程之后
+
+一般能解出来两个答案但回到现实中水管绝对不可能用一个复数的时间去注水没错或者遇到某个导致分母为零的无效状态
+
+所以找不允许值就是在确保数学逻辑没有跨出现实的边界有了这种边界感我们再去审视第五单元里的抛物线
+
+也就是二次函数视角真的完全不一样了抛物线其实就是把数学变成了视觉图像比如投篮的轨迹喷泉的水柱
+
+甚至卫星锅的形状对不过笔记里为什么极力主张我们要把二次函数的一般式转化成顶顶式呢因为一般式就像是个锁着的黑匣子
+
+你顶多知道它是个抛物线但顶顶式就不一样了它是怎么被拉伸的向左还是向右平移了多少全都一清二楚
+
+最关键的是它的最高点或者最低点到底在哪你一眼就能看见找到这个最高点在解决实际问题的时候太管用了
+
+比如笔记里那个票价与收入的博弈问题嗯票价定高了没人来定低了又不赚钱没错
+
+最高收入永远藏在抛物线的顶点上而且我发现如果把函数保留在乘机的形式比如20加N乘以300减10N也就是不把它完全展开
+
+对其实不用费劲展开成一般式一眼就能看出哪两个N的值会让收入变成零因为抛物线是完美对称的嘛嗯
+
+没错直接找这两个零点的正中间找到终点那里肯定就是顶点也就是最高收入的位置
+
+这也是最快的方法嗯你说的这种寻找终点的思路其实就是一种效率至上的体现这正好带我们进入了第六和第七单元
+
+一元二次方程和不等式对在解方程的环节效率同样是核心命题提到这个
+
+我一直有个很大的挑战想提出来哦说来听听既然我们早就有一个求根公式只要把数字套进去
+
+什么二次方程都能解那为什么还要学提取供应式配方法这另外四种方法这不是纯纯浪费时间吗
+
+哈哈这其实是关于效率和犯错率的考量很多人把求根公式当成万能钥匙难道不是吗在现阶段
+
+数学不仅要求你解出题更要求你评估成本如果阴时分解只需两行就能得出答案你非要列一个冗长的求根公式去算一大堆成法和开方
+
+你不觉得太慢了吗嗯杀气用了扭倒而且步骤越多算错一个符号
+
+导致满盘接输的风险就越高特别是如果那个b的二次方减4ac恰好是个完全平方数那阴时分解绝对比套公式快得多对
+
+甚至在很多情况下你根本不需要解出整个方程不解方程怎么回答问题比如题目问用某个速度抛出的球
+
+能达到25米高吗这时候你只需要算公式里的一小部分也就是判别式d哦
+
+只算b的二次方减4ac对花个10秒钟算一下这个数如果它小于0直接判定方程没有实数解
+
+结论直接得出球根本达不到25米我不需要知道球每一秒的具体位置只要知道它能不能跨过那道门槛就行了太干脆了
+
+而当我们把等号换成不等号的时候这种跨越门槛的概念就延展成了对生存空间的定义生存空间就像生活里
+
+很多问题其实不是一个精确的点而是一个范围没错比如你口袋里只有30加元要打车你能走的距离并不是一个固定的数值
+
+而是一个上限以内的所有可能值那用笔记里那个抛球的公式来看呢比如公式ht等于-5倍的t的二次方加20t数学上
+
+当t等于-2的时候你确实能算出个结果但现实中球在抛出之前-2秒是不存在的呀对
+
+落地后它也不会继续钻进地里这就是实际问题中的定义欲数学的逻辑在这里必须服从物理的现实这点太奇妙了
+
+不过当我们推进到第八单元也就是三角学的时候这种现实直觉好像又反过来被数学给打破了怎么打破的我们从小就知道
+
+三角形的内角核肯定只有180度对吧嗯直觉是这样但是笔记里突然出现了摩天轮转过90度210度
+
+甚至600度一个角超过360度这到底是个什么概念呢因为在这里你得突破多边形内部那种静态直角的束缚了
+
+引入了标准位置角之后角变成了一种旋转的度量也就是有一条固定的起始边没错起始边围绕圆点旋转
+
+转一圈是360度继续转第二圈当然就可以达到600度所以画出坐标轴和中边的草图非常有必要对
+
+而且在计算这些角度的精确值时笔记是非常排斥计算器给出的那一长串小数的比如0.8660254这种对考试要的根本不是这个
+
+只要通过脑海里的那两个特殊的直角三角形你就能直接给出像二分之根号三这样的绝对精确值但如果我们彻底抛弃直角呢笔记里有个场景我觉得很酷
+
+相距十公里的两座防火瞭望塔同时看远处的火灾这中间没有任何直角怎么算距离这时候
+
+正弦定里和余弦定里就派上用场了对于这两座塔你只要找到一组完整的边和它对面的角用正弦定里就能精确锁定火场距离那如果是船只航行后突然转向呢
+
+以至两边和夹角余弦定里一行公式就能解决哇不过整个三角学历我觉得最不可思议的是关于SSA
+
+也就是两解情形的哲学这也是这篇笔记里最迷人的一点题目明明给了你两边的长度和一个角直觉告诉我这足够钉死一个三角形了吧
+
+实际上啊你可能画出零个一个甚至两个完全不同的三角形同样的数据
+
+居然能画出两个不同的形状没错 现实条件有时候就是具有这种奇异性的而数学完美的模拟了这种不确定性拥抱不确定性啊那如果说前面八个单元都是在训练你的逻辑肌肉
+
+最后第九单元的金融素养就是直接把这些逻辑变现了这个比喻很贴切从抽象直接落到你的钱包上比如极其常见的富力陷阱
+
+一家银行给你4.5%按年富力另一家是4.4%但按月富力同样存8000加元放五年到底哪个多
+
+秉直觉很难猜对是的 必须用富力公式把富力次数也就是那个N给带定去算扎实的指数率基础
+
+在这里直接决定了你的财富没错 投资的真相太震撼了就像那个免税储蓄账户从18岁开始每月存200加元到28岁累计超过31000加元
+
+而这里面有大约7000加元完全是凭空生出来的利息时间加指数 威力惊人但在贷款买车还是租赁买断这个例子上
+
+商家简直是把障眼法玩到了极致那个lease的例子 对吧对 每个月389加元的租赁看起来绝对比每个月703加元的贷款买车要便宜得多
+
+我当时看了想都没想就选了租赁但如果你冷静拆解一下呢我按照笔记的思路分两栏逐项列出了四年的所有成本算上月供首付
+
+最关键的是在买车选项的最后减去四年后那辆汽车的转卖价值结果怎么样结果那个看似昂贵
+
+每个月要交703加元的买车选项反而更划算算清这笔账才算是真的战胜了消费陷阱</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=course-L4-summary#ep-course-L4-summary"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-course.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

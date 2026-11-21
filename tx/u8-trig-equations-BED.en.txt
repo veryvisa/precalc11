@@ -1,0 +1,11 @@
+This is the brief on simple trig equations. You know, solving trig is kind of like picking a lock. You've got to execute the steps in the exact right sequence or the lock just will turn. Well first, isolate the ratio. You have to get the trig function completely by itself,
+
+moving your constants until you have something like sin theta equals negative 0.5. And hey, here is a massive shortcut. If your isolated sine or cosine is outside the negative 1 to 1 range, stop immediately. The lock is broken and there's literally no solution. Second, find the reference angle.
+
+Use only the positive value of your ratio on the calculator. Now, why do we only use the positive value? Because that gives you the pure reference angle. The negative sign is really just a map telling you which quadrants to drop that angle into using the cast rule. Finally, build your final angles.
+
+Listen, never blindly trust the calculator. The inverse key will often just hand you one angle, so you have to manually find both solutions. Use the quadrant rules to build them. Quadrant 2 is 180 degrees minus your reference angle. Quadrant 3 is 180 plus.
+
+Quadrant 3 is 180 minus. Quadrant 3 is 180 plus. Quadrant 3 is 180 minus. Quadrant 3 is 180 plus. Quadrant 3 is 180 minus.
+
+Quadrant 3 is 180 plus. Quadrant 3 is 180 minus. Quadrant 4 is 180 minus.

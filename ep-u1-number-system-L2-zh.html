@@ -1,0 +1,79 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about The real number system · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about The real number system</span><span class="zh" lang="zh-Hans">实数系统：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u14/audio/u1-number-system-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u14/audio/u1-number-system-L2.zh.m4a" download="u1-number-system-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u1-number-system-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u1-number-system.html">The real number system</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">如果我把根号49和根号50直接放在你面前它们看起来简直就像双胞胎对吧确实单看外表的话
+
+长得挺像的但在数学的微观世界里它们截然不同一个是极其干净的整数另一个却是一串永远不会结束的混乱小数
+
+我们今天就直接切入关于实数系统的这篇笔记看看为什么相似的数字处理起来天壤之别没错
+
+这其实是个那个不能以貌取人的过程如果你要给它们分类首先必须看清它们是怎么被组织归类的
+
+笔记里用了一个很好懂的类比就是说数的集合就像一层套着一层的盒子非常经典的套啊模型最里面的小盒子是自然数字母N
+
+外面依次套着非复整数W整数I有理数Q最外层超级大盒子就是实数2
+
+非常精确那我们拆解一下有理数Q和无理数也就是笔记里写的Q上面加一行这俩到底有什么本质区别
+
+有理数就是能写成分数的数小数部分要么有限要么规律循环没错那无理数就是另一头了
+
+它是无限且绝对不循环的小数比如圆周率π或者三倍根号5就是说这俩盒子是完全碰不到一起的对
+
+互不相交完全独立但把它们合在一起就拼成了外面的实数大盒子而且只要属于里面的小盒子
+
+它必定也就属于外面套着它的所有大盒子完全正确就是一个数必定属于包含它最小家族的所有外层家族懂了那我看这些带根号的数
+
+觉得长得挺复杂是不是直接扔进无理数盒子里千万别这恰恰是笔记里重点警告的陷阱你绝对不能被数字的外表欺骗
+
+核心法则永远是先化简再分类先化简所以根号49其实也就是个伪装的7本质上是整数对
+
+再比如笔记里提的三次根号-8这个听着复杂吧算出来其实就是-2没错不过有个硬性规定要注意
+
+如果是负数开偶次方根比如根号-4这个不行对吧完全不行
+
+它根本不是实数连进我们这些盒子的资格都没有原来如此那为了确保分类正确笔记里给了这套五步法
+
+动笔前过一遍能防止被骗对第一步看已知看清数字第二步问
+
+求什么第三步在脑海中画出套啊模型盒子第四步选择化简工具最后一步就是进行小数检验我们用笔记里的例子实战一下
+
+第一个负根号25选化简工具来算的话其实就等于负5然后做小数检验
+
+负5是个很干净的整数没有小数部分所以检验直接结束它的最小盒子就是整数i因为带负号
+
+进不了非负整数w的盒子没错向外逐层推它就属于iq2那下一个
+
+三分之九这个化简出来直接就是三那三的最小盒子就是最里面的自然数n往外扩
+
+它就属于nwiq2正确最后这个稍微棘手的根号45它不是完全平方数
+
+化简后变成了三倍根号5对做小数检验的话约等于6.708而且后面无限不循环
+
+既然无限不循环那最小盒子只能是无理数了没错也就是它只属于无理数级和实数2
+
+这确实是个很好的提醒在剥离数字表面伪装前绝对不能急着下结论是的这就引出了笔记最后最关键的一段总结
+
+做题时一定要记住分类题是送分题先把每个根式化简再写出它所属的全部数级如4属于nwiq2
+
+漏写更大的数级是最常见的时分点</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u1-number-system-L2#ep-u1-number-system-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u1.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

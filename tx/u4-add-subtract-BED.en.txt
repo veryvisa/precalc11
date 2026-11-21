@@ -1,0 +1,9 @@
+This is the brief on adding and subtracting in Precalculus 11. First, start by factoring every single denominator. You find your lowest common denominator, or LCD, by grabbing each unique factor at its highest power. Then, rewrite each fraction by multiplying the top and bottom by whatever factors are missing. Once the bottoms match, what do we actually combine?
+
+Well, you absolutely must add or subtract the numerators only. Please don't fall into the common trap of mistakenly adding the denominators together. Second, watch out for the biggest pitfall, subtraction. When subtracting a fraction, you literally have to put its whole numerator in brackets, because that minus sign applies to the entire thing.
+
+For example, minus bracket x minus 2 becomes negative x plus 2. A frequent error is letting the minus sign only hit the first term, which breaks everything. After combining, factor the new numerator. But remember, you can cancel common factors only, never individual terms. Finally, let's talk about NPVs, or non-permissible values.
+
+These are any values that make an original denominator zero, and they always got to be stated. If you run into an edge case with opposite denominators, like x minus 3 and 3 minus x, don't multiply them, just flip the sign of one fraction. And hey, always verify your final answer by plugging an allowed value, like x equals 0, into both the original question and your answer to ensure they match.
+
+Ultimately, mastering these expressions comes down to identifying the true LCD, religiously bracketing your subtracted numerators, and always tracking your non-permissible values. That is enough for today. Rest counts too.

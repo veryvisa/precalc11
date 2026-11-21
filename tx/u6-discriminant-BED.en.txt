@@ -1,0 +1,9 @@
+This is the brief on the discriminant. You know that b squared minus 4ac part of the quadratic formula? Well, that's the discriminant. A brilliant shortcut acting like a spoiler alert that reveals exactly how many real roots an equation has before you even start solving it. So, what does this actually look like in practice?
+
+First, the three core rules of d. If d is greater than 0, you've got two different real roots, meaning the parabola crosses the x-axis twice. If d equals 0, you have just one distinct root touching the line. If it's less than 0, you get no real roots. Think of it as an x-axis metal detector.
+
+It tells you if you'll hit the line without doing all the heavy digging. Second, perfect squares and the unknown k. If d is a perfect square, like 4 or 9, your roots are rational and factor perfectly. But sometimes, you need to solve for an unknown k by setting d appropriately. Now, you might be wondering, what if k multiplies x squared?
+
+Well, you absolutely must make sure k doesn't equal 0. Finally, dodging common pitfalls. Please, never call a zero-discriminate no solution. It means exactly one root. Always use brackets to avoid losing negative signs when squaring.
+
+And remember, dividing by a negative number flips your inequality sign.

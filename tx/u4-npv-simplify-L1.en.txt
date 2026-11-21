@@ -1,0 +1,37 @@
+Right. So today we are jumping straight into your objective. We are examining common mistakes made when simplifying rational expressions and determining non-permissible values. Because, you know, finding those non-permissible values isn't just some random chore for a test. It's about finding the exact moment a system breaks down or becomes undefined. It really is. So let's look at the first mistake, which is canceling terms instead of factors.
+
+Picture an expression where the top is X squared plus 4X over X squared plus 3X. Okay. Yep, I have it. My brain immediately looks at that and thinks, Ugh, look at those X squareds sitting right there on top of each other. Why can't we just cancel out the X squared? I mean, that is a super common temptation.
+
+But that X squared is added to the 4X, not multiplied. Right, yeah. So that makes it a term rather than a factor. You have to remember that only factors, like the pieces multiplying the entire top and bottom, can actually be canceled. Ah, okay. So we have to fix that by factoring first.
+
+So the top becomes X times X plus 4. Yep, exactly. And the bottom becomes X times X plus 3. Right. And right there is where you find the non-permissible values or NPVs. Okay, so looking at the bottom factors, the NPVs are X cannot equal 0 and X cannot equal negative 3.
+
+Exactly. And then we can cancel the X to get X plus 4 over X plus 3. Right. And you can verify that too. If you plug in X equals 1 to the original, the answer is 5 over 4, not 4 over 3 like you get if you illegally canceled out the X squared. Well, yeah, that proves it.
+
+But that brings up a really good point about timing. When exactly should you check for these NPVs? Let's use X squared minus 25 over X squared plus 2X minus 15. Well, if you factor that, you get X plus 5 on the top and bottom. But there is a huge danger in reading the bottom after you cancel that X plus 5.
+
+Because the value X equals negative 5 just sort of disappears. Right? Exactly. It just vanishes entirely. But at X equals negative 5, the original expression is 0 over 0, which is undefined.
+
+Oh, I see. So the rule is you always write NPVs from the factored original bottom, which is X plus 5 times X minus 3, meaning X cannot equal negative 5 and X cannot equal 3. You got it. But wait, does the top of the fraction matter for NPVs at all? Like, what if we have X squared minus 4 on top and X squared minus 6X on the bottom?
+
+Well, a 0 on top is perfectly allowed. Wait, really? Yeah. I mean, the fraction's value is just 0 in that case. Only division by 0 is a problem.
+
+So honestly, only the bottom matters. Oh, okay. So applying the fix, we just factor the bottom, X squared minus 6X, as X times X minus 6. So X cannot equal 0 and X cannot equal 6. Precisely.
+
+Okay, moving on to mistake number 4. Confusing opposites and equals. Let's say we have 3 minus X over X squared minus 9. Oh, this one trips up so many people. I bet.
+
+Because, I mean, aren't 3 minus X and X minus 3 basically the exact same thing? They are definitely not equal. They are opposites. Really? How so?
+
+Think about it. At X equals 5, they are negative 2 and positive 2. Oh, right. So opposites canceled to negative 1, not positive 1. Gotcha.
+
+So the fix is to rewrite it. 3 minus X is equal to negative 1 times X minus 3. Perfect. And the result is negative 1 over X plus 3, where X cannot equal positive or negative 3. And if we check at X equals 0, the original is 3 over negative 9, which is negative 1 over 3.
+
+It matches. Yeah, it absolutely does. So that brings us to the final error. Negative sign slips. Let's look at 8 minus 2X over X squared minus 8X plus 16.
+
+Okay. Yes. The mistake here is taking out a negative 2 from the top and leaving X plus 4, right? Yes. Because taking out negative 2 flips the sign of every single term inside.
+
+Oh, so negative 2 times X plus 4 would actually be negative 2X minus 8. Right. Which is definitely not 8 minus 2X. Okay. So noting the correct factoring, 8 minus 2X is equal to negative 2 times X minus 4.
+
+We check that. Negative 2X plus 8. Yep. It works. Cancel 1X minus 4.
+
+The result is negative 2 over X minus 4. X cannot equal 4.

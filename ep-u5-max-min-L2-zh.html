@@ -1,0 +1,89 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Max/min problems · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Max/min problems</span><span class="zh" lang="zh-Hans">最值应用题：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u5-max-min-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u5-max-min-L2.zh.m4a" download="u5-max-min-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u5-max-min-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u5-max-min.html">Max/min problems</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">你有没有注意过演唱会或者游乐园门票的定价机制这个其实是个很让人头疼的矛盾就是票价定高了场子空一半票价定低了呢
+
+每张票赚的又太少这份笔记里明确指出凡是问题里带有平方关系并且出现了最大最小或者最优这种字眼的你其实都只是在做一件事
+
+找抛物线的顶点对吧完全正确就是找抛物线的顶点那在具体算之前那个有个对应关系你必须要分清楚
+
+哦什么对应关系就是如果题目问的是核实或者取什么值那他其实是在找山顶所在的横坐标也就是x轴但如果问的是最大是多少
+
+那对应的就是纵坐标也就是y轴了懂了等于说要把我们要找的这个总收入写出来其实就是把两个变量乘起来对吧
+
+比如总收入等于单价乘以销量但拿到这个成绩公式之后呢怎么才能最快找到那个山顶笔记里给了三种工具第一种是直接用公式
+
+x等于负b除以2a第二种是配方法但其实最精妙的是第三种直接从成绩形式里找出两个零点找零点
+
+然后呢然后直接取他们正中间的值你想想看为什么取中点会有效哇
+
+因为抛物线是完全对称的如果你能找到收入跌到零的两个极端也就是说票价太便宜导致白送还有票价太贵导致没人买的这两个点对
+
+非常对那最高利润点绝对就完美的坐落在这两个零点的正中间了没错这正是这个方法起作用的底层逻辑
+
+不过呢在真正动笔算之前笔记里提到要按顺序历清五个核心问题嗯哪五个
+
+第一已知什么你就说什么量在变每一步变多少你需要设定好变量
+
+并明确它的含义比如设N代表涨价一加元的次数明白定义变量
+
+那第二呢第二问就是到底要求什么是横坐标还是纵坐标单位又是什么这个确实
+
+很多时候算出一个数字就以为做完了完全忘了确认这到底代表价格还是人数就是这样所以第三步就是在脑子里把它画出来或者列表格也行
+
+确认这是一个开口向下的抛物线答案就在最高点嗯那第四步应该就是选工具了吧也就是把要求的量写成两个乘机
+
+求出零点然后取终点是的然后最后一步非常关键就是检验
+
+检验怎么检验也就是在你找到的最高点两侧各试着走一步然后算一下数值
+
+我明白了因为抛物线最高点两边的数字都会往下掉所以只要我算出来左边一步和右边一步的结果都比我的最高点小原理就是这样
+
+那我们现在用讲义里的健身房案例带你完整走一遍注意听这里的计算思路好我准备好了这家健身房现在有400名会员
+
+每月的会费是50加元会费每涨5加元就会流失20名会员哎要怎么定价月收入才会最高最高收入是多少
+
+行按照刚才的逻辑我们先设变量假设第二个括号是400减去20乘N对吧
+
+没错接下来就是找零点也就是看这两个括号什么时候等于零我来算一下啊如果50加上5乘N等于零
+
+那N就是负10如果400减去20乘N等于零那N就是20非常好哎
+
+所以我们得到了两个零点负10和20对最高点肯定就在正中间负10加上20等于10再除以2
+
+所以最完美的N等于5完全正确也就是说我们要涨价5次每次涨5加元总共涨25加元所以最优惠费应该是50加25
+
+也就是75加元嗯那人数和收入呢呃这时候流失了100人
+
+还剩300名会员最高总收入就是75乘以300等于22500加元非常完美哎
+
+我们可以用刚才说的安全网检验一下如果N取4也就是往左走一步总收入算出来是22400那如果N取6呢
+
+如果N取6总收入同样是22400哎两边确实都比我们的22500更小验证通过了
+
+这个过程啊真的非常丝滑相比于把一长双柿子展开再去算哎这种找零点和终点的方法
+
+简直直观太多了所以笔记里给出的最终解题技巧就是尽量把函数留在像刚才那样带括号的乘机形式里因为这样不仅能让你一眼看出零点在哪里
+
+顶点就是终点还能彻底手去把多项市展开的麻烦而最后一定写一句带单位直接回答提问的话谢谢大家</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u5-max-min-L2#ep-u5-max-min-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u5.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

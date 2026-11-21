@@ -1,0 +1,11 @@
+This is the brief on factoring difference of squares and perfect squares. This pre-calculus review is all about spotting hidden algebraic patterns so you can cleanly break down equations without getting totally stuck. When two perfect squares are separated by a minus sign, they factor beautifully into two simpler pieces.
+
+Picture a big square, right? Now cut a smaller square from the corner, leaving this weird L shape. Sliced and rearranged, that L shape snaps perfectly into a clean rectangle. But beware the trap. A sum of squares, with a plus sign instead,
+
+cannot be cleanly broken down using regular numbers. So leave it exactly as is. Second, perfect square trinomials. While the last rule is about cutting pieces away, this is about building a perfect square from scratch.
+
+If you have square terms on the ends, and the middle is exactly twice those base pieces multiplied together, you're set. It's incredibly tempting to just look at the ends and assume you're done. But don't fall for it.
+
+You absolutely must check that middle piece. Otherwise, treat it like an everyday trinomial. Finally, your factoring strategy and disguised squares. Take a breath and always pull out the greatest common factor first. But also watch out for squares wearing a disguise.
+
+Because a term to the fourth power is just a square hiding inside another square. Kind of like a math Matryoshka doll. You've got to keep opening those brackets until you literally can't factor any more. Always expand your answer to make sure you get the original equation back. And remember that when studying this, rest counts too.

@@ -1,0 +1,305 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Unit 8 preview: Trigonometry · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L3 · Unit</p><h1><span class="en" lang="en">Unit 8 preview: Trigonometry</span><span class="zh" lang="zh-Hans">第 8 单元预习：三角</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u89/audio/u8-L3-preview.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u89/audio/u8-L3-preview.zh.m4a" download="u8-L3-preview.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u8-L3-preview.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">想象一下,你现在正坐在一座巨大的摩天轮上,随着机器启动,你缓缓上升,越过最高点,转过了90度,接着是180度,然后转完了一整圈,360度。嗯,很生动的场景。对吧,但这还没完,摩天轮没有停,你继续随着它在空中旋转,直到你来到了,比如说600度的位置。
+
+哇,那可是转了快两圈了。是啊,如果这时候我们需要用数学来精确描述你所在的风味,该怎么做?这就是我们今天要一起探索的核心使命。
+
+我们将探讨转过90度以后的角,并且彻底打破直角三角形的限制,去解锁适用于任何三角形的正线定理和余线定理。没错,其实在以往的几何认知里,我们往往被困在一个完美的小小的直角三角形里,所有的角都不会超过90度。对,以前学的都是锐角嘛。
+
+就是这样,但在真实的物理世界里,旋转是连续不断的,就像你说的摩天轮。为了描述这些无限延伸的转了一圈又一圈的角,我们需要建立一个绝对的参考系。在数学上,这被称为标准位置。
+
+建立一个绝对的参考系,听起来就像是给所有的旋转定下了一个统一的零点。那这个标准位置在坐标系里具体是怎么摆放的呢?你可以这样在脑海里构建。
+
+首先,把你旋转的中心点,也就是那个角的顶点,死死的盯在坐标系的圆点,就是000的位置上。嗯,顶点在圆点,这个好想象。然后呢,把角的出发边,我们叫它屎边,固定在X轴的正半轴上,也就是指向右边的水平线。
+
+有了这个绝对起点,规则就简单了。也就是说,大家都从同一条旗袍线出发。对的,如果你逆时针旋转,形成的就是正角。
+
+如果你顺时针旋转,形成的就是副角。当你旋转结束,停下来的那条边,我们就称之为中边。懂了,顶点在圆点,啊,始边在水平的X轴正向,逆时针是正,顺时针是负。
+
+那假设这个中边停在了第二向线,或者干脆像刚才说的摩天轮那样,转到了600度,呃,这已经远远超出了我们熟悉的锐角范围了。确实超出了。
+
+对啊,那我们该怎么去计算它呢?这就需要引入一个极为关键的桥梁概念,叫做参考角。啊,不管你的中边转到了哪个向线,转了多少圈,参考角都能把复杂的几何关系,啊,拉回到我们熟悉的锐角世界里。
+
+你这么神奇,它是怎么定义的?它的定义非常严格,就是中边与X轴所加的锐角。啊,请你特别注意,我强调的是X轴,绝不能是Y轴。
+
+等一下,为什么一定要是X轴?我猜,呃,很多人在画图的时候啊,如果中边刚好离Y轴比较近,可能顺手就去量它跟Y轴的夹角了。是的,这是一个极其普遍的陷阱。
+
+坚持使用X轴,是因为所有的标准位置都是从水平线出发的。X轴是我们整个系统的D平线。哦,所以必须跟D平线保持一致。
+
+没错,一旦你用Y轴去算夹角,正弦和余弦的几何对应关系就会瞬间全部反过来,整个计算系统就崩溃了。哇,那可是个大灾呢。明白了,死死咬住水平的X轴不放,那在不同的向线里,找这个参考角具体有什么规律吗?逻辑其实非常直观,如果中边本身就停在第一向线,那它和X轴的夹角就是一个锐角,对吧?对,第一向线本来就是锐角。
+
+所以参考角就是它自己,也就是角θ。但如果中边越过了Y轴,停在第二向线,它距离左边的水平线还有一段距离,所以你需要用180度减去角θ。我顺着你的思路想,那如果继续转到了第三向线,这时候角已经越过了180度的水平线,所以我们要看看它比水平线多出来了多少,也就是用角θ减去180度。
+
+完全正确。同理,到了第四向线,马上就要转完一整圈了,那就看它离360度还差多少,直接用360度减去角θ,对吧?你的推导非常完美,你刚刚其实是在计算中边离水平地平线的最短距离,这也就解释了为什么会有同中边角。
+
+哎,这个听起来跟摩天伦很像。没错,回到你刚才摩天伦的例子,如果你在同一个位置,无论你是多转了一圈两圈,还是倒着转了一圈,只要你的中边停在同一个地方,它们的参考角都是一样的。因为最短距离没变吗?对。
+
+用代数来表达,就是在一个角θ的基础上,加上或者减去任意次360度,也就是θ加上360度乘以n,它们最终都会指向同一条中边。所以视觉上它们完全重叠,只是在空间里旋转的圈数不同而已。好,现在我们能在坐标系里准确定位这些角了,但接下来的挑战更实际。
+
+假设我们现在面临一个星质考验。什么样的考验?就是不借助任何计算器,我们该怎么求出这些角的精确值?比如,计算计算sin60度,只会给出一个无理数小数,大概是0.8660254这样。
+
+但考试或者数学推理要的往往不是这个。对啊,我们要找的是精确的根号3除以2。如果没有计算器,我们怎么把这个精确值提取出来?面对这种限制,你完全不需要去死机应备庞大的三角函数表。
+
+所有的特殊角其实都藏在两个非常经典的几何图形里。哦,哪两个图形?你只需要在脑海里或者操高纸上画出这两个小三角形,问题就迎刃而解了。
+
+第一个呢,是454590的等腰直角三角形。这个好记,既然是等腰直角,那两条直角边的比例就是1和1。根据勾股定理,斜边就是1的平方加1的平方再开根号,也就是根号2。
+
+所以边长比例是1、1和根号2。推倒的很快。第二个呢,是306090的直角三角形。
+
+这个三角形的边长比例是1、根号3和2。这三个数字怎么分配给三个角呢?这里有一个必须格外小心的细节。
+
+在一个三角形里,最小的角永远对着最短的边。哦,所以30度最小对着1。没错,30度这个最小的角必须对着长度为1的那条短直角边。
+
+60度对着中等长度的根号3。而90度直角对着最长的斜边,也就是2。把这两个小三角形划出来,所有的边长比例就可视化了。
+
+那如果是一个超过90度的特殊角,我们要怎么把这些三角形套用进去呢?这里有一个严谨的三步走策略。
+
+第一步,用我们刚才讲过的方法,求出这个大角的参考角,把它变回锐角。嗯,先拉回第一项线。
+
+对,第二步,拿出你画好的小三角形,根据这个参考角直接读出对应的数值笔。那第三步呢,肯定还有个符号问题。
+
+没错,第三步也是决定成败的一步。你必须根据原来那个大角所在的向线,来决定最终结果的正符号,也就是大家常说的CAST法则。
+
+我记得这个,也就是第一项线所有的三角比都是正的,第二项线只有正弦sine是正的,第三项线只有正切tangent是正的,最后第四项线只有余弦cosine是正的。
+
+嗯,你记得很清楚,其实如果我们把视野从三角形拉出来,放进一个半径为一的单位原理,这些规律会更加清晰。
+
+单位原?半径是一的话会有什么不同吗?在单位原上,任何一个角θ的中边与原的焦点,它的坐标x和y刚好就是cosinθ和sinθ,也就是坐标是cosinθ,sinθ。
+
+等等,这个视角太棒了,如果坐标就是cosinθ,sinθ,那正切tangentθ呢?我们知道tangent是sin除以cosin,那在坐标上,
+
+它不就是y坐标除以x坐标了吧?没错,就是这样。如果这么看的话,那些刚好落在坐标轴上的角,就没有任何神秘感了。
+
+那你能不能试着推演一下?没问题,你看,零度刚好在x轴最右边,坐标是10,所以cosin0度是1,
+
+sin0度是0,转到90度,在y轴最顶端,坐标是01,那cosin90度就是0,
+
+sin90度是1。很顺畅,继续。180度在左边是-1,0,270度在下边是0-1,最关键的是tanent,
+
+刚才说它是y除以x,在90度和270度的时候,焦点的x坐标都是0。
+
+发现问题了吗?发现了,数学里分母绝对不能为0,这也就从视觉和逻辑上完美解释了,为什么tanent的90度和tanent的270度是无定义的。
+
+你的推演非常严密,单位员确实能帮我们直观地解决轴上角的问题。但是,呃,我们现在的认知其实还停留在那些特殊的角度上,
+
+比如30度,45度,或者是坐标轴上的90度,如果现在刨给我们一个完全不特殊的角,比如127度呢?
+
+这确实是个挑战。哎,我们以前学的什么对边比斜边,0边比斜边,也就是SOH,
+
+CAH, TOA, 那是建立在直角三角形内部的, 你不可能在一个直角三角形里塞进去一个127度的角, 那此时的sin 127度究竟该怎么理解?
+
+这是一个非常核心的思维跨越,面对127度,我们必须彻底抛弃用三角形的边来定义三角比的旧观念,全面拥抱坐标系。
+
+怎么个拥抱法?在这个新系统里,你在中边上随便挑一个点P,只要它的坐标是X和Y,然后我们计算这个点到原点的直线距离,
+
+记作R,根据构股定理,R等于X的平方加Y的平方,然后再开根号。
+
+也就是求距离的公式。对,请记住R代表物理距离,所以它永远是一个正数。
+
+好的,所以现在我们手里有三个元素,X坐标,Y坐标,还有点到原点的正数距离R。
+
+有了这三个量,我们重新定义一切,sin θ等于Y除以R,cos θ等于X除以R,tan θ等于Y除以X,
+
+这就是任意角的三角比定义。慢着,如果R永远是正的距离,而sin θ是Y除以R,这就意味着sin的正符号,
+
+其实完全是由Y坐标决定的。你反应真快。在坐标系的上面部分,也就是第一和第二向线,Y坐标全是正的,
+
+正数除以正数,所以这两个向线的sin必然是正的。没错,继续你的推理。
+
+而cos θ是X除以R,它的符号完全跟着X坐标走。在坐标系的右半部分,第一和第四向线,X是正的,
+
+所以cos就是正的。至于tan θ是Y除以X,要想结果是正的,X和Y必须同号。
+
+是的,要么同正,要么同负。
+
+要么都是正,要么都是负,这刚好对应第一向线和第三向线。
+
+天哪,所以cast的法则根本不是什么需要死机硬背的法则,它就是坐标轴本身的正符号机制。
+
+哈哈,你刚刚通过逻辑,自己把底层原理推导出来了。
+
+当你知道了XY和R的关系,任何题目都无法迷惑你。这种感觉太通透了。
+
+比如,如果我现在只告诉你某一个角的正线笔值,并且告诉你它在第三向线,你其实就能算出它所有的信息。
+
+我想想怎么操作啊,首先,有了笔值,我等于知道了Y和R,或者是X和R,
+
+然后利用X的平方加Y的平方等于R的平方,我就能把缺失的那个坐标算出来。非常准。
+
+至于算出来的坐标,是正还是负,直接看题目给的向线就行了。
+
+三个值都凑齐了,其他所有的笔值就都出来了。思路非常清晰,那如果要求具体的角θ呢?这个嘛,
+
+有了坐标,我们可以先求参考角。为了不被符号干扰,我们可以取绝对值。
+
+比如,用反正切,或者说Tangent的负一次方,里面放上绝对值的Y出于X。
+
+嗯哼,这样做很安全。这样,我们就能得到一个第一向线的干净的参考角。
+
+拿到参考角之后,再根据一开始的向线信息,把它推算回正确的角度。
+
+说到用计算器的反函数求角,这就引出了一个逆向求解释的巨大陷阱。假设你现在面对一个方程,sininθ等于负二分之一,嗯,
+
+负的0.5。如果你直接在计算器里输入负的0.5,然后按sinin的负一次方,屏幕上会立刻弹出一个负三十度,然后呢,
+
+计算器就停了。就不给其他答案了。对,但是在0度到360度这个完整的圈里,其实有两个角都满足正线等于负二分之一。
+
+而且在解题时,这两个角你都必须找出来。哇,计算器只给我们看冰山一角,剩下的必须靠我们自己推演,
+
+那我们怎么才能确保不漏掉另一个角呢?我们需要执行一个严格的四步法。第一步,把三角笔单独留在等式的一边。
+
+比如,题目如果是2乘以sininθ加上1等于0,你要先像解一次方程那样一项。
+
+把它变成sininθ等于负二分之一。没错,在这一步,快速检查一下数值。
+
+如果等式右边的正弦或余先值大于1,或者小于负一,你可以立刻停止。
+
+因为不可能,对吧?对,直接写无解,因为斜边R永远大于等于直角边X和Y。
+
+确认有解之后呢?第二步,暂时忽略那个符号,只用正值去求参考角。
+
+对于二分之一这种特殊值,我们脑海里掉出30,60,90三角形,一眼就能看出对应的参考角是30度。
+
+如果不是特殊值呢?如果是其他小数,你就用计算器的反函数件求一个正的参考角。
+
+然后进入第三步,拿起我们刚才推导的CAST法则,由原题的符号来锁定向线。
+
+比如刚才的Sine Theta是负的。对,因为Sine Theta是负的,而Y坐标在下方是负的,所以脚必定在第三和第四向线。
+
+顺利成长,那最后第四步,就是在锁定的向线里,用参考角把真实的角还原出来。
+
+你来算算看。第三向线就是越过180度,所以是180度加30度等于210度。
+
+第四向线就是差一点倒一圈,用360度减30度等于330度,所以最终答案是210度和330度,四步法真的能完美绕开计算器的盲区?是的,
+
+不过有个特例需要补充一下,如果第一步解出来的三角比刚好是0或者是正负1,你不需要跑这四步法。
+
+哦,那怎么做?直接把单位圆在脑海里画出来,找轴上的角就行了。
+
+比如Sine Theta等于1,Y坐标为1的点只在90度最顶端,这个时候它就只有一个解。
+
+原来如此,特殊情况特殊对待,我们在坐标系里剖析的这么多,现在让我们把这些工具带入到一个极其现实的场景中。
+
+好的,什么场景?设想有两座相距10公里的防火撩望塔,同时观察到了远处的同一股森林烟雾。
+
+塔里的观察员能测出他们各自看向火场的观测角。这是一个典型的三角测量问题。但问题是,这三点之间没有一个是直角,在没有直角三角形的情况下,
+
+他们怎么精确算出火场距离撩望塔有多远?这时正弦定理就登场了,它彻底打破了必须寻找直角的束缚。
+
+正弦定理表明,在任何一个三角形中,边长和它所对的角的正弦值,存在着完美的比例关系。
+
+这个公式长什么样?公式是这样的,A除以sinA,等于B除以sinB,等于C除以sinC。
+
+这里的小写字母,代表的是大写字母角正对面的那条边。哇,只要有这个等式,我们就可以玩拼图游戏了。
+
+想要让这个等式运转起来,我们手里至少需要凑齐一组完整的边和对角,比如知道了角A,以及它对面的边A。
+
+非常正确。一旦有了这个基准比例,只要再知道任意一条边,或者任意一个角,不管它是两角夹一边,
+
+也就是ASA,还是两角一对边AAS,或者是两边一对角SSA,我们都能把剩下的位置数解出来。
+
+没错,在实际计算时,还有一个很实用的书写技巧。
+
+还有技巧?对,如果你要求的是未知的边,你就把边写在分式的分子上,比如写成B除以sinB等于A除以sinA,
+
+这样可以直接把分母乘过去。这样就不用倒腾分母了,那求角的时候呢?如果你要求的是角,你就把正弦放在分子上写成sinB除以B等于sinA除以A。
+
+至于三角形的第三个角,因为任意三角形内角合始终为180度,只要知道两个,用180度减去它们,第三个角自然就出来了。
+
+这个技巧能避免解方诚实,繁琐的一项太实用了。不过,刚才你列举的那些条件里,提到了一种两边一抖的情况,
+
+也就是SSA,我听说这是一个极度危险的区域。是的,这是整个三角学里最棘手的两解情形。
+
+当你只知道一个角,它相邻的一条边,以及它对面的另一条边时,这就构成了SSA。
+
+危险在哪里呢?危险在于,仅仅凭这三个数据,你画出来的图形可能根本不是一个三角形,也可能是一个,
+
+甚至可能是两个完全不同的三角形。这听起来有点反直觉,相同的已知条件,怎么会画出不同数量的三角形呢?我们可以通过一个物理动作来想象。
+
+想象桌面上有一条无限长的底边,我们在左端点固定一个角A,顺着这个角画出一条固定长度的边B。
+
+嗯,画面有了,左边是个固定的角A和边B。
+
+然后在边B的尽头,悬挂着另一条已知长度的边A,你可以把边A想象成一根可以自由摆动的机械B。
+
+好的,左边是固定的角,上面悬着一根可以晃来晃去的机械BA。
+
+很好,为了判断这根机械B能不能碰到桌面,我们需要先计算一个关键的参考值,从悬挂点垂直落到桌面的距离,也就是高H,
+
+这个高H就等于B乘以3A。哎,那接下来就好推断了,假设角A是个锐角,如果悬挂的那根机械BA太短了,
+
+它的长度甚至小于垂直的高H。那它在半空中无论怎么摆动都根本够不着桌面,这种情况下连不成图形,所以是无三角形,也就是零个减。
+
+哎,如果我们把机械BA换得长一点呢?如果A的长度刚好等于高H,那它垂下来就正好指着桌面,形成一个完美的直角三角形。
+
+没错,这时候只有一个解,但如果A比高H长,同时又比旁边那条固定的边B要短呢?这时候神奇的事情就发生了。
+
+哦,你看到了什么?因为A比垂直距离长,它向外侧摆动的时候能碰到桌面一次,但因为它比B短,
+
+它向内侧摆动的时候还能再碰到桌面一次,这就画出了两个截然不同的三角形。你的空间想象力非常准确,这也是为什么如果你遇到两个三角形的情形,用正弦定理求出第一个可能的角B1之后,
+
+千万别忘了,另一个角B2必然等于180度减去B1。因为这两个角的正弦值是一模一样的。
+
+对,找到这两个角后,你需要缤分两度,把这两个三角形剩下的边和角分别全部结完。
+
+这真是个大工程,不过这是锐角的情况,那如果一开始固定的那个角A是个钝角呢,整个图形向外倾斜,情况是不是就不一样了?
+
+钝角的情况反而更简单之外,因为角A已经大于90度,对边A必须是整个三角形里最长的一条边。
+
+最大的角对最长的边吗?是的,所以如果给你的边A大于边B,那它向外伸展,刚好能碰到桌面,
+
+形成唯一一个三角形。那如果A小于或者等于B呢?如果给你的边A小于或者等于边B,那它就像是被压在下面,根本斩不开去碰到桌面,
+
+那就直接是无三角形,零个角。这个悬挂手臂的类比,把复杂的规则彻底绞通了。
+
+好,郑弦定理的威力我们见识了,但它有一个先决条件,就是你必须有一组完整的边和对角。
+
+我们来面对最后一个极端挑战。放马过来。假如一艘船出海,航行了30公里后,转了一个具体的角度,
+
+接着又航行了45公里,现在要求这艘船距离出发的港口,到底有多远。
+
+这次给了哪些条件?在这个场景里,我们已知两边和它们的夹角,这是典型的SAS行星,我们连一组完整的对角和边都凑不出来,
+
+正弦定理直接卡壳了,该怎么办?当正弦定理无从下手的时候,就是余弦定理展现统治力的时候,无论是刚才说的两边加一角SAS,
+
+还是知道三条边求角度SSS,余弦定理只需要一行公式就能解决。哦,公式是什么?求边长的公式是C的平方,
+
+等于A的平方加上B的平方,减去2AB乘以cosC。等等,这个结构听起来太熟悉了,C的平方等于A的平方加上B的平方,
+
+这不就是最经典的勾股定理吗?后面多出来的那个减去2AB乘以cosC,实际上是一个修正项?你洞察到了它的本质,余弦定理其实就是适用于所有三角形的升级板勾股定理。
+
+升级板?思考一下,如果那个假角C刚好是一个90度的直角,cos90度是多少?是0啊?
+
+没错,是0,既然是0,后面那一整串修正项,2AB乘以cosC就全变成了0,
+
+公式立刻完美退化成了我们最熟悉的勾股定理。逻辑必还了,直角三角形只是普通三角形在假角为90度时的一个特殊形态,既然余弦定理能用来求边,那如果我已知三条边想反过来求某个角C呢?
+
+只需要对刚才的公式做一个简单的代数一项,变形后的公式是cosC等于分子是A的平方加上B的平方减去C的平方,分母是2AB。
+
+也就是用三条边就能求出余弦值。对,用这个变形公式你可以直接算出cosC的值,这里有一个极其重要的判断依据,如果你算出的这个值为负数,
+
+这就明确告诉你角C是一个钝角。既然负值代表钝角,那最后求角的时候,如果我们在计算器里输入一个负数去求反于贤,会不会也像之前正贤钉里那样,
+
+挑出两个简,或者产生模棱两可的奇异呢?反于贤能正确给出没有奇异。</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u8-L3-preview#ep-u8-L3-preview"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u8.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

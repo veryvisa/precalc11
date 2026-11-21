@@ -1,0 +1,9 @@
+This is the brief on trig ratios of any angle. First, let's look at the core mechanics and the cast rule. Picture a terminal arm sweeping across a grid, kind of like a clock hand. Your x and y coordinates act as GPS directions, where left and down literally mean negative. The hand's length, R, uses the Pythagorean theorem, meaning that distance is absolutely always positive.
+
+Your ratios, sine, cosine, and tangent, are just combinations of those coordinates. So where does that famous cast rule come from? Well, it's simply a cheat sheet telling you which ratios are positive based purely on your grid location. Second, solving for missing ratios and angles. Once you understand how coordinates dictate signs, you use them like puzzle pieces.
+
+If you've got a tangent ratio and a negative cosine, deduction pinpoints your exact quadrant. Then, calculate your missing coordinate. Next, you'll find your reference angle using the positive version of the ratio. But wait, is that calculator angle your final answer? No way.
+
+Finally, dodging those common traps. When people mess up, it's predictable. Accidentally giving distance R a negative sign, mixing up x and y, or blindly trusting the calculator. Ultimately, mastering trig ratios of any angle comes down to building your triangle carefully, respecting the signs of your quadrant, and remembering that your calculator's answer is just a reference point,
+
+not the final destination. So, let's go.

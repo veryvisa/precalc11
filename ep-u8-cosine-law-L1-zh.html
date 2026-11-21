@@ -1,0 +1,89 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The cosine law: common mistakes · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L1 · Knowledge point</p><h1><span class="en" lang="en">The cosine law: common mistakes</span><span class="zh" lang="zh-Hans">余弦定理：常见错误</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u89/audio/u8-cosine-law-L1.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u89/audio/u8-cosine-law-L1.zh.m4a" download="u8-cosine-law-L1.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u8-cosine-law-L1.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u8-cosine-law.html">The cosine law</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">想象你现在再算一道题在这个三角形ABC中A等于5B等于9然后角C等于40度
+
+你要找边C的长度余弦定理的公式一摆出来我跟你说你的直觉可能会立刻背叛你对
+
+这地方太容易出错了很多人会下意识的把公式前面部分的平方加起来然后顺手就减去后面的系数最后再去成那个余弦值
+
+这就相当于你组装家具时完全不管说明书硬砸螺丝嘛没错你的直觉在骗你在这个公式里减后后面的那一串
+
+也就是90乘以口散40度它其实是一个不可分割的整体成绩也就是说绝对不能先减对的根据数学法则
+
+你必须先算出这个成绩大概是68.94然后再从前面的106里把它减掉这样得出C的平方大约是37.06因此C大约等于6.1
+
+明白了但是哪怕你绕过了这个运算顺序的坑你很可能又掉进下一个陷阱里了嗯这一步也有个大坑
+
+假说在另一个三角形里A等于6B等于8角C等于70度你算出公式的结果停在了67.17
+
+然后就觉得大功告成了忘了开平方很多人算到这就直接停了可是你稍微想象一下那个物理空间啊两条边只有6和8
+
+它们夹出来一个70度角对面那条边绝对不可能是67这么长啊这确实是很多人的盲点保留C的平方作为最终答案就像是包工头问你需要多长的围栏
+
+你却把整个后院的面积包给了它呵呵直接甩个面积过去对你给了一个面积
+
+但它需要的是距离余旋定理算出来的那个67.17是平方值你必须对它开平方才能回到长度单位所以必须得开平方才行是的
+
+开平方后得出C大约是8.2这在几何现实中才站得住脚面积和距离的比喻太直观了不过如果公式本身的机制挑战了我们的直觉呢比如把三角形拉扯开
+
+遇到顿角的情况对自然切换到顿角在三角形ABC中A等于6
+
+B等于9角C变成了120度求C看到公式里的简号我肯定毫不犹豫的继续往下解啊
+
+这正是这个定理最精妙的地方当角度越过90度变成顿角时三角形被撑开了这就意味着顿角对面的边必须变得特别长因为角变大了吗
+
+没错为了在数学上让这条边变长余旋波跌入了负值区域这里扣散于120度是负0.5啊
+
+我懂了所以这就变成了负负得正原本的简号遇到了负的余旋值对这就导致最后一项实际上变成了加法
+
+这不仅是算术这其实是几何学在做自我修正也就是说公式最后一项其实是加完全正确你的最后一项变成了负108乘以负0.5
+
+等于正54所以C的平方等于117加上54等于171最终C大约是13.1确实变长了顿角对面的边必须最长
+
+你同样可以通过逻辑来检验如果你忽略了负号按照减法算出7.9它比倚之边9还要短这就显然错误了
+
+看来我们得随时用边长和角度的关系来防身那如果我们反向操作把视角从球边转换到球角呢嗯球角的情况又不一样
+
+比如已知三角形三边分别是A等于5B等于7C等于9球角A很多人的错误就是在分子中减错了边
+
+千万不能随便乱减分子里到底该减去哪条边的平方有着非常严格的对应关系那就是说必须要锁定目标核心规则在于你球哪个角
+
+分子里被减掉的那条边就必须是锁球角对面的边所以既然要求角A那就必须减去A的平方对也就是减去25明白了计算工程就是cosA等于分子部分49加81减去25
+
+然后除以分母126算下来也就是105除以126得出角A大约是33.6度这就对上了因为A等于5是最短边
+
+所以对应的角A应是最小角没错检验法则没毛病那最后我们把这套带入实际应用场景里想象一名徒步者
+
+他先向正北走5000米再转向方位角060度走4000米要求他离出发点有多远很多人在这里会直接把60度当做三角形内角对啊
+
+一般人直觉就直接带入了如果你真的把60度散进公式你会算错060度是他转过的角度根本不是真正的内角
+
+等等那真正的内角是什么真正的内角是夹在回到起点的方向也就是正南方向和新路线之间的角度也就是用平角去减
+
+是的也就是180度减去60度等于120度原来如此方位角和内角转换千万不能搞混
+
+明确了120度之后我们进行最终计算D的平方等于25加上16减去40乘以口散120度也就是41加上20
+
+等于61所以D大约是7.8000米</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u8-cosine-law-L1#ep-u8-cosine-law-L1"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u8.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

@@ -1,0 +1,7 @@
+This is a brief on rational equations and their applications. First, always write down your non-permissible values, or NPVs, right on line 1. Next, multiply every term on both sides, yep, including whole numbers, by the lowest common denominator to completely wipe out those fractions. Then, just solve what's left.
+
+Crucial rule here, cross out any final answer that equals an NPV. Those are extraneous roots, and if they're all rejected, there is no solution. You know, forgetting to multiply the whole numbers or losing a minus sign in front of a fraction are classic mistakes, so watch out. Second, let's talk about work problems. A job done in T hours means a rate of 1 over T of the job per hour.
+
+Remember, rates working together add up. Definitely not the times. Adding a 4-hour job and a 12-hour job to get 16 hours is exactly what not to do. Your go-to equation is 1 over T1 plus 1 over T2 equals 1 over big T. Finally, for travel problems, time equals distance divided by speed, so build your equations directly from the times.
+
+Honestly, for any word problem, always make a small table first. Use 1 row per person or trip and columns for speed and time. The final equation will just naturally pop right out of one of those columns. The final equation will just be a little bit more.

@@ -1,0 +1,95 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Radical equations &amp; extraneous roots · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Radical equations &amp; extraneous roots</span><span class="zh" lang="zh-Hans">根式方程与增根：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u14/audio/u2-radical-equations-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u14/audio/u2-radical-equations-L2.zh.m4a" download="u2-radical-equations-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u2-radical-equations-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u2-radical-equations.html">Radical equations &amp; extraneous roots</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">给你一道题直接解这个方程根号下x加3等于x减3如果直接把等式的两边都给平方的话一路算下去
+
+确实是能算出两个答案的对吧x等于1还有x等于6对
+
+但是就是这地方特别奇怪你把x等于1带回最开始的那个方程左边根号下1加3算出来是2然后右边1减3是负22等于负2
+
+这简直太荒谬了完全不可能成立就是说算出来的结果居然是个假的为什么会这样因为平方这个运算
+
+它其实会怎么说呢会造出假答案我们今天就是要教你怎么把这些隐藏的假答案给揪出来可是等等啊
+
+如果连两边同时平方这种最基本的代数操作都会造假那我还能相信自己算出来的方程吗为什么单单是平方这个动作会出问题核心原因在于平方会抹杀掉正负号
+
+你想啊2等于负2显然是不成立的对吧显然不对啊但是如果你给等式两边都套上平方
+
+变成2的平方等于负2的平方这就变成了4等于4啊哦谎言在这一刻直接变成真理了没错
+
+这种满足平方后的方程却根本不满足原方程的内鬼在数学上叫做增根必须要舍去哦原来这就是增根
+
+呃另外在动比算之前你得记住一个大前提算术平方根永远是非负的
+
+所以不仅仅是根号里面的东西要大于等于0等号另一边的x-3也必须大于等于0这么说的话
+
+如果有人让我解根号x等于负4这种方程我岂不是可以直接把比一扔哎呀对对因为算都不用算
+
+绝对无解哎稍微等一下如果我把这个过程在脑海里画成图的话解方程其实就是找左边和右边
+
+两条曲线相交的那个点对吧嗯几何视角的直觉这个思路非常好
+
+你接着说就是既然算术平方根的曲线永远在横弱的上方那它根本就不可能碰到下面那些负数没错
+
+所以当我们把两边平方的时候等于是强行逼着两条原本一辈子碰不到的线在图上相交了哎
+
+这个比喻太敏锐了完全正确所以呢为了不掉进这种强行相交的陷阱我们在动笔前
+
+脑子里要自带一个过滤网也就是按顺序问自己五个问题嗯哪五个问题第一步应该是先看条件吧
+
+对第一已知限制条件是什么也就是两边都得是非负数第二
+
+求什么也就是让原方程成立的所有X第三呢第三就是你刚才说的在脑子里画出来
+
+想象这两个图像的焦点然后第四用什么工具工具就是先孤立根式
+
+再把两边作为一个整体去平方是的最后去解一次或者二次方程然后第五也是最关键的
+
+就是检验带回原方程打勾或者打岔射去增根明白了
+
+那我们现在来现场抓一次内鬼试试就解这个方程根号下X加2等于X减4好第一步先找限制条件
+
+嗯因为根号出来的结果不能是负的所以右边的X减4必须大于等于0也就是说最后的X至少得是4
+
+很好限制条件找准了接下来就是计算过程现在根式已经孤立了我们直接把两边平方
+
+左边就是X加2右边是X减4的整体平方展开一项之后整理成一边为0的二次方程也就是X的平方
+
+减去9X加上14等于0就是X减2乘以X减7等于0算出来了嫌疑人是X等于2或者X等于7
+
+到这一步关键的检验环节就来了你看如果我不管3721直接交卷就完蛋了
+
+因为刚才我们说过限制条件是X必须大于等于4所以X等于2直接出局没错这就是检验的威力
+
+为了万无一失我们把它带回原方程看看如果X等于7左边根号9是3右边7减4也是3
+
+完美成立标个钩那把X等于2带进去的话左边根号4得出2右边2减4变成了负2
+
+假答案原形毕露了吧所以最终唯一的真解只有X等于7X等于2就是那个要抓的增根只要严格按照这个逻辑走先看条件
+
+再平方最后带回检验增根就绝对藏不住是的而且出卷老师非常喜欢在这里设置陷阱
+
+考题几乎总会故意设计成包含一个增根懂了所以在卷面上一定要明确写上检验这两个字把两个根都带入并标注钩和X这一行往往单独就值一分
+
+对</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u2-radical-equations-L2#ep-u2-radical-equations-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u2.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

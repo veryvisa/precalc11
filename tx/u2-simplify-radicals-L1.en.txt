@@ -1,0 +1,19 @@
+Say you are simplifying a math problem and you look at something like the square root of 200. What exactly goes wrong if you only pull out a 4? Well, that is a really common mistake. People pull out the 4, take the square root, and just write down 2 times the square root of 50. But that remaining square root of 50, you know, it still hides a square. Oh, right, because 50 is like 25 times 2.
+
+Exactly. You have 25 times 2 in there. The fix is you have to keep going. You pull out the square root of that 25, which gets you to 10 times the square root of 2. Okay, or, I mean, couldn't you just recognize 200 as 100 times 2 right from the start? That seems way faster. It is way faster, yeah. The square root of 100 is 10, so you just get 10 times the square root of 2 right away. So what about the opposite action, like moving an outside number back in?
+
+Say you have 5 times the square root of 3. It feels so tempting to just, you know, just put it under the root and say it's the square root of 15. It is super tempting. But that 5 on the outside, it is actually the square root of 25. So it has to go in as 25, making the answer the square root of 75. Wow. 75, not 15. That's a huge difference. It really is. And you can do a quick check, right? The square root of 15 is approximately 3.9.
+
+Okay. But 5 times the square root of 3 is approximately 8.7. So yeah, they are not even close. That actually perfectly connects to the next issue, which is comparing radicals. Like, say, 3 times the square root of 7 and 2 times the square root of 17. Oh, the classic trap.
+
+Yeah, because you just look at the outside numbers as if they were coefficients of like terms. 3 is bigger than 2, so... So the first one must be bigger, right? But because the radicands are different, those outside numbers alone mean absolutely nothing. So we have to use that same trick, moving them inside? Yes. Moving them in yields the square root of 63 versus the square root of 68. Oh, because 3 squared is 9 times 7 is 63, and 2 squared is 4 times 17 is 68.
+
+You got it. And since 68 is greater than 63, 2 times the square root of 17 is greater. Okay, so let's shift focus to variables, like taking a whole odd power out of a root. How do you handle simplifying the square root of 20x to the 5th power? Well, a really common error there is just treating the letter as an existing square, you know, just pulling out the x to the 5th. Yeah, that feels wrong. Doesn't a square root, like, have the exponent?
+
+It does. A square root halves an exponent, so only an even power can come out. You have to think of x to the 5th as x to the 4th times x. Oh, got it. So you pull out the square root of x to the 4th, which is x squared. Right. And for the numbers, 20 is 4 times 5. So the fix yields 2x squared times the square root of 5x. Okay, that makes sense.
+
+But with the restriction that x is greater than or equal to 0. Right, right. Let's hit the final error, which is splitting a root over a plus sign, like using the square root of the quantity 36 plus 64. This is a big one. Because, I mean, the product rule is real. You can split multiplication. It is incredibly tempting, but completely incorrect to apply it to addition.
+
+Yeah, there is absolutely no such rule for addition. You cannot split it. The fix is to add first. So 36 plus 64 is 100. And the square root of 100 is 10. Exactly. If you tried to split it, you would get the square root of 36, which is 6, plus the square root of 64, which is 8. And 6 plus 8 is 14, which is, well, definitely not 10.
+
+Check. 14 squared equals 196, which is not equal to 100. So, let's do it.

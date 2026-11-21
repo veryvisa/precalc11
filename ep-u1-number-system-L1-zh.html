@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The real number system: common mistakes · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L1 · Knowledge point</p><h1><span class="en" lang="en">The real number system: common mistakes</span><span class="zh" lang="zh-Hans">实数系统：常见错误</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u14/audio/u1-number-system-L1.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u14/audio/u1-number-system-L1.zh.m4a" download="u1-number-system-L1.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u1-number-system-L1.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u1-number-system.html">The real number system</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">直接进入正题吧今天我们来梳理一下实数系统分类时最常犯的几个错误其实啊
+
+给数字分类的时候大家是不是觉得找到第一个能装得下它的数级就算做完了
+
+比如遇到根号81可能很多人脑子一热觉得填个自然数就算是那个大功告成了确实
+
+这是很多人的直觉反应看到根号81大脑瞬间就算数个9然后立刻把它塞进最底层的那个分类里
+
+但这其实完全忽略了数级本身的欠套关系欠套关系你的意思是它不只是一个自然数
+
+那么简单没错因为数级是一层套一层的根号81等于9你不能只写它最小的数级
+
+必须顺着梯子往上写比如9属于自然数N那它同时也属于非负整数W
+
+对吧对的接着还要写它属于整数矮以及有理数Q
+
+最后是实数R这五层分类必须完整列出来原来是这样必须一层层往上套那如果遇到小数加根号呢
+
+比如笔记里的根号0.09说实话看到里面是个小数直觉立刻报警觉得这肯定是个无理数
+
+这就是大脑被视觉盲区给骗了我们在判断完全平方数的时候通常只对整数敏感比如4啊9啊
+
+这些哦就是一旦缩小到小数范围直觉雷达就失效了是的
+
+这会让我们误以为它无法完全开方但其实你仔细算算小数0.3的平方刚好就是0.09哇
+
+对哦所以根号0.09算出来就是0.3也就是十分之三没错
+
+既然它是十分之三这就是两个整数之比了所以它完全契合有理数的底层定义是个有理数这个伪装太巧妙了
+
+那既然提到了整数之比是不是长得像分数的数字必定就是有理数呢比如那个二分之根号三这个误区也很经典
+
+有理数必须是两个整数之比二分之根号三虽然形状对上了但你看它的分子哦分子是根号三
+
+它并不是整数啊就是这样根号三本身是五理数五理数的一半嗯
+
+依然是五理数本质属性是没有改变的明白了绝对不能被外表蒙蔽那如果根号里面是负数呢
+
+比如根号负十六它是不是等于负四这其实是错误的照搬了立方根的习惯比如负八的立方根那个确实是负二
+
+对所以顺着这个惯性看到根号负十六就会觉得是负四但在十数的偶次方根里
+
+这是行不通的你想想看负四的平方是正十六而不是负十六确实
+
+没有哪个十数的平方会是负数没错因此啊在第一步遇到根号负十六的时候你就该停下了
+
+它不是十数不属于任何一个数级看来首算和靠直觉总是容易踩坑
+
+那为了稳妥遇到像十三分之七这样的数字我直接掏出计算器看着屏幕下结论这总不可能出错了吧
+
+这恰恰是我们要说的最后一个警告了千万不要完全依赖计算器屏幕诶屏幕也会误导我们吗会的
+
+因为屏幕的容量非常有限通常也就只能放得下十位左右而十三分之七的循环节是五三八四六一哇
+
+有整整六位啊是的有六位所以它的第二轮循环在屏幕上往往放不下
+
+就被四手五入直接截掉了哦所以看屏幕的话确实会被截断的假象骗到按精确形式判断
+
+十三分之七是两个整数之比所以是有理数0.538461循环</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u1-number-system-L1#ep-u1-number-system-L1"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u1.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

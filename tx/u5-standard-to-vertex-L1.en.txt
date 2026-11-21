@@ -1,0 +1,29 @@
+When you are trying to optimize a business cost or maybe figure out the peak height of a projectile, you know you need to find the vertex of a parabola. Right, which means converting. Exactly. You have to convert standard quadratic equations into vertex form. But as we are looking at this stack of notes detailing common algebra pitfalls,
+
+I mean, it is clear this is a mathematical landscape just full of hidden traps. Oh, absolutely. It is a minefield. Yeah, because usually you expect moving number to be straightforward, like piking boxes. You pick up a negative 9, you move it outside a bracket, and, well, you expect it to still be a negative 9.
+
+Right. You just think of it as an object. It shouldn't really change its identity just because you shifted its position on the page. Exactly. So let's unpack the first trap in these sources, which is moving numbers without multiplying. Say you have the equation y equals 2x squared plus 12x plus 5.
+
+Okay, a standard quadratic. Right. You start the conversion, you do the work inside the bracket, and you end up with a negative 9 in there. Why can't you just, you know, lift that negative 9 straight out of the equation to join the positive 5? Well, because that bracket acts as a multiplier. That negative 9 is, it is trapped inside a bracket that is being multiplied by the 2 sitting on the outside.
+
+Oh, I see. So it isn't really just a negative 9. Its true value is negative 18. Lifting out as is completely breaks the underlying logic of your equation. Right. It is like a toll booth at the bracket's exit. You have to pay the multiplier to get out. Exactly. So the fix is to multiply as it leaves.
+
+2 times the quantity x plus 3 squared minus 18 plus 5, equaling 2 times the quantity x plus 3 squared minus 13. Got it. And we can verify this with a check. F of negative 3 equals 18 minus 36 plus 5 equals negative 13. Which perfectly brings up the next trap with these brackets, getting the wrong sign inside the bracket.
+
+Using y equals x squared plus 8x plus 3. Well, since vertex form has a built-in minus, it really feels like the bracket should be x minus 4. It is a very common assumption. But if you connect this to the underlying mechanics, expanding the quantity x minus 4 squared gives a negative 8x term, not a positive one. Ah, right.
+
+The fix is y equals the quantity x plus 4 squared minus 16 plus 3, which is the quantity x plus 4 squared minus 13. The vertex is negative 4, negative 13. Let's check that. Check. Negative 8 divided by 2 equals negative 4.
+
+Okay, moving to the next equation. y equals x squared minus 6x plus 2. I know from basic algebra I need to add 9 to complete the square, but forgetting to subtract the square is a huge trap here. Why is adding 9 alone a problem? Because of the laws of algebraic balance.
+
+The notes show that adding 9 alone makes a completely different parabola, because there's only one side of this equation. Oh, right. You aren't working across an equal sign. Exactly. The fix is to add and subtract 9.
+
+So y equals the quantity x squared minus 6x plus 9 minus 9 plus 2, which is the quantity x minus 3 squared minus 7. Let's prove that works. Check. f of 3 equals 9 minus 18 plus 2 equals negative 7. Okay, so what happens when we factor out a negative?
+
+Like for y equals negative x squared plus 6x plus 1. Why doesn't taking out negative 1 just change the x squared? I mean, taking out negative 1 divides every term in the bracket by negative 1. So it is a package deal. Right, so that positive 6x becomes a negative 6x.
+
+Applying that change, the fix is y equals negative the quantity x squared minus 6x plus 1. Which becomes negative the quantity x minus 3 squared plus 10. And to verify, check. p equals negative 6 divided by 2 times negative 1 equals 3. Last trap.
+
+Using b instead of half of b. For y equals x squared plus 4x minus 1, why don't we just use 4 in the bracket? Because the middle term is 2kx. So k is half of the x coefficient. Half of 4 is 2.
+
+The fix is y equals the quantity x plus 2 squared minus 4 minus 1, which is the quantity x plus 2 squared minus 5. Check. f of negative 2 equals 4 minus 8 minus 1 equals negative 5.

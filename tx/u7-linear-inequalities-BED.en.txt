@@ -1,0 +1,11 @@
+This is the brief on linear inequalities and interval notation. First, we've got to talk about the golden rule of flipping the sign. You solve linear inequalities exactly like standard equations, just doing the same thing to both sides. But there's one absolutely crucial exception.
+
+If you multiply or divide by a negative number, you must flip the inequality sign. But what happens if you just move your x term to the side where its coefficient is positive? You don't need to flip it.
+
+Now, how do we correctly visualize the answer? Second, let's look at the language of boundaries. If a number is included in your answer, like saying less than or equal to, you're going to use a square bracket or a closed dot. If it's strictly not included, use a round bracket or an open dot.
+
+And what about infinity? Infinity always gets a round bracket. So how can we be absolutely sure we didn't mess up? Finally, here's your 10-second insurance policy, the verification test.
+
+Just test one number from inside your answer set and one from outside by plugging them right back into the original inequality. Taking literally 10 seconds to do this catches those super common forehead-slapping errors. Conquering inequalities simply means treating them like equations, flipping signs for negatives, watching your brackets,
+
+and always double-checking your work. Remember that getting some rest counts, too.

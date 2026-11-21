@@ -1,0 +1,97 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about The quadratic formula · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about The quadratic formula</span><span class="zh" lang="zh-Hans">求根公式：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u6-quadratic-formula-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u6-quadratic-formula-L2.zh.m4a" download="u6-quadratic-formula-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u6-quadratic-formula-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u6-quadratic-formula.html">The quadratic formula</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">你肯定经历过这种绝望的时刻就是盯着一个二次方程比如2x的二次方减3x减4等于0然后脑子里疯狂寻找那两个
+
+能完美凑出成绩和加合的数字拼了半天完全凑不出来因为有些数字它本来就不是能凑出来的这个时候继续盲目试错
+
+其实只会浪费时间球跟公式才是你最坚实的后盾它能解开所有的二次方程让你完全不需要碰运气为什么它对所有方程都管用呢
+
+因为这个公式并不是什么凭空出现的魔法它其实就是把我们平时为了解方程而做的配方法用代数符号一般化的走了一遍
+
+所以它永远管用相当于有人已经替你把最繁琐的推导过程熬过去了没错它变成了一个固定的模板
+
+不过要套用这个模板关键的第一步是把方程整理成AX的二次方加BX加C等于零也就是把全部项都移到一边确保另一边是个干干净净的零
+
+对吧对而且读出ABC的时候千万记得连同他们前面的正符号一起带上等等
+
+在毛目动比之前我们该怎么理清思路为什么要非得让另一边等于零呢你可以把代数想象成一幅画面方程的答案其实就是
+
+Y等于AX的二次方加BX加C这条曲线和X轴相交的那几个结局哦我明白了因为X轴的高度恰好就是零
+
+是的所以在动手之前必问五个问题第一就是刚刚说的已知
+
+确保一边为零单独列出一行带着符号的ABC那第二问应该就是求什么了吧明确你需要的是化减后的精确解也就是带更式的形式
+
+还是小数形式需要保留几位完全正确明确目标后第三个问题就是化出来
+
+其实也就是通过计算一个叫D的东西提前预判这条抛物线到底和X轴相交了几次这个D就是B的二次方减CAC对吧
+
+算这个有什么特别的用意吗当然有因为在完整的公式里这个D是要被塞进根号里的你想想看
+
+根号里面能是负数吗呃肯定不行啊那样就无解了就是这个道理
+
+通过计算D你能提前知道是有两个结局一个还是完全没有这就引出了第四个问题用什么工具
+
+也就是说先算D不过算B的二次方的时候记得要加括号没错
+
+算完之后代入公式X等于负B加减根号D整体除以2A公式里这个加减号
+
+就是为什么通常会有两个解的原因那最后化减的时候有什么讲究吗嗯化减时要先化减根式
+
+然后再把分子的每一项都除以分母或者先提供音式再去约分万一算错怎么办重新代入原方程序验算感觉太费劲了
+
+这就需要第五棍检验了两个最终答案之和必须等于负的A分之B听起来逻辑很清晰啊我们直接拿一个具体方程来走一遍吧
+
+比如3X的二次方减4X减2等于0目标是求精确解
+
+好跟着步骤走第一步已知方程一遍已经是等于0的状态了
+
+提取出A是3B是负4C是负2呃
+
+然后第二步要求精确解意味着我们要保留并化减根式对接着第三第四步连起来
+
+先算D负4扩起来的二次方减去4乘以3乘以负2呃我算一下
+
+负4的二次方是16后面负负得正加上2416加24D等于40
+
+很好正数说明有两个解现在代入公式X等于4加减根号40
+
+整体除以6呃因为要求精确解根号40等于2倍根号10所以分子变成了4加减2倍根号10
+
+对这时候你观察一下分子和分母每一项都有因数2约分之后得到精确解X等于2加减根号10
+
+整体除以3最后一步检验将计划为小数大概是1.72和-0.39两者相加得1.33
+
+约等于三分之四没错你再看看负的A分之B负的负4除以3刚好也是三分之四
+
+完美复合那既然这套公式这么万能一步步走这么稳我们以后是不是只要遇到二次方程
+
+直接无脑用公式就行了呃这就要看效率了如果计算D也就是B的二次方减4AC的时候
+
+你发现算出来是一个完全平方数嗯比如16或者25这种对
+
+那就说明这个方程一定能被英式分解而且这种情况下英式分解法更快更不容易出错
+
+只有当不是完全平方数或者题目明确要求精确解保留两位小数时再使用公式</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u6-quadratic-formula-L2#ep-u6-quadratic-formula-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u6.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

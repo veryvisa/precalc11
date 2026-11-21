@@ -1,0 +1,9 @@
+This is the brief on choosing pre-calculus methods and solving work problems. So don't just default to the most complicated method. Think of it like a toolbox. You absolutely wouldn't use a sledgehammer to drive a tiny screw. You want to pick the fastest method for the specific numbers right in front of you.
+
+If the numbers are neat and easy, well, just use basic factoring. But if they're messy, that's when you bring out the heavy artillery with the quadratic formula. Now that we know how to mechanically solve the math, how do we pull it out of a confusing paragraph? Second, let's really focus on the setup. Read the problem twice and underline your numbers.
+
+Let your variables strictly be the exact thing you're being asked to find. Then build an equation based on established facts. You know, like the formula for area or height. Honestly, the algebra is kind of the easy part. Choosing the variable and setting up the equation is where the real work happens.
+
+Even with the right setup, things can go off the rails at the very end if we aren't paying attention. Finally, avoid common traps by testing your answers. Just reject impossible results like negative lengths or times. Always ask, does this number actually make sense in reality? Ultimately, mastering pre-calculus quadratics comes down to matching the right solving method to your equation,
+
+building your formula around the exact variable requested, and rigorously testing your answers against reality. Keep your methods sharp, test your roots, and remember, rest counts too.

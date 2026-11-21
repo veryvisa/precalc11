@@ -1,0 +1,25 @@
+So today we are taking a deep dive into a stack of notes from pre-calculus 11, the real number system. Right. And the mission here for you, the listener, is to unpack five really common mistakes people make when classifying numbers. Exactly. I mean, it is just so easy to fall into these math traps. So, OK, let's unpack this. Let's start with mistake number one, which is listing only the smallest set. Yeah, we see this all the time.
+
+Right. Like say you are categorizing the square root of 81, which, you know, obviously simplifies to nine. A very clean, simple nine. Yeah. So my brain immediately goes, great, that's a natural number. I drop it in the slot and move on. Why isn't finding that first set enough? Well, because number sets aren't just separate little boxes. They are nested kind of like a ladder.
+
+Oh, I see. Yeah. So the number nine belongs to the natural set. Sure. But it also belongs to the whole, the integer, the rational and the real sets. Wait, so it's all of them at once? Exactly.
+
+Oh. You can't just stop at the smallest category. That makes sense. And speaking of roots, I mean, they can be super deceiving at first glance. Oh, they definitely can. Which brings us to mistake two. Assuming a root sign automatically makes a number irrational.
+
+Like if I see the square root of 0.09, I instantly panic and assume it's some chaotic, irrational number. Right. Because we are conditioned to only look for whole numbers as perfect squares. But decimals can actually be perfect squares too. Really? Yeah. If you actually calculate the square root of 0.09, it just equals 0.3. Oh, right.
+
+It's a... Which is just a 3 over 10. Precisely. It's a clean ratio of integers, making it a rational number. Wow. So the decimal just totally throws you off. It does. It wears a disguise.
+
+Just as a root sign can be deceiving, looking like a fraction doesn't guarantee a number actually acts like one. Which brings us to mistake three, the fraction shapes. Yes. This is a tricky one. Yeah. Like if you take the square root of three, divide it by two. But it looks exactly like a fraction. It does. But what's fascinating here is that to be rational, a number has to be a ratio of two integers.
+
+Okay. And the square root of three isn't an integer. Exactly. Since the square root of three is an infinite, non-repeating decimal, it's not an integer. So the entire number remains irrational. Even though it's wearing a fraction costume. Precisely.
+
+Our visual habits just lead us astray. And that reliance on visual habits, I mean, that leads directly into mistake four, right? Turning an even root of a negative into a negative number. Yes. Like the square root of negative 16. I think our reflex is to assume it's negative four.
+
+Because we remember that the cube root of negative eight is negative two. Exactly. So we just blindly copy that logic. But you can't. No real number squares to a negative. So it's simply not a real number. Wow. Okay. So moving to mistake five, which is deciding a numbers category based on a calculator screen. Oh, this is a huge trap.
+
+Yeah. Like if you take seven over 13, you plug that in and the screen just spits out this random looking string of decimals. It's right. But that's just because the calculator runs out of room. Wait, so it's not actually random? No, not at all. It actually has a six digit repeating block. It repeats 538461 over and over. Oh, wow.
+
+Mm-hmm. But the screen rounds it off because it can't fit all that. Exactly. Hmm. But since its exact form is just seven over 13, the ratio of integers, it is absolutely a rational number.
+
+So what does this all mean? Accurately classifying these numbers requires looking past surface level shapes and, you know, the limits of the tools we use. It really does. You have to look at the actual definitions.

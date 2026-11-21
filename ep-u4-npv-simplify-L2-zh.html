@@ -1,0 +1,93 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Non-permissible values &amp; simplifying · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Non-permissible values &amp; simplifying</span><span class="zh" lang="zh-Hans">不允许值与化简：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u4/audio/u4-npv-simplify-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u4/audio/u4-npv-simplify-L2.zh.m4a" download="u4-npv-simplify-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u4-npv-simplify-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u4-npv-simplify.html">Non-permissible values &amp; simplifying</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">泰哥为什么化解这些等式就像是在雷区里穿行一样确实很像雷区到处都是陷阱没错左边是一个分数
+
+分子是x的平方减9分母是x的平方加x减6然后右边是另一个分数分子是x减3分母是x减2
+
+两个看起来不太一样的式子对但神奇的是这两个式子对于你知道几乎所有的x取值算出来的结果都是完全一样的注意了几乎这两个字就是这份笔记要揭示的全部秘密了
+
+哦是的因为唯一的例外发生在到x等于负3的时候在这个特定的点上左边那个稍微复杂一点的式子会直接崩溃
+
+怎么个崩溃法就是变得完全没有意义你在考试的时候如果能准确找出这些没有意义的点其实就已经拿到一半的分数了
+
+等等我先理一下这个所谓的有理式它的本质其实就是多像式除以多像式说白了就是个分数
+
+对也就是分数的形式那让它崩溃的原因是不是就是碰到了那个会让分母变成0的数字完全正确
+
+因为在数学里除以0是不成立的这也就是笔记里一直在强调的那个不允许值就是这个机制为了避开这些数学上的漏洞你的第一个关键动作
+
+必须是把分母拿出来彻底分解分解成相成的音式没错然后你要强制规定
+
+这里的每一个音式都不等于0但是在这里我其实有个很大的疑问想要强调一下这也是个极易犯错的陷阱
+
+你说如果我把分子和分母里完全一样的那个公音是给约掉了就是我用笔在纸上把它划掉了那它不就消失了吗为什么还要管它呢
+
+这恰恰就是无数人掉进去的陷阱啊我看一个化检后的新柿子不行吗不行你觉得它消失了但约分其实只是一种视觉障眼法
+
+你不能仅仅因为在纸上划掉了一项就抹杀掉这个等式最初始的条件也就是说原来那个能让分母变灵的不允许值还在还在
+
+它依然像幽灵一样跟着化检后的柿子所以这个致命的限制必须在约分之前从原室里面去找必须从原室中找原来如此那为了不漏掉这些不允许值
+
+笔记里提供了一个包含五个问题的思考框架对吧对不用死机硬背把它当排雷指南就行
+
+第一个问题是已知什么这个很简单就是要把分母单独抄出来然后彻底分解它
+
+当然分子也要跟着分解然后动笔前要问自己的第二个问题是求什么嗯这里其实明确要求我们找两样东西
+
+第一就是从刚才说的那个原始分母里找出不允许值没错缺一不可然后第二
+
+才是写出后面那个带着限制条件的最简式那第三个问题是画出来这个抽象的概念要怎么画出来嗯
+
+最好用视觉化的方法你可以想象一条竖轴把你找到的呃每一个不允许值都在竖轴上画成一个空心的圆圈像一个个洞一样
+
+对这些洞其实你约分以后也是永远不能去碰的明白了那第四个问题用什么工具
+
+其实总结一下就是先令分母的每个音式不等于零然后只去约那些完全相同的音式呃这里要特别提醒一个特殊配对
+
+对比如分子是括号四减X然后分母是括号X减4嗯它们互为相反数
+
+对像这种互为相反数的音式啊约分后等于负一呃简单来说就是
+
+A减B除以B减A等于负一哎这个原则一定要记住最后一步第五个问题就是检验
+
+怎么检验最快调一个允许的简单值比如X等于零或者X等于一啊把你挑的数字带进去原式和你算出来的答案必须是同一个数
+
+好为了彻底消化啊我们完整的走一遍最终的这个实例我们要化简呃分子是X冰方减5X加6
+
+除以分母是X平方减9并且写出不允许值查解步骤开始分母X平方减9可以直接分解为X减3乘以X加3
+
+那分子呢X平方减5X加6分子可以分解为X减2乘以X减3听就在这关键的一步
+
+由最原始的分母得出不允许值是X不等于3而且X不等于负3要求现在立刻把它写下来没错
+
+写下来之后我们再约去公音式也就是那个X减3约掉之后就得到了分子X减2
+
+除以分母X加3我们来检验一下用X等于0代入原始代入的话是6除以-9等于-3
+
+然后我们的答案代入的话是-2除以3也是-3简约通过所以最终答案很清晰了
+
+对最终答案是X减2除以X加3条件是X不等于正负3在第一行就从分解后的分母写出不允许值
+
+然后再约分即使化解正确漏写不允许值通常也要扣分</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u4-npv-simplify-L2#ep-u4-npv-simplify-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u4.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

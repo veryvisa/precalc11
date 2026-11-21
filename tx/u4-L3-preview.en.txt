@@ -1,0 +1,25 @@
+So today we are tackling fractions with variables. Right. And specifically, we want to focus on finding restrictions first, and then, you know, getting into simplifying, combining, and solving them. Yeah, that is the best order to tackle it in.
+
+So to start, look at these two fractions. We have x squared minus 9 over x squared plus x minus 6. Okay. And then we have just x minus 3 over x minus 2. Right. A lot simpler.
+
+Yeah. And they actually give the exact same output for almost every x you plug in. But I noticed that first one completely breaks at x equals negative 3. Yeah, it does. And that breaking point is what we call a non-permissible value or an NPV. An NPV.
+
+Okay. It is basically an x value that makes your denominator 0. So the rule is to factor the denominator and set each factor not equal to 0. But wait, if I simplify the fraction first, like if the piece that causes the 0 just cancels out, am I safe? No. Actually, that is a huge trap.
+
+Oh, really? Yeah. You have to find your NPVs from the original expression before you do any canceling. Oh, I see. The simplified form still carries that restriction. Oh, and also remember that opposites cancel to negative 1.
+
+Like A minus B over B minus A equals negative 1. Got it. Okay. So since we know how to simplify, let's look at multiplication. I tried multiplying x squared minus 9 over x squared minus 4x times 2x over x plus 3. Oh, boy.
+
+Yeah. I did it the long way and it just created this massive like degree 3 mess. Yeah, you definitely want to avoid that. The shortcut there is to factor every numerator and denominator first. Oh, before multiplying? Exactly. You cancel the common factors first and then you just multiply whatever is left. It is way easier.
+
+That makes so much more sense. But what about division? Like we use the keep change flip rule, right? Multiplying by the reciprocal? Right. But you have to be really careful with division. The NPVs actually come from three places now. Wait, three places? Yeah. You have to check both of the original denominators and the numerator of the divisor. Oh, because that numerator flips to the bottom. So if it was zero, you just made a new zero in the denominator.
+
+Exactly. So moving on to adding and subtracting, it is just like basic math. Right. Like how 1 over 2 plus 1 over 3 equals 5 over 6. Yes. So if you are adding 3 over x minus 2 minus 2 over x plus 1, you need a lowest common denominator, an LCD. And how do we build that without just making a huge mess? Well, the LCD uses each different factor the greatest number of times it appears in any one denominator.
+
+Okay. Then you just multiply the top and bottom by whatever factors are missing. But I have to warn you about subtraction. What is the warning? When you subtract a fraction, you subtract its whole numerator. You really need to use brackets. So minus bracket x minus 2, end bracket, actually becomes negative x plus 2.
+
+Oh, I would have totally messed up that sign. Most people do. So bringing this all together with a real scenario, like say two hoses fill a hot tub in four hours and the big one alone is six hours faster. Right. Work problems. We're trying to solve the equation. But we have all these fractions.
+
+How do we get rid of them? You multiply every single term by the LCD. That makes the fractions completely disappear. Wow. Just like that? Yeah. But, and this is crucial, any answer that equals an NPV is extraneous. It is a fake answer and you have to reject it. Oh, got it.
+
+So check the restrictions at the end. And for that hot tub problem, I have the work formula here. It is one over T sub one plus one over T sub two equals one over capital T. Perfect. And for travel problems, it is just time equals distance over speed. You build the equation from the times like one trip took one hour less. So, let's go.

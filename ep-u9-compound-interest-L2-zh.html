@@ -1,0 +1,89 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Compound interest · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Compound interest</span><span class="zh" lang="zh-Hans">复利：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u89/audio/u9-compound-interest-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u89/audio/u9-compound-interest-L2.zh.m4a" download="u9-compound-interest-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u9-compound-interest-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u9-compound-interest.html">Compound interest</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">想象一下这个场景你有八千家元打算存五年一家银行给你4.5%的年利率是按年复利的另一家呢给4.4%的年利率
+
+但是按月复利那你觉得哪家给的钱多直觉上肯定觉得4.5%那个数字更大嘛对直觉是这样但第二家每个月都在算利息
+
+听起来又很诱人这个答案其实一点都不直观不过我们只要两行公式就能算得清清楚楚没错
+
+其实这就是咱们这次深度探讨的核心就是复利说白了复利的本质就是大家常说的利滚利
+
+这个词很形象对它的原理其实特简单就是你每个G7结束时的那个账户余额
+
+都要去乘以一个一加上i的数字这个i就是你每一期的利率明白了所以咱们手头资料里提到的
+
+那个核心公式也就是大写的a等于p乘以括号1加上2除以n的nt次方这个公式就是这么推导出来的吧
+
+就是这个公式我们要把里面的变量拆解一下大写的p代表你的本金也就是一开始存进去的钱那个2是要写成小数形式的年利率
+
+对一定要是小数然后n就是每年计息的次数最后t代表你总的年数等等
+
+那这里的关键是不是就在于那个n的变化比如按年计息n就是1半年就是2
+
+季度是4按月是12甚至按日的话就是365完全正确
+
+那这就让我很好奇了这个计息如果越频繁你拿到的钱是不是就一定越多如果在年利率完全相同的情况下
+
+计息越频繁你拿到的钱确实会多那么一点点只是多一点点吗那如果是像咱们开头说的那种情况呢这就要特别注意了
+
+通常来说更高的基础利率其实是胜过更频繁的计息的所以遇到刚才那种情况两者都必须实际算一算
+
+不能全凭直觉原来如此不过平时如果手边没计算器算这个还挺麻烦的幸好资料里给了一个估算工具
+
+叫做72法则对这个法则很好用就是你想知道资金翻一翻大概需要多少时间
+
+只要用72直接除以百分数形式的利率就行不过得强调一下这只是个心算的估计值不是精确答案真要动笔算精确答案的话
+
+资料里详细列出了一个关键的解题五步法快给我们拆解一下是哪五步第一步呢就是找已知条件
+
+你要把刚才说的PRNT都列出来然后第二步是明确你要求什么求什么指的是求中值大写A
+
+还是算了一些A减去P这样吗对或者有的时候是反过来求本金P接着第三步就是
+
+要在脑海里画出来画出来想象一张增长表那种感觉吗没错你要想象过了一个大N期
+
+你叫乘N次然后第四步就是选工具了也就是算出每期利率I它等于R除以N还有总期数大写N
+
+等于N乘以T懂了对了资料里是不是还顺带提了一句加拿大的固定利率房贷通常就是半年复利
+
+也就是N等于2对的这是个很实用的背景知识最后第五步非常重要就是要检验
+
+就是看看算出来的中值A是不是比单利算出来的那个稍微大一点单利公式是P乘以括号E加上R乘以T对吧
+
+完全正确算出来的复利结果必须要比单利大一点点才合理那咱们赶紧用资料里的实战演练来走一遍这个流程
+
+以至条件是3000加元年利率5%每半年复利一次存6年好的
+
+那我们先把条件列出来本金P是3000年利率R是0.05每半年复利所以N等于2
+
+年数T等于6那下一步就是算每期利率了吧对用0.05除以2所以每期利率I是0.025
+
+然后总期数大显N是N乘以T也就是2乘以6等于12也就是要算12次方没错中值A就是3000乘以1.025的12次方
+
+计算器算出来大约等于4034.67所以减去本金利息就是1034.67赶紧拿单利来对比验证一下单利的话就是3000乘以括号1加上0.05乘以6
+
+算出来是多少结果是39咱们复利算出来的4034.67确实比39.9稍多一点验证成功
+
+所以代入前先列出P、R、N、T以及I和N、T对大部分失分是N或N、T用错只在最后把金额四舍五入到分</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u9-compound-interest-L2#ep-u9-compound-interest-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u9.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

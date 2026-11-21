@@ -1,0 +1,9 @@
+This is the brief on factoring trinomials. You know, factoring quadratic trinomials, those ax squared plus bx plus c equations, can seem like an intimidating math puzzle, but relying on a few simple rules makes cracking them completely systematic.
+
+First, when that leading coefficient a is just a 1, you just need to find two numbers that multiply to c and add up to b. Seriously, why guess wildly when the signs of c and b literally hand you the blueprint for your answer? If c is positive, both numbers take the sign of b.
+
+But if c is negative, they get opposite signs, with the larger number taking the sign of b. Second, when a isn't 1, we shift to a strategy called decomposition. Now you need two numbers that multiply to a times c, not just c, while still adding up to b.
+
+Once you find them, you split the middle term and factor by grouping. Before applying any factoring steps, you must always take out a greatest common factor, or GCF, to keep the numbers small. And hey, always verify your work by expanding that middle term
+
+to ensure it perfectly matches your original bx. And remember, when learning math, rest counts too.

@@ -1,0 +1,11 @@
+This is the brief on factoring by substitution. First, spotting the pattern and making the swap. We're looking for one messy chunk that shows up exactly twice, once squared and once to the first power. How do we know we've isolated the right chunk?
+
+It absolutely must fit that exact pattern perfectly. Explicitly write, let M equal that chunk right on your page. It stops letter mix-ups and even earns you method marks. Second, factor then substitute back. Rewrite the expression using M, so it looks like an ordinary trinomial that's a breeze to factor.
+
+But beware a major trap. Do not leave your final answer in terms of M. You literally must put the original X chunk back in and simplify, because a full factorization has to be in X. Finally, the crucial recheck.
+
+After putting X back, your job isn't quite done yet. Recheck every single bracket, because things like differences of squares can factor again. And watch out for subtracting whole binomials. What happens if we just drop the brackets when subtracting? Well, failing to distribute that minus sign across the entire second bracket
+
+completely derails your final answer. Factoring by substitution is simply swapping complex chunks for M, factoring the basic trinomial, substituting the chunk back in, and double-checking your final brackets.
+
+And hey, after all this math, rest counts too.

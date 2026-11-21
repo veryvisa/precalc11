@@ -1,0 +1,13 @@
+This is the brief on operations with radicals. First, you can only add or subtract like radicals. They must have the exact same index and number inside. It's like collecting algebraic terms. 3 root 2 plus 5 root 2 equals 8 root 2.
+
+Think we can just add the insides? No way, that's a major mistake. You absolutely must simplify everything first. Because unlike looking, roots often become alike. Root 12 plus root 27 simplifies to 5 root 3.
+
+While addition needs a strict match, multiplication is way more flexible. Second, for multiplying radicals, just multiply the outsides together and the insides together. 2 root 3 times 5 root 6 becomes 10 root 18. Just remember to simplify that down to 30 root 2.
+
+Hitting brackets? Expand them exactly like polynomials. The FOIL method works perfectly here. Okay, while multiplying gets things together, dividing requires a special cleanup called rationalizing.
+
+Finally, you absolutely cannot leave a root in the bottom of a fraction. For a one-term denominator, multiply top and bottom by that exact radical. For two terms, use its conjugate. Write the same terms but flip the middle sign.
+
+This creates a difference of squares that literally kills the root. Crucially, after rationalizing, you must divide every top term by a common bottom factor, not just one. To get a perfect, exact answer,
+
+always simplify first, collect your like terms, keep roots out of the basement, and remember that when it comes to absorbing all this math, rest counts too.

@@ -1,0 +1,7 @@
+This is the brief on multiplying and dividing rational expressions. First, let's hit the basics. For multiplication, you've got to factor every numerator and denominator first. Then cancel common factors and multiply what's left. For division, keep the first fraction, change the sign to multiplication, and flip the second fraction.
+
+It's kind of like unpacking your bags before organizing. You literally have to unpack everything before deciding what to toss. Second, the crucial rule of three for division non-permissible values, or NPVs. Those forbidden numbers that make your denominator zero. You absolutely must find these before you flip the fraction.
+
+They come from three places. The bottom of fraction one, the bottom of fraction two, and the top of the divisor. You might be wondering why on earth do we care about the top of the divisor? Because after flipping, it hides right in the denominator, and its restriction gets completely missed. Finally, let's avoid common traps.
+
+Never cancel across a plus sign. It's like pulling apart a locked chain. You've got to factor them out as a complete group first. And to check your work, just test in a loud value like x equals zero in both the original equation and your final answer. That is enough for today, because rest counts too.

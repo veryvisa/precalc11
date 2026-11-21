@@ -1,0 +1,11 @@
+This is the brief on the sine law. First, the golden rule. Finding your complete pair. The formula is just a simple ratio. A side divided by the sine of its opposite angle.
+
+To make it work, you absolutely need one known side and the angle directly across from it. Now, what if you only have two angles and a random side? You're not stuck. Since a triangle's angles always add up to 180 degrees, just subtract the two you know to instantly unlock that complete pair.
+
+Just remember, this won't work if you only have sides. That requires the cosine law. Second, here's a little setup secret. Pack it like a suitcase. Always put what you need to grab first right on top.
+
+Solving for a side? Put sides on top of the fractions. Solving for an angle? Just flip it so the sines are on top. Keeping your unknown up top prevents messy, upside-down algebra errors
+
+and lets you solve it in one super easy step. Finally, you've got to run some foolproof checks. Make absolutely sure your calculator is in degree mode. Because if you suddenly get a negative side length, you're accidentally trapped in radians. Also, let the calculator hold those messy decimals until the very end, so you don't round too early.
+
+You're going to run some of the other things.

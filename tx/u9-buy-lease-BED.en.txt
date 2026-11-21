@@ -1,0 +1,7 @@
+This is the brief on calculating whether to buy, lease, or rent. First, the fundamental math of buying versus leasing vehicles. When you buy, you pay cash or with a loan, but you actually own the asset. Your true net cost is everything paid, minus the car's final resale value. Leasing gives you lower monthly payments, but you own absolutely nothing at the end.
+
+To find a lease's true cost, add your down payment, every monthly payment, and end of lease fees. Don't just compare monthly payments. You gotta subtract the resale value from the buying side for a fair comparison. Second, we apply that exact same mindset to homes by comparing unrecoverable costs. Rent is completely unrecoverable.
+
+Buying has its own costs you'll literally never see again. Mortgage interest, property taxes, strata fees, maintenance, and lost investment returns on your down payment. Crucially, though, your mortgage principal is not a cost. That money becomes your equity. Cars depreciate while homes usually appreciate.
+
+To find that final value, use the compound interest formula. V equals P, your starting price, multiplied by 1 plus or minus your rate, R, all raised to the power of time, T. A common mistake is subtracting a flat amount every year instead of using this compounding formula where the asset keeps a percentage of its value year over year. Always list your cash flows over the exact same number of years, calculate the final resale value, and compare the true net costs.

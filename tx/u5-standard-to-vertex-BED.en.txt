@@ -1,0 +1,11 @@
+This is the brief on converting standard quadratic equations to vertex form. Today, we're reviewing how to reshape a standard quadratic equation into vertex form, y equals a times x minus p squared plus q, using a trick called completing the square, which easily reveals a parabola's vertex, maximum, or minimum.
+
+First, let's look at the core setup. You've got to isolate that leading coefficient a, but only factor it out of the x squared and x terms. Then, take half of your new x coefficient, square it, and literally both add and subtract it right inside the brackets,
+
+so the equation's overall value doesn't change. So, if we just add and subtract the exact same number, aren't we just spinning our wheels and staying right where we started? Well, no, because moving that subtracted number outside is exactly what forms our vertex. Second, let's avoid the biggest trap.
+
+When you kick that subtracted number outside the brackets, it absolutely must be multiplied by the a you factored out earlier. You've got to track your signs carefully, especially when factoring out a negative a, because that actually flips the sign inside the bracket.
+
+And always remember to use half of b, not the original number. Finally, here's your ultimate fail-safe. If you only need to find the vertex or just want to double-check your math, you can bypass the long way entirely. Just calculate the x value using the formula x equals negative b over 2a,
+
+then plug that result right back into the original function to find your y value.

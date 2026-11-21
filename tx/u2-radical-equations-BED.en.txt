@@ -1,0 +1,11 @@
+This is the brief on solving radical equations and extraneous roots. First, stick to a non-negotiable four-step process. Start by stating your restrictions, because the stuff under an even root must be 0 or positive. Then, isolate the radical on one side. Next, raise both sides to match the index, like squaring for a square root.
+
+Finally, solve and check every single answer in the original equation. Well, second, beware the extraneous root. This is a total fake-out, an answer solving your squared equation but failing the original. Squaring literally loses the negative sign. 2 doesn't equal negative 2, right?
+
+But square both sides and suddenly 4 equals 4. It's a fake. Graphically, these extraneous roots never show up as intersections, because a principal root curve can't meet a negative number. Finally, let's avoid some common pitfalls.
+
+Don't square before isolating the radical. Got two radicals? Isolate one, square both sides, then repeat for the second. Squaring a binomial? Don't forget that middle term.
+
+Also, don't miss impossible equations. A principal square root is never negative. If you see the square root of x equals negative 4, stop right there. There's no solution. Isolate your radicals, square with caution, and absolutely always check your work in the original equation
+
+to weed out those extraneous roots.

@@ -1,0 +1,37 @@
+You know how it goes on a math test, right? You type, um, sine 60 degrees into your calculator, and it just spits out this messy decimal. Oh yeah, like 0.8660254 and so on. Exactly. But the test demands the exact fraction that wants, you know, root three over two. Right. It's a really frustrating clash. The calculator gives you an approximation, but the question requires this structural precision.
+
+And without memorizing giant tables of numbers, which is the best part. The trick is actually surprisingly visual. Yeah. You just need to be able to draw two small triangles. Right. Those two shapes alone will hand you the exact value of every multiple of 30 degrees and 45 degrees. Okay. So let's visualize those two geometries.
+
+First is the 45-45-90 triangle. And the sides for that one are 1, 1, and root 2. Simple enough. Right. And the second is the 30-60-90 triangle where the sides are 1, root 3, and 2. Exactly. Wait, I always mix up where those numbers go on that second one. Like,
+
+how do I actually know which side gets the root 3 and which gets the 1? Well, think of it like a door hinge. A smaller hinge angle opens a smaller gap. Oh, I see. So the shortest side, which is 1, always sits directly opposite the smallest angle, the 30-degree angle. And the longest side, the hypotenuse, is always 2.
+
+Okay. The triangles are great for those numbers. But what happens when angles get bigger than 90 degrees? I mean, they literally go off the triangle. Right. And that is why we bring in the unit circle. Imagine a radar screen. It's a circle centered on a graph with a radius of exactly 1. And if we imagine our angle like the hand of a clock sweeping around this radar screen,
+
+that clock hand is what the notes call the terminal arm. Exactly. Any point sitting on the tip of that terminal arm has an x and a y-coordinate. And here's the core mechanism. The x-coordinate is always your cosine, and the y-coordinate is your sine. Oh, and if you need the tangent, you just divide the sine by the cosine. You got it. So finding the exact value for any of these special angles is basically a three-step process.
+
+First, find the reference angle. Let's call that a shadow dropping straight down from our clock hand to the floor. By floor, I mean the x-axis. Right. Second, take the math value from the triangle you just drew. And third, attach a positive or negative sign based on which quadrant of the radar screen you're in.
+
+And to track those positive and negative signs, we use the cast rule. Right? C-A-S-T. Let's actually explain why cast works instead of just treating it like magic. Good idea. So A means all are positive in quadrant 1, the top right.
+
+That makes sense because both the x and y-coordinates are positive there. Right. Then S means only sine is positive in quadrant 2, the top left. Why? Because the y-coordinate, the sine, is still above the x-axis, so it's positive.
+
+But we moved left, so x, our cosine, is now negative. Right. T means only tangent is positive in quadrant 3, the bottom left. Both x and y are negative there, and a negative divided by a negative makes a positive tangent. Exactly.
+
+And finally, C means only cosine is positive in quadrant 4, the bottom right, because we are back to positive x values. But this raises a question. What if the clock hand points straight up or straight down? Like, how do you handle angles that fall directly on the axes themselves? Those are quadrantal angles, and you pull them straight from the unit circle points.
+
+At 0 degrees, the point is 1, 0. Straight up at 90 degrees, it is 0, 1. And 180 degrees is negative 1, 0, while 270 degrees is straight down at 0, negative 1. Which perfectly explains tangent for those angles. Since tangent is sine over cosine, at 90 degrees and 270 degrees, your cosine is 0.
+
+Oh, and you can't divide by 0. So tangent for those angles is undefined. Exactly. So if you were sitting down at a test, how do we turn this into a problem-solving method before you even touch a pencil? The notes outline five mental checkpoints.
+
+Given, asked, picture it, tool, and check. Let's walk through an example to lock this in. Say we need the exact value of cosine 150 degrees. Okay, first, given. Where are we?
+
+150 degrees sweeps past 90, but stops before 180. So we land in quadrant 2. Right. Then asked, they want the exact value. That means fractions and roots, no decimals.
+
+Third is picture it. Right. So we sketch that terminal arm in quadrant 2 and drop a shadow line straight down to the x-axis floor to make our triangle. Fourth is the tool. We need that reference angle inside the triangle.
+
+The gap between our 150 degree arm and the 180 degree x-axis floor is 30 degrees. So we use our 30-60-90 triangle. Remember Sokotoa from high school. Cosine is adjacent over hypotenuse. Right.
+
+For our 30-degree angle, the adjacent side is root 3, and the hypotenuse is 2. So the number part is root 3 over 2. Finally, we need the sine from cast, and we do our check. In quadrant 2, only sine is positive. We're looking for a cosine, so it must be negative.
+
+That gives us our final answer, negative root 3 over 2. And as a quick size check, sine and cosine always have to be between negative 1 and 1, which this is. So spending just 20 seconds at the start of a test to draw both special triangles and the CAST letters in the margin prevents every exact value slip. If a question says exact, a decimal answer gets no marks.

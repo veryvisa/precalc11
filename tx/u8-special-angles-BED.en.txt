@@ -1,0 +1,9 @@
+This is the brief on special angles and the unit circle. Finding exact values for pre-calc angles doesn't mean memorizing confusing tables. It's really just about drawing two basic triangles and navigating a circle. First, these shapes are basically a cheat code you can sketch right as your test begins. The 45-45-90 triangle has sides 1, 1, and root 2.
+
+The 30-60-90 has sides 1, root 3, and 2. Always put the 1 opposite the 30-degree angle, because swapping them is a total trap. These give exact values, clean fractions and roots, not messy decimals. Second, finding any angle is a strict three-step process. Step 1, find your reference angle, the gap to the x-axis.
+
+Step 2, pull the ratio using SOPITOA. Step 3, attach a sign using the cast rule, showing what's positive. All in quadrant 1, sine in 2, tangent in 3, and cosine in 4. For axis angles, the unit circle is a map where x is cosine and y is sine. Finally, since this whole thing takes three decisions, one slip ruins the answer.
+
+Always measure to the horizontal x-axis, literally never the vertical y-axis. Don't mix up coordinates. Like, sine of 210 degrees is the y-coordinate, negative one-half. Values like tangent 90 degrees are mathematically undefined. By sketching your special triangles, always measuring your reference angle against the x-axis,
+
+and trusting the cast rule, you can confidently determine the exact value of any special angle without second-guessing your signs.

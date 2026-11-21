@@ -1,0 +1,7 @@
+This is the brief on domain and range limits in context. Think of the domain as the literal rules of reality. Time starts at zero and stops when an object lands, and you can only count whole items. The range is just the physically possible outputs derived only from that domain. For a downward opening parabola, the highest point is your vertex, and the lowest comes from a domain endpoint like zero.
+
+Second, once you define what's real, you can tackle situational questions. When a question asks if something is at least an amount, you're looking at a quadratic inequality. You just solve it, remembering to flip the sign if you divide by a negative, and then crucially, you've got to cut it to fit perfectly inside your context domain window. Okay.
+
+Finally, let's fix some common mistakes. Never write all real numbers for a word problem, and for sure always reject those negative times. A massive error is taking the range only from the endpoints and completely forgetting the vertex. If your vertex is inside the domain, you absolutely must include it. Also, don't assume the starting height is the lowest value.
+
+If something lands, the lowest height is simply zero. Always write your domain first, because every single mathematical answer you find later absolutely must sit perfectly inside those real-world limits.

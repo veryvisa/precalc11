@@ -1,0 +1,11 @@
+This is the brief on non-permissible values and simplifying rational expressions. A rational expression is basically just a fraction made of polynomials, and knowing how to simplify them without breaking the fundamental rules of division is absolutely essential. First, you've got to find your non-permissible values, or NPVs. These are the specific x values that make your denominator 0.
+
+To find them, just factor the denominator completely and set each factor so it does not equal 0. Crucially, you must state your NPVs from the original expression, right before any canceling happens. Why? Well, think of NPVs as permanent holes in a number line. Simplifying the fraction doesn't make that a hole disappear. Your simplified form must still carry the original restriction.
+
+Second, let's avoid a serious math crime. Cancel common factors, never terms. People are always tempted to just slash out matching individual x's. Don't do it. You can only cancel whole matching blocks.
+
+Also, watch out for opposites. A minus B divided by B minus A equals negative 1. Spot those secret pairs like 4 minus X and X minus 4. Finally, you need to navigate the common traps. Only your denominator matters for NPVs.
+
+Watch out for hidden signs like a denominator starting with a negative X squared. That opposite factor is disguised until you pull out a negative 1 to flip the sign. So, how do you know you haven't slipped up? Pick an easy allowed value, like X equals 0. Plug it into both your original expression and your final answer.
+
+The resulting number must be exactly the same. To sum up, write your NPVs on line 1 from the original denominator so you never lose them, then factor completely to simplify. That is enough for today. Rest counts too.

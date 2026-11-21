@@ -1,0 +1,9 @@
+This is the brief on solving quadratics by factoring and square roots. First, let's tackle the factoring method and the zero trap. The secret is the zero product property. So you absolutely must get a zero on one side before you even start factoring. Now you might be wondering, hey, if I have 4x squared minus 28x equals zero,
+
+why can't I just divide both sides by x to make it easier? Well, that's a massive trap because you completely lose the x equals zero root. Always factor the x out instead and never set factored brackets equal to a non-zero number. Second, let's look at the square root method for ready-made squares. If your equation is already neatly bundled up, like x plus 1 in parentheses squared equals 16,
+
+treat it like a sealed package. Don't expand it. Just isolate it and take the square root directly. But here's the crucial rule. You absolutely must use the plus or minus sign or you literally lose half your answers.
+
+And if the squared part equals a negative number, stop right there because there's no real solution. Finally, what do these answers actually represent in the real world? They're simply the x-intercepts of a parabola. The exact spots where the left side of the equation meets the zero line. A quadratic can have 2, 1, or 0 real answers.
+
+So always plug them back into the original equation to verify. So remember to get to zero first.

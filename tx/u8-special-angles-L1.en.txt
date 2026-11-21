@@ -1,0 +1,23 @@
+The notes point out the cosine of 135 degrees as a classic trap. Yeah. Because if you just imagine a triangle in a vacuum, you only get positive lengths. I mean, you can't exactly draw a triangle with a negative physical side. Right. But when you put that shape onto a coordinate plane, the location dictates the sign. Exactly. So 135 degrees lands in quadrant two. And in that specific space, your x coordinate extends to the left, which makes it negative.
+
+So the cosine of 135 degrees must be negative root two over two. Got it. But having the right side lengths is really only half the battle. People also struggle to place those sides correctly inside the triangle, especially with the sine of 240 degrees. Right. The classic 30, 60, 90 triangle. We easily forget which side goes with which angle. But the geometric rule is just based on simple proportion.
+
+The smallest angle, 30 degrees, always faces the shortest side, which is a length of one. I always picture like opening a door. If you push a door open just a crack, that's your small 30 degree angle and the gap is short. Right. And if you swing that door wide open to a 60 degree angle, the gap becomes the longest side, root three. So since the sine of 60 degrees relates to that wider opening, it's root three over two. And because 240 degrees is positioned down in quadrant three, the sine is negative root three over two.
+
+Exactly. And once you pin that physical triangle to a graph, orienting it correctly becomes a huge deal. It introduces a major temptation when finding reference angles. Well, I actually want to push back on the rules for measuring those. All angles originate from the positive x-axis, which is zero degrees. Oh, so you have to use the same baseline.
+
+Right. Okay. Measuring back to the x-axis ensures you're always using that foundational baseline to form your triangle. So in quadrant four, you find the gap by taking 360 degrees minus 330 degrees. Which gives a proper 30 degree reference to the x-axis, making the tangent negative root three over three.
+
+Exactly. You're always measuring to the floor. Ah, so the x-axis is the floor. You don't measure your height from the nearest wall, which brings us to another mapping issue, mixing up the x and y coordinates themselves. Oh, definitely. Like at 210 degrees, the point is negative root three over two, negative one over two.
+
+Right. And if you need the sine of 210 degrees, there's a foolproof memory trick in the notes. You just use alphabetical order. C comes before S and X comes before Y. Yeah. So cosine pairs with X and sine pairs with Y. So sine is simply the Y coordinate, negative one over two.
+
+It's so simple. And the reason that trick works is because the x-coordinate measures horizontal distance, the adjacent side, which defines cosine. The Y-coordinate measures vertical height, the opposite side, which defines sine. That perfectly respects the underlying geometry. But what happens when the math flattens out entirely right on the boundary lines, like the tangent of 270 degrees?
+
+Right. Where the x-coordinate is zero and the y-coordinate is negative one. Tangent is y divided by x. So you get negative one divided by zero. And people just see the zero and instinctively write down zero. Which is a huge mistake.
+
+Zero divided by negative one is zero, sure. But negative one divided by zero is undefined. I mean, division is basically reverse multiplication. Right. So if zero divided by negative one is zero, that works because zero times negative one is zero? Exactly.
+
+Okay. But if you try to divide negative one by zero, you're looking for some mysterious number that when multiplied by zero gives you negative one. Man, obviously no such number exists. Absolutely. Any number times zero is just zero.
+
+Right. The logic completely breaks. So the tangent of 270 degrees, just like 90 degrees, is fundamentally undefined. So really, mastering the unit circle isn't about brute force memorization. It's just about knowing your reference axes and trusting the logic of coordinate pairs.

@@ -1,0 +1,9 @@
+Mastering zero and negative exponents is really the key to simplifying complex algebraic fractions into one tidy expression, all without falling into those super common traps. First, let's hit the foundational rules before tackling the weird exceptions. When your bases match, multiplying means adding the exponents, and dividing means subtracting them. A power to a power means you multiply.
+
+But here's the absolutely crucial detail. An outside power hits every single factor inside the brackets, including the numbers. Second, with the brackets cleared, how do we handle exponents that are zero or less? Well, a zero exponent turns a base into a one. But be careful.
+
+4x to the zero is just 4, while 4x all in brackets to the zero is 1. And negative exponents? They create reciprocals. They never create negative numbers. Just think of a negative exponent as a ticket to cross the fraction bar.
+
+Move the factor across, the ticket is used, and your exponent becomes positive. Finally, what's the safest order of operations to avoid losing track of all these moving parts? Work inside out. Clear your brackets first. Multiply out the numbers.
+
+Combine same bases. And lastly, move those negative exponents across the fraction bar. A truly simplified expression has each base written once with positive exponents. And remember that resting your brain counts too.

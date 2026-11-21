@@ -1,0 +1,9 @@
+It's basically the classic Pythagorean theorem with a built-in correction term, letting us solve for missing sides or angles in any triangle. First, let's check out the formula. c squared equals a squared plus b squared minus 2ab times the cosine of c. If angle c is exactly 90 degrees, the cosine becomes 0, simplifying right back to Pythagoras.
+
+You'll use this for SAS when you have two sides and the angle between them, or SSS when you know all three sides and need an angle. Second, let's talk obtuse angles. To find an angle, rearrange the formula to isolate cosine c. a squared plus b squared minus c squared all divided by 2ab.
+
+Crucially, the biggest angle always faces the longest side. If your calculation yields a negative value, the angle is simply obtuse, meaning it's over 90 degrees. Don't worry, your calculator's inverse cosine handles this automatically. Finally, avoid these classic pitfalls. The biggest trap? Subtracting before multiplying.
+
+You absolutely must calculate that 2ab cosine c chunk first. Subtract it, and then square root. Also, never stop at c squared. You're finding a length, so don't forget that final square root. Lastly, don't drop the minus sign with an obtuse cosine, or subtract the wrong side when rearranging.
+
+Ultimately, the cosine law is just an upgraded Pythagorean theorem for any triangle. As long as you watch your order of operations, and remember your square roots.

@@ -1,0 +1,23 @@
+Should you simply compare the lease to the buy loan? For the lease, it is $2,000 down and then $329 a month for 48 months plus $500 in fees. Okay. And the buy option is a loan of $580 a month for 48 months. So, you know, just looking at that, the lease feels way cheaper. Oh, for sure. It definitely feels cheaper, but that feeling ignores the asset itself. I mean, a lease payment is low because,
+
+well, you never actually own the car. Right. You just give it back at the end. Exactly. Buying hands you an actual physical asset. So in this case, the car loses 15% a year, which means it leaves you with an asset worth $13,572.16. Okay. So we have to look at the total out-of-pocket costs versus what we actually keep. To fix this calculation, the total lease is $2,000 plus $329 times 48 plus $500, which equals $18,292.
+
+Yeah. And for buying, you take the payments and subtract the car's final value. So the net cost is $14,267.84. Buying is actually $4,024.16 cheaper. Wow. Okay. So you are paying more up front every month on the loan, but you retain a huge chunk of that value. Keeping the car as an asset completely changes the game. But what if we remove the bank entirely and just pay cash? Does the car still work for us?
+
+That is a good question. Let us look at it. Right. So let us say you buy a $28,000 cash car, losing 15% a year, and sell it after three years. Or you lease it for $2,500 down, $359 a month for 36 months, and $400 in fees. The error people make here is just forgetting to subtract the resale value. After three years, you know, you still own a car and you sell it. That cash comes back to you.
+
+Oh, I see. So it has to be taken off the buy side. Exactly. And the math on that resale value is $17,195.50, which means the net cost of buying is $10,804.50. So buying is cheaper by $5,019.50. Wait, I have to challenge this resale math for a second because it always trips me up. If a $24,000 car loses 20% a year for three years, isn't that just a flat deduction?
+
+What do you mean by a flat deduction? Like 20% of $24,000 is $4,800. So don't we just subtract $4,800 three times? Ah, no. It is actually like slicing a pie. You aren't taking 20% of the original whole pie every single time. Oh, right.
+
+Yeah. After year one, the car is worth less. So you are taking 20% of whatever slice is left on the plate. Because the 20% is taken from the value at that specific time, you actually keep 80% each year. Ah, that makes so much sense. So the fix is V equals 24,000 times 0.8 to the power of three, which equals $12,288. Precisely. And that logic leads right into the percentage trap, which is basically our fourth
+
+mistake. Okay. So say you have a $15,000 car losing 10% of its value each year over two years. Why can't we just multiply the 15,000 by that 10% rate, like 0.1? Well, because losing 10% means keeping 90%. If you multiply it by 0.1, you are only keeping 10% each year.
+
+Oh, wow. Yeah, that would give an absurdly small answer. Exactly. The math demands you focus on what remains, not just what is lost. Got it. So the proper fix is V equals 15,000 times 0.9 squared, which equals $12,150. Yes. You are tracking the value that actually stays in your possession. Okay. Let us apply that idea of kept value to real estate for mistake number five. Say you are
+
+renting for $2,000 a month versus owning a similar home. The owning costs are a $24,000 mortgage and $15,000 of that is interest. Right. Plus $2,000 in property tax, $3,600 for strata, $1,200 for maintenance, and a $2,500 lost return on your down payment.
+
+So which costs less in money you never get back? Well, the common mistake here is counting the entire mortgage payment as a cost, right? Yes. Think about it. The $9,000 of principal pays down the loan. It stays yours as equity in the home. Like a forced savings account. Exactly. Only the $15,000 of interest is truly gone.
+
+That reframes everything. So the true cost of owning is calculated as $15,000 plus $2,000 plus $3,600 plus $1,200 plus $2,500. That equals $24,300. Correct. Meaning renting is cheaper by only $300. So a small rise in the home's value would tip it the other way.

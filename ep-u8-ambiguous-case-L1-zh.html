@@ -1,0 +1,87 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The ambiguous case (SSA): common mistakes · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L1 · Knowledge point</p><h1><span class="en" lang="en">The ambiguous case (SSA): common mistakes</span><span class="zh" lang="zh-Hans">两解情形（SSA）：常见错误</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u89/audio/u8-ambiguous-case-L1.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u89/audio/u8-ambiguous-case-L1.zh.m4a" download="u8-ambiguous-case-L1.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u8-ambiguous-case-L1.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u8-ambiguous-case.html">The ambiguous case (SSA)</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">咱们现在来看你发来的这大关于边边角也就是SSA三角形的几何笔记这次的核心任务是带大家彻底厘清这片被称为几何沼泽的区域当你拿到两条边和其中一边的对角时
+
+很多人觉得形状就固定了对 很多人都有这个错觉但今天我们要聊的是为什么这三个简单的条件往往会把你引入五个极其隐蔽的计算陷阱
+
+因为不管是咱们的大脑还是计算器就是都太想要一个唯一确定的答案了但在SSA的条件下确定性是非常奢侈的没错 那咱们直接看笔记里的第一个错误
+
+只求一个角就停了比如这个经典例子题目给定了角A等于38度边B等于13 边A等于10如果是我
+
+我直接拿计算器算出一个角这道题不就完事了吗计算器确实没骗你但它只显示一个角在三角函数的世界里
+
+正弦180度减去53.2度的值和正弦53.2度是完全一样的也就是说题目里没有任何条件能帮你排除这另外一半的可能性是的 所以正确的棋手势是
+
+你得先求高H等于13乘以正弦38度算下来大约等于8.008.00然后呢
+
+你看你的高是8.00因为8.00小于10并且10又小于13所以这其实是两个三角形懂了
+
+所以得出第二个可能的角也就是B2等于126.8度并且38度加126.8度小于180度完美成立
+
+完全正确那顺序刚才求高这一步我就有个非常本能的疑惑也是笔记里提到的错误2既然正弦定理里
+
+永远是角A配边A那我算高的时候是不是也直接拿边A去乘正弦值千万别
+
+这是大家最容易摔倒的坑高是从另一条边B的端点也就是顶点C落下来的所以公式必须是
+
+H等于B乘以正弦A哦不能用A难怪笔记里给了这个反例角A等于40度
+
+B等于15A等于9对如果用正确的公式算H等于15乘以正弦40度
+
+大约是9.64等等高是9.64但边A只有99.64大于9
+
+这意味着什么呃这意味着边A太短了根本够不到底边没错
+
+如果你非要用正弦定理硬算你会发现算出来的正弦B大约等于1.07正弦值大于1
+
+这根本不成立哎这就很有意思了也就是错误3既然A不能太短
+
+那是不是只要A比高长呃就一定能构成三角形了不是的比高长只能说明
+
+边A能碰到底边但它到底碰了一次还是两次呢你必须把A和B进行对比举个例子比如
+
+角A等于30度B等于20A等于13这里的高是10嗯
+
+因为10小于13确实比高长了对但因为10小于13的同时13又小于20
+
+所以它存在两个三角形对应的角B大约是50.3度或者129.7度原来如此
+
+那咱们看错误4这也是我经常犯的我老是凭印象直接交杀相成比例就写反了每先把比例写出来之前
+
+确实容易错每条边都要配他自己对角的正弦比如当角A等于45度A等于12B等于15的时候
+
+也就是老老实实写成分数正弦B除以15等于正弦45度除以12对这样算下来
+
+正弦B大约等于0.8839从而得出角B大约等于62.1度符合10.61小于12且小于15的条件没错
+
+好的那最后一个终极险阱错误5既然咱们算出存在两个三角形了那第二个三角形剩下的那个第三个角
+
+我是不是直接照搬第一个的就行了绝对不行这两个三角形共有的只有角A边A和边B角B一旦改变
+
+第三个角和第三边都会跟着变哇所以它们是完全不同的两个三角形是的以角A等于36度
+
+B等于16A等于11为例在有两个三角形的情况下求角CC2等于180度减36度
+
+减121.2度等于22.8度验算36加121.2加22.8等于180</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u8-ambiguous-case-L1#ep-u8-ambiguous-case-L1"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u8.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

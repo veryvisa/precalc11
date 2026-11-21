@@ -1,0 +1,11 @@
+This is the brief on exponent laws. We're looking at how to systematically simplify messy algebraic expressions using zero and negative exponent rules. First, let's look at operations with the same base. You know when you multiply, you just add the exponents. When you divide, you subtract them.
+
+And for a power of a power, you're going to multiply those exponents. But beware of a really common trap here. A power outside the brackets hits literally every single factor inside, including the numbers. To put it plainly, open bracket 3x squared closed bracket squared is 9x to the fourth. Second, we've got zero and negative exponents.
+
+So a zero exponent simply equals one, right? Well, as long as the base isn't zero. A negative exponent, though, means a reciprocal. Literally, moving that factor across the fraction bar makes the exponent positive, which is the direct solution to achieving your ultimate goal of only using positive exponents.
+
+Finally, let's talk about your systematic order of work. You've got to handle the brackets and outside powers first. Then your numbers. Then combine the bases. And lastly, move those negative exponents across the fraction bar.
+
+Just plug in small numbers like x equals 2 and y equals 1 into both your original expression and the final answer to ensure they give the exact same value. Make absolutely sure no negative exponents are left. Tests love one big fraction, so you must write one line per step. Power, then numbers, then each base.
+
+Answers with negative exponents usually lose a mark.

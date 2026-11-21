@@ -1,0 +1,21 @@
+factoring trinomials of the form ax squared plus bx plus c. Right. It's a pretty classic algebra problem. Yeah, and our mission here is to understand exactly how the decomposition method bypasses the need to guess factors up to 10 times. Exactly. I mean, it guarantees a result on the very first try. Which is huge.
+
+Yeah. So let's start with the absolute simplest scenario, which is when a equals 1. Yeah. When a is 1, you really just need to find two numbers that multiply to c and add to b. Okay. So we need numbers that multiply to negative 15 and add to negative 2. Right. And those numbers are negative 5 and 3.
+
+Yep. Since negative 5 times 3 is negative 15 and negative 5 plus 3 is negative 2. Exactly. Which gives us the brackets right away. It's just the bracket x minus 5 times the bracket x plus 3. Okay. But analytically speaking, how does this change when a is not 1? Well, that's where the decomposition method comes in. You find two numbers that multiply to a times c.
+
+Oh, wait. So you multiply a and c together first? Yeah. You multiply them and then those two numbers still have to add to b. Got it. Then you just split the middle term using those numbers. And finally, you factor by grouping. Okay. I see. But navigating the signs can be tricky, right? How do the signs actually guide this search?
+
+So if c is positive, both of your numbers will share the exact same sign as b. Right. That makes sense. And if c is negative. If c is negative, they have opposite signs. And the bigger number always takes the sign of b. Okay. Are there any, like, exceptions or things to do before all of this? Always take out a greatest common factor, or GCF, and any negative leading coefficient first.
+
+Right. What if you do that and literally no pair of integers works? Then the trinomial simply does not factor over the integers. Good to know. So to structure the physical process, the notes give us this tool called the five questions. Yeah. You should ask these before writing down any brackets. Okay. So question one is given. You write out a, b, and c with their signs, and you look for a GCF.
+
+Right. And question two is asked. You just need to ensure you factor fully. Meaning that nothing inside the two brackets can be factored again, right? Exactly. Then question three is picture it. Picture a small sign table? Yeah. Based on whether the product ac is positive or negative.
+
+Got it. Then question four is tool. You choose the product sum method for a equals one, or decomposition for when a is not one. And the final question is check. You just expand the brackets. So the outer plus inner terms must exactly match bx, including the sign. You got it. So let's slowly walk through a worked example.
+
+Okay. The expression is 5x squared plus 13x plus 6. All right. So a is 5, b is 13, and c is 6. Right. And there's no common factor here. So we multiply a and c, which gives us 30. Spot on. So we split the middle term using 3 and 10. The equation becomes 5x squared plus 10x plus 3x plus 6.
+
+Okay. And then we group them. Exactly. So we get 5x times the bracket x plus 2 plus 3 times the bracket x plus 2. And since they share a bracket, that becomes our answer. The bracket x plus 2 times the bracket 5x plus 3. That's it. And let's check that middle term. The outer 3x plus the inner 10x equals 13x. Perfect. So the advice here is to always write that product sum pair in the margin before you write any brackets.
+
+Oh, absolutely. And then, you know, expand that middle term to check your work at the end. Most loss marks are sign errors that a 5-second check would catch.

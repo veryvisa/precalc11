@@ -1,0 +1,113 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Vertex form &amp; transformations · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Vertex form &amp; transformations</span><span class="zh" lang="zh-Hans">顶点式与图象变换：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u5-vertex-form-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u5-vertex-form-L2.zh.m4a" download="u5-vertex-form-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u5-vertex-form-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u5-vertex-form.html">Vertex form &amp; transformations</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">不管它长得多奇怪其实都只是最基础的那个Y等于X的平方经过简单的拉伸啊翻折或者平移得到的
+
+懂了那这个奥秘是不是都在那个叫做顶点式的方程里对对对就是顶点式你可以把它想成一件一家家具
+
+而这个方程就是外包装上的说明书所有的变换都明明白白写在脸上了哇那这个说明书到底长什么样它的基本形式是这样的
+
+你仔细听好Y等于A乘以括号X减P的平方再加上Q呃
+
+参数听起来有点多啊其实不复杂在这个方程里顶点坐标直接就是P逗号Q
+
+对称轴是X等于P而它的最值呢就是Q等等我理清一下
+
+那P和Q是怎么让图像移动的呢我看笔记里特别强调了P说这里面有个特别容易踩进去的陷阱确实是个大陷阱怎么说呢
+
+Q嘛很直观它控制上下平移方向跟它的符号完全一致嗯
+
+加就是上减就是下那P呢P控制左右平移但是它的移动方向
+
+跟你看到的符号是完全相反的诶完全相反这听起来有点反直觉啊对
+
+比如你看到括号X减三的平方因为是减三其实图像是向右也就是向正方向移动三如果是加三的话
+
+反而是向左移三哦原来如此就是说看到减号反而是往正那边走
+
+这下讲得通了没错行如果说P和Q是决定位置的坐标那图像本身如果是特别宽
+
+或者倒过来的方程椅是怎么看出来的呢这就全靠参数A了A决定了抛物线的形状和开口方向具体是怎么决定的
+
+这么说吧如果A的绝对值大于1图像就会变窄就像被数值拉伸了一样哦
+
+变瘦了那如果绝对值不到1呢如果在0到1之间图像就会变宽吗哎
+
+那如果A小于0的话整个图像就会直接关于X周翻折明白就是开口朝下了对吧
+
+笔记里这里还提到一个特别巧妙的画图规律啊对不常规律就是只要从顶点出发
+
+横走1数就走A横走2数走4A横走3
+
+数走9A这个规律套上去就能直接精准瞄点了确实非常好用而且顺着A和Q的这些特性
+
+我们还能发现一个不用解方程的捷径哇不用解方程怎么看
+
+你只要看A和Q的符号就能知道图像跟X轴有几个焦点也就是拮据的个数哦就光看符号就行了
+
+对对对如果A和Q一号也就是符号相反那肯定有两个焦点嗯
+
+那要是Q等于0呢Q是0的话就只有一个焦点如果A和Q同号那不好意思
+
+完全没有焦点这个判断也太高效了吧所以动笔之前啊我们需要建立一个完整的系统笔记里总结了
+
+实战前的五步法是的第一步已知什么就是直接读出A
+
+PQ 而且记得 一定要把括号写成 X-P的形式 免得看错P的符号
+
+对第二步求什么明确我们的目标然后第三步
+
+就是画出来没错描述顶点画虚线对称轴然后用刚才的那个
+
+不常规律两边画图嗯第四步用什么工具
+
+是用APQ描述图像呢还是把点带入方程求A然后就是最宽建的第五步检验把点带回方程
+
+还有检查逻辑对不对比如已知点如果在顶点的下方那算出来的A
+
+就必须小于0对吧完全正确行让我们赶紧用一道实战题
+
+走一遍假设现在考一道抛线顶点是1斗号-5然后经过另外一个点3斗号3
+
+求方程好第一步顶点给出了P等于1Q等于-5
+
+我们先设方程为Y等于A乘以括号X-1的平方再减5然后把点3斗号3带入进去
+
+X换成3Y也换成3那括号里就是3-1等于2对2的平方是4
+
+所以等式变成了3等于4A-5把5移过去4A等于8这么一算
+
+A就等于2了没错简单明了那我们最后来检验一下现在方程是
+
+Y等于2乘以括号X-1的平方再减5嗯X是1的时候
+
+得到负5X是3的时候计算2乘以4减去5刚好等于3对
+
+而且点3斗号3在顶点1斗号-5的上方A等于2大于0逻辑上完全温和
+
+答案就是这个了完美的推导最后提醒一下选择题最爱靠P的符号做题时
+
+心里一定要默念X-P从图像写方程时先读顶点再找一个正好落在
+
+隔点上的点球A</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u5-vertex-form-L2#ep-u5-vertex-form-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u5.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

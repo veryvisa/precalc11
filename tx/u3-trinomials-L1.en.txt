@@ -1,0 +1,19 @@
+So jumping straight into factoring the trinomial x squared minus 2x minus 24, how is it that we can find the right pair of numbers but still manage to get the whole thing wrong? Well, it usually comes down to the trap of swapping the signs in the brackets. Like getting the numbers right but backwards. Exactly. If we just, you know, blindly use x plus 6 and x minus 4,
+
+our middle term actually becomes positive 2x. Oh, I see. So we built a positive middle but we actually needed a negative 2x. Right. Yeah. So the fix is that the larger number always has to take the sign of b. And since b is negative 2, the numbers have to be negative 6 and positive 4.
+
+Yep. Which gives us x minus 6 times x plus 4. Gotcha. And to verify that, the check is 4x minus 6x equals negative 2x. Okay. That makes sense. So moving to 3x squared plus 11x plus 6.
+
+I mean, it's so easy to mistakenly use the a equals 1 shortcut here, even when a actually equals 3. Oh, completely. It's a huge trap. Because a is not 1, we really must find the product of a and c first. Right. So in this case, a times c would be 18. And since we need a sum of 11, those numbers would be 9 and 2.
+
+Exactly. And writing the math out, 3x squared plus 9x plus 2x plus 6 becomes 3x times the group x plus 3 plus 2 times the group x plus 3. Oh, okay. Yeah. Which then factors to x plus 3 times 3x plus 2. Awesome. But what about when a problem just, you know, looks finished? Like, if we're fully factoring 3x squared plus 15x plus 18.
+
+Right. That one is definitely tricky. Yeah. Because if the brackets multiply back correctly, we might feel like we're done. But we aren't. Not really. Because skipping the greatest common factor at the start lets a common factor of 3 just hide right inside 3x plus 6. Oh, right. It just stays hidden in one of the groups. So the fix is to pull the GCF out first.
+
+Yep. Always. So 3 times the group x squared plus 5x plus 6 becomes 3 times x plus 2 times x plus 3. Okay. Let's look at x squared plus 5x minus 24. It feels really dangerous to just grab the first pair of numbers that gives the right product. Yeah. Especially a pair like 12 and negative 2. Right. Because both conditions actually must hold. 12 plus negative 2 gives 10, not 5. Exactly.
+
+So the fix is actually listing pairs for negative 24 and their sums. So 8 and negative 3 give 5, making the answer x plus 8 times x minus 3. Yep. You have to list them out to be completely sure. Okay. Last one. 6x squared plus x minus 2. When we group this, what usually goes wrong when taking out a negative 1? Well, people tend to forget that taking out negative 1 changes every sign in the group, not just the first one.
+
+Oh, I see. Both signs have to change. Right. Okay. So negative 3x minus 2 must become negative 1 times the group 3x plus 2. Got it. So the final fix is 2x times the group 3x plus 2 minus 1 times the group 3x plus 2, which equals 3x plus 2 times 2x minus 1.
+
+Check. Negative 3x plus 4x equals x.

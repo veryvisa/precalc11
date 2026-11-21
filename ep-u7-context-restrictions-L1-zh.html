@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Domain &amp; range limits in context: common mistakes · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L1 · Knowledge point</p><h1><span class="en" lang="en">Domain &amp; range limits in context: common mistakes</span><span class="zh" lang="zh-Hans">实际问题中的定义域与值域：常见错误</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u7-context-restrictions-L1.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u7-context-restrictions-L1.zh.m4a" download="u7-context-restrictions-L1.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u7-context-restrictions-L1.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u7-context-restrictions.html">Domain &amp; range limits in context</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">你知道,你平时解代数方程式的时候,感觉就像在真空中操作,只要遵循数学法则,那个数字在纸面上永远是完美成立的。确实,纯数学的世界非常自由。今天我们要对一份非常有意思的数学笔记进行深入探讨,我们的任务就是弄清楚,为什么完美的纯数学一旦套入现实情境,就会频频翻车,比如算一个长方形的面积或者抛球的轨迹的时候。
+
+对的,现实世界的这个情境会给公式加上绝对的物理边界,我们在把代数应用到现实时,常常会掉进无视这些边界的陷阱里。就是完全没意识到限制的存在,对吧?那我们先来看看空间的物理限制。笔记里提到一个周长20米的长方形,宽是x米,面积A等于x乘以10-x。
+
+如果光看代数公式,它的定义是不是感觉像全体实数?对于任何x似乎都能算。对啊,其实我也这么觉得。
+
+但现实中不行,你想啊,如果你把宽设为-3米或者12米。那长方形必定有一条边会变成负数了。没错,空间是不允许负长度存在的,所以修正的方法是必须保证宽x大于0。
+
+哦,同时长10-x也要大于0。完全正确,这就把定义欲严格所死在必须大于0上了。所以空间有不能为负的现实限制。
+
+原来如此,那如果把维度切换到时间呢?时间似乎会给你们带来一种更具迷惑性的错觉。是的,笔记里提到一个抛球的高度公式,Ht等于-5乘t的平方加15t加20。
+
+呃,代数算出来的公式0点包含了t等于-1。对,如果只顺着数学逻辑,很多人求定义欲举,就把这个负数留着了。诶,等一下,但这在现实逻辑中是完全讲不通的吧?没错,在你们真正把球抛出去之前,球的运动轨迹根本不存在。
+
+也就是说,代数0点绝不等于故事里的时刻,在故事发生前,公式是没有意义的。确实,数学算出个t等于-1,只是一个没用的代数结果,所以必须把它舍去。嗯,所以真正的定义欲是从抛出时的0秒开始。
+
+一直到落地时的4秒,也就是0小于等于t小于等于4秒。哇,既然起点和终点受现实限制,那么事物发展的最高点和最低点也不能简单靠猜,对吧?是的,必须计算真实的轨迹。假设另一个高度公式,ht等于-5乘t的平方,加20t加25,时间在0到5秒之间。
+
+嗯,要求直欲的话,你觉得最容易犯的错误是什么?就是,只用端点求直欲。很多人会直接把0和5这两个端点带进去算。哦,这就彻底错了。因为抛球的拱形最高点在中间,并不在两端,没算顶点就错了。
+
+没错,修正的方法是,必须带入顶点t等于2,得出h2等于45。嗯,所以真正的直欲是0小于等于h,小于等于45。对,说到这里还有个容易踩的坑,假设你站在40米高的屋顶抛出球,公式是ht等于-5乘t的平方,加10t加40。
+
+这里的错觉就是,既然从40米开始抛的,你们很容易把起始高度当最小值,觉得最低点肯定就是40米了。这就是被起始数字欺骗了,球抛出后又不会停在屋顶,对吧?当然不会,它会越过屋顶,一直落到地面。
+
+没错,也就是h等于0时,解出t等于4,所以这颗球的最低高度其实是0。哦,直欲同样是0小于等于h,小于等于45米,大家千万别被骗了啊。是的,前面我们都在用时间算高度的直欲,如果反过来,计算特定高度的时间区间呢?这是一个引出代数符号翻转的一错点,对吧?没错,比如公式ht等于-5乘t的平方加30t,球球何时高于25米?
+
+如果在算的时候,两边同除以负数,是不是经常有人没变号?对的,除以负数时没变号,两边同除以负数时不把不等号反向,会得出球在开头和结尾最高的荒谬结论,正好反了。哇,那修整之后是什么呢?修正后得出t的平方-6t加5小于0,也就是1小于t小于5。
+
+它在定义于0小于等于t小于等于6内,高于25米的时间共4秒。</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u7-context-restrictions-L1#ep-u7-context-restrictions-L1"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u7.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

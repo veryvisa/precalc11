@@ -1,0 +1,103 @@
+We are doing a Unit 6 review on quadratic equations, just one comb pass over every topic. Right, and the goal here is to really look at every real x that makes an equation true, because, you know, a quadratic can have two, one, or no real answers. Yeah, you always have to be prepared for any of those three outcomes. Exactly.
+
+So we're starting with the two initial approaches, the factoring method and the square root method. Right, and with the factoring method, there is this absolute first step. You must get zero on one side first. Okay, so just move everything over. Yeah, exactly.
+
+Then you factor, and then you set each factor to zero. Oh, right, using the zero product property. Yes, because if two things multiply to zero, one of them just has to be zero. Makes sense. And then for the square root method, that's for when you have, like, something squared equals a number.
+
+Right, so instead of expanding it all out to get zero, you isolate the square, and you just take the square root of both sides. But wait, if you do that, you have to remember the missing half, right? Taking the plus or minus square root. Exactly. If you just take the positive root, you are literally throwing away half of your valid answers.
+
+Speaking of throwing away answers, I really want to clarify something. There is a strict warning in the notes that says never divide both sides by x. Oh, yeah. That is a huge trap. But why?
+
+I mean, let's say you have an equation like 4x squared minus 28x equals zero. If you just divide both sides by x, you get 4x minus 28 equals zero. Right. Which means x equals seven. That's a correct answer, so why is it so dangerous to do that?
+
+Well, because you lost a root. Dividing by x causes you to lose the root where x equals zero. Wait, really? Just by dividing? Yeah.
+
+Look at the original equation. 4x squared minus 28x equals zero. If x is zero, it's 4 times zero minus 28 times zero. Which is just zero minus zero. Exactly.
+
+Works perfectly. But you divided by it, so you lost it. You have to factor the x out instead, so you can actually see that x equals zero is an option. Okay, wow. That is a huge trap.
+
+Let's walk through another common mistake here. Sure. The notes mention setting a factored left side to a non-zero number. So say you have open parenthesis x plus 1, close parenthesis, times open parenthesis x minus 4, close parenthesis, equals 6. Yeah, people see that and they just want to set x plus 1 to 6 and x minus 4 to 6.
+
+Right, because it looks like it's already factored. It does, but you can't do that. You have to expand it all back out. Multiply it out. Move that 6 over so it equals zero and then refactor the whole thing.
+
+Got it. Okay, one more thing on square roots. What if you take the square root of a negative number? Oh, you just stop. Just stop?
+
+Yeah, you stop at line 1. There is no real solution, so you're just done. Okay, that's easy enough. But what if an equation isn't a ready-made square? Like, what if we can't just take the square root easily?
+
+Well, then we build one ourselves. We use the process called completing the square. Ah, okay. Yeah, and the notes give us this exact five-step recipe for it. Right.
+
+Step 1 is you make a equal to 1 by dividing. Step 2, you move the constant to the right side. Okay. Step 3 is the big one. You add half of b squared to both sides.
+
+Right, both sides. Yeah. Then step 4, you write the left side as a perfect square. And finally, step 5, you take the plus or minus square root. I want to talk about step 3 for a second.
+
+The notes have this point about bookkeeping that I think is super helpful. Ah, yeah, the bookkeeping analogy is great. Because solving an equation means whatever you add to the left, you add to the right. You're balancing two sides. Exactly.
+
+But converting a function to vertex form means you're adding and subtracting on the exact same side. Right. It's basically the same idea, just different bookkeeping. You're either balancing a scale with two sides, or you're just keeping one side perfectly balanced by doing a plus and a minus together.
+
+Makes total sense. But the notes also have these calm questions to ask when you meet a new problem. Like, is a equal to 1? Is b even or odd? Yeah, you need to ask those because an odd b or an a that isn't 1 is going to force fractions into your math.
+
+And fractions get messy. They really do. Like, this specific example here. 2x squared plus 6x minus 1 equals 0. Okay, let's walk through that one slowly.
+
+So, a is 2, not 1. Right, so we divide everything by 2. That gives us x squared plus 3x minus 1 half equals 0. Then, step 2, move the constant. So, x squared plus 3x equals 1 half.
+
+And here's where the fractions hit. The b is 3, which is odd. So, half of 3 is 3 halves. Exactly. And when you square that, you get 9 fourths.
+
+So, you add 9 fourths to both sides. Right, and halving or squaring fractions like that often just goes wrong for people. It does. It's really easy to make a small error. So, because completing the square with fractions can be so messy, there has to be a better way, right?
+
+Oh, there is. The universal tool. The quadratic formula. Nice. Yeah, the quadratic formula is literally just completing the square done once in general.
+
+So, x equals negative b plus or minus the square root of b squared minus 4ac all divided by 2a. Perfect. But preparation is key here. Everything must be moved to one side to equal 0 first. Right.
+
+So, it has to look like ax squared plus bx plus c equals 0. Exactly. And when you are pulling your a, b, and c out of that, you must read them with their signs included. If it's a minus 3, c is negative 3. So, what are the common mistakes people make here?
+
+Well, a big one is dividing only part of the top by 2a or, you know, dividing by just a instead of 2a. Oh, yeah. Just forgetting the 2 entirely. Exactly. Let's break down the specific example from the text on simplifying fully.
+
+The equation is x squared minus 6x minus 3 equals 0. Okay. So, under the radical, after you plug everything in, you end up with 48. Right. So, you have a square root of 48.
+
+Yeah. And simplifying the radical has to happen first. The square root of 48 simplifies to 4 times the square root of 3. Because 48 is 16 times 3, right? Exactly.
+
+So, your top is now 6 plus or minus 4 times the square root of 3. And all of that is over 2. And this is where people mess up the dividing, right? Yes. You have to divide both the 6 and the 4 by that 2 on the bottom, which gives you 3 plus or minus 2 times the square root of 3.
+
+You have to cancel a common factor in that exact order. Okay. Zooming in on the formula a bit more, there's that specific part under the root, the b squared minus 4ac. Yes. The discriminant.
+
+Right. The discriminant or capital D. And D is great because it tells you how many roots exist before you even solve the whole thing. So, what are the rules for that? There are three outcomes.
+
+Okay. If D is greater than 0, you have two different real roots. Visually, the graph crosses the x-axis twice. Okay. If D equals 0, you have two equal real roots or basically just one root.
+
+It just touches the x-axis. And if D is less than 0... Then there are no real roots. It just completely misses the x-axis. Now, let me play devil's advocate for a second using a mistake from the notes.
+
+Sure. If the discriminant is 0, doesn't that mean there is no solution? No. D equals 0 means two equal real roots. Right.
+
+But people hear 0 and think nothing. Exactly. But look at the equation. Open parentheses. X minus 5.
+
+Close parentheses. Squared. Equals 0. Okay. The discriminant for that is 0.
+
+But it clearly has a solution. X simply equals 5. Oh, right. That makes total sense. Now, what about when there is an unknown k in the equation?
+
+Ah, k. When you have a k, you must write D in terms of k. And then you set it to equal 0 or greater than 0 or less than 0. Depending on what the question is asking. Exactly.
+
+But you have to be careful. The text gives a warning about quadratic inequalities with k. Like if you end up with k squared minus 100 is greater than 0. Right. You have to actually test values on each side of those zeros to find the right range.
+
+And there's a rule about flipping the sign, right? Yes. If you end up multiplying or dividing by a negative number, you must flip the inequality sign. Good to remember. So, now that we have all these tools, factoring, square roots, completing the square, the formula,
+
+how do we choose the fastest one, especially for word problems? The notes actually give a really good decision tree for this. Oh, perfect. Yeah. So, first, if it's a ready-made square, just use square roots.
+
+Keep it simple. Right. If D is a perfect square, like 25 or something, that means it's factorable. So, factor it. Okay.
+
+If A equals 1 and B is an even number, that's when you complete the square. It'll be nice and clean, no fractions. And for everything else? For anything else, or if the question specifically wants decibels, just use the formula. That's a great breakdown.
+
+So, for word problems, what are the steps? Well, first, let the variable be what is asked for. Second, write the equation from the words. You know, usually something based on area or Pythagoras. And then third, you just solve it.
+
+Exactly. But wait. When you solve it, you get two roots sometimes. How do you know which one is right? You have to test the root against the actual words of the story.
+
+Like, if you get a negative length, like negative 8, you must reject it with a reason. Because you can't have a negative length in reality. Right. But sometimes both roots make sense. The text has this exact example.
+
+A ball passes a height once going up, and then it passes that same height coming down. Yes. So you get times of T equals 1 second and T equals 5 seconds, and they are both kept. Because they both make physical sense in the story. Yeah.
+
+Okay. There is one last common word problem mistake we need to cover. The border width one. Yes. Adding the border width.
+
+This one catches everyone. If you have a frame of width X going around a picture, it adds 2X to each dimension, not just X. Because it's on both sides of the picture. Exactly. Top and bottom, left and right.
+
+So reading the specific math for the area check mistake. Say the original dimensions are 15 by 9. Okay. The equation becomes open parentheses 15 plus 2X, close parentheses, times open parentheses 9 plus 2X, close parentheses, equals 247. Right.
+
+Because you added the 2X to both the 15 and the 9. And then you just solve that out to find your X.

@@ -1,0 +1,97 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Quadratic inequalities (sign analysis) · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Quadratic inequalities (sign analysis)</span><span class="zh" lang="zh-Hans">二次不等式（符号分析）：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u7-quadratic-inequalities-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u7-quadratic-inequalities-L2.zh.m4a" download="u7-quadratic-inequalities-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u7-quadratic-inequalities-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u7-quadratic-inequalities.html">Quadratic inequalities (sign analysis)</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">球在哪段时间高于15米还有票价在什么范围内能盈利今天我们就直接从这两个非常现实的问题开始吧咋一听你可能会觉得这是物理题或者是经济题但如果你把它们画出来
+
+其实就是都在问同一个最基本的数学问题对就是抛物线什么时候在某条线的上方或者下方也就是二次不等式没错其实解这种题
+
+很多人一开始的直觉是直接拿两条曲线去对比但说实话人的大脑很难同时处理两个都在变化的量确实很难这就是为什么我们要用到解题的第一个核心步骤
+
+就是先把所有的项全都移到等号的一边让另一边变成零对跟零去比较这就像是找一个绝对的基准线然后第二步就是求出零点
+
+也就是通过阴式分解或者求根公式来求零点没错找出零点之后这些零点就会把整条竖轴分成好几段然后第三步就是判断每一段的符号了
+
+对吧其实这步你可以代入一个数据试或者直接在脑子里想象一下那个抛物线的形状对想象形状是最直观也最快的比如说只要开口向上
+
+那两个零点之间肯定就是在下方的也就是负的零点两侧就在上方是正的然后第四步直接选出符合你要求的区间就行了就是这么简单
+
+不过这有个细节必须得强调一下什么细节就是关于等号的问题如果是小于等于或者大于等于那你是包含了零点的
+
+对对对那如果只有单纯的小于或者大于呢那就绝对不包含明白了那要是碰上一种特殊情况呢
+
+就是根本没有实数零点的情况判别是小于零那种如果没有实数零点这就说明这个式子在整条数轴上的符号全都是一样的
+
+就是要么永远在上面要么永远在下面没错所以你的答案要么是全体实数要么就是完全无解
+
+这个挺好判断的那你在真正动底做题前其实有五个必须要问自己的灵魂拷问对吧第一已知什么
+
+就是看看有一边已经是零了吗对不是零就赶紧先一项还要记下不懂号的方向以及最关键的x的二次方的奇数是正还是负
+
+第二步是求什么其实就是要明确你要找的是让等式成立的所有x对吧
+
+通常就是一个区间或者用或连接的两段对然后第三个问题就是画出来不管怎样
+
+先在草纸上画个经过零点的小抛线系数大于零就开口向上小于零就向下或者直接画条竖轴把正负号标上去
+
+没错第四个就是明确你要用什么工具其实也就是求零点还有看开口方向对
+
+然后最后一步第五步是检验等等这我得打断一下有个极其关键的问题
+
+为什么我们一定要把数字带入原不等式里去检验这是一个很容易踩坑的地方为什么要带入原不等式因为只有这样才能验证
+
+你整个推导的每一步我懂了万一我在第一步一项的时候就粗心弄错了符号我带入中间那个错误的事的
+
+是根本查不出毛病的完全正确所以原式才是检验的唯一标准另外就是只有小于等于和大于等于才用方括号来表示包含零点
+
+行那我们赶紧趁热打铁把刚才的逻辑套用到开头那个票价盈亏的问题上假设经过计算
+
+公式简化成了x的二次方加x大于等于12好第一步看
+
+有一边是不是零现在右边是12对吧所以果断一项一项之后变成
+
+x的二次方加x减12大于等于零对这时候你看x的二次方前面的系数
+
+是正一说明开口向上接下来找浮标也就是零点把x的二次方加x减12
+
+因时分解得到呃括号x加4乘以括号x减3
+
+等于零嗯算出来零点就是x等于负4还有x等于3哦
+
+画面感来了吗这就是一个经过负4和3然后开口向上的抛物线中间这段在x中下方两侧在上方
+
+没错题目要求是大于等于零也就是在上方的那部分显然在两侧嘛而且得包含零点
+
+因为有等于号那所以取值就是x小于等于负4或者呃x大于等于3这就是能实现盈利的区间
+
+对最后我们来检验一下你随便代入一个数比如x等于5我算算啊
+
+5的二次方是25加上5等于3030确实大于等于12成立那如果你代入x等于零呢
+
+呃零大于等于12肯定不成立而且你看零也确实不在我们算出的答案区间里
+
+双重验证完美成功所以最终答案区间独座负无穷到负4的B区间
+
+并上三道正无穷所以说花个大概5秒钟画个抛物线草图标出开口方向
+
+加上跟x轴的焦点几乎所有二次不等时都能解决题目要求写出过程或者或者应是不止两个的时候再用符号表</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u7-quadratic-inequalities-L2#ep-u7-quadratic-inequalities-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u7.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

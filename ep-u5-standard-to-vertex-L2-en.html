@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Standard form → vertex form · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Standard form → vertex form</span><span class="zh" lang="zh-Hans">一般式化顶点式：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u5-standard-to-vertex-L2.en.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u5-standard-to-vertex-L2.en.m4a" download="u5-standard-to-vertex-L2.en.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u5-standard-to-vertex-L2.en.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u5-standard-to-vertex.html">Standard form → vertex form</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><div class="txbox" lang="en">We are jumping right into the notes on algebraic functions today, and our mission is to demystify quadratic equations, specifically translating them from standard form into vertex form. Because, you know, when you look at standard mathematical equations, you kind of just assume they&#x27;re giving you all the information up front. Yeah, right. But they really don&#x27;t. The most important feature is usually just,
+
+well, actively hiding from you. Exactly. Like, take a standard quadratic equation, say y equals 2x squared minus 12x plus 7. Right. And that is perfectly accurate. But it doesn&#x27;t intuitively tell you what the parabola actually looks like. And you usually want to know that highest or lowest point.
+
+Right. It is like looking at raw computer code. But if you rewrite that exact same equation as y equals 2 times open parentheses x minus 3 close parentheses squared minus 11, well, suddenly the lowest point of the curve, the vertex at 3 negative 11, is just handed to you. Yeah. Handed right to you on a silver platter.
+
+That is your user interface. And bridging that gap between the raw code of standard form and the, you know, clear interface of vertex form is exactly what the notes focus on. So how do we actually do that? Well, the core tool here is something called completing the square.
+
+The trick is to take half of the B term, square it, and then add it and immediately subtract it within the equation. Wait, add and subtract the exact same number? That sounds entirely bizarre. Aren&#x27;t you just running in circles and like making the equation messier?
+
+I mean, it definitely feels like creating unnecessary chaos, but we are actually reverse engineering a perfect square. Think about an equation package like x plus 2 all squared. Okay. Yeah. If you multiply that out, you get x squared plus 4x plus 4. That plus 4 at the end is exactly half of the middle term squared.
+
+Oh, I see. So by manually adding and subtracting that specific number in our standard equation, we force it into that neat squared shape without changing its overall value. Clever mathematical repackaging. We are creating a controlled mess to build that bracket. We are. But this raises the biggest trap people fall into. If your equation starts with a number
+
+other than 1, you know, what we call the A value. Right, the coefficient. Exactly. You must factor that out of the x squared and x terms before you do anything else. Okay. To keep all these moving parts straight, the notes provide a five-step mental checklist. Given, asked, picture it, tool, and check.
+
+Let&#x27;s apply that to the example provided. Y equals 2x squared plus 8x plus 3. Let&#x27;s do it. Our given is that equation, and we are asked for the vertex. Okay. To picture it, well, we know it is a parabola opening upwards. Our tool is completing the square. Since our A value is 2, we factor that out of the first two terms.
+
+Leaving us with y equals 2 times, open parentheses, x squared plus 4x, close parentheses, plus 3 on the outside. Spot on. Right. Now for the tool. What is half of our new middle term, the 4? That is 2.
+
+Okay. Squared, it is 4. So we just jam a plus 4 and minus 4 inside that parentheses? We do. It becomes x squared plus 4x plus 4 minus 4. But we need to evict that negative 4 from the bracket to get our perfect square. Right, because of that trap we mentioned. Exactly. The negative 4 has to be multiplied by the A value, which is 2 on its way out.
+
+So negative 4 times 2 is negative 8. Outside the bracket, we combine that negative 8 with the plus 3 on the end, which gives us minus 5. Yep. And inside, that neat package becomes x plus 2 squared. And boom! The lowest point of the curve is right there staring at you. The final equation is y equals 2 times, open parentheses, x plus 2, close parentheses, squared, minus 5. So our vertex is negative 2, negative 5.
+
+Exactly. Which brings us to the final step of the checklist, the check step. With the factoring, the adding, subtracting, and multiplying on the way out, I mean, how can you quickly guarantee you didn&#x27;t just mess up the arithmetic? You use the 10-second fast check. Okay.
+
+The vertex x value always equals negative b divided by 2 times a. Okay, looking back at our original equation, b was 8 and a was 2. Right. So negative 8 divided by 4 gives you negative 2. Well, that matches the x value in our bracket perfectly. It does.
+
+Then you just plug that negative 2 back into the original equation. 8 minus 16 plus 3. That equals negative 5. Which matches the y value perfectly.</div></section><nav class="pn"><a href="audio.html?ep=u5-standard-to-vertex-L2#ep-u5-standard-to-vertex-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u5.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

@@ -1,0 +1,11 @@
+This is a brief on factoring with greatest common factors and grouping. First, always find your greatest common factor or GCF before anything else. It's the largest number dividing every coefficient multiplied by each variable to its lowest power. And hey, a common factor can even be a whole bracket. Just picture a box.
+
+The GCF goes outside, and what's left goes inside. So, what happens if a term exactly matches your GCF? Well, remember to leave a 1 in that bracket, because pulling 4xy from 4xy leaves 1. Definitely not 0.
+
+Second, with 4 terms, try grouping. Split them into pairs, taking a GCF from both, so your resulting brackets match perfectly. Got opposite brackets like x-2 and 2-x? Just factor out a negative 1 to flip the signs.
+
+But, wait, what if you do all that and the expression still isn't fully factored? Always check for a difference of squares, like x-squared minus 16, breaking down into x-4 and x-plus 4. Finally, do the 10-second check.
+
+Ultimately, if you lock down your GCF first, group 4 term expressions into pairs, and double-check by expanding, you'll avoid the most common algebra slip-ups. Keep practicing these steps, but remember,
+
+rest counts too.

@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Factoring by substitution: common mistakes · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L1 · Knowledge point</p><h1><span class="en" lang="en">Factoring by substitution: common mistakes</span><span class="zh" lang="zh-Hans">换元法分解：常见错误</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u14/audio/u3-quadratic-form-L1.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u14/audio/u3-quadratic-form-L1.zh.m4a" download="u3-quadratic-form-L1.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u3-quadratic-form-L1.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u3-quadratic-form.html">Factoring by substitution</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">今天我们要为您带来一场关于换源法阴势分解常见陷阱的深入解析我们的核心目标就是处理清楚然后避开这些一错点确实很有必要
+
+因为换源法表面上看是个特别好的帮手但是稍微一不留意就会踩雷就是直接变地雷了那咱们先看第一个大坑就是过早停下导致分解不彻底
+
+对这种情况太普遍了比如你看这个式子x的四次方减六倍的x的平方加五遇到这种题我一般算出那个临时变量m之后
+
+往往就觉得大功高成了很多人都这么想但你得记住m只是个临时帮手题目最终问的可是x啊对啊差点忘了原主
+
+所以必须把x的平方带回m的位置这样我们就能得到括号x的平方减一乘以括号x的平方减五然后这还没完我们还要进一步分解
+
+得出括号x减一乘以括号x加一再乘以括号x的平方减五没错必须分到这一步但我一直有个疑问啊为什么后面那个也就是
+
+呃x的平方减五它就不继续往下分了呢严格根据笔记来说呢这是因为它在整数范围内不能再分了
+
+哦原来如此那既然提到了要彻底分解这就顺理成章的引出了咱们的下一个异错点了吧没错你来看看这道题
+
+x的四次方减二十倍的x的平方加六十四哎这个换原之后看似很简单就做完了看似做完了但完全分解要求你
+
+必须再查一遍每一个括号嗯仔细检查这里的x的平方减四还有x的平方减十六
+
+它们可都是平方差哦对平方差公式必须彻底分解是的
+
+所以最终必须彻底分解为括号x减二乘以括号x加二再乘以括号x减四乘以括号x加四明白了除了这种停得太早的
+
+其实带回的时候如果缺失了整体意识这也是另一大载区绝对的重载区
+
+比如我们要分解括号x减一的平方加上三位的括号x减一再减十嗯对
+
+遇到四次试的时候大家习惯把m当成和x差不多带回的时候就顺手直写了个x这样可不行
+
+这里的m它代表的是整个的x减一就是得把它当成一个整体对正确的操作应该是
+
+大括号里面写小括号x减一再加五乘以另一个大括号里的小括号x减一再减二
+
+然后再把它划减最后得出括号x加四乘以括号x减三完全正确那我们再计算
+
+呃括号3x减一的平方减去括号x加五的平方的时候算a减 b那个减号
+
+是不是只给x就行了绝对不是如果丢了括号绝对会出错的你要知道b是整个的括号x加五
+
+所以减号也要作用到后面的五上面没错得出a减 b等于2x减六然后a加 b等于4x加四最后再相乘
+
+这种相乘化解的结果就是8乘以括号x减三再乘以括号x加一哇
+
+少个括号就全盘皆数啊那不仅是减号如果在分配率里面不加括号同样会导致只算了一半吧确实如此
+
+比如分解这个式子三倍的括号x减二的平方加上七倍的括号x减二加二这个看着也很容易错是的
+
+如果没写括号的话3m很容易就会被错写成3x减二但其实3m等于3乘以括号x减二也就是3x减六懂了
+
+那刚才那道题正确的带回步骤就是大括号三倍的小括号x减二再加一乘以大括号小括号x减二再加二
+
+算出来等于括号3x减五乘以x据x乘以括号3x减五对</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u3-quadratic-form-L1#ep-u3-quadratic-form-L1"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u3.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

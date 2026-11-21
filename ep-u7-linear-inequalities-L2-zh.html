@@ -1,0 +1,95 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Linear inequalities &amp; interval notation · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Linear inequalities &amp; interval notation</span><span class="zh" lang="zh-Hans">一次不等式与区间记号：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u7-linear-inequalities-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u7-linear-inequalities-L2.zh.m4a" download="u7-linear-inequalities-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u7-linear-inequalities-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u7-linear-inequalities.html">Linear inequalities &amp; interval notation</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">假设你坐上一辆出租车口袋里只有30加元随着这个机架器不断跳动其实你真正在意的并不是某一个确切的距离
+
+没错而是一个你能到达的最大范围对只要都超过这个上限沿途的任何一个点
+
+它都是有效答案这就是咱们这次要深挖的任务理清解题思路搞懂一元一次不等式还有区间几法
+
+其实把寻找单一的点转换成寻找一片范围这就是不等式和普通方程最根本的区别了在具体怎么算上
+
+两者其实是一模一样的也就是说都是两边做相同的加减乘除对吧确实
+
+就是通过等式两边进行相同的运算来减化狮子但是呢这里面有一条几乎所有人都会踩坑了铁律
+
+我知道你说的是哪个就是两边同时乘或者出一个复数的时候不等号必须得反向完全正确
+
+比如小鱼得变成大鱼这个纯机械的翻转操作算得快的时候真的太容易忘掉了所以说
+
+动笔前必须要有策略是的必须要按顺序问自己五个问题已知条件是什么
+
+要求什么能不能画出来用什么工具还有最后怎么检验说到用什么工具
+
+其实笔记里有一个我很喜欢的巧妙策略如果你总是担心忘记给不等号变号我们可以彻底绕开它
+
+哦这个怎么绕就是一项的时候直接把位置数移到系数会变成正数的那边
+
+这样就完美规避掉了乘除复数的麻烦这个思路太棒了从结构上直接解决问题那算出来之后呢
+
+比如我们得出了X小于等于4就面临怎么表达的问题了对笔记里梳理了三种写法
+
+最直观的就是在数周上画在4的位置画一个实心点然后把左边全部涂黑是的还有一种是集合技法
+
+写成包含X的集合数线后面写X小于等于4并且X属于实数嗯
+
+那区间技法呢区间技法就是写成那个圆括号负无穷逗号4然后呢再用一个方括号
+
+没错因为无穷大永远是一个无法到达的极限概念所以不管正负
+
+无穷大永远使用圆括号这里的符号对应关系是非常严格的方括号和实心点
+
+代表包含也就是有等于号的情况对那圆括号和空心点就是不包含了
+
+哎我们干脆拿笔记里那个完整的实战例子来走一遍推演流程行
+
+题目是解8减去3X大于等于2X减去7并且要求用区间记号写出答案好
+
+我们先观察一下两边都有X而且是大于等于说明分界点是包含在内的那如果我们不用刚才那个
+
+避开复数的技巧直接应解的话两边同时减去2X再减去8左边就变成了-5X
+
+右边变成了-15也就是-5X大于等于-15这里就是你说的最容易出错的地方了两边同时出一-5的时候
+
+不等号必须反向对的大于等于必须变成小于等于所以最终结果是X小于等于3
+
+如果把这个结果可视化一下就是在数轴上3的位置画实情点然后一路向左图然后写出区间答案
+
+就是圆括号负无穷逗号3后边跟着一个方括号
+
+算到这还不算完呢最后必须要花15秒钟做一个验证闭环这个步骤很关键怎么做呢
+
+就是从你的答案区间里随便挑一个数带回圆不等式比如代入最简单的
+
+X等于0算出来是8大于等于负7完全成立为了确保边界的方向
+
+没有找错你也可以把范围外的4代入得出负4大于等于1
+
+显然不成立总言如此说明咱们方向没错最后再代入分界点X等于30时
+
+负1大于等于负1也是成立的只要这十几秒的验证通过了答案就彻底稳了
+
+最后再复习一遍黄金法则也就是把规则当成口诀再心里过一遍对吧
+
+括号和点要对右根号搭配中货号方货号对应实行点圆括号搭配空行点</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u7-linear-inequalities-L2#ep-u7-linear-inequalities-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u7.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

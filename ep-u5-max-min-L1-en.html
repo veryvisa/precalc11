@@ -1,0 +1,67 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Max/min problems: common mistakes · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L1 · Knowledge point</p><h1><span class="en" lang="en">Max/min problems: common mistakes</span><span class="zh" lang="zh-Hans">最值应用题：常见错误</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u57/audio/u5-max-min-L1.en.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u57/audio/u5-max-min-L1.en.m4a" download="u5-max-min-L1.en.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u5-max-min-L1.en.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u5-max-min.html">Max/min problems</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><div class="txbox" lang="en">Right, so we&#x27;re looking at the most common traps in algebraic modeling, and we are starting with a classic error. Say you are tracking a ball&#x27;s height. You are using the equation h of t equals negative 5t squared plus 20t plus 1. And in this case, t is in seconds and the height is in meters. Exactly. So you do the math, you find t equals 2, and you just circle it.
+
+You think you are done, right? Which is a huge trap. Yeah, because, well, finding that first variable brings this like rush of relief. Oh, I know that feeling. Your brain just wants the problem to be over.
+
+Yeah, exactly. But finding t equals 2 is like finding a street address and then just forgetting to go inside the building. Wait, I love that analogy. Because t equals 2 tells you exactly when the top of the arc happens, but the question is actually asking how high it gets.
+
+Right, so to actually finish the job, you have to plug that time back into the original equation. You know, you need to calculate h of 2. Okay, so how does that math look? Well, h of 2 equals negative 20 plus 40 plus 1, which gives you 21. Got it.
+
+So the maximum height is 21 meters, and that is reached after 2 seconds. Makes sense. And that same trap, you know, forgetting what your variable actually represents, that gets even more dangerous when money is on the line. Oh, absolutely. Revenue models are where things go really wrong.
+
+Right. So let&#x27;s look at the scenario of a club selling 150 shirts at $12 each. And we know that every $1 increase loses them 5 sales. And the goal here is to maximize revenue. So the common misstep people make is treating the variable N as the final price itself, rather than what it actually is.
+
+Which is just wild if you actually pause to look at the reality of it. I mean, the variable N just counts the $1 increases. Yeah, they forget what N actually stands for. Exactly. Because if you solved for N and got 9, and then you made $9 your final price,
+
+you have actually just given your customers a price cut. Right. And the model never described a price cut. And it&#x27;s just the number of increment steps. So how do we fix that one? Well, to find the actual price, you have to add those steps back to the base price.
+
+So price equals 12 plus 9, which is $21. Okay. That makes much more sense. Yeah. And then the sales would be 150 minus 45, which is 105. Right. Because 9 times 5 is 45. Exactly. So then the maximum revenue is 21 times 105, which equals $2,205.
+
+Perfect. So let&#x27;s stay with this idea of ignoring physical reality, but take it over into geometry. Oh, the fencing problems. Yes. Say you have 100 meters of fence and you need to make a rectangular pin against a wall. Okay. I look at that and my brain immediately just wants to use the full perimeter formula for a rectangle.
+
+But that is a mistake, right? It is a massive mistake. It is. This cognitive trap where we just go on autopilot. We rely on these memorized formulas instead of actually picturing the physical space. Right. Because using the full perimeter formula here is literally like paying for a wall that is already built.
+
+Yeah, exactly. I mean, the wall is completely free. Only two widths and one length actually use any fence. Precisely. You really have to adapt the math to the physical space in front of you. So the correct equations are 2W plus L equals 100. Which then means L equals 100 minus 2W.
+
+Exactly. Then the area equals W times the quantity 100 minus 2W. The zeros are 0 and 50. Okay. Tracking with you so far. Right. So that gives W equals 25, L equals 50, and a maximum area equals 1,250 square meters. Got it. Okay. But now what happens when it is not a physical wall tripping you up, but it is just a purely formulaic error?
+
+Oh, those are everywhere. Right. So let&#x27;s look at a second ball&#x27;s height. The equation for this one is H of T equals negative 4T squared plus 24T plus 5. Okay. So to find the maximum height, you would use the vertex formula, which is negative B over 2A.
+
+But people are constantly dropping the 2 from that denominator. Yeah, it is incredibly common. People get so focused on plugging numbers into that top-heavy numerator that their brain basically just discards the bottom half as an afterthought. But if you make that mistake, what exact physical point do you actually land on? Well, if you drop that 2, you land at the exact time the ball comes back down to its starting height of 5.
+
+Oh, wow. Really? Yeah. Which is a massive shift in the arc. It is a huge clue that something went wrong. So to get it right, you have to keep the 2 in the denominator. So T equals negative 24 over 2 times negative 4.
+
+Exactly. Which equals 3. And then you plug that in. So H of 3 equals negative 36 plus 72 plus 5. Giving a maximum height of 41 meters? You got it.
+
+It is just wild how dropping one tiny piece of a formula completely changes the outcome like that. Take a museum that has 400 visitors a day at $14 each. Now, they find that every $1 increase loses them 20 visitors. Okay, so setting up that formula, where do people go wrong? Well, the mistake people make here is writing the new visitor count as 400 minus N, completely dropping the coefficient.
+
+Talk about a failed sense check right there. I mean, writing 400 minus N implies that only one visitor leaves per step. Right. If you run a business with that assumption, you would get this ridiculous answer of $207 for a single museum ticket. Which literally nobody is paying.
+
+Exactly. Because each increase loses 20 visitors. So after N increases, 20N are gone. So the way out of this trap is writing the visitors as 400 minus 20N. Yes, exactly.
+
+So R equals the quantity 14 plus N times the quantity 400 minus 20N. Okay. The zeros are negative 14 and 20. This gives N equals 3. So the price is $17.
+
+Right. Yielding 340 visitors. And R equals $5,780.</div></section><nav class="pn"><a href="audio.html?ep=u5-max-min-L1#ep-u5-max-min-L1"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u5.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

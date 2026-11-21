@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Simple trig equations · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Simple trig equations</span><span class="zh" lang="zh-Hans">简单三角方程：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u89/audio/u8-trig-equations-L2.en.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u89/audio/u8-trig-equations-L2.en.m4a" download="u8-trig-equations-L2.en.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u8-trig-equations-L2.en.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u8-trig-equations.html">Simple trig equations</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><div class="txbox" lang="en">So calculators are, they&#x27;re designed to give you just a single unambiguous answer. Yeah, exactly. They are programmed that way to avoid errors. Right. But the mathematical reality of trigonometry is, well, it&#x27;s a loop, like a circle where values repeat. Yes. And that creates this really frustrating limitation. It really does. Like if you type the inverse sine of negative 0.5 into your calculator, it gives you negative 30 degrees.
+
+And then it just, you know, stops. It completely abandons you. Because on a unit circle between 0 and 360 degrees, there are actually two angles where the sine of theta equals negative one half. And if you&#x27;re taking a test, you definitely need both of them. You do.
+
+Right. And the secret here is having a structured process. So the very first thing you have to do is isolate the trig ratio. Okay. So like if you&#x27;re handed an equation like two sine theta plus one equals zero. Yeah. Use algebra to rearrange it until you get sine theta equals negative one half. Wait, let me just stop you there for a second.
+
+What if I do all the algebra and I end up with something like, I don&#x27;t know, sine theta equals two? Do I just break the calculator? You don&#x27;t even touch the calculator. Okay. The notes explicitly say you just stop right there.
+
+Oh, really? Yeah. Because of the sine and cosine waves, they only oscillate between negative one and positive one. So there&#x27;s just no solution outside that range. Okay. That saves a lot of time. So assuming the isolated ratio is valid, how do we find both angles?
+
+I mean, this is where the beautiful symmetry of the unit circle comes in, right? Precisely. Because of that symmetry, we use a tool called a reference angle. You find it by temporarily dropping any negative sign and looking only at the positive value. And you can find this using the inverse key on your calculator or from a special right triangle if it is an exact value. Right. I like to think of this reference angle as like a master skeleton key.
+
+It&#x27;s a single shape that unlocks the exact same angle in the other quadrants of the circle. That&#x27;s a great way to look at it. But having a key isn&#x27;t enough. You know, you still need to know which house to unlock. Like, you need a zip code.
+
+And that zip code comes from the positive or negative sign we temporarily dropped earlier. The sign of your isolated ratio tells you which two quadrants your answers live in. Oh, okay. And we use the cast rule to figure this out. Right. And just to unpack that for you, cast is a handy memory trick.
+
+It basically just tells us which trig functions are positive in which of the four quadrants. Yeah. And once you know your two quadrants, you can build each final angle from your reference angle using specific quadrant rules. Though, we should probably mention the one shortcut here. Oh, right.
+
+The quadrantal values. If your isolated value is exactly zero or plus or minus one, you do not need reference angles at all. You just read them straight off the axes of the unit circle. Exactly. So, if sine theta equals one, theta is exactly 90 degrees. Got it. Now, to keep you from blindly trusting the calculator,
+
+the notes suggest asking five questions before you even solve anything. First is, what is given? Which is usually the interval, like zero to 360 degrees and the equation. Right. And second is, what is asked? Usually, you need all the angles in that interval.
+
+Third, and this is crucial, picture it. Oh, yeah. I see the logic here. Drawing it out really grounds the whole problem. It does. You just sketch a quick unit circle, mark where the ratio is positive or negative using cast,
+
+and literally draw two terminal arms that share that same reference angle. It visualizes the symmetry perfectly. The fourth question is identifying your tool. You find your reference angle, then apply the formulas. Okay. So, quadrant one is the reference angle.
+
+Quadrant two is 180 degrees minus the reference angle. Right. Quadrant three is 180 degrees plus the reference angle. And quadrant four is 360 degrees minus the reference angle. And the fifth question is just the check. Putting those final angles back into the original equation with your calculator set to degrees
+
+to ensure you found both. Exactly. Let&#x27;s actually walk through the notes example. We&#x27;re solving two cosine theta plus one equals zero for zero to 360 degrees. Okay. So, first we isolate. Move the one over, divide by two, and get cosine theta equals negative one-half.
+
+It falls between negative one and one, so it&#x27;s valid, and we expect two answers. Right. Now for the skeleton key. We use the positive value, positive one-half. The angle whose cosine is one-half is 60 degrees. So, our reference angle is 60 degrees.
+
+Okay. Next, we find our zip code. Cosine represents the x-coordinate on the unit circle. Yeah. And since our value is negative one-half, we need the left half of the circle, where x is negative. So, that means quadrant two and quadrant three.
+
+Exactly. Now we calculate. For quadrant two, we take 180 degrees minus 60 degrees, which equals 120 degrees. And for quadrant three, it is 180 degrees plus 60 degrees, which equals 240 degrees. Right. Finally, we check. Plugging 120 degrees into the original equation equals zero.
+
+Both work. Awesome. And the same goes for 240 degrees. That equals zero, too. So, the answer is 120 degrees and 240 degrees. A great tip from these notes is to write those two quadrants
+
+right next to the equation before you even touch the calculator. Oh. Like if sine is less than zero, immediately write quadrant three, quadrant four. Round only the final angles. Use the unrounded reference angle in your subtractions.</div></section><nav class="pn"><a href="audio.html?ep=u8-trig-equations-L2#ep-u8-trig-equations-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u8.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

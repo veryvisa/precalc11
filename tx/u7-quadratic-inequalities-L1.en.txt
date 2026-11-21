@@ -1,0 +1,19 @@
+So solve x squared minus 4x minus 21 is greater than zero. If I'm looking at this, like my immediate instinct is to just find the zeros, which are negative 3 and 7, and just pick the area between the zeros. Yeah, that is a really common instinct, but it's definitely a trap because an upward parabola is actually above the axis outside its zeros. Oh, right. Outside. Exactly.
+
+Not between. The easiest fix is to just sketch it out or, you know, test x equals zero. Okay, so if I plug in zero, I get negative 21 is greater than zero? Right, which is completely false. Because negative 21 is not greater than zero.
+
+That middle section is wrong. The correct answer is x is less than negative 3 or x is greater than 7. Right, okay. Let's look at the next problem. Solve x squared is greater than or equal to 25. Honestly, my habit here is just copying the standard equation rule, you know, writing x equals plus or minus 5. I mean, we all want to do that, but here is why it fails. With a greater than or equal to sign, the negative 5 side runs the other way entirely. Wait, it runs the other way?
+
+Yeah. For instance, x equals negative 10 works for the original problem. Oh, I see. Because negative 10 squared is 100, which is greater than 25, but negative 10 is definitely not greater than or equal to negative 5. Precisely. Which is why that shortcut fails. The proper fix is to bring everything to one side. Rewrite it as x squared minus 25 is greater than or equal to zero. Okay. And then you just factor it. Yeah. It factors to x minus 5 times x plus 5 is greater than or equal to zero. And because it opens up, the answer is outside. So x is less than or equal to negative 5 or x is greater than or equal to 5.
+
+Got it. Okay. Moving to the third trap. Solve x squared plus 2x is less than 24. And it's so tempting to just like start factoring that left side right away. Right. But sign rules for a product only really work against zero. Because knowing a factored product is below 24 doesn't actually say anything about the individual factors, right? Exactly. You're just flying blind. The fix here is to rearrange the inequality first. So make it x squared plus 2x minus 24 is less than zero.
+
+Right. And then factoring yields x plus 6 times x minus 4 is less than zero. Okay. It opens up. So the answer is between. Negative 6 is less than x is less than 4. Makes total sense. But what if it starts off kind of messy? Like solve negative x squared plus x plus 12 is greater than zero. I hate that negative leading term. So I'd want to just multiply by negative 1. Which, I mean, making the leading term positive is a good move. But the trap is multiplying by negative 1 without flipping the sign.
+
+Ah, right. It changes the direction of every inequality. Yes. It's a core rule. The fix is it becomes x squared minus x minus 12 is less than zero. Okay. So since we now want less than zero, the answer is between the zeros.
+
+Perfect. Negative 3 is less than x is less than 4. Awesome. Okay. So what about our final inequality? Solve x squared minus 2x minus 8 is greater than or equal to zero.
+
+So here the trap is picking the wrong brackets at the zeros. The zeros are the exact points where the expression equals zero. And because the symbol asks for zero or more, we have to include those points in the final answer, right? Yeah, exactly. Because of the or equal to part, these points belong in the final answer. So standard parentheses won't work. Right. The fix is to use square brackets at both zeros. So parentheses, negative infinity, comma, negative 2, square bracket, union, square bracket, 4, comma, infinity, parentheses.
+
+Okay. That makes it super clear. Check x equals 4. 16 minus 8 minus 8 equals zero, which is greater than or equal to zero.

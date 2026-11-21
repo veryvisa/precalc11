@@ -1,0 +1,39 @@
+So today you and I are walking strictly in order through common mistakes made when mapping these shapes. Let's start with the first trap, which is losing the minus sign in the axis. Oh, classic mistake. Totally. Take the equation y equals x squared plus 8x plus 7.
+
+The b value here is a positive 8. Yep, positive 8. Visually, I mean, a positive number feels like it should shift things to the right. So why does a positive b put the axis of symmetry on the negative side of the graph? And mathematically, this is driven by the formula for the axis, which is x equals negative b over 2a.
+
+Wait, so the negative is just built into the formula. Exactly. Because that negative sign is baked right into the architecture of the formula, inserting a positive b will always flip your axis over to the negative territory. x equals negative 8 over 2 equals negative 4.
+
+Then y equals 16 minus 32 plus 7 equals negative 9. Right on. And finding that center naturally leads us to finding the floor or ceiling of the shape, which brings up a second major hurdle, writing the range with the x value of the vertex. Oh, I see this all the time.
+
+Yeah. Let's look at y equals x squared minus 10x plus 21. It is just so easy to grab the first coordinate you calculate, but range is exclusively about the height. I mean, the y values.
+
+Exactly. It has absolutely nothing to do with where the vertex sits left or right on the horizontal axis. Right. So for this equation, once you find the vertex, you see the lowest y value is negative 4. The x value is just a distraction.
+
+A total distraction. Yeah. y is greater than or equal to negative 4. But what happens when the whole shape flips? That's our third mistake.
+
+You know, getting the range in the wrong direction. Oh yeah, this one is huge. So we're looking at f of x equals negative 3x squared plus 6x plus 1. The issue here feels like pure habit to me. It is, yeah.
+
+You spend so much time drawing parabolas that open upward, holding water like a bowl, that it just becomes your default assumption. Right. But you always have to check the hidden gravity of the equation, which is your a value. So the a value here is negative 3.
+
+Exactly. And because negative 3 is less than 0, that negative coefficient acts like a magnetic pull. It snaps the parabola downward. Oh wow, so it completely inverts.
+
+Yeah. This means the vertex isn't the floor anymore. It is the absolute top. And every other y value falls below it. Right, because it opens down, the range flips.
+
+So the fix is writing that y is less than or equal to 4. Yeah. And speaking of negative signs acting like magnets, let's explore what happens when you plug a negative input into a negative function. Oh boy.
+
+Which is squaring a negative input without brackets. Let's use f of x equals negative x squared plus 4x plus 3. And try finding f of negative 2. I have to admit, when you plug a negative 2 into a negative x squared, well, it is incredibly tempting to just look at those two minus signs,
+
+assume they cancel each other out, and move on. It's super tempting, yeah. But think of order of operations like a locked safe. A locked safe. Right.
+
+The exponent, the square, is the heavy vault door. And that negative sign sitting in front of the x is just a coat of paint on the outside. Oh, I like that analogy. You have to resolve the vault door first, before the outside paint even matters. So the square acts first.
+
+Negative 2 squared equals 4. Right. You do the exponent first. Exactly. Only then does the minus sign in front apply, which makes it negative 4.
+
+The vault door opens first, then the paint. That makes so much sense. Negative 4 minus 8 plus 3 equals negative 9. Spot on. That same logic of trusting the structure over your intuition is vital for our final scenario today.
+
+Okay. What's the scenario? Imagine a parabola that opens down, has x-intercepts at 0 and 8, and passes through the point 2, 6. We need to find its maximum value. Okay.
+
+But why isn't the point 2 comma 6 just the top of the parabola? I mean, it's a high coordinate, so it's easy to assume it's the peak, right? It is easy to assume, but the top is always located exactly on the axis of symmetry. The point 2 comma 6 is really just some random coordinate along the curve that helps us find A. Got it.
+
+So it's not the vertex. Exactly. It is not sitting on the axis x equals 4. Axis x equals 0 plus 8 divided by 2 equals 4. y equals negative 1 half times 4 times negative 4 equals 8.

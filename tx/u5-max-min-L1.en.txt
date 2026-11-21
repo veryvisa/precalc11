@@ -1,0 +1,43 @@
+Right, so we're looking at the most common traps in algebraic modeling, and we are starting with a classic error. Say you are tracking a ball's height. You are using the equation h of t equals negative 5t squared plus 20t plus 1. And in this case, t is in seconds and the height is in meters. Exactly. So you do the math, you find t equals 2, and you just circle it.
+
+You think you are done, right? Which is a huge trap. Yeah, because, well, finding that first variable brings this like rush of relief. Oh, I know that feeling. Your brain just wants the problem to be over.
+
+Yeah, exactly. But finding t equals 2 is like finding a street address and then just forgetting to go inside the building. Wait, I love that analogy. Because t equals 2 tells you exactly when the top of the arc happens, but the question is actually asking how high it gets.
+
+Right, so to actually finish the job, you have to plug that time back into the original equation. You know, you need to calculate h of 2. Okay, so how does that math look? Well, h of 2 equals negative 20 plus 40 plus 1, which gives you 21. Got it.
+
+So the maximum height is 21 meters, and that is reached after 2 seconds. Makes sense. And that same trap, you know, forgetting what your variable actually represents, that gets even more dangerous when money is on the line. Oh, absolutely. Revenue models are where things go really wrong.
+
+Right. So let's look at the scenario of a club selling 150 shirts at $12 each. And we know that every $1 increase loses them 5 sales. And the goal here is to maximize revenue. So the common misstep people make is treating the variable N as the final price itself, rather than what it actually is.
+
+Which is just wild if you actually pause to look at the reality of it. I mean, the variable N just counts the $1 increases. Yeah, they forget what N actually stands for. Exactly. Because if you solved for N and got 9, and then you made $9 your final price,
+
+you have actually just given your customers a price cut. Right. And the model never described a price cut. And it's just the number of increment steps. So how do we fix that one? Well, to find the actual price, you have to add those steps back to the base price.
+
+So price equals 12 plus 9, which is $21. Okay. That makes much more sense. Yeah. And then the sales would be 150 minus 45, which is 105. Right. Because 9 times 5 is 45. Exactly. So then the maximum revenue is 21 times 105, which equals $2,205.
+
+Perfect. So let's stay with this idea of ignoring physical reality, but take it over into geometry. Oh, the fencing problems. Yes. Say you have 100 meters of fence and you need to make a rectangular pin against a wall. Okay. I look at that and my brain immediately just wants to use the full perimeter formula for a rectangle.
+
+But that is a mistake, right? It is a massive mistake. It is. This cognitive trap where we just go on autopilot. We rely on these memorized formulas instead of actually picturing the physical space. Right. Because using the full perimeter formula here is literally like paying for a wall that is already built.
+
+Yeah, exactly. I mean, the wall is completely free. Only two widths and one length actually use any fence. Precisely. You really have to adapt the math to the physical space in front of you. So the correct equations are 2W plus L equals 100. Which then means L equals 100 minus 2W.
+
+Exactly. Then the area equals W times the quantity 100 minus 2W. The zeros are 0 and 50. Okay. Tracking with you so far. Right. So that gives W equals 25, L equals 50, and a maximum area equals 1,250 square meters. Got it. Okay. But now what happens when it is not a physical wall tripping you up, but it is just a purely formulaic error?
+
+Oh, those are everywhere. Right. So let's look at a second ball's height. The equation for this one is H of T equals negative 4T squared plus 24T plus 5. Okay. So to find the maximum height, you would use the vertex formula, which is negative B over 2A.
+
+But people are constantly dropping the 2 from that denominator. Yeah, it is incredibly common. People get so focused on plugging numbers into that top-heavy numerator that their brain basically just discards the bottom half as an afterthought. But if you make that mistake, what exact physical point do you actually land on? Well, if you drop that 2, you land at the exact time the ball comes back down to its starting height of 5.
+
+Oh, wow. Really? Yeah. Which is a massive shift in the arc. It is a huge clue that something went wrong. So to get it right, you have to keep the 2 in the denominator. So T equals negative 24 over 2 times negative 4.
+
+Exactly. Which equals 3. And then you plug that in. So H of 3 equals negative 36 plus 72 plus 5. Giving a maximum height of 41 meters? You got it.
+
+It is just wild how dropping one tiny piece of a formula completely changes the outcome like that. Take a museum that has 400 visitors a day at $14 each. Now, they find that every $1 increase loses them 20 visitors. Okay, so setting up that formula, where do people go wrong? Well, the mistake people make here is writing the new visitor count as 400 minus N, completely dropping the coefficient.
+
+Talk about a failed sense check right there. I mean, writing 400 minus N implies that only one visitor leaves per step. Right. If you run a business with that assumption, you would get this ridiculous answer of $207 for a single museum ticket. Which literally nobody is paying.
+
+Exactly. Because each increase loses 20 visitors. So after N increases, 20N are gone. So the way out of this trap is writing the visitors as 400 minus 20N. Yes, exactly.
+
+So R equals the quantity 14 plus N times the quantity 400 minus 20N. Okay. The zeros are negative 14 and 20. This gives N equals 3. So the price is $17.
+
+Right. Yielding 340 visitors. And R equals $5,780.

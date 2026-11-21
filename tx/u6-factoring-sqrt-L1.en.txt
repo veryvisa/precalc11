@@ -1,0 +1,39 @@
+So we're jumping straight into exploring some common mistakes in Precalculus 11, specifically when solving by factoring and square roots. Right. Our mission is to dive right into these notes and figure out exactly why your brain wants to fall into these algebraic traps and, well, how to outsmart them. Exactly. Because right off the bat, looking at this first equation,
+
+my instinct is just to break the rules. Oh, yeah. Which equation is trying to trick you? It's X minus 1 times X plus 2 equals 10. And my immediate temptation is to take the easy road and just say X minus 1 equals 10 and X plus 2 equals 10. Yeah. I mean, it looks so neat and balanced when you do that, but it's algebraically fatal.
+
+Setting factors equal to a number, that only works for zero. Zero is like a mathematical black hole. Right. Because anything times zero is zero. But with 10, I mean, two numbers can multiply to 10 in endless ways. Like you could have 2 times 5 or 4 times 2.5. Exactly. Setting the factors strictly to 10 completely ignores the core mechanics of multiplication. You just can't reverse engineer the 10.
+
+Okay. So to fix this, we actually have to expand the whole expression and multiply it out? Yes. Expand it and then subtract that 10 over to force a zero on one side. So expanding and moving the 10 gets us X squared plus X minus 12 equals zero, which then factors perfectly to X plus 4 times X minus 3 equals zero. Exactly. And because of that zero, what are your actual answers?
+
+Our answers are X equals negative 4 or X equals 3. Notice how getting to zero was the key to finding all the valid solutions there. And that brings up another huge trap in your notes where we accidentally destroy solutions rather than find them. Oh, I see it. The equation is 4X squared equals 28X. And I'll admit my brain is screaming to just
+
+divide both sides by X here. I mean, X is just a placeholder, right? That's the logic most people use. Exactly. If I divide both sides by 4, why can't I just divide by X to make it 4X equals 28? Well, because dividing by a variable quietly assumes that the variable doesn't equal zero. We all know you can't divide by zero.
+
+Right. That breaks the math entirely. But look back at your original equation. If you plug zero in, you get 4 times zero squared equals 28 times zero, meaning both sides equal zero. Wait, so zero is actually one of the correct answers. Yes, it is.
+
+By simply dividing both sides by X, you're literally erasing a valid solution from existence. Wow. I'm throwing it right out the window. Okay. So the safe move is to subtract the 28X over to the left side. Which gives you 4X squared minus 28X equals zero. Ah, getting back to that black hole of zero again.
+
+Then I can factor out the 4X, leaving 4X times X minus 7 equals zero. And applying our zero rule once more, what does that give you? So X equals zero or X equals 7. Precisely. Now, dividing by a variable isn't the only way you can accidentally lose an answer. You can also lose one by trusting your calculator a little too much.
+
+Well, especially when undoing a square. Let's look at the next equation. X plus 3 squared equals 16. And if you punch the square root of 16 into a calculator, it just spits out a 4. Right, which feels like the only answer.
+
+But the calculator key only gives the principal or positive root. Algebraically, the calculator doesn't know the full context. Negative 4 squared is also 16. Okay, so to fix this, we have to manually account for both paths. We write X plus 3 equals plus or minus 4.
+
+Which naturally splits into two separate equations for you to solve. Right, so path 1 is X plus 3 equals 4, which means X equals 1. And path 2 is X plus 3 equals negative 4, meaning X equals negative 7. Exactly. But before you even get to taking a square root, you have to navigate the order of operations.
+
+Look at the next one. Okay, 2 times X plus 1 squared equals 32. Honestly, looking at that 2 in front, my first instinct is to subtract 2 from both sides. Just to get the squared term by itself. Yeah, visually it just feels like it's sitting there waiting to be subtracted.
+
+It's a very common visual trick your brain plays on you. But that 2 is attached to the parentheses by multiplication. It multiplies the square. Ah, right. And the only way to undo multiplication is by dividing.
+
+Exactly. So you divide both sides by 2 first. That gives us X plus 1 squared equals 16. And now, we're right back in that exact same scenario from a minute ago. We get X plus 1 equals plus or minus 4.
+
+Resulting in your two answers, X equals 3 or X equals negative 5. Okay, we have one final trap here. And it's a wild one. The equation is X minus 4 squared plus 9 equals 0. So, walk me through what you want to do with this one.
+
+Well, I move the 9 over, so it becomes a negative 9. Now, I have X minus 4 squared equals negative 9. But I can't take the square root of a negative. Right, that's where the trap is set. So, what if I just, you know, quietly drop the minus sign?
+
+Just make it a 9 and take the square root to get 3. Making it X minus 4 equals 3. Meaning, X equals 7. I mean, that feels like a victory because you forced the math to work. But, I'll state it plainly, no real number squared is negative.
+
+Yeah, that makes sense. It's just wrong. You can't just ignore a negative sign because it's inconvenient to your process. The real fix here, stop right at line 1. There is no real solution.
+
+Okay. 7 minus 4 squared plus 9 equals 18, which does not equal 0.

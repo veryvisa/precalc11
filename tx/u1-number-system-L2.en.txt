@@ -1,0 +1,37 @@
+Is the square root of 49 the same kind of number as the square root of 50? You might look at them and, you know, assume they are basically neighbors. Right. They look super close on paper. But one is exactly seven, while the other has these decimals that just never end and never repeat, which completely changes how you work with it.
+
+It really does. So today for this deep dive, we are jumping straight into the real number system to untangle all of this. Yeah. Our mission is to give you this like foolproof five step method to classify any number without getting tricked. To pull that off. I mean, we really have to understand how numbers are organized first. They exist in these mathematical families that actually nest inside one another.
+
+Like nesting dolls or, well, the notes call them nesting shipping boxes. Exactly. Like nesting shipping boxes. You start with the absolute tiniest inner box, which is the natural numbers. And those are just one, two, three, and so on? Yeah, exactly. One, two, three, and so on.
+
+Then if you drop that tiny box into a slightly larger box, you get the whole numbers. Which just adds zero to the mix. So zero, one, two, and so on. Right. Then that whole number box nests inside the integer box, which includes negatives. Okay, got it. And then integers nest inside the rational number box.
+
+Finally, all of those boxes fit inside the giant shipping crate that we call the real numbers. So if all these sets are nesting inside each other, where is the actual boundary based on the notes? Like what makes a number suddenly belong to the rational box versus the irrational box? Well, it really comes down to predictability. A rational number is anything you can write as a clean fraction.
+
+I mean, an A over B setup. Right. With integers where B is not zero. You got it. If you can slice it up perfectly like that, it is rational. As a decimal, a rational number either terminates perfectly, like 0.75, or it repeats.
+
+Repeats like 0.36 with a repeating bar over it. Yes. But irrational numbers are totally different. They are real numbers, but they are absolutely not rational. Because their decimals never end or repeat, right? Yeah. They just go on forever without a pattern.
+
+It is impossible to pin them down perfectly with a simple fraction. So we leave them as symbols, like pi, or the square root of 2, or the cube root of 5. 100%. Put the rational and irrational boxes side by side, and together they make up all the real numbers. That actually brings us to what feels like the golden rule before you try to classify anything.
+
+You have to simplify first. Always simplify first. Because, like, the square root of 49 is just 7. Or the cube root of negative 8, that is just negative 2. Right. Underneath the fancy notation, both of those are literally just integers.
+
+But there is a vital caveat in the notes you have to watch out for. Oh, yeah. An even root of a negative number, like the square root of negative 4, is actually not a real number at all. Oh, wow. So it doesn't even go in the giant shipping crate. Exactly. You have to catch that immediately. Okay. So let us put this five-step method together from the guides.
+
+The first step is given, right? Yep. Given. You just note the specifics of what you are looking at. Like, are there roots, fractions, repeating bars, or is it pi? Then the second step is asked, which is just confirming which sets you need to classify it into. Right. Then step three is picture it.
+
+This is where those nested boxes come in. You want to find the absolutely smallest box the number fits into. Because once you find the smallest box, it automatically belongs to every single larger box nested around it. Spot on. And step four is tool, which is applying that golden rule to simplify first.
+
+Like working out perfect squares or reducing fractions. Exactly. And the fifth step is check. Just run the decimal test. Let us actually test this method right now on three specific numbers from the notes. The negative square root of 25, 9 over 3, and the square root of 45. Okay. Applying our tool step, we simplify.
+
+The negative square root of 25 simplifies to negative 5. And 9 over 3 simplifies to 3. Right. But 45 is not a perfect square. The square root of 45 is approximately 6.708. And that decimal goes on without a pattern.
+
+So now we picture those boxes and start climbing outward. Starting with negative 5, the smallest box it fits into is integers. Because it is negative, so it can't be a whole number. Right. So climbing outward, negative 5 belongs to integers, rational, and real.
+
+Now for the number 3. Its absolute smallest box is natural. If we drop that box into the larger ones, 3 belongs to natural, whole, integers, rational, and real. Perfect. And for our last one, the square root of 45. Since that decimal never ends and never repeats, it skips all those inner boxes.
+
+Landing straight in the irrational box. Meaning it belongs to irrational and real. Which totally passes step 5, the decimal check. Negative 5 and 3 terminate perfectly, so they are rational. The square root of 45 is chaotic, so it is irrational.
+
+When you treat these classification questions like a logic puzzle, they really become quick marks to earn. Oh, definitely. Just simplify every root first, then make sure you list all the sets. Like, for instance, 4 is in natural, whole, integers, rational, and real.
+
+Missing the bigger sets is the most common lost mark.

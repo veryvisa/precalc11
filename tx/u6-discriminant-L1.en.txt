@@ -1,0 +1,35 @@
+Oh, the zero trap. Yeah. Because when you evaluate a discriminant and the result is zero, your instinctive reaction is usually, oh, there's no solution because zero just feels like a void. Right. Which is a fascinating translation error between human intuition and math. If your discriminant is zero, it doesn't mean a void. It actually means you have two equal real roots.
+
+Wait, two equal roots, not zero roots. Exactly. Okay. Think about the equation x squared minus 10x plus 25 equals zero. Okay. I'm picturing it.
+
+If you factor that, it becomes x minus five all squared equals zero, meaning x equals five, but it happens twice. Oh, I see. So the parabola isn't missing the axis. It's just coming down, touching it at one perfectly balanced point and going right back up. Spot on. It just kisses the line. That's a great way to visualize it. Well, that brings us to mistake number two, negative signs.
+
+Oh, they are notoriously slippery. Seriously. So say we have an equation like two x squared minus six x plus three equals zero. So the b value there is negative six, right? Right. Negative six. And the instinct is just to write down a minus sign, a six, and a little squared symbol.
+
+Which is incredibly dangerous. Because without brackets, you're telling the math to square the six first to get 36 and then apply the negative. Which gives you negative 36. Yeah. And you can't have a real square be negative. You have to physically bracket the negative six.
+
+Lock the negative sign inside with the number. Exactly. So they get squared together to make a positive 36. It changes the entire outcome. Because in algebra, brackets basically dictate the hierarchy of reality, which actually brings up mistake number three.
+
+The b term itself. Yeah. The structural blind spot. Right. Because we are so used to b being just a simple number. But in pre-calculus, b might be an entire algebraic expression. Like a variable k plus one.
+
+People just grab the first number or letter they see. But b is a roll. It's the entire package sitting in front of the x term. So if your equation is x squared plus, in brackets, k plus one times x plus nine equals zero. Then your b is that entire k plus one cluster.
+
+You have to use the whole thing. If you want two equal real roots, your discriminant equation becomes k plus one squared minus 36 equals zero. Which gives you k equals five or k equals negative seven. Exactly. You can't just square the k. So if b can be this complex shape-shifting thing, I mean, mistake number four is about the a term.
+
+Does a have that same flexibility? Like, could a just be zero? No, absolutely not. The a term cannot be zero. It's the load-bearing pillar of the whole quadratic equation.
+
+Because it's attached to the x squared. Right. If a becomes zero in something like kx squared plus 4x plus one equals zero, well, if k is zero, the x squared is annihilated. Oh, wow. And without an x squared, you just have 4x plus one equals zero.
+
+Which is a straight line. It's a linear equation. It only has one root. So you always have to add a strict condition. a cannot equal zero.
+
+It's like reminding the formula not to accidentally destroy itself. Yeah, pretty much. Okay. We have one final mechanical trap. Mistake number five.
+
+And this is the inequality flip. Oh, yes. The classic algebra hurdle. It haunts everyone. Yeah.
+
+Like, if we want an equation like x squared plus 6x plus k equals zero to have no real roots, we set the discriminant to be less than zero. And you end up solving something like negative 4k is less than negative 36. And to isolate k, you have to divide both sides by negative 4. But people just drag that less than sign straight down. Which is wrong.
+
+You have to flip it. Because a negative sign is a direction. So what was on the left is now on the right. The inequality sign must flip to greater than to maintain the truth. So k is greater than 9.
+
+And if you test k equals 10, your discriminant is 36 minus 40, which is negative 4. Less than zero. It works. Exactly. You're fundamentally shifting the perspective of the equation.
+
+So you have to bracket your negatives, include everything in your B term. Remember, A can't be zero. And flip those inequalities. That's the survival guide.

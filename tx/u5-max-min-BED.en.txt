@@ -1,0 +1,7 @@
+This is the brief on precalculus max and min problems. Whenever you need to find a maximum, minimum, or optimal value involving a squared quantity, you're really just hunting for the vertex of a downward phasing parabola. Well first, you've got to build the foundation. Build your function by multiplying two linear factors, like price times item sold.
+
+Name your variables clearly, like n for $1 increases. Ask yourself, what changes by how much? Are we finding when, how much, or both? What are the units? Honestly, if you don't define n, how can you know what your answer actually means? Second, once it's built, optimizing just means finding that vertex.
+
+Master those coordinates. When is the x coordinate and how much is y? The fastest way to find x is locating where each factor is zero, then taking the midpoint. If it's expanded, sure use the classic negative b over 2a formula, but why expand a factored equation and make it messy when the midpoint gets you the exact same answer faster? Finally, don't stumble at the finish line. Avoid pitfalls like answering with n instead of the actual price.
+
+Watch for algebraic slips, like dropping the 2 in the denominator. Test one step on either side to ensure both give lesser values. An answer in a full sentence with unit. Price absolutely must be positive. Mastering optimization is simply about clearly defining your variables, finding the midpoint of your zeros, and matching the right coordinate to the right question.

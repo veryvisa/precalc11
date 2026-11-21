@@ -1,0 +1,101 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Factoring trinomials ax²+bx+c · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Factoring trinomials ax²+bx+c</span><span class="zh" lang="zh-Hans">三项式 ax²+bx+c 的分解：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u14/audio/u3-trinomials-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u14/audio/u3-trinomials-L2.zh.m4a" download="u3-trinomials-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u3-trinomials-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u3-trinomials.html">Factoring trinomials ax²+bx+c</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">你发来的这份关于多项式阴时分解的笔记非常有意思就是我们的目标很明确帮你彻底搞定型如AX的平方加BX加C的三项式特别是当你遇到比如6X的平方加7X减3这种的时候对
+
+你想啊如果纯靠猜这感觉就像在黑暗里扔飞镖你可能得试个十四才能蒙对一次确实非常低效
+
+但其实笔记里提到了一种更系统的方法也就是拆项法算是十字相乘的系统进阶版对吧没错只要掌握了它
+
+你第一次就能精准找到答案不用再靠运气了我们先从最基础的看当A等于1的时候这个思路应该比较直接吧
+
+对这时候很简单你只需要找两个数让它们的乘积等于C和等于B就像笔记里的例子
+
+X的平方减2X减15没错你需要找两个数乘起来是-15加起来是-2那显然
+
+-5和3刚好满足条件嘛完全正确所以你瞬间就能把它分解成X减5乘以X加3这个我懂
+
+但笔记里指出真正的难点在于A不等于1的时候这时候这套法则要怎么变当然A不等于1
+
+就必须用拆项法了这时候你要找到两个数乘积不再只是C而是A与C的乘积也就是AC对吧
+
+对AC同时它们的和依然要等于B找到这两个数之后用它们把中间项拆成两项
+
+接着再做分组分解我明白了仔细想想这就像是通过观察符号来缩小嫌疑人范围
+
+怎么说你想啊如果C大于0说明两数成绩是正的那这两数肯定同号
+
+而且符号一定跟B一模一样逻辑很严密如果C小于0成绩是负数那绝对是一正一负
+
+也就是E号这时候绝对值大的那个嫌疑人的符号就一定跟着B走这个比喻非常精准
+
+符号就是你找数字时最强有力的线索不过笔记里特意强调了一个绝对不能忘的大前提永远要先看有没有供应式没错
+
+如果有必须先提出来如果首相是负数也要先把符号提出来如果提完之后
+
+你发现用尽所有整数组合都找不到这样一对数那就说明这个三项是在整数范围内是不能分解的
+
+完全正确原理是想通了但我看笔记后面列了一个动笔前的灵魂五问这听起来有点繁琐
+
+每次做题真的需要按顺序问自己这五个问题吗看起来步骤多但这其实是个防错系统
+
+能帮你彻底避免算出错答案然后再全部推导重来第一问是什么来着已知是什么就是代符号写出ABC
+
+先检查并提取供应式第二问求什么也就是要两个括号相乘能还原出原事
+
+对吧对而且完全分解意味着括号里面绝对不能再往下拆了明白
+
+那第三步应该怎么操作第三问就是画出来在旁边画一个小符号表运用你刚才说的缩小嫌疑人范围的技巧其AC为正说明同号
+
+且与B同号为负说明E号且绝对值大的与B同号没错接着第四问
+
+用什么工具根据A等于1还是不等于1决定是直接找规律还是拆解中间项并分组那第五步肯定就是检验了吧
+
+就是检验把括号展开至少要算一下中间项也就是外项加上内项它必须和原来的BX完全一样
+
+连符号也不能错对连符号都不能错广说不练假八字
+
+我们直接拿笔记里的这道题一起来试试5X平方加13X加6要是走这五步该怎么判逻辑我们一步步来第一问
+
+已知A是5B是13C是6没有公英式A乘C等于30
+
+第二问我们要两个形如X加某数的括号相称得原式很好第三问
+
+G是正30何是正13这说明什么两个数都为正呗我来看看第四问
+
+找数字G是30两个正数30的因数对有1和30
+
+2和15还有3和10哎等一下3加10正好等于13
+
+太棒了现在用3和10来拆解中间项原式就变成了5X的平方加10X加3X加6接下来就是分组提取了吧没错
+
+前两项5X的平方和10X能提出5X剩下X加2后两项3X和6提出3也剩下X加2然后呢把供应式提出来合在一起就是X加2乘以5X加3
+
+完美最后第五问检验外项3X加上内项10X正好等于13X和原式的中间项完全契合
+
+整道流程走下来其实非常清晰是的最后的实战建议是写括号之前
+
+先在旁边写出G和那顿数写完再展开中间项检查确实多一步检查更有保让大多数十分都是符号错误
+
+5秒钟的检查就能发现</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u3-trinomials-L2#ep-u3-trinomials-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u3.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

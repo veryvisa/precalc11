@@ -1,0 +1,11 @@
+This is the brief on angles in standard position. First, let's talk standard position. Just picture pinning the vertex dead center at the origin, with your initial arm resting right on the positive x-axis. Rotation dictates your sign.
+
+Counterclockwise turns are positive, clockwise turns are negative, and wherever you stop is your terminal arm. Second, we have the golden rules of reference angles. A reference angle absolutely must be acute, meaning under 90 degrees, and always measured to the x-axis.
+
+Just think of the x-axis as the ground level you always measure back down or up to, ensuring you never accidentally measure to the vertical y-axis. Here, your quadrant rules for an angle, let's call it theta. Quadrant 1 is just theta. Quadrant 2 is 180 degrees minus theta.
+
+Quadrant 3 is theta minus 180 degrees. And quadrant 4 is 360 degrees minus theta. Finally, let's tame those massive numbers using coterminal angles. Quadrant 3 is the same terminal arm found by adding or subtracting 360 degrees. But what happens if you try applying a quadrant rule to a massive negative angle right out of the gate?
+
+It flat out won't work. The calm strategy here is to add or subtract 360 degrees until your angle sits comfortably between 0 and 360. Only then should you apply the quadrant rules, verifying with a quick 3-second sketch.
+
+By anchoring to the x-axis and remembering to reset with full 360-degree turns, you will always find your bearings in standard position.

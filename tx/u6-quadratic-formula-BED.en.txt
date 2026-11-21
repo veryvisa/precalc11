@@ -1,0 +1,7 @@
+This is the brief on the quadratic formula. Think of it like a mathematical master key. It's basically just completing the square wrapped up into one super reliable equation to always find your x-intercepts. First, before the heavy lifting, you absolutely must prep your equation.
+
+You know, get zero on one side first, so it's exactly ax squared plus bx plus c equals zero. Read off a, b, and c with their signs included, and calculate the discriminant, d equals b squared minus 4ac, on its own line, keeping b in brackets. This step tells you exactly how many x-intercepts exist. Two, one, or none.
+
+So why do we stop to calculate d all by itself first? Well, it acts as an early diagnostic tool to catch sneaky sign errors before tackling the heavier math. Second, once the discriminant tells us what to expect, plug it into the rest of the formula. Negative b plus or minus the square root of d all divided by 2a. That plus or minus symbol is literally what gives you two distinct answers.
+
+Simplifying the radical and canceling a common factor must happen in that exact order to be fully simplified. Finally, to avoid traps like getting the sign of 4ac wrong or dividing only part of the top equation, you've got a safety net. How do you know for sure you didn't fall into a sign trap? If you want to add your two answers together, they should always equal negative b divided by a.

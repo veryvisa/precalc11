@@ -1,0 +1,37 @@
+For which times is the ball higher than 15 meters? For which prices does the business make a profit? You know, when you actually strip away the word problems, both of those scenarios are really asking the exact same structural question. Like, where is a parabola above or below a certain line?
+
+Right. And that is the absolute essence of a quadratic inequality. So how do we actually go about solving them? Well, solving them really comes down to this elegant four-step process. But to make sure you don't miss anything,
+
+your notes suggest wrapping those steps around five key questions. Right. Questions you have to ask yourself before even writing anything down. Exactly. And those are given, asked, picture it, tool, and check.
+
+Okay. So looking at step one, that is moving everything to one side. So you are comparing your expression directly with zero. Yeah. Which lines up with that first question, given.
+
+You look at what you're given. You note the inequality sign. And you check if the x squared coefficient is positive or negative. Right. And if one side is not zero, you just, you know, force it to be zero.
+
+Zero acts like C-level. Once you establish C-level, you move to step two, finding the zeros. Okay. And this is your tool question? Right.
+
+You use factoring or the quadratic formula as your tool to find those zeros. And finding them is crucial because those zeros literally split your number line into distinct intervals. Exactly. Wait, I am picturing this in my head. This hits the picture it question perfectly.
+
+Yeah, go ahead. If we have a parabola that opens upward, like a smile or a bowl, the only part that is negative is the bottom of the bowl dipping below the table, right? So it is negative between the zeros and positive on the outsides where the sides of the bowl extend upward. That bowl analogy is perfect. And you just conceptually did step three, you know, finding the sign on each interval.
+
+Okay. So what is step four then? Because you know where the bottom of the bowl is. Step four is just matching that picture to what the original question actually asked for. You pick the intervals that match the sign you need.
+
+Meaning you include the zeros if the inequality is less than or equal to or greater than or equal to? Yes. And you exclude them if it is strictly less than or greater than. But wait, what happens if there are no real zeros? The notes mention an edge case where D is less than zero.
+
+Right. If the bowl never touches the table, doesn't that just like break the whole interval process? I mean, it actually makes your life way simpler. If there are no real zeros, the expression just has one sign everywhere. Oh, because the parabola never crosses that C-level axis.
+
+Exactly. So the answer is an all or nothing situation. It is either all real numbers or there is absolutely no solution. Okay. Let's put this entire process into practice with the worked example from the text.
+
+We need to solve x squared plus x is greater than or equal to 12. Right. And because the right side is not zero, our brains cannot easily process it. So we have to establish C-level by moving that 12 over. So we get x squared plus x minus 12 is greater than or equal to zero.
+
+Yeah. Now we use our tool to factor that and find our zeros. It factors cleanly to open parentheses x plus four, close parentheses, times open parentheses x minus three, close parentheses, equals zero. Which yields zeros of negative four and positive three. Yep.
+
+And if I picture it, the x squared coefficient is a positive one. So this is an upward opening parabola, a bowl. Right. Since the question asked for greater than or equal to zero, we want the parts of the bowl above the table. That means we need the outside pieces.
+
+And we include those zeros because of the or equal to part. And that actually brings us to the final question you must ask yourself, which is check. Testing one number inside your answer and one outside. Right. By plugging them back into the original inequality.
+
+Let's do that check. If we test the number five, which is in our outside piece, in the original inequality, five squared is 25 plus five is 30. Uh-huh. And 30 is indeed greater than or equal to 12. That works.
+
+If we test zero, which is inside the bowl, we get zero is greater than or equal to 12, which obviously fails. Right. So our answer definitely is those outside pieces. Meaning anything up to and including negative four or anything from three onwards. To write that out formally, we read it as open parentheses, negative infinity, comma, negative four, closed square bracket, union, open square bracket, three, comma, infinity, closed parentheses.
+
+Ultimately, a five second sketch of the parabola answers almost every quadratic inequality you'll encounter. Use the sign chart when the question says show your work or the expression has more than two factors.

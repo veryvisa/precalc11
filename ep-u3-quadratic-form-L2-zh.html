@@ -1,0 +1,75 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How to think about Factoring by substitution · Pre-calc 11</title>
+<meta name="description" content="BC Pre-calculus 11 — every topic explained in English and Chinese, with worked examples, practice, flashcards, mock exams and a study-time planner.">
+<meta name="theme-color" content="#1c1d2e"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pre-calc 11"><link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="icon" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="assets/style.css?v=1d523a802e"><link rel="stylesheet" href="assets/focus.css?v=1d523a802e"><link rel="stylesheet" href="audio.css"><link rel="alternate" type="application/rss+xml" title="Pre-calc 11 audio (English)" href="podcast.xml">
+<script>/* per-site storage: precalc11 and chem11 share one origin (veryvisa.github.io), so every localStorage key is prefixed with the site id here, once, before any other script. Old unprefixed progress is dropped (user 2026-11-18); the language choice and the test clock speed carry over. */
+(function(){try{var P='precalc11:',L=window.localStorage,S=Storage.prototype,g=S.getItem,s=S.setItem,r=S.removeItem,K=S.key;
+if(!S.__ns){S.__ns=1;var k=function(st,x){x=String(x);return st===L&&x.indexOf(':')<0?P+x:x};
+S.getItem=function(x){return g.call(this,k(this,x))};S.setItem=function(x,v){return s.call(this,k(this,x),v)};S.removeItem=function(x){return r.call(this,k(this,x))}}
+['pc11.lang','tb.speed'].forEach(function(x){var v=g.call(L,x);if(v!==null){s.call(L,P+x,v);r.call(L,x)}});
+if(g.call(L,P+'ns.v1')===null){var d=[];for(var i=0;i<L.length;i++){var x=K.call(L,i);if(x&&x.indexOf(':')<0&&/^(pc11\.|fd\.|tb\.)/.test(x))d.push(x)}d.forEach(function(x){r.call(L,x)});s.call(L,P+'ns.v1','1')}
+}catch(e){}})();</script>
+<script>try{document.documentElement.dataset.lang=localStorage.getItem('pc11.lang')||'both'}catch(e){document.documentElement.dataset.lang='both'}</script>
+</head><body>
+<header class="top"><a class="brand" href="index.html"><span class="logo">∫</span><span class="en" lang="en">Pre-calc 11 Clear</span><span class="zh" lang="zh-Hans">前微积分 11 一看就懂</span></a>
+<a class="top-listen" href="audio.html" aria-label="Listen">🎧</a><div class="langs" role="group" aria-label="language"><button data-set-lang="en">EN</button><button data-set-lang="both">EN+中</button><button data-set-lang="zh">中</button></div></header>
+<main><section class="hero"><p class="kick">L2 · Topic</p><h1><span class="en" lang="en">How to think about Factoring by substitution</span><span class="zh" lang="zh-Hans">换元法分解：怎么想</span></h1></section><audio controls preload="metadata" src="https://veryvisa.github.io/precalc11-media-u14/audio/u3-quadratic-form-L2.zh.m4a" style="width:100%"></audio><p class="eplinks"><a class="dl" href="https://veryvisa.github.io/precalc11-media-u14/audio/u3-quadratic-form-L2.zh.m4a" download="u3-quadratic-form-L2.zh.m4a" target="_blank" rel="noopener">⬇ <span class="en" lang="en">Download (m4a)</span><span class="zh" lang="zh-Hans">下载（m4a）</span></a> <a href="tx/u3-quadratic-form-L2.zh.txt" download>📄 <span class="en" lang="en">Transcript (txt)</span><span class="zh" lang="zh-Hans">讲稿（txt）</span></a></p><p><span class="en" lang="en">Covers</span><span class="zh" lang="zh-Hans">涵盖</span>: <a href="topic-u3-quadratic-form.html">Factoring by substitution</a></p><section class="section"><h2><span class="en" lang="en">Transcript</span><span class="zh" lang="zh-Hans">讲稿文字</span></h2><span class="txbox zh" lang="zh-Hans">我们今天为你梳理的这份数学笔记那个核心目标非常明确就是要破解换源因时分解说实话
+
+每次你在曹高纸上看到像x的四次方减5x的二次方加4这种呆四次方的式子你可能都会本能的想要跳过
+
+确实会这样对吧这种高次多项式看起来简直就像个无法下手的怪物来给大脑减负
+
+换源对简单来说就是找个纸箱子把那些复杂的部分打包收下来也就是说我们要找到式子里
+
+那个重复出现的那一块比如在刚才那个怪物里x的四次方其实就是x的二次方再平方所以x的二次方就是那个重复块没错
+
+笔记里强调的第一步就是明确写下摄m等于x的二次方这就是你说的打包对吧用一个简单的字母m把复杂的x的二次方直接装进去对的
+
+而且当你用m重写整个式子后神奇的事情就发生了原本那个吓人的四次多项式瞬间就变成了m的二次方减去5m加4哇
+
+这就很熟悉了是的你大脑的警报立马解除了因为这只是一个你非常熟悉的普通二次三项式确实
+
+看到二次三项式我就知道怎么用十字相乘或者那个求和求机去分解了不过我看到笔记里有一个很关键的提醒就是我们在降维打击算得很爽的时候绝对不能忘了我们的终极目标
+
+也就是题目要求的是用x表达的完全分解对这是很多人容易掉进的一个陷阱你拆解完m之后必须把那个纸箱子重新拆开
+
+也就是把x的二次方原封不动的带回m的位置必须得放回去没错而且带回之后还不算完你得启动检验雷达死子叮入新出来的括号
+
+懂了就是要看括号里是不是还藏着能继续分解的东西比如有没有什么供应数之类的说到检验笔记里提到了一个我以前经常踩坑的地方
+
+就是平方差公式这里很容易出错如果只是x的二次方减一我还能看出来但如果是2x减一这个整体的二次方
+
+减去x加三这个整体的二次方我脑子就直接卡坑了总想把它们拆散了再算这是因为你的视觉焦点被打散了你要知道在平方差里
+
+a和b完全可以是长长的二向式解决办法依然是那种打包思维还是用纸箱子装起来对你要把2x减一视作一个坚不可摧的整体把x加三视作另一个整体
+
+分解的时候是大括号里这两个整体直接相架乘以这两个整体直接相减千万不要在这一步去拆括号里面的像这个整体思维太重要了那我们干脆趁热打铁
+
+直接用笔记里最硬核的那个例子走一遍流程吧好啊题目是完全分解x的四次方减去17x的二次方加16好第一步先找重复块打包
+
+这里重复的是x的二次方所以毫不犹豫写下摄m等于x的二次方然后重写式子变成m的二次方减去17m加16
+
+接下来就是分解了对现在找机为16合为-17的数显然是-1和-16那么式子就被分解成了m-1乘以m-16
+
+非常好到这里工具就用完了接下来该拆箱带回了也就是把x的二次方放回去变成x的二次方减1乘以x的二次方减16
+
+等等雷达响了发现了什么这两个括号居然都是平方差x的二次方减1可以拆成x减1乘x加1
+
+那个x的二次方减16可以拆成x减4乘x加4所以最终的完全分解是整整四个括号连成这就叫完全分解每一个括号都到了最减状态不过在交卷前
+
+你怎么证明这条复杂的推导链条毫无破绽呢笔记给了一个超级实用的验算大招就是代入数字比如我们让你自己设一个数让x等于2
+
+先代入原式16减去17乘4也就是68加16算出来是-36然后呢
+
+然后再代入我们分解出的四个括号当x等于20四个括号分别是13-26把它们乘起来
+
+正好也是-36首尾一致完美通关第一行写社M等于即使后面算错也能拿到方法分而且不容易忘记带回</span><p class="en muted">Chinese transcript: switch to one of the Chinese language modes at the top to read it here, or open the text file above.</p></section><nav class="pn"><a href="audio.html?ep=u3-quadratic-form-L2#ep-u3-quadratic-form-L2"><span class="en" lang="en">All audio</span><span class="zh" lang="zh-Hans">全部音频</span></a><a href="listen-u3.html"><span class="en" lang="en">Offline page</span><span class="zh" lang="zh-Hans">离线页</span></a></nav></main>
+<nav class="tabbar"><a href="catch-up.html" class=""><span class="ico">🧭</span><span class="en" lang="en">Catch-up</span><span class="zh" lang="zh-Hans">补课</span></a><a href="index.html" class=""><span class="ico">🏠</span><span class="en" lang="en">Home</span><span class="zh" lang="zh-Hans">首页</span></a><a href="slides.html" class=""><span class="ico">🎴</span><span class="en" lang="en">Slides</span><span class="zh" lang="zh-Hans">幻灯</span></a><a href="check.html" class=""><span class="ico">🩺</span><span class="en" lang="en">Check-up</span><span class="zh" lang="zh-Hans">测评</span></a><a href="map.html" class=""><span class="ico">🗺️</span><span class="en" lang="en">Map</span><span class="zh" lang="zh-Hans">图谱</span></a><a href="plan.html" class=""><span class="ico">⏱️</span><span class="en" lang="en">Time</span><span class="zh" lang="zh-Hans">时间</span></a><a href="progress.html" class=""><span class="ico">📈</span><span class="en" lang="en">Progress</span><span class="zh" lang="zh-Hans">进度</span></a></nav>
+<script src="assets/data.js?v=1d523a802e"></script><script src="assets/app.js?v=1d523a802e"></script><script src="assets/deep.js?v=1d523a802e"></script><script src="assets/focus.js?v=1d523a802e"></script><script src="assets/quick.js?v=1d523a802e"></script><script src="assets/viz.js?v=1d523a802e"></script><script src="assets/refs.js?v=1d523a802e"></script><script src="assets/timebox.js?v=1d523a802e"></script>
+</body></html>

@@ -1,0 +1,41 @@
+Adding 1 over 2 plus 1 over 3 equals 5 over 6, you already know how to do that. And adding 3 over x minus 2 minus 2 over x plus 1 is the exact same move. You find a common denominator and then combine the tops. So, okay, let's unpack this. What are the exact mechanics of handling these denominators when algebra gets involved?
+
+Well, the core idea is you have to factor every denominator first. Right, okay. Because that lets you find the lowest common denominator or the LCD. You're basically building this master denominator that includes each different factor the greatest number of times it appears in any one denominator. Got it.
+
+So once you have that, you just rewrite each fraction over the LCD by multiplying its top and bottom by whatever factors it is missing. After that, you only add or subtract the numerators. So finding the LCD is basically like finding a, I don't know, like a universal translator for these fractions. Yeah, exactly. Because you cannot combine them if they are speaking different languages, meaning the denominators.
+
+So you multiply them by whatever pieces they are missing until they share the exact same vocabulary. But subtraction specifically seems to be the danger zone here, right? It feels like that is where things really go wrong in these problems. What's fascinating here is how easy it is to fall into the subtraction trap. Subtracting a fraction actually means you are subtracting its whole numerator.
+
+The whole thing, right. You absolutely must put it in brackets. If you don't, I mean, you are going to forget to distribute the negative sign. Right. So, for example, minus open bracket, x minus 2, close bracket, becomes negative x plus 2.
+
+You really have to distribute that negative. Then you finish up the whole process by factoring the new numerator, canceling common factors if you can, and stating the non-permissible values or NPVs from the original denominators. And just to clarify for you listening, stating those non-permissible values means finding every single value that makes any denominator zero. Yeah.
+
+Essentially, you are sweeping for minds. If your denominator becomes zero, math just breaks. It is the equivalent of a mathematical black hole. So we have to ban those specific x values right out of the gate. That is a perfect way to look at it.
+
+Okay. So I am tracking with the LCD and the NPVs, but keeping all of this straight in my head feels overwhelming. Is there a checklist to run through before even picking up a pencil? There is, actually. And it is a sequence of five questions to ask yourself in order.
+
+First is given. You factor every denominator and write those NPVs we just talked about. Okay. Step one done. Second is asked.
+
+Like, what are we actually looking for? One fraction with the numerator and denominator completely factored. Nothing left to cancel, plus those NPVs. Right. Third is picture it.
+
+You literally line the factor denominators up in a row. Under each one, you write the factors it is missing from the LCD. Setting the stage. So what is the fourth step? That is the tool phase.
+
+Okay. You multiply each numerator by its missing factors. You write the whole new numerator on one line with brackets. Then you just expand and collect the terms. Nice and organized.
+
+Exactly. Finally, the fifth step is check. Factor the numerator and cancel common factors only. Then put one allowed value, like x equals zero, into both the original question and your final answer. They absolutely must match.
+
+All right. Let's put this subtraction trap to the test then. Imagine you were staring at an exam paper and you see this beast. Simplify. 4 over x plus 3 minus 2 over x minus 1.
+
+Where does the brain even start? Well, looking at the denominators, x plus 3 and x minus 1, they cannot be factored further. So our NPVs are just that x cannot equal negative 3 or 1. Makes sense. And because there is no common factor, the LCD is simply those two multiplied together.
+
+So x plus 3 times x minus 1. Okay. For the first fraction, it is missing the x minus 1 factor. And the second fraction is missing the x plus 3 factor. Right.
+
+So setting up the numerator with those crucial brackets gives us 4 times x minus 1 minus 2 times x plus 3. Perfect. Then we expand that numerator. 4 times x minus 1 becomes 4x minus 4. And here is the trap.
+
+Oh, right. The minus 2. Yep. Minus 2 times x plus 3 becomes minus 2x minus 6. You have to combine those terms.
+
+So 4x minus 4 minus 2x minus 6 equals 2x minus 10. Which factors down to 2 times x minus 5. Exactly. And since nothing cancels with the denominator, we just move straight to the check. Testing x equals 0.
+
+In the original equation, that is 4 over 3 plus 2, which equals 10 over 3. Right. In our factored answer, plugging in 0 gives 2 times negative 5 over 3 times negative 1, which also equals 10 over 3. It matches perfectly. So we can plainly state the final answer.
+
+2 times x minus 5 over x plus 3 times x minus 1, where x cannot equal negative 3 or 1. Most errors happen in the numerator after the LCD is set up. Write the full numerator with brackets on one line, expand on the next, and test with x equals 0 or any allowed value at the end.

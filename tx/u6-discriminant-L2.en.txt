@@ -1,0 +1,41 @@
+So, you know, you're staring at a physics problem, right? Like, say you throw a ball at a certain speed. Can it ever reach exactly 25 meters high? Right. And normally you'd think, well, I have to map out the entire trajectory.
+
+Exactly. Like plotting every single point, doing a ton of heavy lifting. But the mission to this deep dive into your notes is to show how you can answer that with a simple yes or no using just one number. Yeah, without fully solving anything, which is honestly a brilliant shortcut.
+
+It really is. And it's all about the concept of the discriminant, which is D equals B squared minus 4AC. But why that specific chunk of math? Well, if you remember the classic quadratic formula, that chunk sits right underneath the square root symbol.
+
+Oh, right. And since you can't take the square root of a negative number without getting into like imaginary math, that value, the discriminant, acts as a gatekeeper. It dictates exactly how many real roots exist before you even solve the equation. Okay.
+
+So it's essentially reading the DNA of an equation before it even grows into a full graph. I mean, I love the DNA idea. But what does the calculated value of D actually reveal about our thrown ball hitting that 25-meter mark? So think of it visually.
+
+Imagine a parabola, that U-shaped graph, shifting up and down over the flat X-axis. There are basically three strict rules. Okay. Lay them on me. First, if D is greater than zero, you have two different real roots.
+
+So the graph crosses the X-axis twice. Meaning it goes up through it and comes back down. So the ball hits 25 meters on the way up and again on the way down. Right. But what if D equals exactly zero?
+
+Then the vertex, you know, the very tip of the U-shape, just perfectly touches the X-axis. So you have two equal real roots, which essentially means just one root, like one point of contact. Yeah, exactly. And the third rule is, well, if D is less than zero, the graph completely misses the X-axis. No real roots at all.
+
+So the ball never makes it to 25 meters. Oh, wait. There's a really specific detail in the notes here about perfect squares. Oh, yeah. That's a good one.
+
+Right. So if your D value turns out to be a perfect square, like zero, one, four, or nine, the roots are rational and the quadratic factors perfectly. Which is incredibly helpful. I mean, rational roots just mean you get clean, easy fractions or whole numbers, not, you know, endless, messy decimals. Okay.
+
+So knowing if a ball hits a height is one thing. But the notes then transition into reverse engineering the problem to find a missing variable, usually called K. Right. Like finding what specific speed guarantees the ball just barely touches that mark. Yeah.
+
+And there's a strict five-question order for this before you write anything else. Given, asked, picture it, tool, check. It feels, I don't know, a bit like overkill. It sounds like a lot, but if you don't ground the math first, you're just blindly moving numbers around. Steps one and two are pure organization.
+
+Right. So for given, you get everything on one side, so it reads as ax squared plus bx plus c equals zero. Yeah. Noting your a, b, and c with their signs and finding exactly where that k lives. Then asked forces you to translate the prompt.
+
+Look, if it says real roots, you translate that to d is greater than or equal to zero. Exactly. Then step three is picture it, where you physically visualize the parabola missing or hitting the axis. Because the picture dictates the algebra. And then we hit steps four and five, the tool and the check.
+
+Yes. The tool is just using your d formula. I have to jump in here with a crucial tip, though. You always have to use brackets around a negative b. Oh, absolutely.
+
+If you just type negative three squared into a calculator without brackets, it spits out negative nine instead of positive nine. It is a fatal error. And that negative sign trap is exactly why step five, the checking phase, is non-negotiable. You have to put k back in. Right, to see if it actually works.
+
+Yeah. And if k multiplies x squared, you have to make sure k does not equal zero. Otherwise, well, it's not a parabola anymore. We need to find k so that x squared plus kx plus 16 equals zero has two equal real roots. Okay, so identifying our parts, a equals one, b equals k, and c equals 16.
+
+And because it asks for two equal real roots, d equals zero. Right, the parabola is just kissing the axis. So we calculate it. d equals k squared minus four times one times 16. Which becomes k squared minus 64.
+
+Right, and we set that to zero. So k squared equals 64, meaning k equals eight or negative eight. We have to include both signs. And the verification check works here. If k equals eight, that gives x plus four in brackets squared.
+
+And if k equals negative eight, it gives x minus four in brackets squared. Exactly. Both work perfectly. So just for the final exam rules on this, if you get a nature of the roots question, you must calculate d and write a sentence.
+
+And for find k questions, you write the inequality first, then solve. And for k squared is less than 64, remember the answer is between negative eight and eight, not just k is less than eight.

@@ -1,0 +1,25 @@
+Imagine you hail a taxi, right? There's a flag fee just to get in, plus a price per kilometer. Right, the meter starts running immediately. Exactly. And you reach into your pocket and find exactly $30. So if you ask the driver, like, how far can I go? The answer isn't just one single exact distance. Yeah, you could ride one kilometer or two or, well, all the way to the absolute maximum that
+
+your $30 covers. You are dealing with a range. Right. It's every possible distance up to a certain limit. And that taxi scenario, And the great thing about an inequality is that you actually mostly already know how to solve it. I mean, you treat it just like a regular equation by doing the exact same thing to both sides. Right. Treating it like a normal equation works perfectly.
+
+Well, until you hit negative numbers. Yeah, that's the trap. It catches almost everyone when they first start out. It's the one exception that breaks the standard rules. If you multiply or divide both sides by a negative, you have to flip the inequality sign, right? Like a less than becomes a greater than. Exactly.
+
+I always picture this as like stepping through a mirror where everything reverses direction. the notes highlight three distinct languages to communicate it. Yes. And the most intuitive one is the visual number line. So if your answer is, say, X is less than or equal to four, you just draw a closed dot exactly at the four and shade everything to the left.
+
+Right. Visual is always easier. But beyond the visual, there's interval notation, which represents a span. And then there's set notation, which uses those curly braces to formally state the set of all X such that X is less than or equal to four. It really does. I can see why people prefer the visual number line or the interval notation. Wait, though, I always get tripped up by the brackets in interval notation.
+
+Oh, the square versus round brackets. Yeah, exactly. If we already know the answer is less than or equal to, why do we even need to worry about square versus round brackets? So the brackets directly translate those dots from your visual number line into text. A square bracket means the boundaries included.
+
+That is your solid dot or your equal to. OK, got it. And a round bracket means the boundaries excluded, just like an open dot. Oh, and a vital rule to remember here is that infinity always gets a round bracket. Always.
+
+Always. Infinity is a concept, right? It's not a destination you can actually reach, so you can never include it as a final touchable endpoint. That is a great rule of thumb. So before we jump into solving a full problem, our notes suggest pausing to figure out our strategy instead of just crunching numbers blindly. Yeah, they outline this really solid five-step method. You identify what's given, what's asked,
+
+picture the result, pick the tool, and then check the work. Applying that strategy probably saves a lot of headaches. Let's take the example inequality from the notes. 8 minus 3x is greater than or equal to 2x minus 7. OK, so just looking at what is given there, that greater than or equal to sign, that tells us we will eventually have a solid boundary. We can already picture a solid dot
+
+on our number line before doing any actual math. Without getting bogged down in the audio algebra, we use our tool, which is solving it like an equation. We move our x terms to one side and our numbers to the other. Right, and eventually we end up with negative 5x is greater than or equal to negative 15, and there is our trap.
+
+To isolate x, we have to divide by negative 5, which triggers our mirror effect. We divide by a negative, so we flip the sign. Exactly. The answer becomes x is less than or equal to 3. And in interval notation, we would write that as a round bracket, negative infinity, comma 3, square bracket. Spot on. The final step in the strategy is the check,
+
+which is basically a 15-second insurance policy against forgetting that sign flip. You test a number inside your answer range, one outside, and the boundary itself. The key is plugging those test numbers back into the original inequality. If our answer is x is less than or equal to 3, testing 0 creates a true statement. Right, because 8 is greater than negative 7.
+
+Exactly. Testing a number outside, like 4, creates a false statement. And testing the boundary, 3, makes both sides exactly equal. If those three conditions hold, your answer is bulletproof.
